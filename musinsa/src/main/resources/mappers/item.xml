@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.toyproject.musinsa.fo.mapper.ItemMapper">
+	 <select id="getList" resultType="com.toyproject.musinsa.fo.vo.ItemVO">
+   		/* com.toyproject.musinsa.mapper.ItemMapper.getList */
+   		SELECT 
+   			  id 
+   			, name
+   			, price
+   			, img_path AS imgPath
+   		FROM
+   			items
+
+   </select>
+</mapper>

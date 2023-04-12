@@ -11,6 +11,6 @@ public class mainController {
     public String home() {
 		System.out.println("home controller start");
                    
-        return "index";
+        return "fo/index";
     }
 }
