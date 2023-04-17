@@ -39,67 +39,10 @@
 				<link type="text/css" rel="stylesheet" charset="utf-8" href="//image.msscdn.net/mfile_scr/layouts/community/css/jquery.lightbox-0.5.css?v=9.217662" />
 		<link type="text/css" rel="stylesheet" charset="utf-8" href="//image.msscdn.net/mfile_scr/modules/comment/musinsa.comment2.css?v=9.217662" />
 	<link type="text/css" rel="stylesheet" href="//static.musinsa.com/mfile_outsrc/css/module/street.css?v=9.217662" />
-<script type="text/javascript" src="//static.musinsa.com/mfile_outsrc/js/vendor/jquery-1.11.1.min.js"></script>
-<script type="text/javascript" src="//www.musinsa.com/mz/xml/getdomain.php?version=6.5099"></script>
-<script type="text/javascript">
-//<![CDATA[
-let mbrclick= false;
-const rooturl = 'https://www.musinsa.com';
-const raccount= 'home';
-const moduleid= 'street';
-const memberid= '';
-const GLB_CHK_CURRENT_USER= '';
-const is_admin= '0';
-const needlog = '로그인후에 이용하실 수 있습니다. ';
-const neednum = '숫자만 입력해 주세요.';
-let myagent	= navigator.appName.indexOf('Explorer') != -1 ? 'ie' : 'ns';
-if (myagent == 'ns' && navigator.userAgent.indexOf('Trident/7.0') != -1)
-{
-    myagent = 'ie11';
-}
-var _ga_pageid = '/codi/streetsnap/list';
-var THIS_PAGE_GF = 'A';
-//]]>
-</script>
-<script type="text/javascript" charset="utf-8" src="//image.msscdn.net/mfile_scr/_core/js/sys.js?version=6.5099"></script>
-<script type="text/javascript" src="//image.msscdn.net/mfile_scr/modules/editor/theme/default/main.js?version=6.5099"></script>
-<script type="text/javascript" charset="utf-8" src="https:////image.msscdn.net/mfile_scr/layouts/community/_main.js?version=6.5099"></script>
-<script type="text/javascript" src="//static.musinsa.com/mfile_outsrc/js/vendor/jquery.lazyload.1.9.7.js?version=6.5099"></script>
-<script type="text/javascript" src="//image.msscdn.net/mfile_scr/layouts/community/js/2020/swiper.min.js?v=6.5099"></script>
-<script type="text/javascript" charset="utf-8" src="//image.msscdn.net/mfile_scr/modules/comment/musinsa.comment.js?version=6.5099"></script>
-<script type="text/javascript">
-var dataLayer = window.dataLayer || [];
-window.addEventListener("load", function() {
-		//Google Tag Manager
-    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-TXDSFSF');
-}, false);
-</script>
-<script type="application/ld+json">
-{
-"@context": "http://schema.org",
-"@type": "Organization",
-"name": "MUSINSA",
-"url": "https://www.musinsa.com/",
-"sameAs": [
-	"https://www.facebook.com/musinsa",
-	"https://www.instagram.com/musinsa.official/",
-	"https://twitter.com/musinsacom",
-	"https://post.naver.com/my.nhn?memberNo=22191262",
-	"https://www.youtube.com/musinsatv"
-	]
-}
-</script>
+
+
 </head><body class="STREET_BODY " data-dico="noTrans" >
-<script type="text/javascript">
-var hsGetMobileStat = function() {
-	return false;
-}
-var hsCmmCachedVersion = '';
-</script>
+
 <link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/layout.min.css?v=9.217662">
 <link type="text/css" rel="stylesheet" href="//static.msscdn.net/ui/build/pc/css/common.css?202102221228">
 <link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/style.min.css?202110261421">
@@ -109,20 +52,9 @@ var hsCmmCachedVersion = '';
 <style>
 .header {border-bottom:0;}
 </style>
-<script src="//static.msscdn.net/static/common/1.2.0/chunk-vendors.js"></script>
-<script>
-var mss = {
-	ui: {
-		loggedIn: false,
-		top: {},
-	}
-};
-</script>
-<script type="text/javascript" src="//image.msscdn.net/mfile_scr/layouts/community/js/ex.script.js?version=6.5099"></script>
-<script type="text/javascript" src="//static.musinsa.com/skin/musinsa/js/jquery.cycle.all.js?version=6.5099"></script>
+
 <div class="column-wrapper" id="wrapper">
 <div class="top-column column"><div id="topCommonPc"></div></div>
-<script src="//static.msscdn.net/static/common/1.2.0/pc.js"></script>
 <div class="bottom-column column clearfix">		<div class="sidebar">
 			<div class="section">
 
@@ -1566,144 +1498,7 @@ var mss = {
 
 			</div>
 		</div>
-<script type="text/javascript">
-var news_left_tab = getBrowserData('street_left_tab');
-if(news_left_tab) {
-	$(".street-tab-box li").removeClass("active");
-	$(".street-tab-box li.tab-box-"+news_left_tab).addClass("active");
-	$(".street-tab-area").hide();
-	$(".street-tab-"+news_left_tab).show();
-}
-$(document).ready(function(){
-	$(document).on('click', '.brand-search-init .ui-brand-btn',function(){
-		$(".brand-search-init .ui-brand-btn").removeClass("active");
-		$(this).addClass("active");
-		loadBrands($(this).attr('init'));
-	});
-
-	$(document).on('click', '.command-stx-search',function(){
-		var _swh = $(".ui-swh-area").val();
-		var _stx = $(".ui-street-stx").val();
-		var _baseDest = "/mz/streetsnap";
-		var _curDest = _baseDest+(_baseDest.indexOf('?')!= -1?'&':'?')+"swh="+_swh+"&stx="+_stx;
-		window.location = _curDest;
-	});
-
-	$(document).on('keydown', '.ui-street-stx',function(ev){
-		if (ev.keyCode == 13) {
-			var _swh = $(".ui-swh-area").val();
-			var _stx = $(".ui-street-stx").val();
-			var _baseDest = "/mz/streetsnap";
-			var _curDest = _baseDest+(_baseDest.indexOf('?')!= -1?'&':'?')+"&swh="+_swh+"&stx="+_stx;
-			window.location = _curDest;
-        }
-	});
-});
-
-var lastStxInit = '';
-var lastBrandChk = '';
-
-
-function SearchBrand(base_key) {
-	var ql = base_key.substr(base_key.length-1,1);
-	if((ql >= 'ㄱ' && ql <= 'ㅎ') || (ql >= 'ㅏ' && ql <= 'ㅣ')){
-		return;
-	}
-
-	base_key = base_key.toUpperCase();
-
-	$(".area-list-brand").find("li").each(function(){
-		var _brand = $(this).find("a[brand]").attr("qstrW").toUpperCase();
-		if(_brand.search(base_key)!=-1) {
-			$(this).show();
-		}else {
-			$(this).hide();
-		}
-	});
-
-}
-
-$(document).on('keyup','.ui-street-brand-stx',function(){
-	var base_key = $('.ui-street-brand-stx').val();
-	var baseURI = '/mz/streetsnap';
-	var _stxInit = base_key.substr(0,1).toUpperCase();
-	if((_stxInit >= 'ㄱ' && _stxInit <= 'ㅎ') || (_stxInit >= 'ㅏ' && _stxInit <= 'ㅣ')){
-		return;
-	}
-	if(!base_key) {
-		loadBrands(lastBrandChk);
-		return;
-	}
-	if(_stxInit == lastStxInit) {
-		SearchBrand(base_key);
-	}else {
-		lastStxInit = _stxInit;
-		$(".area-list-brand").hide();
-		var _searchURL = '';
-		if(_stxInit>='A' && _stxInit<='Z') {
-			_searchURL = GET_GLB_RELATIVE_REQ_URI('/xml/brand.left.php')+'?m=street&init='+_stxInit+'&selected=';
-		}else {
-			_searchURL = GET_GLB_RELATIVE_REQ_URI('/xml/brand.left.php')+'?m=street&stx='+_stxInit+'&selected=';
-		}
-		$.ajax({
-			type: 'get',
-			dataType: "html",
-			url: _searchURL,
-			success : function(html){
-				$(".area-list-brand").html(html);
-				$(".brand-search-init li[class^=ty][init]").removeClass("active");
-				$(".area-list-brand").find('.command-brand-link').each(function()
-				{
-					var _br = $(this).attr('brand');
-					var _qryinit = $(this).attr('qryinit');
-					$(this).attr('href',baseURI+(baseURI.indexOf('?')!= -1?'&':'?')+'brand='+_br+"&qryinit="+_qryinit);
-				});
-				$(".area-list-brand").find('.command-brand-reset').each(function()
-				{
-					var _qstr = $(this).attr('destQstr');
-					$(this).attr('href',baseURI);
-				});
-				$(".area-list-brand").show();
-				SearchBrand(base_key);
-			}
-		});
-	}
-});
-
-function loadBrands(init)
-{
-	var baseURI = '/mz/streetsnap';
-	$.ajax({
-		type: 'get',
-		dataType: "html",
-		url: GET_GLB_RELATIVE_REQ_URI('/xml/brand.left.php')+'?m=street&init='+init+'&selected=',
-		success : function(html){
-			$('.ui-street-brand-stx').val('');
-			lastStxInit = '';
-			lastBrandChk = init;
-			$(".area-list-brand").html(html);
-			$(".brand-search-init li[class^=ty]").removeClass("active");
-			$(".brand-search-init li[init="+init+"]").addClass("active");
-			$(".area-list-brand").find('.command-brand-link').each(function()
-			{
-				var _br = $(this).attr('brand');
-				var _qryinit = $(this).attr('qryinit');
-				$(this).attr('href',baseURI+(baseURI.indexOf('?')!= -1?'&':'?')+'brand='+_br+"&qryinit="+_qryinit);
-			});
-			$(".area-list-brand").find('.command-brand-reset').each(function()
-			{
-				var _qstr = $(this).attr('destQstr');
-				$(this).attr('href',baseURI);
-			});
-			var activeBrandBlock = $('.brand-list li.active').clone();
-			$('.activeBrandBlock').empty();
-			$('.activeBrandBlock').append(activeBrandBlock);
-		}
-	});
-}
-
-loadBrands('2');
-</script>		<div class="main-content-wrapper">
+	<div class="main-content-wrapper">
 			<div class="header">
 				<div class="breadCrumb-wrapper">
 					<a href="//magazine.musinsa.com" class="breadCrumb">무신사</a><span class="breadCrumb">스냅</span><a href="//magazine.musinsa.com/?m=street&_y=default" class="breadCrumb">스트릿 스냅</a>					<span class="gender">All</span>
@@ -2902,108 +2697,29 @@ loadBrands('2');
 				</div>
 			</div>
 
-<script type="text/javascript">
-var street_thumbType = getBrowserData('street_thumbType');
-if(street_thumbType) {
-	$(".street-thumbtype").removeClass("active");
-	$(".street-thumbtype-"+street_thumbType).addClass("active");
-	if(street_thumbType=='large') {
-		$('.article-list').addClass('enlarged');
-	}else {
-		 $('.article-list').removeClass('enlarged');
-	}
-}
-</script>
 <!-- PC Footer 영역. 기존 Footer를 삭제하고 삽입한다. -->
 <div id="footerCommonPc"></div>
-<script>
-function getServiceUrl(service) {
-	var subDomain;
-	if (location.hostname.indexOf('l') === 0 || location.hostname.indexOf('nl') === 0) {
-		subDomain = 'dev.';
-	} else {
-		subDomain = location.hostname.split('.').slice(-3).shift()
-		subDomain = ['alpha', 'dev'].indexOf(subDomain) < 0 ? '' : [subDomain, '.'].join('');
-	}
-	var memberDomain 	= ['https://my.', subDomain, 'musinsa.com'].join('');
-	var searchDomain 	= ['https://search.', subDomain, 'musinsa.com'].join('');
-	var magazineDomain 	= ['https://magazine.', subDomain, 'musinsa.com'].join('');
-	var likeDomain	 	= ['https://like.', subDomain, 'musinsa.com'].join('');
-	var messageDomain	= ['https://message.', subDomain, 'musinsa.com'].join('');
 
-	var urls = {
-		member: memberDomain,
-		login: [memberDomain, 'login/v1/login'].join('/'),
-		search: searchDomain,
-		magazine: magazineDomain,
-		message: messageDomain,
-		like: likeDomain
-	};
-	return urls[service] || '';
-}
-</script>
-<script type="text/javascript" src="//static.msscdn.net/static/search/js/common/pc/search/image_search.js?1681030633"></script>
-<script type="text/javascript">
-   $(document).ready(function(){
-       if (window.image_search) {
-           window.image_search.setUrl('https://www.musinsa.com');
-       }
-   });
-</script>
 </div>
 <!-- // main-content-wrapper -->
 </div>
 <!-- // bottom-column -->
 
 <!--vendor 스크립트 start-->
-<script type="text/javascript" src="//static.musinsa.com/mfile_outsrc/js/vendor/iscroll.js"></script>
 <!--[if lt IE 9]>
-<script type="text/javascript" src="//static.musinsa.com/mfile_outsrc/js/vendor/respond.min.js"></script>
 <![endif]-->
 <!--[if lt IE 10]>
 <!--IE 9 이하에서 JS 애니메이션에 easing 효과 추가 라이브러리-->
-<script type="text/javascript" src="//static.musinsa.com/mfile_outsrc/js/vendor/jquery.easing.js"></script>
 <!--IE8 이하에서 호환성 유지-->
 <!-- js sound -->
-<script type="text/javascript" src="//static.musinsa.com/mfile_outsrc/js/vendor/jquery.sound.js"></script>
 <!-- lazyload 및 app용 글로벌-->
-<script type="text/javascript">
-$(function() {
-    $("img.lazy-load-image").lazyload({
-              effect : "fadeIn",
-			  threshold : 100
-	});
-
-	$(".ui-update-lazy-load").on("click",function(){
-		setTimeout(function() {
-			$(window).trigger("lazyloadupdate");
-		},200);
-	});
-});
-$(document).ready(function(){
-	setTimeout(function(){
-		var sidebarHeight = $('.sidebar').height();
-		var maincontentHeight = $('.main-content-wrapper').height();
-		if(maincontentHeight < sidebarHeight) $('.main-content').css('height',sidebarHeight);
-	},100);
-	setTimeout(function() {
-		$(window).trigger("lazyloadupdate");
-	},200);
-});
-</script>
-<script type="text/javascript" src="//static.msscdn.net/static/common-appinterface/release/common-appinterface.js"></script><script type="text/javascript" src="//image.msscdn.net/mfile_scr/layouts/community/js/2020/appinit.except.js"></script><!-- lazyload 및 app용 글로벌 end -->
 
 <!--[if lt IE 8]>
-<script type="text/javascript" src="//static.musinsa.com/mfile_outsrc/js/vendor/ie9.js"></script>
-<script type="text/javascript" src="//static.musinsa.com/mfile_outsrc/js/vendor/ie7-squish.js"></script>
 <![endif]-->
 <!--vendor 스크립트 end-->
 
 <!--공통 스크립트 start-->
-<script type="text/javascript" src="//static.musinsa.com/mfile_outsrc/js/common/base.js?v=6.5099"></script>
-<script type="text/javascript" src="//static.musinsa.com/mfile_outsrc/js/common/common.js?v=6.5099"></script>
 <!--공통 스크립트 end-->
-<script type="text/javascript" src="//static.musinsa.com/mfile_outsrc/js/vendor/clipboard.min.js"></script>
 <!-- 페이지 별 스크립트 end-->
 </div>
 <!--// column-wrapper--><div id="_action_layer_"></div>

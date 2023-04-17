@@ -5,19 +5,7 @@
 <head>
 
 <!-- Google Tag Manager -->
-<script>
-var selfCertEnabled = "" || "Y";
-var THIS_PAGE_GF = 'A'; // 전역필터 상태값 caching page reload 필요 체크용
-var dataLayer = window.dataLayer || [];
-window.addEventListener("DOMContentLoaded", function() {
-    
-    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-TXDSFSF');
-}, false);
-</script>
+
 <!-- End Google Tag Manager -->
 
 <meta charset="UTF-8">
@@ -45,7 +33,7 @@ window.addEventListener("DOMContentLoaded", function() {
     <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/store_common.css?202112011113" />
     <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/layout.min.css?202201131000"/>
 <link rel="stylesheet" href="//image.msscdn.net/ui/musinsa/resources/common/css/icon.min.css?202101051200"/>
-<link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/guide.min.css?202302131400"/>
+<link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/guide.min.css?202304111644"/>
 <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/style.min.css?202303211032"/>    <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/sub.css?202303281957" />
     <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/media_query.css?202010301640" />
     <!--<link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/font.css?20170221" />-->
@@ -53,59 +41,20 @@ window.addEventListener("DOMContentLoaded", function() {
 
 <!-- Swiper -->
 <link rel="stylesheet" type="text/css" href="//static.msscdn.net/swiper/swiper.min.css" />
-<script src="//static.msscdn.net/swiper/swiper.min.js?20200316"></script>
 <!-- Polyfill -->
 
-<script>
-    if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
-        (function (w, d, s) {
-            var f = d.getElementsByTagName(s)[0];
-            var j = d.createElement(s);
-            j.async=true;
-            j.src= '//static.msscdn.net/skin/musinsa/js/polyfill.min.js?features=Array.from,Promise,fetch&flags=always';
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script');
-    }
-</script>
-
 <!-- 스토어, 매거진 공통 스크립트 -->
-<script type="text/javascript" src="//static.msscdn.net/mfile_outsrc/js/vendor/jquery-1.11.1.min.js?20160201"></script>
-<script type="text/javascript" src="//static.msscdn.net/mfile_outsrc/js/common/base.js?20160201"></script>
-<script type="text/javascript" src="//static.msscdn.net/mfile_outsrc/js/common/common.js?202105041500"></script>
-<script type="text/javascript" src="//static.msscdn.net/mfile_outsrc/js/vendor/jquery.easing.js?20160201"></script>
 <!--// 스토어, 매거진 공통 스크립트 -->
 
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/mini_cart.js?202304061530"></script>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/common.js?202303231111"></script>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jquery.cycle.all.js?20160202"></script>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/m_js/jquery-ui.min.js?20160202"></script>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jslib.js?20200601"></script>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jquery.bxslider.js?20180503"></script>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/clipboard.min.js?20170406"></script>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/ui.js?202203221100"></script>
-<script src="//static.msscdn.net/static/common/1.2.0/chunk-vendors.js"></script>
 
-<script src="//static.msscdn.net/skin/js/app/app.js?24938c3954902c94bd82"></script>
 
     <!--jqModal-->
     <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/jqModal.css?20160119" />
-    <script src="//static.msscdn.net/skin/musinsa/js/jqModal.min.js?20160511" type="text/javascript"></script>
     <!--//jqModal-->
 
 <!-- 유사 이미지 상품 검색 -->
 <link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/image_search.css?202201051301" />
-<script type="text/javascript" src="//static.msscdn.net/static/search/js/common/pc/search/image_search.js?20220127"></script>
-<script type="text/javascript">
-    var search_front_url = "https://search.musinsa.com";
-    
-    $(document).ready(function(){
-        if (window.image_search) {
-            window.image_search.setUrl(search_front_url);
-        }
-    });
-    
-</script>
-<!-- //유사 이미지 상품 검색 --><script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jquery.lazyload.min.js?20160119"></script>
+
 <link rel="stylesheet" type="text/css" href="//static.msscdn.net/ui/build/pc/css/style.css?202109290900">
 
 <style>
@@ -113,199 +62,11 @@ window.addEventListener("DOMContentLoaded", function() {
 </style>
 
 
-<script type="text/javascript">
-function set(brand, style_type, $hashtag_no) {
-	var ff = document.f1;
-	ff.page.value = 1;
-	ff.brand.value = brand;
-	ff.style_type.value = style_type;
-	ff.tag_no.value = $hashtag_no;
-
-	ff.submit();
-}
-
-function goView(c_no) {
-	var queryParams = $('form[name="f1"]').serialize();
-	location.href = ['/app/codimap/views/', c_no, '?', queryParams].join('');
-}
-
-function setSexKindList(kind) {
-	var form = document.f1;
-	form.sex.value = kind;
-	form.brand.value = "";
-	form.month_date.value = "";
-	form.page.value = "1";
-	form.style_type.value = "";
-
-	form.submit();
-}
-
-function goCate(style_type)
-{
-    var ff = document.f1;
-    ff.style_type.value = style_type;
-    ff.action = "/app/codimap/lists";
-    ff.submit();
-}
-</script>
-
-
-<script type="text/javascript">
-
-//연관브랜드, 관심브랜드 관련 스크립트
-$(function(){
-	//연관브랜드 30개만 보여주기
-	$('#ico30').click(function() {
-		if($(this).hasClass('brandLayerOpen')) {	// 열린 상태
-			$('#brandLayer > li.hided').hide();
-			$(this).removeClass('brandLayerOpen');
-			$(this).find("img").css("margin-top", "0");
-			$("#more_li").show();
-		} else {	// 닫힌 상태
-			$('#brandLayer > li.hided').show();
-			$(this).addClass('brandLayerOpen');
-			$(this).find("img").css("margin-top", "-20px");
-			$("#more_li").hide();
-		}
-	});
-
-	$("#more_li").click(function() {
-		$("#brandLayer>li.hided").show();
-		$("#ico30").addClass("brandLayerOpen");
-		$("#ico30").find("img").css("margin-top", "-20px");
-		$(this).hide();
-	});
-
-	$("#more_ico_interest").click(function() {
-		if($(this).hasClass('brandLayerOpen')) {	// 열린 상태
-			$("#interest_brand_list li.hided").hide();
-			$(this).removeClass('brandLayerOpen');
-			$(this).find("img").css("margin-top", "0");
-			$("#more_interest_li").show();
-		} else {
-			$("#interest_brand_list li.hided").show();
-			$(this).addClass("brandLayerOpen");
-			$(this).find("img").css("margin-top", "-20px");
-			$("#more_interest_li").hide();
-		}
-	});
-
-	$("#more_interest_li").click(function() {
-		$("#interest_brand_list li.hided").show();
-		$("#more_ico_interest").addClass("brandLayerOpen");
-		$("#more_ico_interest").find("img").css("margin-top", "-20px");
-		$(this).hide();
-	});
-
-	$('.brandNameOff').hover(
-		function() {
-			$(".brandNameOn").hide();
-			$(".brandNameOff").show();
-			$(this).hide();
-			$(this).parents(".brandList").find(".brandNameOn").show();
-		},
-		function() {
-		}
-	);
-	$('.brandNameOn').hover(
-		function() {
-		},
-		function() {
-			$(this).hide();
-			$(this).parents(".brandList").find(".brandNameOff").show();
-		}
-	);
-});
-
-function SearchBrandByCategory() {
-	var q = $("#search_brand_input").val();
-
-	if(q != "") {
-		$("#ico30").addClass("brandLayerOpen");
-		$("#ico30 img").css("margin-top", "-20px");
-	}
-	q = q.toUpperCase();
-	ql = q.substr(q.length-1,1);
-	if((ql >= 'ㄱ' && ql <= 'ㅎ') || (ql >= 'ㅏ' && ql <= 'ㅣ')) {
-		return;
-	}
-
-	var brands = $("ul#brandLayer li");
-	for(var i=0; i<brands.length; i++) {
-		var brand = $(brands[i]).children("a");
-		var brand_txt = $(brand).children("span.brand_name").text();
-		brand_txt.toUpperCase();
-		if(brand_txt.indexOf(q) >= 0){
-			$(brands[i]).addClass("brandList");
-			$(brands[i]).show();
-		} else {
-			$(brands[i]).removeClass("brandList");
-			$(brands[i]).hide();
-		}
-	}
-	$("li#more_li").hide();
-}
-
-</script>
 </head>
 <body>
 <!-- 상단 콘텐츠 영역 -->
 
 
-
-<script>
-	var mss = {
-		ui: {
-			loggedIn: false,
-			top: {
-				extendBannerList: { // 상단 배너 리스트
-					code: '16MAIN_UP_1_3',
-					type: 'H',
-					subject: '16MAIN_UP_1_3_메인 외_0328_트렌드 키워드',
-					contents: '<a href="/app/banner/check/16MAIN_UP_1_3/1"><span style="display:block;overflow:hidden; height:70px;background-color:#E9ECED" href="https://www.musinsa.com/app/campaign/index/23_changeofseason"><img src="//image.musinsa.com/images/banner/2023032809413100000043883.jpg" alt="트렌드 키워드"></span></a>',
-					extendContents: '',
-					extendUrl: ''
-				},
-				campaignList: [ // 캠페인 리스트
-					
-																
-							{
-								hrefTag: {
-									linkUrl: 'https://www.musinsa.com/app/campaign/index/weekendsale18',
-									style: 'color: #ED00EC',
-									text: '주말 특가'
-								}
-							},
-					
-											
-							{
-								hrefTag: {
-									linkUrl: 'https://www.musinsa.com/app/campaign/index/23_changeofseason',
-									style: 'color: #5800FF',
-									text: '트렌드 픽'
-								}
-							},
-					
-											
-							{
-								hrefTag: {
-									linkUrl: 'https://www.musinsa.com/app/campaign/index/2023springinnershop',
-									style: 'color: #0091FA',
-									text: '봄 이너'
-								}
-							},
-					
-																
-				],
-			},
-			left: {
-				category: {
-					dCatCd: '', // 선택된 카테고리 코드
-				},
-			},
-		}
-	};
-</script>
 
 
 <div class="top-column column top-musinsa" style="display:none">
@@ -320,14 +81,12 @@ function SearchBrandByCategory() {
 	<div id="topCommonPc"></div>
 </div>
 
-<script src="//static.msscdn.net/static/common/1.2.0/pc.js"></script><!--// 상단 콘텐츠 영역 -->
 
 <!-- wrap -->
 <div class="wrap">
 	<!-- 왼쪽 메뉴 영역 -->
 		<div id="leftCommonPc"></div>
 
-<script src="//static.msscdn.net/static/common/1.2.0/lnb.js"></script>
 		<!--// 왼쪽 메뉴 영역 -->
 
 	<!-- 오른쪽 콘텐츠 영역 -->
@@ -868,6 +627,11 @@ function SearchBrandByCategory() {
 								</a>
 															</li>
 														<li class="brandList hided">
+								<a href="javascript:void(0)" onClick="set('grailz','', ''); return false;" title="그레일즈">
+									<span class="brand_name brandNameOff">그레일즈</span><span class="brand_name brandNameOn" style="display:none">GRAILZ</span>
+								</a>
+															</li>
+														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('grove','', ''); return false;" title="그로브">
 									<span class="brand_name brandNameOff">그로브</span><span class="brand_name brandNameOn" style="display:none">GROVE</span>
 								</a>
@@ -903,6 +667,11 @@ function SearchBrandByCategory() {
 								</a>
 															</li>
 														<li class="brandList hided">
+								<a href="javascript:void(0)" onClick="set('gripswany','', ''); return false;" title="그립스와니">
+									<span class="brand_name brandNameOff">그립스와니</span><span class="brand_name brandNameOn" style="display:none">GRIPSWANY</span>
+								</a>
+															</li>
+														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('griptok','', ''); return false;" title="그립톡">
 									<span class="brand_name brandNameOff">그립톡</span><span class="brand_name brandNameOn" style="display:none">GRIPTOK</span>
 								</a>
@@ -930,6 +699,11 @@ function SearchBrandByCategory() {
 														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('glenwaverley03150','', ''); return false;" title="글렌웨이버리03150">
 									<span class="brand_name brandNameOff">글렌웨이버리03150</span><span class="brand_name brandNameOn" style="display:none">GLEN-WAVERLEY 03150</span>
+								</a>
+															</li>
+														<li class="brandList hided">
+								<a href="javascript:void(0)" onClick="set('glowny','', ''); return false;" title="글로니">
+									<span class="brand_name brandNameOff">글로니</span><span class="brand_name brandNameOn" style="display:none">GLOWNY</span>
 								</a>
 															</li>
 														<li class="brandList hided">
@@ -1030,6 +804,11 @@ function SearchBrandByCategory() {
 														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('carvenwatch','', ''); return false;" title="까르벵 워치">
 									<span class="brand_name brandNameOff">까르벵 워치</span><span class="brand_name brandNameOn" style="display:none">CARVEN WATCH</span>
+								</a>
+															</li>
+														<li class="brandList hided">
+								<a href="javascript:void(0)" onClick="set('castelbajac','', ''); return false;" title="까스텔바작">
+									<span class="brand_name brandNameOff">까스텔바작</span><span class="brand_name brandNameOn" style="display:none">CASTELBAJAC</span>
 								</a>
 															</li>
 														<li class="brandList hided">
@@ -1160,11 +939,6 @@ function SearchBrandByCategory() {
 														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('notours','', ''); return false;" title="낫아워스">
 									<span class="brand_name brandNameOff">낫아워스</span><span class="brand_name brandNameOn" style="display:none">NOT OURS</span>
-								</a>
-															</li>
-														<li class="brandList hided">
-								<a href="javascript:void(0)" onClick="set('notyourxxxbynotyourrose','', ''); return false;" title="낫유어엑스엑스엑스 바이 낫유어로즈">
-									<span class="brand_name brandNameOff">낫유어엑스엑스엑스 바이 낫유어로즈</span><span class="brand_name brandNameOn" style="display:none">NOT YOUR XXX BY NOT YOUR ROSE</span>
 								</a>
 															</li>
 														<li class="brandList hided">
@@ -1328,6 +1102,11 @@ function SearchBrandByCategory() {
 								</a>
 															</li>
 														<li class="brandList hided">
+								<a href="javascript:void(0)" onClick="set('nordisk','', ''); return false;" title="노르디스크">
+									<span class="brand_name brandNameOff">노르디스크</span><span class="brand_name brandNameOn" style="display:none">NORDISK</span>
+								</a>
+															</li>
+														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('nordico','', ''); return false;" title="노르디코">
 									<span class="brand_name brandNameOff">노르디코</span><span class="brand_name brandNameOn" style="display:none">NORDICO</span>
 								</a>
@@ -1420,11 +1199,6 @@ function SearchBrandByCategory() {
 														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('neueblute','', ''); return false;" title="노이에블리테">
 									<span class="brand_name brandNameOff">노이에블리테</span><span class="brand_name brandNameOn" style="display:none">NEUEBLUTE</span>
-								</a>
-															</li>
-														<li class="brandList hided">
-								<a href="javascript:void(0)" onClick="set('noycommon','', ''); return false;" title="노이커먼">
-									<span class="brand_name brandNameOff">노이커먼</span><span class="brand_name brandNameOn" style="display:none">NOYCOMMON</span>
 								</a>
 															</li>
 														<li class="brandList hided">
@@ -1680,6 +1454,11 @@ function SearchBrandByCategory() {
 														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('danaburton','', ''); return false;" title="다나버튼">
 									<span class="brand_name brandNameOff">다나버튼</span><span class="brand_name brandNameOn" style="display:none">DANA BURTON</span>
+								</a>
+															</li>
+														<li class="brandList hided">
+								<a href="javascript:void(0)" onClick="set('dani','', ''); return false;" title="다니">
+									<span class="brand_name brandNameOff">다니</span><span class="brand_name brandNameOn" style="display:none">DANI</span>
 								</a>
 															</li>
 														<li class="brandList hided">
@@ -2003,11 +1782,6 @@ function SearchBrandByCategory() {
 								</a>
 															</li>
 														<li class="brandList hided">
-								<a href="javascript:void(0)" onClick="set('demonade','', ''); return false;" title="데몬에이드">
-									<span class="brand_name brandNameOff">데몬에이드</span><span class="brand_name brandNameOn" style="display:none">DEMONADE</span>
-								</a>
-															</li>
-														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('damagemnemonic','', ''); return false;" title="데미지니모닉">
 									<span class="brand_name brandNameOff">데미지니모닉</span><span class="brand_name brandNameOn" style="display:none">DAMAGE MNEMONIC</span>
 								</a>
@@ -2228,11 +2002,6 @@ function SearchBrandByCategory() {
 								</a>
 															</li>
 														<li class="brandList hided">
-								<a href="javascript:void(0)" onClick="set('dujes','', ''); return false;" title="듀제스">
-									<span class="brand_name brandNameOff">듀제스</span><span class="brand_name brandNameOn" style="display:none">DUJES</span>
-								</a>
-															</li>
-														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('deutero','', ''); return false;" title="듀테로">
 									<span class="brand_name brandNameOff">듀테로</span><span class="brand_name brandNameOn" style="display:none">DEUTERO</span>
 								</a>
@@ -2338,11 +2107,6 @@ function SearchBrandByCategory() {
 								</a>
 															</li>
 														<li class="brandList hided">
-								<a href="javascript:void(0)" onClick="set('denote','', ''); return false;" title="디노트">
-									<span class="brand_name brandNameOff">디노트</span><span class="brand_name brandNameOn" style="display:none">DENOTE</span>
-								</a>
-															</li>
-														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('drugwithoutsideeffect','', ''); return false;" title="디더블유에스 컴퍼니">
 									<span class="brand_name brandNameOff">디더블유에스 컴퍼니</span><span class="brand_name brandNameOn" style="display:none">DWS COMPANY</span>
 								</a>
@@ -2405,6 +2169,11 @@ function SearchBrandByCategory() {
 														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('discoveryexpedition','', ''); return false;" title="디스커버리 익스페디션">
 									<span class="brand_name brandNameOff">디스커버리 익스페디션</span><span class="brand_name brandNameOn" style="display:none">DISCOVERY EXPEDITION</span>
+								</a>
+															</li>
+														<li class="brandList hided">
+								<a href="javascript:void(0)" onClick="set('discusathletic','', ''); return false;" title="디스커스 애슬레틱">
+									<span class="brand_name brandNameOff">디스커스 애슬레틱</span><span class="brand_name brandNameOn" style="display:none">DISCUS ATHLETIC</span>
 								</a>
 															</li>
 														<li class="brandList hided">
@@ -2503,6 +2272,11 @@ function SearchBrandByCategory() {
 								</a>
 															</li>
 														<li class="brandList hided">
+								<a href="javascript:void(0)" onClick="set('designskin','', ''); return false;" title="디자인스킨">
+									<span class="brand_name brandNameOff">디자인스킨</span><span class="brand_name brandNameOn" style="display:none">DESIGNSKIN</span>
+								</a>
+															</li>
+														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('diesel','', ''); return false;" title="디젤">
 									<span class="brand_name brandNameOff">디젤</span><span class="brand_name brandNameOn" style="display:none">DIESEL</span>
 								</a>
@@ -2590,6 +2364,11 @@ function SearchBrandByCategory() {
 														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('tetu','', ''); return false;" title="떼뚜">
 									<span class="brand_name brandNameOff">떼뚜</span><span class="brand_name brandNameOn" style="display:none">TETU</span>
+								</a>
+															</li>
+														<li class="brandList hided">
+								<a href="javascript:void(0)" onClick="set('tounou','', ''); return false;" title="뚜누">
+									<span class="brand_name brandNameOff">뚜누</span><span class="brand_name brandNameOn" style="display:none">TOUNOU</span>
 								</a>
 															</li>
 														<li class="brandList hided">
@@ -2763,11 +2542,6 @@ function SearchBrandByCategory() {
 								</a>
 															</li>
 														<li class="brandList hided">
-								<a href="javascript:void(0)" onClick="set('lots','', ''); return false;" title="라츠">
-									<span class="brand_name brandNameOff">라츠</span><span class="brand_name brandNameOn" style="display:none">LOTS</span>
-								</a>
-															</li>
-														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('lotsyou','', ''); return false;" title="라츠유">
 									<span class="brand_name brandNameOff">라츠유</span><span class="brand_name brandNameOn" style="display:none">LOTSYOU</span>
 								</a>
@@ -2900,6 +2674,11 @@ function SearchBrandByCategory() {
 														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('lash','', ''); return false;" title="래쉬">
 									<span class="brand_name brandNameOff">래쉬</span><span class="brand_name brandNameOn" style="display:none">LASH</span>
+								</a>
+															</li>
+														<li class="brandList hided">
+								<a href="javascript:void(0)" onClick="set('recode','', ''); return false;" title="래코드">
+									<span class="brand_name brandNameOff">래코드</span><span class="brand_name brandNameOn" style="display:none">RECODE</span>
 								</a>
 															</li>
 														<li class="brandList hided">
@@ -3488,11 +3267,6 @@ function SearchBrandByCategory() {
 								</a>
 															</li>
 														<li class="brandList hided">
-								<a href="javascript:void(0)" onClick="set('royche','', ''); return false;" title="로이체">
-									<span class="brand_name brandNameOff">로이체</span><span class="brand_name brandNameOn" style="display:none">ROYCHE</span>
-								</a>
-															</li>
-														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('leuchtfeuerstrickwaren','', ''); return false;" title="로이흐트포이어 슈트릭바렌">
 									<span class="brand_name brandNameOff">로이흐트포이어 슈트릭바렌</span><span class="brand_name brandNameOn" style="display:none">LEUCHTFEUER STRICKWAREN</span>
 								</a>
@@ -3615,6 +3389,11 @@ function SearchBrandByCategory() {
 														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('lombrillant','', ''); return false;" title="롬브리앙">
 									<span class="brand_name brandNameOff">롬브리앙</span><span class="brand_name brandNameOn" style="display:none">L'OMBRILLANT</span>
+								</a>
+															</li>
+														<li class="brandList hided">
+								<a href="javascript:void(0)" onClick="set('rhude','', ''); return false;" title="루드">
+									<span class="brand_name brandNameOff">루드</span><span class="brand_name brandNameOn" style="display:none">RHUDE</span>
 								</a>
 															</li>
 														<li class="brandList hided">
@@ -3750,6 +3529,11 @@ function SearchBrandByCategory() {
 														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('lelales','', ''); return false;" title="르라레">
 									<span class="brand_name brandNameOff">르라레</span><span class="brand_name brandNameOn" style="display:none">LELALES</span>
+								</a>
+															</li>
+														<li class="brandList hided">
+								<a href="javascript:void(0)" onClick="set('leray','', ''); return false;" title="르레이">
+									<span class="brand_name brandNameOff">르레이</span><span class="brand_name brandNameOn" style="display:none">LERAY</span>
 								</a>
 															</li>
 														<li class="brandList hided">
@@ -4023,11 +3807,6 @@ function SearchBrandByCategory() {
 								</a>
 															</li>
 														<li class="brandList hided">
-								<a href="javascript:void(0)" onClick="set('ringke','', ''); return false;" title="링케">
-									<span class="brand_name brandNameOff">링케</span><span class="brand_name brandNameOn" style="display:none">RINGKE</span>
-								</a>
-															</li>
-														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('margarinfingers','', ''); return false;" title="마가린핑거스">
 									<span class="brand_name brandNameOff">마가린핑거스</span><span class="brand_name brandNameOn" style="display:none">MARGARIN FINGERS</span>
 								</a>
@@ -4125,6 +3904,11 @@ function SearchBrandByCategory() {
 														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('marieclaire','', ''); return false;" title="마리끌레르">
 									<span class="brand_name brandNameOff">마리끌레르</span><span class="brand_name brandNameOn" style="display:none">MARIE CLAIRE</span>
+								</a>
+															</li>
+														<li class="brandList hided">
+								<a href="javascript:void(0)" onClick="set('marieclairejewelry','', ''); return false;" title="마리끌레르 주얼리">
+									<span class="brand_name brandNameOff">마리끌레르 주얼리</span><span class="brand_name brandNameOn" style="display:none">MARIE CLAIRE JEWLRY</span>
 								</a>
 															</li>
 														<li class="brandList hided">
@@ -4595,6 +4379,11 @@ function SearchBrandByCategory() {
 														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('metapher','', ''); return false;" title="메타퍼">
 									<span class="brand_name brandNameOff">메타퍼</span><span class="brand_name brandNameOn" style="display:none">METAPHER</span>
+								</a>
+															</li>
+														<li class="brandList hided">
+								<a href="javascript:void(0)" onClick="set('metaphore','', ''); return false;" title="메타포">
+									<span class="brand_name brandNameOff">메타포</span><span class="brand_name brandNameOn" style="display:none">METAPHORE</span>
 								</a>
 															</li>
 														<li class="brandList hided">
@@ -5323,6 +5112,11 @@ function SearchBrandByCategory() {
 								</a>
 															</li>
 														<li class="brandList hided">
+								<a href="javascript:void(0)" onClick="set('balansa','', ''); return false;" title="발란사">
+									<span class="brand_name brandNameOff">발란사</span><span class="brand_name brandNameOn" style="display:none">BALANSA</span>
+								</a>
+															</li>
+														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('balenciaga','', ''); return false;" title="발렌시아가">
 									<span class="brand_name brandNameOff">발렌시아가</span><span class="brand_name brandNameOn" style="display:none">BALENCIAGA</span>
 								</a>
@@ -5673,6 +5467,11 @@ function SearchBrandByCategory() {
 								</a>
 															</li>
 														<li class="brandList hided">
+								<a href="javascript:void(0)" onClick="set('bench','', ''); return false;" title="벤치">
+									<span class="brand_name brandNameOff">벤치</span><span class="brand_name brandNameOn" style="display:none">BENCH</span>
+								</a>
+															</li>
+														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('venque','', ''); return false;" title="벤크">
 									<span class="brand_name brandNameOff">벤크</span><span class="brand_name brandNameOn" style="display:none">VENQUE</span>
 								</a>
@@ -5918,6 +5717,11 @@ function SearchBrandByCategory() {
 								</a>
 															</li>
 														<li class="brandList hided">
+								<a href="javascript:void(0)" onClick="set('brooklynworks','', ''); return false;" title="브루클린웍스">
+									<span class="brand_name brandNameOff">브루클린웍스</span><span class="brand_name brandNameOn" style="display:none">BROOKLYN WORKS</span>
+								</a>
+															</li>
+														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('brooksbrothers','', ''); return false;" title="브룩스 브라더스">
 									<span class="brand_name brandNameOff">브룩스 브라더스</span><span class="brand_name brandNameOn" style="display:none">BROOKS BROTHERS</span>
 								</a>
@@ -6010,11 +5814,6 @@ function SearchBrandByCategory() {
 														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('blackmoment','', ''); return false;" title="블랙모먼트">
 									<span class="brand_name brandNameOff">블랙모먼트</span><span class="brand_name brandNameOn" style="display:none">BLACK MOMENT</span>
-								</a>
-															</li>
-														<li class="brandList hided">
-								<a href="javascript:void(0)" onClick="set('blackbriar','', ''); return false;" title="블랙브라이어">
-									<span class="brand_name brandNameOff">블랙브라이어</span><span class="brand_name brandNameOn" style="display:none">BLACK BRIAR</span>
 								</a>
 															</li>
 														<li class="brandList hided">
@@ -6120,6 +5919,11 @@ function SearchBrandByCategory() {
 														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('blueover','', ''); return false;" title="블루오버">
 									<span class="brand_name brandNameOff">블루오버</span><span class="brand_name brandNameOn" style="display:none">BLUE OVER</span>
+								</a>
+															</li>
+														<li class="brandList hided">
+								<a href="javascript:void(0)" onClick="set('blueorb','', ''); return false;" title="블루오브">
+									<span class="brand_name brandNameOff">블루오브</span><span class="brand_name brandNameOn" style="display:none">BLUE ORB</span>
 								</a>
 															</li>
 														<li class="brandList hided">
@@ -6338,11 +6142,6 @@ function SearchBrandByCategory() {
 								</a>
 															</li>
 														<li class="brandList hided">
-								<a href="javascript:void(0)" onClick="set('victorylap','', ''); return false;" title="빅토리랩">
-									<span class="brand_name brandNameOff">빅토리랩</span><span class="brand_name brandNameOn" style="display:none">VICTORYLAP</span>
-								</a>
-															</li>
-														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('victoriashoes','', ''); return false;" title="빅토리아 슈즈">
 									<span class="brand_name brandNameOff">빅토리아 슈즈</span><span class="brand_name brandNameOn" style="display:none">VICTORIA SHOES</span>
 								</a>
@@ -6498,11 +6297,6 @@ function SearchBrandByCategory() {
 								</a>
 															</li>
 														<li class="brandList hided">
-								<a href="javascript:void(0)" onClick="set('salondekii','', ''); return false;" title="살롱드키">
-									<span class="brand_name brandNameOff">살롱드키</span><span class="brand_name brandNameOn" style="display:none">SALON DE KII</span>
-								</a>
-															</li>
-														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('sattchi','', ''); return false;" title="삿치">
 									<span class="brand_name brandNameOff">삿치</span><span class="brand_name brandNameOn" style="display:none">SATTCHI</span>
 								</a>
@@ -6565,6 +6359,11 @@ function SearchBrandByCategory() {
 														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('sundaydiscoclub','', ''); return false;" title="선데이디스코클럽">
 									<span class="brand_name brandNameOff">선데이디스코클럽</span><span class="brand_name brandNameOn" style="display:none">SUNDAYDISCOCLUB</span>
+								</a>
+															</li>
+														<li class="brandList hided">
+								<a href="javascript:void(0)" onClick="set('sundaylounge','', ''); return false;" title="선데이라운지">
+									<span class="brand_name brandNameOff">선데이라운지</span><span class="brand_name brandNameOn" style="display:none">SUNDAYLOUNGE</span>
 								</a>
 															</li>
 														<li class="brandList hided">
@@ -6678,6 +6477,11 @@ function SearchBrandByCategory() {
 								</a>
 															</li>
 														<li class="brandList hided">
+								<a href="javascript:void(0)" onClick="set('saintallan','', ''); return false;" title="세인트앨런1870">
+									<span class="brand_name brandNameOff">세인트앨런1870</span><span class="brand_name brandNameOn" style="display:none">SAINT ALLAN1870</span>
+								</a>
+															</li>
+														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('saintjames','', ''); return false;" title="세인트제임스">
 									<span class="brand_name brandNameOff">세인트제임스</span><span class="brand_name brandNameOn" style="display:none">SAINT JAMES</span>
 								</a>
@@ -6758,11 +6562,6 @@ function SearchBrandByCategory() {
 								</a>
 															</li>
 														<li class="brandList hided">
-								<a href="javascript:void(0)" onClick="set('scentsay','', ''); return false;" title="센트세이">
-									<span class="brand_name brandNameOff">센트세이</span><span class="brand_name brandNameOn" style="display:none">SCENTSAY</span>
-								</a>
-															</li>
-														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('senti','', ''); return false;" title="센티">
 									<span class="brand_name brandNameOff">센티</span><span class="brand_name brandNameOn" style="display:none">SENTI</span>
 								</a>
@@ -6800,11 +6599,6 @@ function SearchBrandByCategory() {
 														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('september5','', ''); return false;" title="셉텐벌5">
 									<span class="brand_name brandNameOff">셉텐벌5</span><span class="brand_name brandNameOn" style="display:none">SEPTEMBER5</span>
-								</a>
-															</li>
-														<li class="brandList hided">
-								<a href="javascript:void(0)" onClick="set('septembernine','', ''); return false;" title="셉템버나인">
-									<span class="brand_name brandNameOff">셉템버나인</span><span class="brand_name brandNameOn" style="display:none">SEPTEMBER NINE</span>
 								</a>
 															</li>
 														<li class="brandList hided">
@@ -7079,7 +6873,7 @@ function SearchBrandByCategory() {
 															</li>
 														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('smitharmor','', ''); return false;" title="스미스아머">
-									<span class="brand_name brandNameOff">스미스아머</span><span class="brand_name brandNameOn" style="display:none">SMITH ARMOR</span>
+									<span class="brand_name brandNameOff">스미스아머</span><span class="brand_name brandNameOn" style="display:none">SMITHARMOR</span>
 								</a>
 															</li>
 														<li class="brandList hided">
@@ -7135,11 +6929,6 @@ function SearchBrandByCategory() {
 														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('scalettoblack1','', ''); return false;" title="스칼렛또블랙">
 									<span class="brand_name brandNameOff">스칼렛또블랙</span><span class="brand_name brandNameOn" style="display:none">SCALETTOBLACK</span>
-								</a>
-															</li>
-														<li class="brandList hided">
-								<a href="javascript:void(0)" onClick="set('scatchd','', ''); return false;" title="스캐치드">
-									<span class="brand_name brandNameOff">스캐치드</span><span class="brand_name brandNameOn" style="display:none">SCATCHD</span>
 								</a>
 															</li>
 														<li class="brandList hided">
@@ -7573,6 +7362,11 @@ function SearchBrandByCategory() {
 								</a>
 															</li>
 														<li class="brandList hided">
+								<a href="javascript:void(0)" onClick="set('sealandgear','', ''); return false;" title="시랜드기어">
+									<span class="brand_name brandNameOff">시랜드기어</span><span class="brand_name brandNameOn" style="display:none">SEALANDGEAR</span>
+								</a>
+															</li>
+														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('cilocala','', ''); return false;" title="시로카라">
 									<span class="brand_name brandNameOff">시로카라</span><span class="brand_name brandNameOn" style="display:none">CILOCALA</span>
 								</a>
@@ -7780,11 +7574,6 @@ function SearchBrandByCategory() {
 														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('seanlip','', ''); return false;" title="씨앤립">
 									<span class="brand_name brandNameOff">씨앤립</span><span class="brand_name brandNameOn" style="display:none">SEANLIP</span>
-								</a>
-															</li>
-														<li class="brandList hided">
-								<a href="javascript:void(0)" onClick="set('cfcl','', ''); return false;" title="씨에프씨엘">
-									<span class="brand_name brandNameOff">씨에프씨엘</span><span class="brand_name brandNameOn" style="display:none">CFCL</span>
 								</a>
 															</li>
 														<li class="brandList hided">
@@ -8455,11 +8244,6 @@ function SearchBrandByCategory() {
 														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('apc','', ''); return false;" title="아페쎄">
 									<span class="brand_name brandNameOff">아페쎄</span><span class="brand_name brandNameOn" style="display:none">A.P.C.</span>
-								</a>
-															</li>
-														<li class="brandList hided">
-								<a href="javascript:void(0)" onClick="set('apoa','', ''); return false;" title="아포아">
-									<span class="brand_name brandNameOff">아포아</span><span class="brand_name brandNameOn" style="display:none">APOA.</span>
 								</a>
 															</li>
 														<li class="brandList hided">
@@ -9258,11 +9042,6 @@ function SearchBrandByCategory() {
 								</a>
 															</li>
 														<li class="brandList hided">
-								<a href="javascript:void(0)" onClick="set('sd7','', ''); return false;" title="에스디세븐">
-									<span class="brand_name brandNameOff">에스디세븐</span><span class="brand_name brandNameOn" style="display:none">SD7</span>
-								</a>
-															</li>
-														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('superlit','', ''); return false;" title="에스릿 스튜디오">
 									<span class="brand_name brandNameOff">에스릿 스튜디오</span><span class="brand_name brandNameOn" style="display:none">SLIT STUDIO</span>
 								</a>
@@ -9733,11 +9512,6 @@ function SearchBrandByCategory() {
 								</a>
 															</li>
 														<li class="brandList hided">
-								<a href="javascript:void(0)" onClick="set('log1','', ''); return false;" title="엘오지">
-									<span class="brand_name brandNameOff">엘오지</span><span class="brand_name brandNameOn" style="display:none">LOG</span>
-								</a>
-															</li>
-														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('leey','', ''); return false;" title="엘이이와이">
 									<span class="brand_name brandNameOff">엘이이와이</span><span class="brand_name brandNameOn" style="display:none">L.E.E.Y</span>
 								</a>
@@ -9825,11 +9599,6 @@ function SearchBrandByCategory() {
 														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('moo','', ''); return false;" title="엠오오">
 									<span class="brand_name brandNameOff">엠오오</span><span class="brand_name brandNameOn" style="display:none">MOO</span>
-								</a>
-															</li>
-														<li class="brandList hided">
-								<a href="javascript:void(0)" onClick="set('mpow','', ''); return false;" title="엠포우">
-									<span class="brand_name brandNameOff">엠포우</span><span class="brand_name brandNameOn" style="display:none">MPOW</span>
 								</a>
 															</li>
 														<li class="brandList hided">
@@ -9950,6 +9719,11 @@ function SearchBrandByCategory() {
 														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('oneill','', ''); return false;" title="오닐웻슈트">
 									<span class="brand_name brandNameOff">오닐웻슈트</span><span class="brand_name brandNameOn" style="display:none">ONEILLWETSUITS</span>
+								</a>
+															</li>
+														<li class="brandList hided">
+								<a href="javascript:void(0)" onClick="set('owoc','', ''); return false;" title="오더블유오씨">
+									<span class="brand_name brandNameOff">오더블유오씨</span><span class="brand_name brandNameOn" style="display:none">OWOC</span>
 								</a>
 															</li>
 														<li class="brandList hided">
@@ -10783,11 +10557,6 @@ function SearchBrandByCategory() {
 								</a>
 															</li>
 														<li class="brandList hided">
-								<a href="javascript:void(0)" onClick="set('ucla','', ''); return false;" title="유씨엘에이">
-									<span class="brand_name brandNameOff">유씨엘에이</span><span class="brand_name brandNameOn" style="display:none">UCLA</span>
-								</a>
-															</li>
-														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('ulc','', ''); return false;" title="유앤엘씨">
 									<span class="brand_name brandNameOff">유앤엘씨</span><span class="brand_name brandNameOn" style="display:none">U&LC</span>
 								</a>
@@ -10875,11 +10644,6 @@ function SearchBrandByCategory() {
 														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('irregular','', ''); return false;" title="이레귤러">
 									<span class="brand_name brandNameOff">이레귤러</span><span class="brand_name brandNameOn" style="display:none">IRREGULAR</span>
-								</a>
-															</li>
-														<li class="brandList hided">
-								<a href="javascript:void(0)" onClick="set('iro','', ''); return false;" title="이로">
-									<span class="brand_name brandNameOff">이로</span><span class="brand_name brandNameOn" style="display:none">IRO</span>
 								</a>
 															</li>
 														<li class="brandList hided">
@@ -11703,6 +11467,11 @@ function SearchBrandByCategory() {
 								</a>
 															</li>
 														<li class="brandList hided">
+								<a href="javascript:void(0)" onClick="set('jillstuartnewyorkm','', ''); return false;" title="질스튜어트뉴욕 맨">
+									<span class="brand_name brandNameOff">질스튜어트뉴욕 맨</span><span class="brand_name brandNameOn" style="display:none">JILLSTUART NEWYORK MEN</span>
+								</a>
+															</li>
+														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('jillstuartnywomensacc','', ''); return false;" title="질스튜어트액세서리">
 									<span class="brand_name brandNameOff">질스튜어트액세서리</span><span class="brand_name brandNameOn" style="display:none">JILLSTUART ACC</span>
 								</a>
@@ -11710,11 +11479,6 @@ function SearchBrandByCategory() {
 														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('jipsy','', ''); return false;" title="집시">
 									<span class="brand_name brandNameOff">집시</span><span class="brand_name brandNameOn" style="display:none">JIPSY</span>
-								</a>
-															</li>
-														<li class="brandList hided">
-								<a href="javascript:void(0)" onClick="set('chazmmfg','', ''); return false;" title="차즘">
-									<span class="brand_name brandNameOff">차즘</span><span class="brand_name brandNameOn" style="display:none">CHAZMMFG.</span>
 								</a>
 															</li>
 														<li class="brandList hided">
@@ -11745,6 +11509,11 @@ function SearchBrandByCategory() {
 														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('championgolf','', ''); return false;" title="챔피온 골프">
 									<span class="brand_name brandNameOff">챔피온 골프</span><span class="brand_name brandNameOn" style="display:none">CHAMPION GOLF</span>
+								</a>
+															</li>
+														<li class="brandList hided">
+								<a href="javascript:void(0)" onClick="set('chapterb','', ''); return false;" title="챕터비">
+									<span class="brand_name brandNameOff">챕터비</span><span class="brand_name brandNameOn" style="display:none">CHAPTER B</span>
 								</a>
 															</li>
 														<li class="brandList hided">
@@ -11780,11 +11549,6 @@ function SearchBrandByCategory() {
 														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('checkmillen','', ''); return false;" title="체크밀런">
 									<span class="brand_name brandNameOff">체크밀런</span><span class="brand_name brandNameOn" style="display:none">CHECKMILLEN</span>
-								</a>
-															</li>
-														<li class="brandList hided">
-								<a href="javascript:void(0)" onClick="set('choyeoreumstudio','', ''); return false;" title="초여름스튜디오">
-									<span class="brand_name brandNameOff">초여름스튜디오</span><span class="brand_name brandNameOn" style="display:none">CHOYEOREUM STUDIO</span>
 								</a>
 															</li>
 														<li class="brandList hided">
@@ -11958,11 +11722,6 @@ function SearchBrandByCategory() {
 								</a>
 															</li>
 														<li class="brandList hided">
-								<a href="javascript:void(0)" onClick="set('kan6312','', ''); return false;" title="칸6312">
-									<span class="brand_name brandNameOff">칸6312</span><span class="brand_name brandNameOn" style="display:none">KAN6312</span>
-								</a>
-															</li>
-														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('kandini','', ''); return false;" title="칸디니">
 									<span class="brand_name brandNameOff">칸디니</span><span class="brand_name brandNameOn" style="display:none">KANDINI</span>
 								</a>
@@ -12098,6 +11857,11 @@ function SearchBrandByCategory() {
 								</a>
 															</li>
 														<li class="brandList hided">
+								<a href="javascript:void(0)" onClick="set('customellow','', ''); return false;" title="커스텀멜로우">
+									<span class="brand_name brandNameOff">커스텀멜로우</span><span class="brand_name brandNameOn" style="display:none">CUSTOMELLOW</span>
+								</a>
+															</li>
+														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('custombolt','', ''); return false;" title="커스텀볼트">
 									<span class="brand_name brandNameOff">커스텀볼트</span><span class="brand_name brandNameOn" style="display:none">CUSTOMBOLT</span>
 								</a>
@@ -12185,11 +11949,6 @@ function SearchBrandByCategory() {
 														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('keds','', ''); return false;" title="케즈">
 									<span class="brand_name brandNameOff">케즈</span><span class="brand_name brandNameOn" style="display:none">KEDS</span>
-								</a>
-															</li>
-														<li class="brandList hided">
-								<a href="javascript:void(0)" onClick="set('cogu','', ''); return false;" title="코구">
-									<span class="brand_name brandNameOff">코구</span><span class="brand_name brandNameOn" style="display:none">COGU</span>
 								</a>
 															</li>
 														<li class="brandList hided">
@@ -12493,6 +12252,11 @@ function SearchBrandByCategory() {
 								</a>
 															</li>
 														<li class="brandList hided">
+								<a href="javascript:void(0)" onClick="set('craftpractise','', ''); return false;" title="크래프트 프랙티스">
+									<span class="brand_name brandNameOff">크래프트 프랙티스</span><span class="brand_name brandNameOn" style="display:none">CRAFT PRACTISE</span>
+								</a>
+															</li>
+														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('craftlink','', ''); return false;" title="크래프트링크">
 									<span class="brand_name brandNameOff">크래프트링크</span><span class="brand_name brandNameOn" style="display:none">CRAFTLINK</span>
 								</a>
@@ -12695,11 +12459,6 @@ function SearchBrandByCategory() {
 														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('clevelandgolf','', ''); return false;" title="클리브랜드 골프">
 									<span class="brand_name brandNameOff">클리브랜드 골프</span><span class="brand_name brandNameOn" style="display:none">CLEVELAND GOLF</span>
-								</a>
-															</li>
-														<li class="brandList hided">
-								<a href="javascript:void(0)" onClick="set('clean','', ''); return false;" title="클린">
-									<span class="brand_name brandNameOff">클린</span><span class="brand_name brandNameOn" style="display:none">CLEAN</span>
 								</a>
 															</li>
 														<li class="brandList hided">
@@ -13818,6 +13577,11 @@ function SearchBrandByCategory() {
 								</a>
 															</li>
 														<li class="brandList hided">
+								<a href="javascript:void(0)" onClick="set('forfromfather','', ''); return false;" title="포프롬파더">
+									<span class="brand_name brandNameOff">포프롬파더</span><span class="brand_name brandNameOn" style="display:none">FORFROMFATHER</span>
+								</a>
+															</li>
+														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('volksvagenwatch','', ''); return false;" title="폭스바겐 와치">
 									<span class="brand_name brandNameOff">폭스바겐 와치</span><span class="brand_name brandNameOn" style="display:none">VOLKSVAGEN WATCH</span>
 								</a>
@@ -14653,11 +14417,6 @@ function SearchBrandByCategory() {
 								</a>
 															</li>
 														<li class="brandList hided">
-								<a href="javascript:void(0)" onClick="set('halbkreis','', ''); return false;" title="하프크라이즈 레이아웃">
-									<span class="brand_name brandNameOff">하프크라이즈 레이아웃</span><span class="brand_name brandNameOn" style="display:none">HALBKREIS LAYOUT</span>
-								</a>
-															</li>
-														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('hangleeyewear','', ''); return false;" title="한글안경">
 									<span class="brand_name brandNameOff">한글안경</span><span class="brand_name brandNameOn" style="display:none">HANGLE EYEWEAR</span>
 								</a>
@@ -14998,6 +14757,11 @@ function SearchBrandByCategory() {
 								</a>
 															</li>
 														<li class="brandList hided">
+								<a href="javascript:void(0)" onClick="set('hilleberg','', ''); return false;" title="힐레베르그">
+									<span class="brand_name brandNameOff">힐레베르그</span><span class="brand_name brandNameOn" style="display:none">HILLEBERG</span>
+								</a>
+															</li>
+														<li class="brandList hided">
 								<a href="javascript:void(0)" onClick="set('helement','', ''); return false;" title="힐리먼트">
 									<span class="brand_name brandNameOff">힐리먼트</span><span class="brand_name brandNameOn" style="display:none">HELEMENT</span>
 								</a>
@@ -15168,7 +14932,7 @@ function SearchBrandByCategory() {
 																																			<a href="javascript:void(0)" onClick="listSwitchPage(document.f1, '9'); return false;" class="paging-btn btn">9</a>
 																																			<a href="javascript:void(0)" onClick="listSwitchPage(document.f1, '10'); return false;" class="paging-btn btn">10</a>
 																									<a href="javascript:void(0)" onClick="listSwitchPage(document.f1, '11');; return false;" class="fa fa-angle-right paging-btn btn next"></a>
-								<a href="javascript:void(0)" onClick="listSwitchPage(document.f1, '368');; return false;" class="fa fa-angle-double-right paging-btn btn last"></a>
+								<a href="javascript:void(0)" onClick="listSwitchPage(document.f1, '370');; return false;" class="fa fa-angle-double-right paging-btn btn last"></a>
 													</div>
 					</div>
 				</div>
@@ -15179,764 +14943,614 @@ function SearchBrandByCategory() {
 						<a href="javascript:void(0)" class="view_select_big selected" onclick="nextListKindStylingV2(this, 'view_select_big'); return false;" title="큰 이미지">큰 이미지</a>
 					</span>
 					<!-- 표시 체크 -->
-					<span class="counter" style="font-weight:bold">스타일 수 : 22,063개</span>
+					<span class="counter" style="font-weight:bold">스타일 수 : 22,166개</span>
 					<!-- 상단 현재 페이지 -->
 					<span class="pagingNumber">
 						<span class="totalPagingNum">
-																						368
+																						370
 																			</span>페이지 중 <span class="currentPagingNum">1</span> 페이지
 					</span>
 				</div>
 				<ul class="style-list  style-list--full">
 		<li class="style-list-item">
 		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22432');" class="style-list-item__link" title="고프코어로 멋 내기">
+			<a href="javascript:void(0);" onclick="goView('22574');" class="style-list-item__link" title="유니크하게 입어봐">
 				<div class="style-list-thumbnail">
-										<img src="//image.msscdn.net/images/codimap/list/l_3_2023040710524000000048681.jpg?202304091704" class="style-list-thumbnail__img" alt="고프코어로 멋 내기">
+										<img src="//image.msscdn.net/images/codimap/list/l_3_2023041313393700000094444.jpg?202304132304" class="style-list-thumbnail__img" alt="유니크하게 입어봐">
 									</div>
 			</a>
 		</div>
 
 		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="고프코어로 멋 내기">
-				<span class="style-list-information__text" onclick="goCate('gorpcore');">고프코어</span>
-				<strong class="style-list-information__title" onclick="goView('22432');">고프코어로 멋 내기</strong>
+			<a href="javascript:void(0);" class="style-list-information__link" title="유니크하게 입어봐">
+				<span class="style-list-information__text" onclick="goCate('street');">스트릿</span>
+				<strong class="style-list-information__title" onclick="goView('22574');">유니크하게 입어봐</strong>
 			</a>
 		</div>
 
 		<div class="post-information">
 						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
-						<span class="post-information__text">23.04.07</span>
-			<span class="post-information__text">조회 645</span>
+						<span class="post-information__text">23.04.13</span>
+			<span class="post-information__text">조회 236</span>
 					</div>
 	</li>
 		<li class="style-list-item">
 		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22461');" class="style-list-item__link" title="매력 UP!">
+			<a href="javascript:void(0);" onclick="goView('22573');" class="style-list-item__link" title="감각 있어">
 				<div class="style-list-thumbnail">
-										<img src="//image.msscdn.net/images/codimap/list/l_3_2023040713483800000011070.jpg?202304091704" class="style-list-thumbnail__img" alt="매력 UP!">
+										<img src="//image.msscdn.net/images/codimap/list/l_3_2023041313383500000078205.jpg?202304132304" class="style-list-thumbnail__img" alt="감각 있어">
 									</div>
 			</a>
 		</div>
 
 		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="매력 UP!">
+			<a href="javascript:void(0);" class="style-list-information__link" title="감각 있어">
+				<span class="style-list-information__text" onclick="goCate('casual');">캐주얼</span>
+				<strong class="style-list-information__title" onclick="goView('22573');">감각 있어</strong>
+			</a>
+		</div>
+
+		<div class="post-information">
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.13</span>
+			<span class="post-information__text">조회 164</span>
+					</div>
+	</li>
+		<li class="style-list-item">
+		<div class="style-list-item__thumbnail">
+			<a href="javascript:void(0);" onclick="goView('22572');" class="style-list-item__link" title="미니멀 오피스 룩">
+				<div class="style-list-thumbnail">
+										<img src="//image.msscdn.net/images/codimap/list/l_3_2023041313372800000083771.jpg?202304132304" class="style-list-thumbnail__img" alt="미니멀 오피스 룩">
+									</div>
+			</a>
+		</div>
+
+		<div class="style-list-information">
+			<a href="javascript:void(0);" class="style-list-information__link" title="미니멀 오피스 룩">
+				<span class="style-list-information__text" onclick="goCate('formal');">포멀</span>
+				<strong class="style-list-information__title" onclick="goView('22572');">미니멀 오피스 룩</strong>
+			</a>
+		</div>
+
+		<div class="post-information">
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.13</span>
+			<span class="post-information__text">조회 87</span>
+					</div>
+	</li>
+		<li class="style-list-item">
+		<div class="style-list-item__thumbnail">
+			<a href="javascript:void(0);" onclick="goView('22571');" class="style-list-item__link" title="매력에 풍덩!">
+				<div class="style-list-thumbnail">
+										<img src="//image.msscdn.net/images/codimap/list/l_3_2023041313361200000059654.jpg?202304132304" class="style-list-thumbnail__img" alt="매력에 풍덩!">
+									</div>
+			</a>
+		</div>
+
+		<div class="style-list-information">
+			<a href="javascript:void(0);" class="style-list-information__link" title="매력에 풍덩!">
 				<span class="style-list-information__text" onclick="goCate('girlish');">걸리시</span>
-				<strong class="style-list-information__title" onclick="goView('22461');">매력 UP!</strong>
+				<strong class="style-list-information__title" onclick="goView('22571');">매력에 풍덩!</strong>
 			</a>
 		</div>
 
 		<div class="post-information">
 						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
-						<span class="post-information__text">23.04.07</span>
-			<span class="post-information__text">조회 272</span>
+						<span class="post-information__text">23.04.13</span>
+			<span class="post-information__text">조회 69</span>
 					</div>
 	</li>
 		<li class="style-list-item">
 		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22460');" class="style-list-item__link" title="봄 캐주얼 룩">
+			<a href="javascript:void(0);" onclick="goView('22570');" class="style-list-item__link" title="매일 입을래">
 				<div class="style-list-thumbnail">
-										<img src="//image.msscdn.net/images/codimap/list/l_3_2023040713472200000041392.jpg?202304091704" class="style-list-thumbnail__img" alt="봄 캐주얼 룩">
+										<img src="//image.msscdn.net/images/codimap/list/l_3_2023041313345500000099514.jpg?202304132304" class="style-list-thumbnail__img" alt="매일 입을래">
 									</div>
 			</a>
 		</div>
 
 		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="봄 캐주얼 룩">
+			<a href="javascript:void(0);" class="style-list-information__link" title="매일 입을래">
 				<span class="style-list-information__text" onclick="goCate('casual');">캐주얼</span>
-				<strong class="style-list-information__title" onclick="goView('22460');">봄 캐주얼 룩</strong>
+				<strong class="style-list-information__title" onclick="goView('22570');">매일 입을래</strong>
 			</a>
 		</div>
 
 		<div class="post-information">
 						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
-						<span class="post-information__text">23.04.07</span>
-			<span class="post-information__text">조회 994</span>
+						<span class="post-information__text">23.04.13</span>
+			<span class="post-information__text">조회 137</span>
 					</div>
 	</li>
 		<li class="style-list-item">
 		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22459');" class="style-list-item__link" title="로고 포인트">
+			<a href="javascript:void(0);" onclick="goView('22569');" class="style-list-item__link" title="아웃도어 룩">
 				<div class="style-list-thumbnail">
-										<img src="//image.msscdn.net/images/codimap/list/l_3_2023040713423500000094520.jpg?202304091704" class="style-list-thumbnail__img" alt="로고 포인트">
+										<img src="//image.msscdn.net/images/codimap/list/l_3_2023041313324100000071901.jpg?202304132304" class="style-list-thumbnail__img" alt="아웃도어 룩">
 									</div>
 			</a>
 		</div>
 
 		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="로고 포인트">
+			<a href="javascript:void(0);" class="style-list-information__link" title="아웃도어 룩">
+				<span class="style-list-information__text" onclick="goCate('sports');">스포츠</span>
+				<strong class="style-list-information__title" onclick="goView('22569');">아웃도어 룩</strong>
+			</a>
+		</div>
+
+		<div class="post-information">
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.13</span>
+			<span class="post-information__text">조회 83</span>
+					</div>
+	</li>
+		<li class="style-list-item">
+		<div class="style-list-item__thumbnail">
+			<a href="javascript:void(0);" onclick="goView('22568');" class="style-list-item__link" title="뉴트럴 톤 코디">
+				<div class="style-list-thumbnail">
+										<img src="//image.msscdn.net/images/codimap/list/l_3_2023041313313500000036803.jpg?202304132304" class="style-list-thumbnail__img" alt="뉴트럴 톤 코디">
+									</div>
+			</a>
+		</div>
+
+		<div class="style-list-information">
+			<a href="javascript:void(0);" class="style-list-information__link" title="뉴트럴 톤 코디">
+				<span class="style-list-information__text" onclick="goCate('sports');">스포츠</span>
+				<strong class="style-list-information__title" onclick="goView('22568');">뉴트럴 톤 코디</strong>
+			</a>
+		</div>
+
+		<div class="post-information">
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.13</span>
+			<span class="post-information__text">조회 70</span>
+					</div>
+	</li>
+		<li class="style-list-item">
+		<div class="style-list-item__thumbnail">
+			<a href="javascript:void(0);" onclick="goView('22567');" class="style-list-item__link" title="캠핑 가자!">
+				<div class="style-list-thumbnail">
+										<img src="//image.msscdn.net/images/codimap/list/l_3_2023041313283100000098176.jpg?202304132304" class="style-list-thumbnail__img" alt="캠핑 가자!">
+									</div>
+			</a>
+		</div>
+
+		<div class="style-list-information">
+			<a href="javascript:void(0);" class="style-list-information__link" title="캠핑 가자!">
+				<span class="style-list-information__text" onclick="goCate('sports');">스포츠</span>
+				<strong class="style-list-information__title" onclick="goView('22567');">캠핑 가자!</strong>
+			</a>
+		</div>
+
+		<div class="post-information">
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.13</span>
+			<span class="post-information__text">조회 37</span>
+					</div>
+	</li>
+		<li class="style-list-item">
+		<div class="style-list-item__thumbnail">
+			<a href="javascript:void(0);" onclick="goView('22566');" class="style-list-item__link" title="추천 캠핑 룩">
+				<div class="style-list-thumbnail">
+										<img src="//image.msscdn.net/images/codimap/list/l_3_2023041313272500000050722.jpg?202304132304" class="style-list-thumbnail__img" alt="추천 캠핑 룩">
+									</div>
+			</a>
+		</div>
+
+		<div class="style-list-information">
+			<a href="javascript:void(0);" class="style-list-information__link" title="추천 캠핑 룩">
+				<span class="style-list-information__text" onclick="goCate('sports');">스포츠</span>
+				<strong class="style-list-information__title" onclick="goView('22566');">추천 캠핑 룩</strong>
+			</a>
+		</div>
+
+		<div class="post-information">
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.13</span>
+			<span class="post-information__text">조회 39</span>
+					</div>
+	</li>
+		<li class="style-list-item">
+		<div class="style-list-item__thumbnail">
+			<a href="javascript:void(0);" onclick="goView('22565');" class="style-list-item__link" title="센스 넘쳐">
+				<div class="style-list-thumbnail">
+										<img src="//image.msscdn.net/images/codimap/list/l_3_2023041313262000000046028.jpg?202304132304" class="style-list-thumbnail__img" alt="센스 넘쳐">
+									</div>
+			</a>
+		</div>
+
+		<div class="style-list-information">
+			<a href="javascript:void(0);" class="style-list-information__link" title="센스 넘쳐">
+				<span class="style-list-information__text" onclick="goCate('sports');">스포츠</span>
+				<strong class="style-list-information__title" onclick="goView('22565');">센스 넘쳐</strong>
+			</a>
+		</div>
+
+		<div class="post-information">
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.13</span>
+			<span class="post-information__text">조회 64</span>
+					</div>
+	</li>
+		<li class="style-list-item">
+		<div class="style-list-item__thumbnail">
+			<a href="javascript:void(0);" onclick="goView('22564');" class="style-list-item__link" title="가벼운 차림">
+				<div class="style-list-thumbnail">
+										<img src="//image.msscdn.net/images/codimap/list/l_3_2023041313243300000099367.jpg?202304132304" class="style-list-thumbnail__img" alt="가벼운 차림">
+									</div>
+			</a>
+		</div>
+
+		<div class="style-list-information">
+			<a href="javascript:void(0);" class="style-list-information__link" title="가벼운 차림">
 				<span class="style-list-information__text" onclick="goCate('casual');">캐주얼</span>
-				<strong class="style-list-information__title" onclick="goView('22459');">로고 포인트</strong>
+				<strong class="style-list-information__title" onclick="goView('22564');">가벼운 차림</strong>
 			</a>
 		</div>
 
 		<div class="post-information">
 						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
-						<span class="post-information__text">23.04.07</span>
-			<span class="post-information__text">조회 897</span>
+						<span class="post-information__text">23.04.13</span>
+			<span class="post-information__text">조회 128</span>
 					</div>
 	</li>
 		<li class="style-list-item">
 		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22458');" class="style-list-item__link" title="간결한 실루엣">
+			<a href="javascript:void(0);" onclick="goView('22563');" class="style-list-item__link" title="워싱 디테일">
 				<div class="style-list-thumbnail">
-										<img src="//image.msscdn.net/images/codimap/list/l_3_2023040713243600000068009.jpg?202304091704" class="style-list-thumbnail__img" alt="간결한 실루엣">
+										<img src="//image.msscdn.net/images/codimap/list/l_3_2023041313231300000087583.jpg?202304132304" class="style-list-thumbnail__img" alt="워싱 디테일">
 									</div>
 			</a>
 		</div>
 
 		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="간결한 실루엣">
+			<a href="javascript:void(0);" class="style-list-information__link" title="워싱 디테일">
+				<span class="style-list-information__text" onclick="goCate('casual');">캐주얼</span>
+				<strong class="style-list-information__title" onclick="goView('22563');">워싱 디테일</strong>
+			</a>
+		</div>
+
+		<div class="post-information">
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.13</span>
+			<span class="post-information__text">조회 162</span>
+					</div>
+	</li>
+		<li class="style-list-item">
+		<div class="style-list-item__thumbnail">
+			<a href="javascript:void(0);" onclick="goView('22562');" class="style-list-item__link" title="잠깐의 산책">
+				<div class="style-list-thumbnail">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041313220100000069018.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="잠깐의 산책">
+									</div>
+			</a>
+		</div>
+
+		<div class="style-list-information">
+			<a href="javascript:void(0);" class="style-list-information__link" title="잠깐의 산책">
+				<span class="style-list-information__text" onclick="goCate('casual');">캐주얼</span>
+				<strong class="style-list-information__title" onclick="goView('22562');">잠깐의 산책</strong>
+			</a>
+		</div>
+
+		<div class="post-information">
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.13</span>
+			<span class="post-information__text">조회 136</span>
+					</div>
+	</li>
+		<li class="style-list-item">
+		<div class="style-list-item__thumbnail">
+			<a href="javascript:void(0);" onclick="goView('22561');" class="style-list-item__link" title="세련된 아웃핏">
+				<div class="style-list-thumbnail">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041313205200000050056.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="세련된 아웃핏">
+									</div>
+			</a>
+		</div>
+
+		<div class="style-list-information">
+			<a href="javascript:void(0);" class="style-list-information__link" title="세련된 아웃핏">
 				<span class="style-list-information__text" onclick="goCate('formal');">포멀</span>
-				<strong class="style-list-information__title" onclick="goView('22458');">간결한 실루엣</strong>
+				<strong class="style-list-information__title" onclick="goView('22561');">세련된 아웃핏</strong>
 			</a>
 		</div>
 
 		<div class="post-information">
 						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
-						<span class="post-information__text">23.04.07</span>
-			<span class="post-information__text">조회 402</span>
+						<span class="post-information__text">23.04.13</span>
+			<span class="post-information__text">조회 70</span>
 					</div>
 	</li>
 		<li class="style-list-item">
 		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22457');" class="style-list-item__link" title="화사한 레이어링">
+			<a href="javascript:void(0);" onclick="goView('22560');" class="style-list-item__link" title="돋보이는 존재감">
 				<div class="style-list-thumbnail">
-										<img src="//image.msscdn.net/images/codimap/list/l_3_2023040713231600000025395.jpg?202304091704" class="style-list-thumbnail__img" alt="화사한 레이어링">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041313191400000025244.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="돋보이는 존재감">
 									</div>
 			</a>
 		</div>
 
 		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="화사한 레이어링">
-				<span class="style-list-information__text" onclick="goCate('casual');">캐주얼</span>
-				<strong class="style-list-information__title" onclick="goView('22457');">화사한 레이어링</strong>
+			<a href="javascript:void(0);" class="style-list-information__link" title="돋보이는 존재감">
+				<span class="style-list-information__text" onclick="goCate('street');">스트릿</span>
+				<strong class="style-list-information__title" onclick="goView('22560');">돋보이는 존재감</strong>
 			</a>
 		</div>
 
 		<div class="post-information">
 						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
-						<span class="post-information__text">23.04.07</span>
-			<span class="post-information__text">조회 652</span>
+						<span class="post-information__text">23.04.13</span>
+			<span class="post-information__text">조회 112</span>
 					</div>
 	</li>
 		<li class="style-list-item">
 		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22456');" class="style-list-item__link" title="심플하게 입어봐">
+			<a href="javascript:void(0);" onclick="goView('22559');" class="style-list-item__link" title="매력 만점">
 				<div class="style-list-thumbnail">
-										<img src="//image.msscdn.net/images/codimap/list/l_3_2023040713202200000047619.jpg?202304091704" class="style-list-thumbnail__img" alt="심플하게 입어봐">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041313164300000048840.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="매력 만점">
 									</div>
 			</a>
 		</div>
 
 		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="심플하게 입어봐">
-				<span class="style-list-information__text" onclick="goCate('golf');">골프</span>
-				<strong class="style-list-information__title" onclick="goView('22456');">심플하게 입어봐</strong>
-			</a>
-		</div>
-
-		<div class="post-information">
-						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
-						<span class="post-information__text">23.04.07</span>
-			<span class="post-information__text">조회 219</span>
-					</div>
-	</li>
-		<li class="style-list-item">
-		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22455');" class="style-list-item__link" title="나이스 샷!">
-				<div class="style-list-thumbnail">
-										<img src="//image.msscdn.net/images/codimap/list/l_3_2023040713191100000048318.jpg?202304091704" class="style-list-thumbnail__img" alt="나이스 샷!">
-									</div>
-			</a>
-		</div>
-
-		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="나이스 샷!">
-				<span class="style-list-information__text" onclick="goCate('golf');">골프</span>
-				<strong class="style-list-information__title" onclick="goView('22455');">나이스 샷!</strong>
-			</a>
-		</div>
-
-		<div class="post-information">
-						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
-						<span class="post-information__text">23.04.07</span>
-			<span class="post-information__text">조회 174</span>
-					</div>
-	</li>
-		<li class="style-list-item">
-		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22454');" class="style-list-item__link" title="골프 룩 추천">
-				<div class="style-list-thumbnail">
-										<img src="//image.msscdn.net/images/codimap/list/l_3_2023040713173900000025786.jpg?202304091704" class="style-list-thumbnail__img" alt="골프 룩 추천">
-									</div>
-			</a>
-		</div>
-
-		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="골프 룩 추천">
-				<span class="style-list-information__text" onclick="goCate('golf');">골프</span>
-				<strong class="style-list-information__title" onclick="goView('22454');">골프 룩 추천</strong>
-			</a>
-		</div>
-
-		<div class="post-information">
-						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
-						<span class="post-information__text">23.04.07</span>
-			<span class="post-information__text">조회 198</span>
-					</div>
-	</li>
-		<li class="style-list-item">
-		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22453');" class="style-list-item__link" title="캐주얼 골퍼">
-				<div class="style-list-thumbnail">
-										<img src="//image.msscdn.net/images/codimap/list/l_3_2023040713163200000004558.jpg?202304091704" class="style-list-thumbnail__img" alt="캐주얼 골퍼">
-									</div>
-			</a>
-		</div>
-
-		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="캐주얼 골퍼">
-				<span class="style-list-information__text" onclick="goCate('golf');">골프</span>
-				<strong class="style-list-information__title" onclick="goView('22453');">캐주얼 골퍼</strong>
-			</a>
-		</div>
-
-		<div class="post-information">
-						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
-						<span class="post-information__text">23.04.07</span>
-			<span class="post-information__text">조회 200</span>
-					</div>
-	</li>
-		<li class="style-list-item">
-		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22452');" class="style-list-item__link" title="스프링 골프 웨어">
-				<div class="style-list-thumbnail">
-										<img src="//image.msscdn.net/images/codimap/list/l_3_2023040713145900000030544.jpg?202304091704" class="style-list-thumbnail__img" alt="스프링 골프 웨어">
-									</div>
-			</a>
-		</div>
-
-		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="스프링 골프 웨어">
-				<span class="style-list-information__text" onclick="goCate('golf');">골프</span>
-				<strong class="style-list-information__title" onclick="goView('22452');">스프링 골프 웨어</strong>
-			</a>
-		</div>
-
-		<div class="post-information">
-						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
-						<span class="post-information__text">23.04.07</span>
-			<span class="post-information__text">조회 111</span>
-					</div>
-	</li>
-		<li class="style-list-item">
-		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22436');" class="style-list-item__link" title="남다른 디테일">
-				<div class="style-list-thumbnail">
-										<img src="//image.msscdn.net/images/codimap/list/l_3_2023040710595400000036247.jpg?202304091704" class="style-list-thumbnail__img" alt="남다른 디테일">
-									</div>
-			</a>
-		</div>
-
-		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="남다른 디테일">
-				<span class="style-list-information__text" onclick="goCate('casual');">캐주얼</span>
-				<strong class="style-list-information__title" onclick="goView('22436');">남다른 디테일</strong>
-			</a>
-		</div>
-
-		<div class="post-information">
-						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
-						<span class="post-information__text">23.04.07</span>
-			<span class="post-information__text">조회 488</span>
-					</div>
-	</li>
-		<li class="style-list-item">
-		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22435');" class="style-list-item__link" title="미니멀의 정석">
-				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040710572600000088127.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="미니멀의 정석">
-									</div>
-			</a>
-		</div>
-
-		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="미니멀의 정석">
+			<a href="javascript:void(0);" class="style-list-information__link" title="매력 만점">
 				<span class="style-list-information__text" onclick="goCate('dandy');">댄디</span>
-				<strong class="style-list-information__title" onclick="goView('22435');">미니멀의 정석</strong>
+				<strong class="style-list-information__title" onclick="goView('22559');">매력 만점</strong>
 			</a>
 		</div>
 
 		<div class="post-information">
 						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
-						<span class="post-information__text">23.04.07</span>
-			<span class="post-information__text">조회 237</span>
+						<span class="post-information__text">23.04.13</span>
+			<span class="post-information__text">조회 98</span>
 					</div>
 	</li>
 		<li class="style-list-item">
 		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22434');" class="style-list-item__link" title="꾸안꾸로 완성">
+			<a href="javascript:void(0);" onclick="goView('22558');" class="style-list-item__link" title="편안한 매치">
 				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040710561100000085345.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="꾸안꾸로 완성">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041313153500000035510.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="편안한 매치">
 									</div>
 			</a>
 		</div>
 
 		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="꾸안꾸로 완성">
+			<a href="javascript:void(0);" class="style-list-information__link" title="편안한 매치">
 				<span class="style-list-information__text" onclick="goCate('casual');">캐주얼</span>
-				<strong class="style-list-information__title" onclick="goView('22434');">꾸안꾸로 완성</strong>
+				<strong class="style-list-information__title" onclick="goView('22558');">편안한 매치</strong>
 			</a>
 		</div>
 
 		<div class="post-information">
 						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
-						<span class="post-information__text">23.04.07</span>
-			<span class="post-information__text">조회 127</span>
+						<span class="post-information__text">23.04.13</span>
+			<span class="post-information__text">조회 101</span>
 					</div>
 	</li>
 		<li class="style-list-item">
 		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22433');" class="style-list-item__link" title="시티보이 룩">
+			<a href="javascript:void(0);" onclick="goView('22557');" class="style-list-item__link" title="입고 싶은 아메카지">
 				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040710534700000093495.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="시티보이 룩">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041313143200000049259.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="입고 싶은 아메카지">
 									</div>
 			</a>
 		</div>
 
 		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="시티보이 룩">
+			<a href="javascript:void(0);" class="style-list-information__link" title="입고 싶은 아메카지">
 				<span class="style-list-information__text" onclick="goCate('americancasual');">아메리칸 캐주얼</span>
-				<strong class="style-list-information__title" onclick="goView('22433');">시티보이 룩</strong>
+				<strong class="style-list-information__title" onclick="goView('22557');">입고 싶은 아메카지</strong>
 			</a>
 		</div>
 
 		<div class="post-information">
 						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
-						<span class="post-information__text">23.04.07</span>
-			<span class="post-information__text">조회 328</span>
+						<span class="post-information__text">23.04.13</span>
+			<span class="post-information__text">조회 97</span>
 					</div>
 	</li>
 		<li class="style-list-item">
 		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22451');" class="style-list-item__link" title="캐주얼의 정석">
+			<a href="javascript:void(0);" onclick="goView('22556');" class="style-list-item__link" title="힙한 바이브">
 				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040711363900000036911.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="캐주얼의 정석">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041313125200000073938.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="힙한 바이브">
 									</div>
 			</a>
 		</div>
 
 		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="캐주얼의 정석">
-				<span class="style-list-information__text" onclick="goCate('casual');">캐주얼</span>
-				<strong class="style-list-information__title" onclick="goView('22451');">캐주얼의 정석</strong>
-			</a>
-		</div>
-
-		<div class="post-information">
-						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
-						<span class="post-information__text">23.04.07</span>
-			<span class="post-information__text">조회 548</span>
-					</div>
-	</li>
-		<li class="style-list-item">
-		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22450');" class="style-list-item__link" title="데일리 코디">
-				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040711353400000020000.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="데일리 코디">
-									</div>
-			</a>
-		</div>
-
-		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="데일리 코디">
-				<span class="style-list-information__text" onclick="goCate('casual');">캐주얼</span>
-				<strong class="style-list-information__title" onclick="goView('22450');">데일리 코디</strong>
-			</a>
-		</div>
-
-		<div class="post-information">
-						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
-						<span class="post-information__text">23.04.07</span>
-			<span class="post-information__text">조회 725</span>
-					</div>
-	</li>
-		<li class="style-list-item">
-		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22449');" class="style-list-item__link" title="담백해서 좋아">
-				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040711342500000045380.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="담백해서 좋아">
-									</div>
-			</a>
-		</div>
-
-		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="담백해서 좋아">
-				<span class="style-list-information__text" onclick="goCate('formal');">포멀</span>
-				<strong class="style-list-information__title" onclick="goView('22449');">담백해서 좋아</strong>
-			</a>
-		</div>
-
-		<div class="post-information">
-						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
-						<span class="post-information__text">23.04.07</span>
-			<span class="post-information__text">조회 439</span>
-					</div>
-	</li>
-		<li class="style-list-item">
-		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22448');" class="style-list-item__link" title="디테일에 반해">
-				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040711321700000042997.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="디테일에 반해">
-									</div>
-			</a>
-		</div>
-
-		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="디테일에 반해">
-				<span class="style-list-information__text" onclick="goCate('casual');">캐주얼</span>
-				<strong class="style-list-information__title" onclick="goView('22448');">디테일에 반해</strong>
-			</a>
-		</div>
-
-		<div class="post-information">
-						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
-						<span class="post-information__text">23.04.07</span>
-			<span class="post-information__text">조회 855</span>
-					</div>
-	</li>
-		<li class="style-list-item">
-		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22447');" class="style-list-item__link" title="강렬한 포인트">
-				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040711310100000056720.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="강렬한 포인트">
-									</div>
-			</a>
-		</div>
-
-		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="강렬한 포인트">
+			<a href="javascript:void(0);" class="style-list-information__link" title="힙한 바이브">
 				<span class="style-list-information__text" onclick="goCate('street');">스트릿</span>
-				<strong class="style-list-information__title" onclick="goView('22447');">강렬한 포인트</strong>
+				<strong class="style-list-information__title" onclick="goView('22556');">힙한 바이브</strong>
 			</a>
 		</div>
 
 		<div class="post-information">
 						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
-						<span class="post-information__text">23.04.07</span>
-			<span class="post-information__text">조회 307</span>
+						<span class="post-information__text">23.04.13</span>
+			<span class="post-information__text">조회 113</span>
 					</div>
 	</li>
 		<li class="style-list-item">
 		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22446');" class="style-list-item__link" title="실패 없는 조합">
+			<a href="javascript:void(0);" onclick="goView('22555');" class="style-list-item__link" title="포인트 컬러로 완성">
 				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040711264300000066371.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="실패 없는 조합">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041313113400000057078.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="포인트 컬러로 완성">
 									</div>
 			</a>
 		</div>
 
 		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="실패 없는 조합">
+			<a href="javascript:void(0);" class="style-list-information__link" title="포인트 컬러로 완성">
 				<span class="style-list-information__text" onclick="goCate('casual');">캐주얼</span>
-				<strong class="style-list-information__title" onclick="goView('22446');">실패 없는 조합</strong>
+				<strong class="style-list-information__title" onclick="goView('22555');">포인트 컬러로 완성</strong>
 			</a>
 		</div>
 
 		<div class="post-information">
 						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
-						<span class="post-information__text">23.04.07</span>
-			<span class="post-information__text">조회 447</span>
+						<span class="post-information__text">23.04.13</span>
+			<span class="post-information__text">조회 105</span>
 					</div>
 	</li>
 		<li class="style-list-item">
 		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22445');" class="style-list-item__link" title="눈이 가는 코디">
+			<a href="javascript:void(0);" onclick="goView('22554');" class="style-list-item__link" title="편하게 활동해">
 				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040711252500000076936.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="눈이 가는 코디">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041212353500000015233.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="편하게 활동해">
 									</div>
 			</a>
 		</div>
 
 		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="눈이 가는 코디">
-				<span class="style-list-information__text" onclick="goCate('dandy');">댄디</span>
-				<strong class="style-list-information__title" onclick="goView('22445');">눈이 가는 코디</strong>
+			<a href="javascript:void(0);" class="style-list-information__link" title="편하게 활동해">
+				<span class="style-list-information__text" onclick="goCate('sports');">스포츠</span>
+				<strong class="style-list-information__title" onclick="goView('22554');">편하게 활동해</strong>
 			</a>
 		</div>
 
 		<div class="post-information">
 						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
-						<span class="post-information__text">23.04.07</span>
-			<span class="post-information__text">조회 430</span>
+						<span class="post-information__text">23.04.13</span>
+			<span class="post-information__text">조회 109</span>
 					</div>
 	</li>
 		<li class="style-list-item">
 		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22444');" class="style-list-item__link" title="디테일 더하기">
+			<a href="javascript:void(0);" onclick="goView('22553');" class="style-list-item__link" title="활동성 보장">
 				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040711241300000084433.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="디테일 더하기">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041212342000000033162.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="활동성 보장">
 									</div>
 			</a>
 		</div>
 
 		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="디테일 더하기">
+			<a href="javascript:void(0);" class="style-list-information__link" title="활동성 보장">
+				<span class="style-list-information__text" onclick="goCate('sports');">스포츠</span>
+				<strong class="style-list-information__title" onclick="goView('22553');">활동성 보장</strong>
+			</a>
+		</div>
+
+		<div class="post-information">
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.13</span>
+			<span class="post-information__text">조회 40</span>
+					</div>
+	</li>
+		<li class="style-list-item">
+		<div class="style-list-item__thumbnail">
+			<a href="javascript:void(0);" onclick="goView('22552');" class="style-list-item__link" title="스포티 무드">
+				<div class="style-list-thumbnail">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041212325400000087254.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="스포티 무드">
+									</div>
+			</a>
+		</div>
+
+		<div class="style-list-information">
+			<a href="javascript:void(0);" class="style-list-information__link" title="스포티 무드">
+				<span class="style-list-information__text" onclick="goCate('sports');">스포츠</span>
+				<strong class="style-list-information__title" onclick="goView('22552');">스포티 무드</strong>
+			</a>
+		</div>
+
+		<div class="post-information">
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.13</span>
+			<span class="post-information__text">조회 35</span>
+					</div>
+	</li>
+		<li class="style-list-item">
+		<div class="style-list-item__thumbnail">
+			<a href="javascript:void(0);" onclick="goView('22551');" class="style-list-item__link" title="캠핑 가기 좋은 날">
+				<div class="style-list-thumbnail">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041212310300000034905.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="캠핑 가기 좋은 날">
+									</div>
+			</a>
+		</div>
+
+		<div class="style-list-information">
+			<a href="javascript:void(0);" class="style-list-information__link" title="캠핑 가기 좋은 날">
+				<span class="style-list-information__text" onclick="goCate('sports');">스포츠</span>
+				<strong class="style-list-information__title" onclick="goView('22551');">캠핑 가기 좋은 날</strong>
+			</a>
+		</div>
+
+		<div class="post-information">
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.13</span>
+			<span class="post-information__text">조회 35</span>
+					</div>
+	</li>
+		<li class="style-list-item">
+		<div class="style-list-item__thumbnail">
+			<a href="javascript:void(0);" onclick="goView('22550');" class="style-list-item__link" title="아웃도어 코디">
+				<div class="style-list-thumbnail">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041212275800000044252.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="아웃도어 코디">
+									</div>
+			</a>
+		</div>
+
+		<div class="style-list-information">
+			<a href="javascript:void(0);" class="style-list-information__link" title="아웃도어 코디">
+				<span class="style-list-information__text" onclick="goCate('sports');">스포츠</span>
+				<strong class="style-list-information__title" onclick="goView('22550');">아웃도어 코디</strong>
+			</a>
+		</div>
+
+		<div class="post-information">
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.13</span>
+			<span class="post-information__text">조회 69</span>
+					</div>
+	</li>
+		<li class="style-list-item">
+		<div class="style-list-item__thumbnail">
+			<a href="javascript:void(0);" onclick="goView('22549');" class="style-list-item__link" title="그린 포인트">
+				<div class="style-list-thumbnail">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041200364400000026297.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="그린 포인트">
+									</div>
+			</a>
+		</div>
+
+		<div class="style-list-information">
+			<a href="javascript:void(0);" class="style-list-information__link" title="그린 포인트">
 				<span class="style-list-information__text" onclick="goCate('casual');">캐주얼</span>
-				<strong class="style-list-information__title" onclick="goView('22444');">디테일 더하기</strong>
+				<strong class="style-list-information__title" onclick="goView('22549');">그린 포인트</strong>
 			</a>
 		</div>
 
 		<div class="post-information">
 						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
-						<span class="post-information__text">23.04.07</span>
-			<span class="post-information__text">조회 475</span>
+						<span class="post-information__text">23.04.12</span>
+			<span class="post-information__text">조회 860</span>
 					</div>
 	</li>
 		<li class="style-list-item">
 		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22443');" class="style-list-item__link" title="독보적인 존재감">
+			<a href="javascript:void(0);" onclick="goView('22548');" class="style-list-item__link" title="체크의 매력">
 				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040711203900000070044.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="독보적인 존재감">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041200350700000044660.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="체크의 매력">
 									</div>
 			</a>
 		</div>
 
 		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="독보적인 존재감">
-				<span class="style-list-information__text" onclick="goCate('street');">스트릿</span>
-				<strong class="style-list-information__title" onclick="goView('22443');">독보적인 존재감</strong>
+			<a href="javascript:void(0);" class="style-list-information__link" title="체크의 매력">
+				<span class="style-list-information__text" onclick="goCate('girlish');">걸리시</span>
+				<strong class="style-list-information__title" onclick="goView('22548');">체크의 매력</strong>
 			</a>
 		</div>
 
 		<div class="post-information">
 						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
-						<span class="post-information__text">23.04.07</span>
-			<span class="post-information__text">조회 390</span>
+						<span class="post-information__text">23.04.12</span>
+			<span class="post-information__text">조회 231</span>
 					</div>
 	</li>
 		<li class="style-list-item">
 		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22442');" class="style-list-item__link" title="추천 캠퍼스 룩">
+			<a href="javascript:void(0);" onclick="goView('22547');" class="style-list-item__link" title="고민 없이 입자!">
 				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040711192200000011545.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="추천 캠퍼스 룩">
-									</div>
-			</a>
-		</div>
-
-		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="추천 캠퍼스 룩">
-				<span class="style-list-information__text" onclick="goCate('casual');">캐주얼</span>
-				<strong class="style-list-information__title" onclick="goView('22442');">추천 캠퍼스 룩</strong>
-			</a>
-		</div>
-
-		<div class="post-information">
-						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
-						<span class="post-information__text">23.04.07</span>
-			<span class="post-information__text">조회 343</span>
-					</div>
-	</li>
-		<li class="style-list-item">
-		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22441');" class="style-list-item__link" title="라운딩에 빠져">
-				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040711173100000099578.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="라운딩에 빠져">
-									</div>
-			</a>
-		</div>
-
-		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="라운딩에 빠져">
-				<span class="style-list-information__text" onclick="goCate('golf');">골프</span>
-				<strong class="style-list-information__title" onclick="goView('22441');">라운딩에 빠져</strong>
-			</a>
-		</div>
-
-		<div class="post-information">
-						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
-						<span class="post-information__text">23.04.07</span>
-			<span class="post-information__text">조회 171</span>
-					</div>
-	</li>
-		<li class="style-list-item">
-		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22440');" class="style-list-item__link" title="편하게 완성">
-				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040711144600000038676.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="편하게 완성">
-									</div>
-			</a>
-		</div>
-
-		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="편하게 완성">
-				<span class="style-list-information__text" onclick="goCate('golf');">골프</span>
-				<strong class="style-list-information__title" onclick="goView('22440');">편하게 완성</strong>
-			</a>
-		</div>
-
-		<div class="post-information">
-						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
-						<span class="post-information__text">23.04.07</span>
-			<span class="post-information__text">조회 77</span>
-					</div>
-	</li>
-		<li class="style-list-item">
-		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22439');" class="style-list-item__link" title="완벽한 스윙">
-				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040711132900000093261.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="완벽한 스윙">
-									</div>
-			</a>
-		</div>
-
-		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="완벽한 스윙">
-				<span class="style-list-information__text" onclick="goCate('golf');">골프</span>
-				<strong class="style-list-information__title" onclick="goView('22439');">완벽한 스윙</strong>
-			</a>
-		</div>
-
-		<div class="post-information">
-						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
-						<span class="post-information__text">23.04.07</span>
-			<span class="post-information__text">조회 187</span>
-					</div>
-	</li>
-		<li class="style-list-item">
-		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22438');" class="style-list-item__link" title="깔끔하게 마무리">
-				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040711121100000083643.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="깔끔하게 마무리">
-									</div>
-			</a>
-		</div>
-
-		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="깔끔하게 마무리">
-				<span class="style-list-information__text" onclick="goCate('golf');">골프</span>
-				<strong class="style-list-information__title" onclick="goView('22438');">깔끔하게 마무리</strong>
-			</a>
-		</div>
-
-		<div class="post-information">
-						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
-						<span class="post-information__text">23.04.07</span>
-			<span class="post-information__text">조회 84</span>
-					</div>
-	</li>
-		<li class="style-list-item">
-		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22437');" class="style-list-item__link" title="모노톤 필드 룩">
-				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040711110400000010706.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="모노톤 필드 룩">
-									</div>
-			</a>
-		</div>
-
-		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="모노톤 필드 룩">
-				<span class="style-list-information__text" onclick="goCate('golf');">골프</span>
-				<strong class="style-list-information__title" onclick="goView('22437');">모노톤 필드 룩</strong>
-			</a>
-		</div>
-
-		<div class="post-information">
-						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
-						<span class="post-information__text">23.04.07</span>
-			<span class="post-information__text">조회 36</span>
-					</div>
-	</li>
-		<li class="style-list-item">
-		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22431');" class="style-list-item__link" title="데일리 캐주얼">
-				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040613550200000029066.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="데일리 캐주얼">
-									</div>
-			</a>
-		</div>
-
-		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="데일리 캐주얼">
-				<span class="style-list-information__text" onclick="goCate('casual');">캐주얼</span>
-				<strong class="style-list-information__title" onclick="goView('22431');">데일리 캐주얼</strong>
-			</a>
-		</div>
-
-		<div class="post-information">
-						<span class="post-information__text">23.04.06</span>
-			<span class="post-information__text">조회 931</span>
-					</div>
-	</li>
-		<li class="style-list-item">
-		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22430');" class="style-list-item__link" title="단정하게">
-				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040613535300000067831.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="단정하게">
-									</div>
-			</a>
-		</div>
-
-		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="단정하게">
-				<span class="style-list-information__text" onclick="goCate('formal');">포멀</span>
-				<strong class="style-list-information__title" onclick="goView('22430');">단정하게</strong>
-			</a>
-		</div>
-
-		<div class="post-information">
-						<span class="post-information__text">23.04.06</span>
-			<span class="post-information__text">조회 397</span>
-					</div>
-	</li>
-		<li class="style-list-item">
-		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22429');" class="style-list-item__link" title="애정하는 코디">
-				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040613524700000060169.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="애정하는 코디">
-									</div>
-			</a>
-		</div>
-
-		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="애정하는 코디">
-				<span class="style-list-information__text" onclick="goCate('casual');">캐주얼</span>
-				<strong class="style-list-information__title" onclick="goView('22429');">애정하는 코디</strong>
-			</a>
-		</div>
-
-		<div class="post-information">
-						<span class="post-information__text">23.04.06</span>
-			<span class="post-information__text">조회 743</span>
-					</div>
-	</li>
-		<li class="style-list-item">
-		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22428');" class="style-list-item__link" title="로맨틱 분위기">
-				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040613510200000095767.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="로맨틱 분위기">
-									</div>
-			</a>
-		</div>
-
-		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="로맨틱 분위기">
-				<span class="style-list-information__text" onclick="goCate('romantic');">로맨틱</span>
-				<strong class="style-list-information__title" onclick="goView('22428');">로맨틱 분위기</strong>
-			</a>
-		</div>
-
-		<div class="post-information">
-						<span class="post-information__text">23.04.06</span>
-			<span class="post-information__text">조회 195</span>
-					</div>
-	</li>
-		<li class="style-list-item">
-		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22427');" class="style-list-item__link" title="고민 없이 입자!">
-				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040613472700000005912.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="고민 없이 입자!">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041200335800000061124.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="고민 없이 입자!">
 									</div>
 			</a>
 		</div>
@@ -15944,538 +15558,718 @@ function SearchBrandByCategory() {
 		<div class="style-list-information">
 			<a href="javascript:void(0);" class="style-list-information__link" title="고민 없이 입자!">
 				<span class="style-list-information__text" onclick="goCate('casual');">캐주얼</span>
-				<strong class="style-list-information__title" onclick="goView('22427');">고민 없이 입자!</strong>
+				<strong class="style-list-information__title" onclick="goView('22547');">고민 없이 입자!</strong>
 			</a>
 		</div>
 
 		<div class="post-information">
-						<span class="post-information__text">23.04.06</span>
-			<span class="post-information__text">조회 631</span>
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.12</span>
+			<span class="post-information__text">조회 633</span>
 					</div>
 	</li>
 		<li class="style-list-item">
 		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22426');" class="style-list-item__link" title="디테일이 돋보여">
+			<a href="javascript:void(0);" onclick="goView('22546');" class="style-list-item__link" title="가벼운 출근길">
 				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040613453400000058019.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="디테일이 돋보여">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041200324100000095119.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="가벼운 출근길">
 									</div>
 			</a>
 		</div>
 
 		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="디테일이 돋보여">
-				<span class="style-list-information__text" onclick="goCate('sports');">스포츠</span>
-				<strong class="style-list-information__title" onclick="goView('22426');">디테일이 돋보여</strong>
+			<a href="javascript:void(0);" class="style-list-information__link" title="가벼운 출근길">
+				<span class="style-list-information__text" onclick="goCate('formal');">포멀</span>
+				<strong class="style-list-information__title" onclick="goView('22546');">가벼운 출근길</strong>
 			</a>
 		</div>
 
 		<div class="post-information">
-						<span class="post-information__text">23.04.06</span>
-			<span class="post-information__text">조회 188</span>
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.12</span>
+			<span class="post-information__text">조회 373</span>
 					</div>
 	</li>
 		<li class="style-list-item">
 		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22425');" class="style-list-item__link" title="활동성 최고">
+			<a href="javascript:void(0);" onclick="goView('22545');" class="style-list-item__link" title="오버올 코디">
 				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040613440900000048795.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="활동성 최고">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041200313200000005633.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="오버올 코디">
 									</div>
 			</a>
 		</div>
 
 		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="활동성 최고">
-				<span class="style-list-information__text" onclick="goCate('sports');">스포츠</span>
-				<strong class="style-list-information__title" onclick="goView('22425');">활동성 최고</strong>
-			</a>
-		</div>
-
-		<div class="post-information">
-						<span class="post-information__text">23.04.06</span>
-			<span class="post-information__text">조회 208</span>
-					</div>
-	</li>
-		<li class="style-list-item">
-		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22424');" class="style-list-item__link" title="탐나는 조합">
-				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040613430000000088113.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="탐나는 조합">
-									</div>
-			</a>
-		</div>
-
-		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="탐나는 조합">
-				<span class="style-list-information__text" onclick="goCate('sports');">스포츠</span>
-				<strong class="style-list-information__title" onclick="goView('22424');">탐나는 조합</strong>
-			</a>
-		</div>
-
-		<div class="post-information">
-						<span class="post-information__text">23.04.06</span>
-			<span class="post-information__text">조회 353</span>
-					</div>
-	</li>
-		<li class="style-list-item">
-		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22423');" class="style-list-item__link" title="건강해 보여!">
-				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040613415000000026924.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="건강해 보여!">
-									</div>
-			</a>
-		</div>
-
-		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="건강해 보여!">
-				<span class="style-list-information__text" onclick="goCate('sports');">스포츠</span>
-				<strong class="style-list-information__title" onclick="goView('22423');">건강해 보여!</strong>
-			</a>
-		</div>
-
-		<div class="post-information">
-						<span class="post-information__text">23.04.06</span>
-			<span class="post-information__text">조회 109</span>
-					</div>
-	</li>
-		<li class="style-list-item">
-		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22422');" class="style-list-item__link" title="운동 가는 날">
-				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040613403500000039815.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="운동 가는 날">
-									</div>
-			</a>
-		</div>
-
-		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="운동 가는 날">
-				<span class="style-list-information__text" onclick="goCate('sports');">스포츠</span>
-				<strong class="style-list-information__title" onclick="goView('22422');">운동 가는 날</strong>
-			</a>
-		</div>
-
-		<div class="post-information">
-						<span class="post-information__text">23.04.06</span>
-			<span class="post-information__text">조회 162</span>
-					</div>
-	</li>
-		<li class="style-list-item">
-		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22421');" class="style-list-item__link" title="포인트 더하기">
-				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040613372000000093885.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="포인트 더하기">
-									</div>
-			</a>
-		</div>
-
-		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="포인트 더하기">
+			<a href="javascript:void(0);" class="style-list-information__link" title="오버올 코디">
 				<span class="style-list-information__text" onclick="goCate('casual');">캐주얼</span>
-				<strong class="style-list-information__title" onclick="goView('22421');">포인트 더하기</strong>
+				<strong class="style-list-information__title" onclick="goView('22545');">오버올 코디</strong>
 			</a>
 		</div>
 
 		<div class="post-information">
-						<span class="post-information__text">23.04.06</span>
-			<span class="post-information__text">조회 658</span>
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.12</span>
+			<span class="post-information__text">조회 351</span>
 					</div>
 	</li>
 		<li class="style-list-item">
 		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22420');" class="style-list-item__link" title="끌리는 매치">
+			<a href="javascript:void(0);" onclick="goView('22544');" class="style-list-item__link" title="완벽한 조합">
 				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040613361200000068952.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="끌리는 매치">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041200294400000011561.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="완벽한 조합">
 									</div>
 			</a>
 		</div>
 
 		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="끌리는 매치">
-				<span class="style-list-information__text" onclick="goCate('dandy');">댄디</span>
-				<strong class="style-list-information__title" onclick="goView('22420');">끌리는 매치</strong>
+			<a href="javascript:void(0);" class="style-list-information__link" title="완벽한 조합">
+				<span class="style-list-information__text" onclick="goCate('casual');">캐주얼</span>
+				<strong class="style-list-information__title" onclick="goView('22544');">완벽한 조합</strong>
 			</a>
 		</div>
 
 		<div class="post-information">
-						<span class="post-information__text">23.04.06</span>
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.12</span>
+			<span class="post-information__text">조회 401</span>
+					</div>
+	</li>
+		<li class="style-list-item">
+		<div class="style-list-item__thumbnail">
+			<a href="javascript:void(0);" onclick="goView('22543');" class="style-list-item__link" title="화사하게 마무리">
+				<div class="style-list-thumbnail">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041200280600000094228.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="화사하게 마무리">
+									</div>
+			</a>
+		</div>
+
+		<div class="style-list-information">
+			<a href="javascript:void(0);" class="style-list-information__link" title="화사하게 마무리">
+				<span class="style-list-information__text" onclick="goCate('romantic');">로맨틱</span>
+				<strong class="style-list-information__title" onclick="goView('22543');">화사하게 마무리</strong>
+			</a>
+		</div>
+
+		<div class="post-information">
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.12</span>
+			<span class="post-information__text">조회 239</span>
+					</div>
+	</li>
+		<li class="style-list-item">
+		<div class="style-list-item__thumbnail">
+			<a href="javascript:void(0);" onclick="goView('22542');" class="style-list-item__link" title="귀여운 매치">
+				<div class="style-list-thumbnail">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041200265000000066801.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="귀여운 매치">
+									</div>
+			</a>
+		</div>
+
+		<div class="style-list-information">
+			<a href="javascript:void(0);" class="style-list-information__link" title="귀여운 매치">
+				<span class="style-list-information__text" onclick="goCate('girlish');">걸리시</span>
+				<strong class="style-list-information__title" onclick="goView('22542');">귀여운 매치</strong>
+			</a>
+		</div>
+
+		<div class="post-information">
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.12</span>
+			<span class="post-information__text">조회 223</span>
+					</div>
+	</li>
+		<li class="style-list-item">
+		<div class="style-list-item__thumbnail">
+			<a href="javascript:void(0);" onclick="goView('22541');" class="style-list-item__link" title="실패 없는 코디">
+				<div class="style-list-thumbnail">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041200250900000098117.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="실패 없는 코디">
+									</div>
+			</a>
+		</div>
+
+		<div class="style-list-information">
+			<a href="javascript:void(0);" class="style-list-information__link" title="실패 없는 코디">
+				<span class="style-list-information__text" onclick="goCate('casual');">캐주얼</span>
+				<strong class="style-list-information__title" onclick="goView('22541');">실패 없는 코디</strong>
+			</a>
+		</div>
+
+		<div class="post-information">
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.12</span>
+			<span class="post-information__text">조회 345</span>
+					</div>
+	</li>
+		<li class="style-list-item">
+		<div class="style-list-item__thumbnail">
+			<a href="javascript:void(0);" onclick="goView('22540');" class="style-list-item__link" title="차분한 분위기">
+				<div class="style-list-thumbnail">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041200240200000027901.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="차분한 분위기">
+									</div>
+			</a>
+		</div>
+
+		<div class="style-list-information">
+			<a href="javascript:void(0);" class="style-list-information__link" title="차분한 분위기">
+				<span class="style-list-information__text" onclick="goCate('formal');">포멀</span>
+				<strong class="style-list-information__title" onclick="goView('22540');">차분한 분위기</strong>
+			</a>
+		</div>
+
+		<div class="post-information">
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.12</span>
+			<span class="post-information__text">조회 225</span>
+					</div>
+	</li>
+		<li class="style-list-item">
+		<div class="style-list-item__thumbnail">
+			<a href="javascript:void(0);" onclick="goView('22539');" class="style-list-item__link" title="데일리 무드">
+				<div class="style-list-thumbnail">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041200220800000080012.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="데일리 무드">
+									</div>
+			</a>
+		</div>
+
+		<div class="style-list-information">
+			<a href="javascript:void(0);" class="style-list-information__link" title="데일리 무드">
+				<span class="style-list-information__text" onclick="goCate('casual');">캐주얼</span>
+				<strong class="style-list-information__title" onclick="goView('22539');">데일리 무드</strong>
+			</a>
+		</div>
+
+		<div class="post-information">
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.12</span>
+			<span class="post-information__text">조회 331</span>
+					</div>
+	</li>
+		<li class="style-list-item">
+		<div class="style-list-item__thumbnail">
+			<a href="javascript:void(0);" onclick="goView('22538');" class="style-list-item__link" title="출근 룩 추천">
+				<div class="style-list-thumbnail">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041200204700000059921.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="출근 룩 추천">
+									</div>
+			</a>
+		</div>
+
+		<div class="style-list-information">
+			<a href="javascript:void(0);" class="style-list-information__link" title="출근 룩 추천">
+				<span class="style-list-information__text" onclick="goCate('formal');">포멀</span>
+				<strong class="style-list-information__title" onclick="goView('22538');">출근 룩 추천</strong>
+			</a>
+		</div>
+
+		<div class="post-information">
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.12</span>
+			<span class="post-information__text">조회 331</span>
+					</div>
+	</li>
+		<li class="style-list-item">
+		<div class="style-list-item__thumbnail">
+			<a href="javascript:void(0);" onclick="goView('22537');" class="style-list-item__link" title="스트라이프 활용법">
+				<div class="style-list-thumbnail">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041200194300000001454.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="스트라이프 활용법">
+									</div>
+			</a>
+		</div>
+
+		<div class="style-list-information">
+			<a href="javascript:void(0);" class="style-list-information__link" title="스트라이프 활용법">
+				<span class="style-list-information__text" onclick="goCate('casual');">캐주얼</span>
+				<strong class="style-list-information__title" onclick="goView('22537');">스트라이프 활용법</strong>
+			</a>
+		</div>
+
+		<div class="post-information">
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.12</span>
+			<span class="post-information__text">조회 305</span>
+					</div>
+	</li>
+		<li class="style-list-item">
+		<div class="style-list-item__thumbnail">
+			<a href="javascript:void(0);" onclick="goView('22536');" class="style-list-item__link" title="개성 넘치게">
+				<div class="style-list-thumbnail">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041200182500000080473.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="개성 넘치게">
+									</div>
+			</a>
+		</div>
+
+		<div class="style-list-information">
+			<a href="javascript:void(0);" class="style-list-information__link" title="개성 넘치게">
+				<span class="style-list-information__text" onclick="goCate('street');">스트릿</span>
+				<strong class="style-list-information__title" onclick="goView('22536');">개성 넘치게</strong>
+			</a>
+		</div>
+
+		<div class="post-information">
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.12</span>
 			<span class="post-information__text">조회 367</span>
 					</div>
 	</li>
 		<li class="style-list-item">
 		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22419');" class="style-list-item__link" title="누구나 편하게">
+			<a href="javascript:void(0);" onclick="goView('22535');" class="style-list-item__link" title="캠퍼스 스타일링">
 				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040613343200000014329.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="누구나 편하게">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041200172700000027522.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="캠퍼스 스타일링">
 									</div>
 			</a>
 		</div>
 
 		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="누구나 편하게">
+			<a href="javascript:void(0);" class="style-list-information__link" title="캠퍼스 스타일링">
 				<span class="style-list-information__text" onclick="goCate('casual');">캐주얼</span>
-				<strong class="style-list-information__title" onclick="goView('22419');">누구나 편하게</strong>
+				<strong class="style-list-information__title" onclick="goView('22535');">캠퍼스 스타일링</strong>
 			</a>
 		</div>
 
 		<div class="post-information">
-						<span class="post-information__text">23.04.06</span>
-			<span class="post-information__text">조회 743</span>
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.12</span>
+			<span class="post-information__text">조회 377</span>
 					</div>
 	</li>
 		<li class="style-list-item">
 		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22418');" class="style-list-item__link" title="색감에 반해">
+			<a href="javascript:void(0);" onclick="goView('22534');" class="style-list-item__link" title="오늘의 OOTD">
 				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040613332300000007683.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="색감에 반해">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041200160200000002382.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="오늘의 OOTD">
 									</div>
 			</a>
 		</div>
 
 		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="색감에 반해">
-				<span class="style-list-information__text" onclick="goCate('americancasual');">아메리칸 캐주얼</span>
-				<strong class="style-list-information__title" onclick="goView('22418');">색감에 반해</strong>
-			</a>
-		</div>
-
-		<div class="post-information">
-						<span class="post-information__text">23.04.06</span>
-			<span class="post-information__text">조회 293</span>
-					</div>
-	</li>
-		<li class="style-list-item">
-		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22417');" class="style-list-item__link" title="모노톤 스타일링">
-				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040613293400000081608.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="모노톤 스타일링">
-									</div>
-			</a>
-		</div>
-
-		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="모노톤 스타일링">
+			<a href="javascript:void(0);" class="style-list-information__link" title="오늘의 OOTD">
 				<span class="style-list-information__text" onclick="goCate('casual');">캐주얼</span>
-				<strong class="style-list-information__title" onclick="goView('22417');">모노톤 스타일링</strong>
+				<strong class="style-list-information__title" onclick="goView('22534');">오늘의 OOTD</strong>
 			</a>
 		</div>
 
 		<div class="post-information">
-						<span class="post-information__text">23.04.06</span>
-			<span class="post-information__text">조회 533</span>
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.12</span>
+			<span class="post-information__text">조회 441</span>
 					</div>
 	</li>
 		<li class="style-list-item">
 		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22416');" class="style-list-item__link" title="꾸민 듯 안 꾸민 듯">
+			<a href="javascript:void(0);" onclick="goView('22533');" class="style-list-item__link" title="인기 만점">
 				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040613262700000078815.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="꾸민 듯 안 꾸민 듯">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041200144400000010791.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="인기 만점">
 									</div>
 			</a>
 		</div>
 
 		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="꾸민 듯 안 꾸민 듯">
+			<a href="javascript:void(0);" class="style-list-information__link" title="인기 만점">
 				<span class="style-list-information__text" onclick="goCate('casual');">캐주얼</span>
-				<strong class="style-list-information__title" onclick="goView('22416');">꾸민 듯 안 꾸민 듯</strong>
+				<strong class="style-list-information__title" onclick="goView('22533');">인기 만점</strong>
 			</a>
 		</div>
 
 		<div class="post-information">
-						<span class="post-information__text">23.04.06</span>
-			<span class="post-information__text">조회 485</span>
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.12</span>
+			<span class="post-information__text">조회 352</span>
 					</div>
 	</li>
 		<li class="style-list-item">
 		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22415');" class="style-list-item__link" title="담백한 무드">
+			<a href="javascript:void(0);" onclick="goView('22532');" class="style-list-item__link" title="남다른 스타일">
 				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040613250700000050193.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="담백한 무드">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041200133400000000071.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="남다른 스타일">
 									</div>
 			</a>
 		</div>
 
 		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="담백한 무드">
-				<span class="style-list-information__text" onclick="goCate('formal');">포멀</span>
-				<strong class="style-list-information__title" onclick="goView('22415');">담백한 무드</strong>
+			<a href="javascript:void(0);" class="style-list-information__link" title="남다른 스타일">
+				<span class="style-list-information__text" onclick="goCate('gorpcore');">고프코어</span>
+				<strong class="style-list-information__title" onclick="goView('22532');">남다른 스타일</strong>
 			</a>
 		</div>
 
 		<div class="post-information">
-						<span class="post-information__text">23.04.06</span>
-			<span class="post-information__text">조회 424</span>
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.12</span>
+			<span class="post-information__text">조회 245</span>
 					</div>
 	</li>
 		<li class="style-list-item">
 		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22414');" class="style-list-item__link" title="힙하다 힙해">
+			<a href="javascript:void(0);" onclick="goView('22531');" class="style-list-item__link" title="트렌디한 조합">
 				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040613232400000080616.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="힙하다 힙해">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041200101500000031313.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="트렌디한 조합">
 									</div>
 			</a>
 		</div>
 
 		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="힙하다 힙해">
-				<span class="style-list-information__text" onclick="goCate('street');">스트릿</span>
-				<strong class="style-list-information__title" onclick="goView('22414');">힙하다 힙해</strong>
+			<a href="javascript:void(0);" class="style-list-information__link" title="트렌디한 조합">
+				<span class="style-list-information__text" onclick="goCate('gorpcore');">고프코어</span>
+				<strong class="style-list-information__title" onclick="goView('22531');">트렌디한 조합</strong>
 			</a>
 		</div>
 
 		<div class="post-information">
-						<span class="post-information__text">23.04.06</span>
-			<span class="post-information__text">조회 649</span>
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.12</span>
+			<span class="post-information__text">조회 286</span>
 					</div>
 	</li>
 		<li class="style-list-item">
 		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22413');" class="style-list-item__link" title="캠퍼스 코디">
+			<a href="javascript:void(0);" onclick="goView('22530');" class="style-list-item__link" title="모노톤 고프코어">
 				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040613184800000060830.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="캠퍼스 코디">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041200081300000063000.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="모노톤 고프코어">
 									</div>
 			</a>
 		</div>
 
 		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="캠퍼스 코디">
+			<a href="javascript:void(0);" class="style-list-information__link" title="모노톤 고프코어">
+				<span class="style-list-information__text" onclick="goCate('gorpcore');">고프코어</span>
+				<strong class="style-list-information__title" onclick="goView('22530');">모노톤 고프코어</strong>
+			</a>
+		</div>
+
+		<div class="post-information">
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.12</span>
+			<span class="post-information__text">조회 266</span>
+					</div>
+	</li>
+		<li class="style-list-item">
+		<div class="style-list-item__thumbnail">
+			<a href="javascript:void(0);" onclick="goView('22529');" class="style-list-item__link" title="활동하기 딱 좋아!">
+				<div class="style-list-thumbnail">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041200065500000058841.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="활동하기 딱 좋아!">
+									</div>
+			</a>
+		</div>
+
+		<div class="style-list-information">
+			<a href="javascript:void(0);" class="style-list-information__link" title="활동하기 딱 좋아!">
 				<span class="style-list-information__text" onclick="goCate('casual');">캐주얼</span>
-				<strong class="style-list-information__title" onclick="goView('22413');">캠퍼스 코디</strong>
+				<strong class="style-list-information__title" onclick="goView('22529');">활동하기 딱 좋아!</strong>
 			</a>
 		</div>
 
 		<div class="post-information">
-						<span class="post-information__text">23.04.06</span>
-			<span class="post-information__text">조회 469</span>
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.12</span>
+			<span class="post-information__text">조회 322</span>
 					</div>
 	</li>
 		<li class="style-list-item">
 		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22412');" class="style-list-item__link" title="공 차러 가자!">
+			<a href="javascript:void(0);" onclick="goView('22528');" class="style-list-item__link" title="뉴트럴 톤 캐주얼">
 				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040613141800000069939.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="공 차러 가자!">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041200050400000044566.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="뉴트럴 톤 캐주얼">
 									</div>
 			</a>
 		</div>
 
 		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="공 차러 가자!">
-				<span class="style-list-information__text" onclick="goCate('sports');">스포츠</span>
-				<strong class="style-list-information__title" onclick="goView('22412');">공 차러 가자!</strong>
-			</a>
-		</div>
-
-		<div class="post-information">
-						<span class="post-information__text">23.04.06</span>
-			<span class="post-information__text">조회 186</span>
-					</div>
-	</li>
-		<li class="style-list-item">
-		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22411');" class="style-list-item__link" title="활동성 UP!">
-				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040613103700000089582.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="활동성 UP!">
-									</div>
-			</a>
-		</div>
-
-		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="활동성 UP!">
-				<span class="style-list-information__text" onclick="goCate('sports');">스포츠</span>
-				<strong class="style-list-information__title" onclick="goView('22411');">활동성 UP!</strong>
-			</a>
-		</div>
-
-		<div class="post-information">
-						<span class="post-information__text">23.04.06</span>
-			<span class="post-information__text">조회 131</span>
-					</div>
-	</li>
-		<li class="style-list-item">
-		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22410');" class="style-list-item__link" title="요즘 러닝 룩">
-				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040613115500000018057.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="요즘 러닝 룩">
-									</div>
-			</a>
-		</div>
-
-		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="요즘 러닝 룩">
-				<span class="style-list-information__text" onclick="goCate('sports');">스포츠</span>
-				<strong class="style-list-information__title" onclick="goView('22410');">요즘 러닝 룩</strong>
-			</a>
-		</div>
-
-		<div class="post-information">
-						<span class="post-information__text">23.04.06</span>
-			<span class="post-information__text">조회 148</span>
-					</div>
-	</li>
-		<li class="style-list-item">
-		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22409');" class="style-list-item__link" title="운동 가자">
-				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040613090600000022767.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="운동 가자">
-									</div>
-			</a>
-		</div>
-
-		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="운동 가자">
-				<span class="style-list-information__text" onclick="goCate('sports');">스포츠</span>
-				<strong class="style-list-information__title" onclick="goView('22409');">운동 가자</strong>
-			</a>
-		</div>
-
-		<div class="post-information">
-						<span class="post-information__text">23.04.06</span>
-			<span class="post-information__text">조회 199</span>
-					</div>
-	</li>
-		<li class="style-list-item">
-		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22408');" class="style-list-item__link" title="러닝도 즐겁게">
-				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040613074800000019033.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="러닝도 즐겁게">
-									</div>
-			</a>
-		</div>
-
-		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="러닝도 즐겁게">
-				<span class="style-list-information__text" onclick="goCate('sports');">스포츠</span>
-				<strong class="style-list-information__title" onclick="goView('22408');">러닝도 즐겁게</strong>
-			</a>
-		</div>
-
-		<div class="post-information">
-						<span class="post-information__text">23.04.06</span>
-			<span class="post-information__text">조회 274</span>
-					</div>
-	</li>
-		<li class="style-list-item">
-		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22407');" class="style-list-item__link" title="에너지 넘쳐!">
-				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040613045100000098036.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="에너지 넘쳐!">
-									</div>
-			</a>
-		</div>
-
-		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="에너지 넘쳐!">
-				<span class="style-list-information__text" onclick="goCate('sports');">스포츠</span>
-				<strong class="style-list-information__title" onclick="goView('22407');">에너지 넘쳐!</strong>
-			</a>
-		</div>
-
-		<div class="post-information">
-						<span class="post-information__text">23.04.06</span>
-			<span class="post-information__text">조회 126</span>
-					</div>
-	</li>
-		<li class="style-list-item">
-		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22391');" class="style-list-item__link" title="레이니 데이">
-				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040512360100000014207.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="레이니 데이">
-									</div>
-			</a>
-		</div>
-
-		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="레이니 데이">
+			<a href="javascript:void(0);" class="style-list-information__link" title="뉴트럴 톤 캐주얼">
 				<span class="style-list-information__text" onclick="goCate('casual');">캐주얼</span>
-				<strong class="style-list-information__title" onclick="goView('22391');">레이니 데이</strong>
+				<strong class="style-list-information__title" onclick="goView('22528');">뉴트럴 톤 캐주얼</strong>
 			</a>
 		</div>
 
 		<div class="post-information">
-						<span class="post-information__text">23.04.05</span>
-			<span class="post-information__text">조회 996</span>
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.12</span>
+			<span class="post-information__text">조회 167</span>
 					</div>
 	</li>
 		<li class="style-list-item">
 		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22406');" class="style-list-item__link" title="비 내리는 오후">
+			<a href="javascript:void(0);" onclick="goView('22527');" class="style-list-item__link" title="눈에 띄는 색감">
 				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040514471800000022682.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="비 내리는 오후">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041200035100000068784.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="눈에 띄는 색감">
 									</div>
 			</a>
 		</div>
 
 		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="비 내리는 오후">
+			<a href="javascript:void(0);" class="style-list-information__link" title="눈에 띄는 색감">
 				<span class="style-list-information__text" onclick="goCate('casual');">캐주얼</span>
-				<strong class="style-list-information__title" onclick="goView('22406');">비 내리는 오후</strong>
+				<strong class="style-list-information__title" onclick="goView('22527');">눈에 띄는 색감</strong>
 			</a>
 		</div>
 
 		<div class="post-information">
-						<span class="post-information__text">23.04.05</span>
-			<span class="post-information__text">조회 802</span>
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.12</span>
+			<span class="post-information__text">조회 137</span>
 					</div>
 	</li>
 		<li class="style-list-item">
 		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22405');" class="style-list-item__link" title="모노톤 출근 룩">
+			<a href="javascript:void(0);" onclick="goView('22526');" class="style-list-item__link" title="돋보이는 디테일">
 				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040514331100000000965.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="모노톤 출근 룩">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041200020900000058476.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="돋보이는 디테일">
 									</div>
 			</a>
 		</div>
 
 		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="모노톤 출근 룩">
-				<span class="style-list-information__text" onclick="goCate('formal');">포멀</span>
-				<strong class="style-list-information__title" onclick="goView('22405');">모노톤 출근 룩</strong>
-			</a>
-		</div>
-
-		<div class="post-information">
-						<span class="post-information__text">23.04.05</span>
-			<span class="post-information__text">조회 515</span>
-					</div>
-	</li>
-		<li class="style-list-item">
-		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22404');" class="style-list-item__link" title="옐로 포인트!">
-				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040514320600000033440.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="옐로 포인트!">
-									</div>
-			</a>
-		</div>
-
-		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="옐로 포인트!">
+			<a href="javascript:void(0);" class="style-list-information__link" title="돋보이는 디테일">
 				<span class="style-list-information__text" onclick="goCate('casual');">캐주얼</span>
-				<strong class="style-list-information__title" onclick="goView('22404');">옐로 포인트!</strong>
+				<strong class="style-list-information__title" onclick="goView('22526');">돋보이는 디테일</strong>
 			</a>
 		</div>
 
 		<div class="post-information">
-						<span class="post-information__text">23.04.05</span>
-			<span class="post-information__text">조회 534</span>
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.12</span>
+			<span class="post-information__text">조회 153</span>
 					</div>
 	</li>
 		<li class="style-list-item">
 		<div class="style-list-item__thumbnail">
-			<a href="javascript:void(0);" onclick="goView('22403');" class="style-list-item__link" title="톡톡 튀는 매치">
+			<a href="javascript:void(0);" onclick="goView('22525');" class="style-list-item__link" title="데일리로 합격">
 				<div class="style-list-thumbnail">
-										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023040514302900000072758.jpg?202304091704" class="style-list-thumbnail__img lazyload" alt="톡톡 튀는 매치">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041200005600000049475.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="데일리로 합격">
 									</div>
 			</a>
 		</div>
 
 		<div class="style-list-information">
-			<a href="javascript:void(0);" class="style-list-information__link" title="톡톡 튀는 매치">
-				<span class="style-list-information__text" onclick="goCate('street');">스트릿</span>
-				<strong class="style-list-information__title" onclick="goView('22403');">톡톡 튀는 매치</strong>
+			<a href="javascript:void(0);" class="style-list-information__link" title="데일리로 합격">
+				<span class="style-list-information__text" onclick="goCate('casual');">캐주얼</span>
+				<strong class="style-list-information__title" onclick="goView('22525');">데일리로 합격</strong>
 			</a>
 		</div>
 
 		<div class="post-information">
-						<span class="post-information__text">23.04.05</span>
-			<span class="post-information__text">조회 484</span>
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.12</span>
+			<span class="post-information__text">조회 282</span>
+					</div>
+	</li>
+		<li class="style-list-item">
+		<div class="style-list-item__thumbnail">
+			<a href="javascript:void(0);" onclick="goView('22489');" class="style-list-item__link" title="센스 만점">
+				<div class="style-list-thumbnail">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041014302700000073652.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="센스 만점">
+									</div>
+			</a>
+		</div>
+
+		<div class="style-list-information">
+			<a href="javascript:void(0);" class="style-list-information__link" title="센스 만점">
+				<span class="style-list-information__text" onclick="goCate('casual');">캐주얼</span>
+				<strong class="style-list-information__title" onclick="goView('22489');">센스 만점</strong>
+			</a>
+		</div>
+
+		<div class="post-information">
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.11</span>
+			<span class="post-information__text">조회 445</span>
+					</div>
+	</li>
+		<li class="style-list-item">
+		<div class="style-list-item__thumbnail">
+			<a href="javascript:void(0);" onclick="goView('22513');" class="style-list-item__link" title="대세 스타일링">
+				<div class="style-list-thumbnail">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041115583100000047418.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="대세 스타일링">
+									</div>
+			</a>
+		</div>
+
+		<div class="style-list-information">
+			<a href="javascript:void(0);" class="style-list-information__link" title="대세 스타일링">
+				<span class="style-list-information__text" onclick="goCate('gorpcore');">고프코어</span>
+				<strong class="style-list-information__title" onclick="goView('22513');">대세 스타일링</strong>
+			</a>
+		</div>
+
+		<div class="post-information">
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.11</span>
+			<span class="post-information__text">조회 452</span>
+					</div>
+	</li>
+		<li class="style-list-item">
+		<div class="style-list-item__thumbnail">
+			<a href="javascript:void(0);" onclick="goView('22512');" class="style-list-item__link" title="트렌디해">
+				<div class="style-list-thumbnail">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041115573000000073321.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="트렌디해">
+									</div>
+			</a>
+		</div>
+
+		<div class="style-list-information">
+			<a href="javascript:void(0);" class="style-list-information__link" title="트렌디해">
+				<span class="style-list-information__text" onclick="goCate('gorpcore');">고프코어</span>
+				<strong class="style-list-information__title" onclick="goView('22512');">트렌디해</strong>
+			</a>
+		</div>
+
+		<div class="post-information">
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.11</span>
+			<span class="post-information__text">조회 492</span>
+					</div>
+	</li>
+		<li class="style-list-item">
+		<div class="style-list-item__thumbnail">
+			<a href="javascript:void(0);" onclick="goView('22511');" class="style-list-item__link" title="편하고 센스 있게!">
+				<div class="style-list-thumbnail">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041115561000000056230.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="편하고 센스 있게!">
+									</div>
+			</a>
+		</div>
+
+		<div class="style-list-information">
+			<a href="javascript:void(0);" class="style-list-information__link" title="편하고 센스 있게!">
+				<span class="style-list-information__text" onclick="goCate('gorpcore');">고프코어</span>
+				<strong class="style-list-information__title" onclick="goView('22511');">편하고 센스 있게!</strong>
+			</a>
+		</div>
+
+		<div class="post-information">
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.11</span>
+			<span class="post-information__text">조회 341</span>
+					</div>
+	</li>
+		<li class="style-list-item">
+		<div class="style-list-item__thumbnail">
+			<a href="javascript:void(0);" onclick="goView('22514');" class="style-list-item__link" title="요즘 입기 딱!">
+				<div class="style-list-thumbnail">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041116064800000014632.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="요즘 입기 딱!">
+									</div>
+			</a>
+		</div>
+
+		<div class="style-list-information">
+			<a href="javascript:void(0);" class="style-list-information__link" title="요즘 입기 딱!">
+				<span class="style-list-information__text" onclick="goCate('casual');">캐주얼</span>
+				<strong class="style-list-information__title" onclick="goView('22514');">요즘 입기 딱!</strong>
+			</a>
+		</div>
+
+		<div class="post-information">
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.11</span>
+			<span class="post-information__text">조회 379</span>
+					</div>
+	</li>
+		<li class="style-list-item">
+		<div class="style-list-item__thumbnail">
+			<a href="javascript:void(0);" onclick="goView('22510');" class="style-list-item__link" title="세련된 스타일">
+				<div class="style-list-thumbnail">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041115542400000037204.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="세련된 스타일">
+									</div>
+			</a>
+		</div>
+
+		<div class="style-list-information">
+			<a href="javascript:void(0);" class="style-list-information__link" title="세련된 스타일">
+				<span class="style-list-information__text" onclick="goCate('romantic');">로맨틱</span>
+				<strong class="style-list-information__title" onclick="goView('22510');">세련된 스타일</strong>
+			</a>
+		</div>
+
+		<div class="post-information">
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.11</span>
+			<span class="post-information__text">조회 282</span>
+					</div>
+	</li>
+		<li class="style-list-item">
+		<div class="style-list-item__thumbnail">
+			<a href="javascript:void(0);" onclick="goView('22509');" class="style-list-item__link" title="귀여운 디테일">
+				<div class="style-list-thumbnail">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041115522600000079178.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="귀여운 디테일">
+									</div>
+			</a>
+		</div>
+
+		<div class="style-list-information">
+			<a href="javascript:void(0);" class="style-list-information__link" title="귀여운 디테일">
+				<span class="style-list-information__text" onclick="goCate('homewear');">홈웨어</span>
+				<strong class="style-list-information__title" onclick="goView('22509');">귀여운 디테일</strong>
+			</a>
+		</div>
+
+		<div class="post-information">
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.11</span>
+			<span class="post-information__text">조회 154</span>
+					</div>
+	</li>
+		<li class="style-list-item">
+		<div class="style-list-item__thumbnail">
+			<a href="javascript:void(0);" onclick="goView('22508');" class="style-list-item__link" title="집순이 체질">
+				<div class="style-list-thumbnail">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041115511700000065916.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="집순이 체질">
+									</div>
+			</a>
+		</div>
+
+		<div class="style-list-information">
+			<a href="javascript:void(0);" class="style-list-information__link" title="집순이 체질">
+				<span class="style-list-information__text" onclick="goCate('homewear');">홈웨어</span>
+				<strong class="style-list-information__title" onclick="goView('22508');">집순이 체질</strong>
+			</a>
+		</div>
+
+		<div class="post-information">
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.11</span>
+			<span class="post-information__text">조회 83</span>
+					</div>
+	</li>
+		<li class="style-list-item">
+		<div class="style-list-item__thumbnail">
+			<a href="javascript:void(0);" onclick="goView('22507');" class="style-list-item__link" title="데일리 파자마">
+				<div class="style-list-thumbnail">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041115500000000029692.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="데일리 파자마">
+									</div>
+			</a>
+		</div>
+
+		<div class="style-list-information">
+			<a href="javascript:void(0);" class="style-list-information__link" title="데일리 파자마">
+				<span class="style-list-information__text" onclick="goCate('homewear');">홈웨어</span>
+				<strong class="style-list-information__title" onclick="goView('22507');">데일리 파자마</strong>
+			</a>
+		</div>
+
+		<div class="post-information">
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.11</span>
+			<span class="post-information__text">조회 103</span>
+					</div>
+	</li>
+		<li class="style-list-item">
+		<div class="style-list-item__thumbnail">
+			<a href="javascript:void(0);" onclick="goView('22506');" class="style-list-item__link" title="즐거운 집콕">
+				<div class="style-list-thumbnail">
+										<img data-original="//image.msscdn.net/images/codimap/list/l_3_2023041115482400000095438.jpg?202304132304" class="style-list-thumbnail__img lazyload" alt="즐거운 집콕">
+									</div>
+			</a>
+		</div>
+
+		<div class="style-list-information">
+			<a href="javascript:void(0);" class="style-list-information__link" title="즐거운 집콕">
+				<span class="style-list-information__text" onclick="goCate('homewear');">홈웨어</span>
+				<strong class="style-list-information__title" onclick="goView('22506');">즐거운 집콕</strong>
+			</a>
+		</div>
+
+		<div class="post-information">
+						<span class="post-information__text post-information__text--new" aria-label="new">N</span>
+						<span class="post-information__text">23.04.11</span>
+			<span class="post-information__text">조회 151</span>
 					</div>
 	</li>
 	</ul>
@@ -16483,7 +16277,7 @@ function SearchBrandByCategory() {
 				<div class="pagingNumber-box box">
 					<span class="pagingNumber">
 					<span class="totalPagingNum">
-																				368
+																				370
 																			</span>페이지 중 <span class="currentPagingNum">1</span> 페이지
 					</span>
 				</div>
@@ -16504,7 +16298,7 @@ function SearchBrandByCategory() {
 																																			<a href="javascript:void(0)" onClick="listSwitchPage(document.f1, '9'); return false;" class="paging-btn btn">9</a>
 																																			<a href="javascript:void(0)" onClick="listSwitchPage(document.f1, '10'); return false;" class="paging-btn btn">10</a>
 																									<a href="javascript:void(0)" onClick="listSwitchPage(document.f1, '11');; return false;" class="fa fa-angle-right paging-btn btn next"></a>
-								<a href="javascript:void(0)" onClick="listSwitchPage(document.f1, '368');; return false;" class="fa fa-angle-double-right paging-btn btn last"></a>
+								<a href="javascript:void(0)" onClick="listSwitchPage(document.f1, '370');; return false;" class="fa fa-angle-double-right paging-btn btn last"></a>
 													</div>
 					</div>
 				</div>
@@ -16518,18 +16312,10 @@ function SearchBrandByCategory() {
 		<!-- 하단 콘텐츠 영역 -->
 				<div id="footerCommonPc"></div>
 <meta name="google-site-verification" content="NqB0BDAEWJTvAPCCxzrckJYnS7-xJILFU40FvSmh5S8" />
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jquery.url.packed.js" async="true"></script>				<!--// 하단 콘텐츠 영역 -->
 	</div>
 	<!--// 오른쪽 콘텐츠 영역 -->
 </div>
 <!--// wrap -->
-<script type="text/javascript">
 
-$(function() {
-	$("img.lazyload").lazyload({
-	});
-});
-
-</script>
 </body>
 </html>

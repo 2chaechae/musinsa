@@ -8,19 +8,6 @@
 <head>
 
 <!-- Google Tag Manager -->
-<script>
-var selfCertEnabled = "" || "Y";
-var THIS_PAGE_GF = 'A'; // 전역필터 상태값 caching page reload 필요 체크용
-var dataLayer = window.dataLayer || [];
-window.addEventListener("DOMContentLoaded", function() {
-    
-    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-TXDSFSF');
-}, false);
-</script>
 <!-- End Google Tag Manager -->
 
 <meta charset="UTF-8">
@@ -56,64 +43,21 @@ window.addEventListener("DOMContentLoaded", function() {
 
 <!-- Swiper -->
 <link rel="stylesheet" type="text/css" href="//static.msscdn.net/swiper/swiper.min.css" />
-<script src="//static.msscdn.net/swiper/swiper.min.js?20200316"></script>
 <!-- Polyfill -->
 
-<script>
-    if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
-        (function (w, d, s) {
-            var f = d.getElementsByTagName(s)[0];
-            var j = d.createElement(s);
-            j.async=true;
-            j.src= '//static.msscdn.net/skin/musinsa/js/polyfill.min.js?features=Array.from,Promise,fetch&flags=always';
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script');
-    }
-</script>
-
 <!-- 스토어, 매거진 공통 스크립트 -->
-<script type="text/javascript" src="//static.msscdn.net/mfile_outsrc/js/vendor/jquery-1.11.1.min.js?20160201"></script>
-<script type="text/javascript" src="//static.msscdn.net/mfile_outsrc/js/common/base.js?20160201"></script>
-<script type="text/javascript" src="//static.msscdn.net/mfile_outsrc/js/common/common.js?202105041500"></script>
-<script type="text/javascript" src="//static.msscdn.net/mfile_outsrc/js/vendor/jquery.easing.js?20160201"></script>
 <!--// 스토어, 매거진 공통 스크립트 -->
-
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/mini_cart.js?202304061530"></script>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/common.js?202303231111"></script>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jquery.cycle.all.js?20160202"></script>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/m_js/jquery-ui.min.js?20160202"></script>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jslib.js?20200601"></script>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jquery.bxslider.js?20180503"></script>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/clipboard.min.js?20170406"></script>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/ui.js?202203221100"></script>
-<script src="//static.msscdn.net/static/common/1.2.0/chunk-vendors.js"></script>
-
-<script src="//static.msscdn.net/skin/js/app/app.js?24938c3954902c94bd82"></script>
 
     <!--jqModal-->
     <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/jqModal.css?20160119" />
-    <script src="//static.msscdn.net/skin/musinsa/js/jqModal.min.js?20160511" type="text/javascript"></script>
     <!--//jqModal-->
 
 <!-- 유사 이미지 상품 검색 -->
 <link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/image_search.css?202201051301" />
-<script type="text/javascript" src="//static.msscdn.net/static/search/js/common/pc/search/image_search.js?20220127"></script>
-<script type="text/javascript">
-    var search_front_url = "https://search.musinsa.com";
-    
-    $(document).ready(function(){
-        if (window.image_search) {
-            window.image_search.setUrl(search_front_url);
-        }
-    });
-    
-</script>
 <!-- //유사 이미지 상품 검색 -->    
         <link rel="stylesheet" href="//static.msscdn.net/ui/build/pc/css/common.css">
     <link rel="stylesheet" href="//static.msscdn.net/ui/build/pc/css/campaign.css">
     <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/membership_new.min.css?202211031400" />
-    <script type="text/javascript" src="//static.musinsa.com/js/jquery/1.8/jquery.min.js"></script>
-    <script src="//static.msscdn.net/skin/musinsa/js/kakao.api.js?20210928"></script>
     <title></title>
 </head>
 <body>
@@ -1545,162 +1489,5 @@ window.addEventListener("DOMContentLoaded", function() {
         </div>
     </div>
 </div>
-<script type="text/javascript">
-    
-    var $shareButton = $('#CShareButton');
-    var $shareContainer = $('#CShare');
-    var $shareCloseButton = $('.CShare__close');
-
-    var musinsa_clip = new Clipboard('#urlCopy', {
-        text: function() {
-            return document.querySelector('input[name=copyUrl]').value;
-        }
-    });
-
-    musinsa_clip.on('success', function(e) {
-        e.clearSelection();
-        alert("복사되었습니다");
-    });
-    musinsa_clip.on('error', function(e) {
-        e.clearSelection();
-        alert("복사되지 않았습니다");
-    });
-
-    function snsWin(sns, enc_sbj, url){
-        var snsset = new Array();
-        var enc_url = encodeURIComponent(url);
-        snsset['t'] = 'https://twitter.com/intent/tweet?text=' + enc_sbj + '&url=' + enc_url;
-        snsset['f'] = 'https://www.facebook.com/sharer.php?u=' + enc_url + '&t=' + enc_sbj;
-        window.open(snsset[sns]);
-    }
-
-
-    $shareButton.on('click' , function(){
-        $shareContainer.addClass('active');
-    })
-    $shareCloseButton.on('click' , function(){
-        $shareContainer.removeClass('active');
-    })
-
-    function Comma(numstr) {
-        var numstr = String(numstr);
-        var re0 = /(\d+)(\d{3})($|\..*)/;
-        if (re0.test(numstr))
-            return numstr.replace(re0, function(str,p1,p2,p3) { return Comma(p1) + "," + p2 + p3; });
-        else
-            return numstr;
-    }
-    function get_goods_ranking(){
-        var contents = "";
-        $.ajax({
-            type: "POST",
-            data: "u_cat_cd=&rowcnt=30",
-            url: "/app/svc/get_rank_goods",
-            success: function(msg) {
-                eval("var json = " + msg);
-                var seq = 0;
-                for(var i = 0; i < 12; i++){
-                    contents += '<div class=\"list-item\">';
-                    contents += '<div class=\"CGoods\" data-goodsno=\"' + json[seq].goods_no + '\" data-price=\"' + json[seq].normal_price + '\" data-dimension17=\"' + json[seq].rate + '\" data-dimension18=\"realtime_popular_products\">';
-                    contents += '<div class=\"CGoods__thumbnail\">';
-                    contents += '<em class=\"CGoods__ranking"\>'+ (seq+1) +'위</em>';
-                    contents += '<a href=\"/app/goods/' + json[seq].goods_no + '/' + json[seq].goods_sub + '\" class=\"CGoods__thumbnail__img\">';
-                    contents += '<img src=\"//image.msscdn.net'+ parseGoodsImageUrlBySize(json[seq].img, 320) +'\" alt=\"\">';
-                    contents += '</a>';
-                    contents += '</div>';
-                    contents += '<a href=\"/app/goods/' + json[seq].goods_no + '/' + json[seq].goods_sub + '\" class=\"CGoods__information\">';
-                    contents += '<span class=\"CGoods__brand\">'+ json[seq].brand_nm +'</span>';
-                    contents += '<span class=\"CGoods__name\">'+ json[seq].goods_nm +'</span>';
-                    contents += '<div class=\"CGoods__price\">';
-                    contents += '<span class=\"CGoods__price__org\">' + Comma(json[seq].price) + '</span>';
-                    if(json[seq].normal_price > json[seq].price) {
-                        contents += '<span class=\"CGoods__price__rate\">'+ json[seq].rate +'</span>';
-                        contents += '<del class=\"CGoods__price__normal\">'+ Comma(json[seq].normal_price) +'</del>';
-                    }
-                    contents += '</div>';
-                    contents += '</a>';
-                    contents += '</div>';
-                    contents += '</div>';
-                    seq++;
-                }
-                $("#goods_rank").html(contents);
-            },
-            complete: function (){
-                $("#goods_rank").html(contents);
-
-            }
-        });
-    }
-    get_goods_ranking();
-
-    window.addEventListener('load', () => {
-        var $navigationContainer = $('#memberNav');
-        var $navigationItem = $navigationContainer.find('li');
-        var _navOffset = Math.floor($navigationContainer.offset().top);
-        var _scrTop, _couponOffset;
-        $(document).on('click' , '.CInformation__button' , function(e){
-            e.preventDefault();
-            $(this).parent('.CInformation').toggleClass('active');
-        });
-        $(document).on('click' , '.CButton--more' , function(e){
-            e.preventDefault();
-            $(this).parents('.membership990__section').find('.hidden-list').removeClass('hidden-list');
-            $(this).remove();
-        });
-
-        $(window).on('scroll' , function(){
-            _scrTop = Math.floor($(window).scrollTop());
-            _couponOffset = Math.floor($("#member990").offset().top - 120);
-            var navEq;
-
-
-            if(_scrTop >= _navOffset){
-                $navigationContainer.addClass('is-active');
-                if(_scrTop >= _couponOffset){
-                    navEq = 1;
-                }else{
-                    navEq = 0;
-                }
-                $navigationItem.eq(navEq).addClass('is-active').siblings().removeClass('is-active');
-            }else{
-                $navigationContainer.removeClass('is-active');
-                $navigationItem.removeClass('is-active');
-            }
-
-        }).trigger('scroll');
-    });
-
-    function sendSavingPoint() {
-        if (loginChk()) {
-            $.ajax({
-                type: 'GET',
-                url: '/app/api/point/new_member_saving_point',
-                success: function (result) {
-                    eval("var json =" + result);
-                    if (json.cd == 200) {
-                        alert("회원가입 축하 적립금이 지급되었습니다.\n적립금이 만료되기 전에 첫 쇼핑하세요! (유효 기간 : 7일)");
-                        dataLayer.push({
-                            "event": "custom_braze_event",
-                            "braze_event_name" : "point_save_signup",
-                            "braze_event_parameter": {"point_amt" : 5000}
-                        });
-                    } else if (json.cd == 400) {
-                        alert("적립금 지급 대상자가 아닙니다.\n자세한 사항은 유의사항을 확인해주세요.");
-                    } else if (json.cd == 401) {
-                        alert("로그인 이후에 이용해주세요.");
-                    } else {
-                        alert("다시 시도해 주세요.");
-                    }
-                }
-            });
-        } else {
-            if (confirm("로그인 후 이용할 수 있습니다. \n로그인 페이지로 이동하시겠습니까?")) {
-                redirectToLoginPage();
-            }
-            return false;
-        }
-    }
-    
-</script>
 </body>
 </html>

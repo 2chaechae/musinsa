@@ -48,77 +48,18 @@ pageEncoding="UTF-8"%>
 <body class="page musinsa">
 
         <!-- Google Tag Manager -->
-        <script>
-            var dataLayer = dataLayer || [];
-            window.addEventListener("load", function() {
-                var memberGA = null;
-                if (memberGA != null && memberGA.dimension1 != null) {
-                    dataLayer.push(memberGA);
-                }
-
-                (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-                    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-                    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-                })(window,document,'script','dataLayer','GTM-TXDSFSF');
-            }, false);
-        </script>
         <!-- End Google Tag Manager -->
 
     
-<script type="text/javascript" src="https://static.msscdn.net/mfile_outsrc/js/vendor/jquery-1.11.1.min.js"></script>
-<script type="text/javascript" src="https://static.msscdn.net/skin/musinsa/js/m_js/jquery-ui.min.js?202211021806"></script>
-<script src="https://static.msscdn.net/static/member/js/constant.js?202211021806" type="text/javascript"></script>
-<script src="https://static.msscdn.net/static/member/js/ui/config.js?202211021806" type="text/javascript"></script>
-<script src="https://static.msscdn.net/static/member/js/ajax.js?202211021806" type="text/javascript"></script>
-<script type="text/javascript" src="https://static.msscdn.net/static/common/1.2.0/chunk-vendors.js"></script>
-<script src="https://static.msscdn.net/skin/musinsa/js/jquery.lazyload.min.js?202211021806" type="text/javascript"></script>
 <!-- 유사 이미지 상품 검색 -->
 <link type="text/css" rel="stylesheet" href="https://static.msscdn.net/skin/musinsa/css/image_search.css?202211021806" />
-<script type="text/javascript" src="//static.msscdn.net/static/search/js/common/pc/search/image_search.js?202211021806"></script>
-<script type="text/javascript">
-	$(document).ready(function(){
-		if (window.image_search) {
-			window.image_search.setUrl('https://www.musinsa.com');
-		}
-	});
-</script>
 <!-- //유사 이미지 상품 검색 -->
-<script>
-	// mss.ui.config 내의 기본 속성값을 대치하기 위한 Object
-	// 서버쪽에서 출력해 줘야 합니다.
-	var uiConfig = {
-		service: '',
-		skinServiceName: 'musinsa',
-		serviceCode: '',
-		serviceUrl: '',
-		magazineUrl: 'https://magazine.musinsa.com',
-		storeUrl: 'https://www.musinsa.com',
-		imageResourceUrl: 'https://image.msscdn.net',
-		staticResourceUrl: 'https://static.msscdn.net',
-		staticResourceVersion: '202211021806',
-		currentDate: ''
-	};
-
-	mss.ui.config.set(uiConfig);
-	mss.ui.top = {};
-	mss.ui.left = {
-		category: {
-			dCatCd: '', // 선택된 카테고리 코드
-		},
-		menuType: '',
-		brandId: '', // 브랜드 상세 페이지인 경우 브랜드명을 노출 시키기 위함
-	};
-	mss.ui.loggedIn = false;
-</script>
 <div id="topCommonPc"></div>
-<script type="text/javascript" src="https://static.msscdn.net/static/common/1.2.0/pc.js"></script>
 
 <div class="wrap">
 	<!--#############-->
 	<!-- 왼쪽 메뉴 영역 -->
 	<div id="leftCommonPc"></div>
-	<script type="text/javascript" src="https://static.msscdn.net/static/common/1.2.0/lnb.js"></script>
 
 	<!--#############-->
 	<div class="right_area benefit">
@@ -345,15 +286,4 @@ pageEncoding="UTF-8"%>
 		<div id="footerCommonPc"></div>
 	</div>
 </div>
-<script src="https://static.msscdn.net/static/member/js/mypage.js?202211021806" type="text/javascript"></script>
-<script>
-	(function(){
-		var level = 0;
-		$("#tr_level_" + level).addClass('CBenefitLevel__table__mylevel');
-	})();
-
-	function goLogin(){
-		document.location.href = "/auth/login?referer=" + encodeURIComponent(location.href);
-	}
-</script>
 </body>

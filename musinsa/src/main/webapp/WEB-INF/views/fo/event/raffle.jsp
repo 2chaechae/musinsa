@@ -9,16 +9,8 @@
   <title>raffle | 무신사 스토어</title>
 
   
-    <script type="text/javascript">
-        var dataLayer = dataLayer || [];
-    </script>
     
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-TXDSFSF');</script>
     <!-- End Google Tag Manager -->
 
   
@@ -45,7 +37,6 @@
 
   
   <!--  common-layout -->
-  <script type="text/javascript" src="https://static.msscdn.net/static/common/1.2.0/chunk-vendors.js"></script>
   <link type="text/css" rel="stylesheet" href="https://static.msscdn.net/static/common/1.2.0/pc.css"/>
   <link rel="stylesheet" type="text/css" href="https://static.msscdn.net/ui/build/pc/css/common.css">
 
@@ -65,43 +56,22 @@
   <link rel="stylesheet" href="//image.msscdn.net/ui/musinsa/resources/common/css/icon.min.css?202101051200"/>
 
   <!-- lib -->
-  <script type="text/javascript" src="//static.msscdn.net/mfile_outsrc/js/vendor/jquery-1.11.1.min.js?20160201"></script>
-  <script type="text/javascript" href="//static.msscdn.net/mfile_outsrc/js/vendor/jquery.easing.js?1651038878059"></script>
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jquery.lazyload.min.js"></script>
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/m_js/jquery-ui.min.js"></script>
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/clipboard.min.js"></script>
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jquery.bxslider.js"></script>
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jquery.cycle.all.js"></script>
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jslib.js"></script>
 
   <!-- Swiper -->
   <link type="text/css" rel="stylesheet" href="//static.msscdn.net/swiper/swiper.min.css?20200316"/>
-  <script type="text/javascript" src="//static.msscdn.net/swiper/swiper.min.js?20200316"></script>
 
   <!--jqModal-->
   <link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/jqModal.css"/>
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jqModal.min.js"></script>
   <!--//jqModal-->
 
   <!-- 스토어, 매거진 공통 스크립트 -->
-  <script type="text/javascript" href="//static.msscdn.net/mfile_outsrc/js/common/base.js?1651038878059"></script>
-  <script type="text/javascript" href="//static.msscdn.net/mfile_outsrc/js/common/common.js?1651038878059"></script>
-
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/common.js?1651038878059"></script>
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/mini_cart.js?1651038878059"></script>
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/suggestions.js?1651038878059"></script>
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/search_form.js?1651038878059"></script>
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/ui.js?1651038878059"></script>
   <!--// 스토어, 매거진 공통 스크립트 -->
 
   <!-- 유사 이미지 상품 검색 -->
   <link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/image_search.css?1651038878059"/>
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/image_search.js?1651038878059"></script>
   <!-- //유사 이미지 상품 검색 -->
 
-  <script type="text/javascript" src="https://www.musinsa.com/event/static/js/pc/common/common_head.js?1651038878059"></script>
   
-  <script type="text/javascript" src="https://www.musinsa.com/event/static/js/pc/common/contents_common.js?1651038878059"></script>
 
 
   <!-- common-top style  -->
@@ -112,30 +82,6 @@
 
 <body>
 <!-- common-top -->
-
-  
-  <script>
-      // pc common-layout 1.2.0
-      mss = window.mss || {};
-      mss.ui = window.mss.ui || {};
-      mss.ui.top = {};
-      mss.ui.left = {};
-      mss.ui.loggedIn = false;
-
-      // config
-      mss.ui.config = (function () {
-        var serviceUrl = {
-          store: "https:\/\/www.musinsa.com",
-          member: "https:\/\/my.musinsa.com",
-        };
-
-        return {
-          getServiceUrl: function getServiceUrl(kind) {
-            return serviceUrl[kind];
-          }
-        }
-      }());
-  </script>
 
   <div class="top-column column top-musinsa" style="display:block;">
     <div id="short_top_special" class="header header-small store_header clearfix">
@@ -149,7 +95,6 @@
   <div id="default_top" style="display:none;">
     <div id="topCommonPc"></div>
   </div>
-  <script type="text/javascript" src="https://static.msscdn.net/static/common/1.2.0/pc.js"></script>
 
 
 <!-- content -->
@@ -585,17 +530,7 @@
   </ul>
   <a class="btn-close" href="javascript:void(0);"><i class="ico ico-close">레이어 팝업 닫기</i></a>
 
-  <script>
-    function showRaffleInfo() {
-      var layer = $('#raffle_info');
-      layer.css('top', '215px').css('z-index', '99999');
-      layer.show();
 
-      $('#raffle_info .btn-close').on('click', function () {
-        layer.hide();
-      });
-    }
-  </script>
 </div>
     <!--//래플 안내-->
 
@@ -606,22 +541,6 @@
     <div id="notexist_title" class="tit"></div>
     <div class="info">래플에 응모하신 내역이 없습니다.</div>
   </div>
-
-  <script>
-      function showNotExistPopup(_goods_nm){
-          var goods_nm = unescape(_goods_nm);
-          var obj_wrap = $("#notexist_popup_wrap");
-
-          $('#notexist_title').text(goods_nm);
-          obj_wrap.css('display', 'flex');
-          $("#notexist_popup").show();
-
-          $("#notexist_popup .btn-close").click(function(){
-              obj_wrap.css('display', 'none');
-              $("#notexist_popup").hide();
-          });
-      }
-  </script>
 </div>
     <!--//래플응모결과 없음-->
 
@@ -648,14 +567,9 @@
   </div>
   <a class="btn-close ui-layer-close" href="javascript:void(0);"><i class="ico ico-close">당첨자 전체보기 팝업 닫기</i></a>
 
-  <script type="text/javascript" src="https://www.musinsa.com/event/static/js/pc/raffle/popup_winners.js?1651038878059"></script>
 </div>
     <!--//래플 당첨자 전체보기-->
 
-    <script type="text/javascript"
-            src="https://www.musinsa.com/event/static/js/pc/raffle/raffles.js?1651038878059"></script>
-    <script type="text/javascript"
-            src="https://www.musinsa.com/event/static/js/pc/raffle/popup_entry_result.js?1651038878059"></script>
 
 
 <!-- common-footer -->
@@ -663,6 +577,5 @@
   <div id="footerCommonPc"></div>
   <meta name="google-site-verification" content="NqB0BDAEWJTvAPCCxzrckJYnS7-xJILFU40FvSmh5S8"/>
 
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jquery.url.packed.js" async="true"></script>
 </body>
 </html>
