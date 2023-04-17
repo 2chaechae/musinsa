@@ -4,31 +4,7 @@
 <html lang="ko">
 <head>
 
-<!-- Google Tag Manager -->
-<script>
-var selfCertEnabled = "" || "Y";
-var THIS_PAGE_GF = 'A'; // 전역필터 상태값 caching page reload 필요 체크용
-var dataLayer = window.dataLayer || [];
-window.addEventListener("DOMContentLoaded", function() {
-    
-    dataLayer.push({
-        "dimension1": "0771f504ee530491a670ea187969f377",
-        "dimension2": "F",
-        "dimension3": "2000",
-        "dimension4": "4",
-        "dimension5": "2018-02-11",
-        "dimension6": "41",
-        "dimension7": "170만원대"
-    });
-    
-    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-TXDSFSF');
-}, false);
-</script>
-<!-- End Google Tag Manager -->
+
 
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -63,281 +39,20 @@ window.addEventListener("DOMContentLoaded", function() {
 
 <!-- Swiper -->
 <link rel="stylesheet" type="text/css" href="//static.msscdn.net/swiper/swiper.min.css" />
-<script src="//static.msscdn.net/swiper/swiper.min.js?20200316"></script>
 <!-- Polyfill -->
 
-<script>
-    if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
-        (function (w, d, s) {
-            var f = d.getElementsByTagName(s)[0];
-            var j = d.createElement(s);
-            j.async=true;
-            j.src= '//static.msscdn.net/skin/musinsa/js/polyfill.min.js?features=Array.from,Promise,fetch&flags=always';
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script');
-    }
-</script>
 
 <!-- 스토어, 매거진 공통 스크립트 -->
-<script type="text/javascript" src="//static.msscdn.net/mfile_outsrc/js/vendor/jquery-1.11.1.min.js?20160201"></script>
-<script type="text/javascript" src="//static.msscdn.net/mfile_outsrc/js/common/base.js?20160201"></script>
-<script type="text/javascript" src="//static.msscdn.net/mfile_outsrc/js/common/common.js?202105041500"></script>
-<script type="text/javascript" src="//static.msscdn.net/mfile_outsrc/js/vendor/jquery.easing.js?20160201"></script>
 <!--// 스토어, 매거진 공통 스크립트 -->
 
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/mini_cart.js?202304061530"></script>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/common.js?202303231111"></script>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jquery.cycle.all.js?20160202"></script>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/m_js/jquery-ui.min.js?20160202"></script>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jslib.js?20200601"></script>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jquery.bxslider.js?20180503"></script>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/clipboard.min.js?20170406"></script>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/ui.js?202203221100"></script>
-<script src="//static.msscdn.net/static/common/1.2.0/chunk-vendors.js"></script>
-
-<script src="//static.msscdn.net/skin/js/app/app.js?24938c3954902c94bd82"></script>
 
     <!--jqModal-->
     <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/jqModal.css?20160119" />
-    <script src="//static.msscdn.net/skin/musinsa/js/jqModal.min.js?20160511" type="text/javascript"></script>
     <!--//jqModal-->
 
 <!-- 유사 이미지 상품 검색 -->
 <link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/image_search.css?202201051301" />
-<script type="text/javascript" src="//static.msscdn.net/static/search/js/common/pc/search/image_search.js?20220127"></script>
-<script type="text/javascript">
-    var search_front_url = "https://search.musinsa.com";
-    
-    $(document).ready(function(){
-        if (window.image_search) {
-            window.image_search.setUrl(search_front_url);
-        }
-    });
-    
-</script>
 <!-- //유사 이미지 상품 검색 --><link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/mypage.min.css?202304041410"></head>
-
-<script type="text/javascript">
-	var sort = 'like';
-	var f_no = '';
-	var f_name = '';
-	var folder_yn = '';
-	var list_cnt = '20';
-	var curr_page = '1';
-
-	
-	var select_list = [];
-	var select_folder_list = [];
-
-	// 편집
-	function edit_list() {
-		$("#brand_list").addClass("modify");
-		$("#default_btn").hide();
-		$("#edit_btn").show(); // 편집 버튼 모음 show
-		$("#edit_btn .disabled_btn").show(); // disabled 버튼 보이기
-	}
-
-	// 취소
-	function cancel_edit() {
-		$("#brand_list").removeClass("modify");
-		$("#default_btn").show();
-		$("#edit_btn").hide();
-		$("#edit_btn .disabled_btn").hide();
-		$("#edit_btn .active_btn").hide();
-		$(".n-check").attr("checked", false);
-		select_list = [];
-	}
-
-	// 리스트 선택
-	function active_list(list_id) {
-		var state = "";
-		var active_brand_element_id = list_id;
-		var active_url = $('#' + active_brand_element_id).data('brands_url');
-		var active_id = $('#' + active_brand_element_id).data('brands_id');
-		var active_name = $('#' + active_brand_element_id).data('brands_name');
-
-		if($("#brand_list").hasClass("modify")) { // 수정 모드.
-			state = "modify";
-
-			if($('#' + active_brand_element_id).is(':checked')) { // 선택
-				var active_brands_obj = new Object();
-				active_brands_obj.brands_id = trim(active_id);
-				active_brands_obj.brands_name = trim(active_name);
-
-				select_list.push(active_brands_obj);
-			} else { // 선택 해제
-				var re_select_list = [];
-				for (var i = 0; i < select_list.length; i++) {
-					if (typeof select_list[i] !== 'undefined' && select_list[i].brands_id == active_id) {
-						delete select_list[i];
-					} else {
-						re_select_list.push(select_list[i]);
-					}
-				}
-				select_list = re_select_list;
-			}
-
-			// 버튼 상태 변경
-			set_btn_state();
-		}
-	}
-
-	// 버튼 상태 변경
-	function set_btn_state () {
-		if (select_list.length > 0) {
-			$("#edit_btn .disabled_btn").hide(); // disabled 버튼 숨기기
-			$("#edit_btn .active_btn").show(); // active 버튼 보이기
-		} else {
-			$("#edit_btn .active_btn").hide(); // active 버튼 숨기기
-			$("#edit_btn .disabled_btn").show(); // disabled 버튼 보이기
-		}
-	};
-
-	// 브랜드 삭제
-	function delete_brand() {
-		if(confirm('선택하신 브랜드를 삭제하시겠습니까?')) {
-			var delete_brand_count = select_list.length;
-			var delete_type = '';
-			var brand_id = arrayToStringActiveList(select_list, 'delete');
-
-			if (f_no != '') {
-				delete_type = 's';
-			} else {
-				delete_type = 'a';
-			}
-
-			$.ajax({
-				type: 'get',
-				async: false,
-                url: '/app/api/wish/del?type=' + delete_type + '&data=' + brand_id + '&f_no=' + f_no + "&tab_type=brand",
-				success: function (_msg) {
-					var result = JSON.parse(_msg);
-
-					if (result.cd == '1') {
-						alert(delete_brand_count + '개 브랜드를 삭제했습니다.');
-						if(list_cnt == delete_brand_count) {
-							var page = (curr_page - 1) > 0 ? (curr_page - 1) : 1;
-							if(f_no != "") {
-								document.location.href = "/app/mypage/favorite_brand?folder_yn=Y&sort=" + sort +"&f_no=" + f_no + "&f_name=" + f_name + "&page=" + page + "&tab_type=brand";
-							} else {
-								document.location.href = "/app/mypage/favorite_brand?page=" + page;
-							}
-						} else {
-							document.location.reload();
-						}
-					} else {
-						alert(result.msg);
-                        document.location.reload();
-					}
-				}
-			});
-		}
-	}
-
-	// 배열 Data를 String으로 변환
-	function arrayToStringActiveList(_origin_array, _type) {
-		var result = '';
-		for (var i = 0; i < _origin_array.length; i++) {
-			if (_type == 'move') {
-				result += _origin_array[i].brands_id;
-			} else if (_type == 'delete') {
-				result += _origin_array[i].brands_id;
-			}
-			if (i != (_origin_array.length - 1)) {
-				result += ',';
-			}
-		}
-		return result;
-	};
-
-	// 브랜드 이동
-	function move_brand() {
-		if (select_list.length > 0) {
-			getFolder();
-		} else {
-			alert('브랜드를 선택해주세요.');
-		}
-	}
-
-	// 폴더 목록 얻기
-	function getFolder() {
-		$.ajax({
-			type: 'get',
-			async: false,
-            url: '/app/api/wish/get_folder?tab_type=brand',
-			success: function (msg) {
-				var folder_list = JSON.parse(msg);
-				if (folder_list.total == '0') {
-					alert('폴더를 생성해 주세요.');
-					cancel_edit();
-				} else {
-					var html_str = "";
-					for (var i = 0; i < folder_list.data.length; i++) {
-						var f_no = folder_list.data[i]["likeFolderId"];
-						html_str += "<div class=\"input\">";
-						html_str += "<input type=\"radio\" class=\"n-radio\" id=\"folder_no_" + f_no + "\" name=\"folder_no\" data-folder_name=\"" + folder_list.data[i]["folderName"] + "\" value=\"" + f_no + "\">";
-						html_str += "<label for=\"folder_no_" + f_no + "\">" + folder_list.data[i]["folderName"] + "</label></div>";
-					}
-
-					$('#myMove .layer-cont').html(html_str);
-
-					uiLayerBasic('#myMove', '', '');
-				}
-			}
-		});
-	};
-
-	// 브랜드 이동 완료 처리
-	function move_confirm_brand() {
-		var first_brand_name = select_list[0].brands_name;
-		var move_brand_data = [];
-        move_brand_data['f_no_fr'] = f_no;
-		move_brand_data['f_no'] = checked_folder();
-		move_brand_data['brand'] = arrayToStringActiveList(select_list, 'move');
-
-		$.ajax({
-			type: 'get',
-			async: false,
-            url: '/app/api/wish/move_wish?f_no_fr=' + move_brand_data['f_no_fr'] + '&f_no_to=' + move_brand_data['f_no'] + '&data=' + move_brand_data['brand'] + "&tab_type=brand",
-			success: function (_msg) {
-				var result = JSON.parse(_msg);
-				if (result.cd == '1') {
-					alert(first_brand_name + ' // ' + select_folder_list[0]['folder_name'] + (select_folder_list.length > 1 ? ' 외 ' + Number(select_folder_list.length - 1) + '개의 ' : '') + '폴더로 이동했습니다.');
-                    document.location.reload();
-				} else {
-					alert(result.msg);
-                    document.location.reload();
-				}
-			}
-		});
-	}
-
-	// 선택 된 폴더
-	function checked_folder() {
-		var cheked_folders = [];
-		select_folder_list = [];
-		var result = '';
-
-		$('input[name=folder_no]:checked').each(function () {
-			cheked_folders.push($(this).val());
-			select_folder_list.push({'folder_id': trim($(this).val()), 'folder_name': trim($(this).data('folder_name'))});
-		});
-
-		result = cheked_folders.toString();
-		return result;
-	}
-
-	// 페이징
-	function click_paging(page) {
-		if(f_no != "") {
-			document.location.href = "/app/mypage/favorite_brand?folder_yn=Y&sort=" + sort +"&f_no=" + f_no + "&f_name=" + f_name + "&page=" + page + "&tab_type=brand";
-		} else {
-			document.location.href = "/app/mypage/favorite_brand?page=" + page;
-		}
-	}
-
-	
-</script>
 
 <body>
 <!-- mypage -->
@@ -347,33 +62,6 @@ window.addEventListener("DOMContentLoaded", function() {
 		<!-- 상단 콘텐츠 영역 -->
 				
 
-
-<script>
-	var mss = {
-		ui: {
-			loggedIn: true,
-			top: {
-				extendBannerList: { // 상단 배너 리스트
-					code: '',
-					type: '',
-					subject: '',
-					contents: '',
-					extendContents: '',
-					extendUrl: ''
-				},
-				campaignList: [ // 캠페인 리스트
-					
-										
-				],
-			},
-			left: {
-				category: {
-					dCatCd: '', // 선택된 카테고리 코드
-				},
-			},
-		}
-	};
-</script>
 
 
 <div class="top-column column top-musinsa" style="display:none">
@@ -388,11 +76,9 @@ window.addEventListener("DOMContentLoaded", function() {
 	<div id="topCommonPc"></div>
 </div>
 
-<script src="//static.msscdn.net/static/common/1.2.0/pc.js"></script>				<!-- //상단 콘텐츠 영역 -->
 		<main class="content">
 			<!-- ANCHOR Common Mypage -->
 			<div id="commonMypage"></div>
-			<script src="//static.msscdn.net/static/common-mypage/1.0.0/common-mypage-pc.js"></script>
 			<!-- contents -->
 			<section class="mypage-cont">
 				<header class="n-section-title">
@@ -658,7 +344,6 @@ window.addEventListener("DOMContentLoaded", function() {
 	<!-- 하단 콘텐츠 영역 -->
 		<div id="footerCommonPc"></div>
 <meta name="google-site-verification" content="NqB0BDAEWJTvAPCCxzrckJYnS7-xJILFU40FvSmh5S8" />
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jquery.url.packed.js" async="true"></script>		<!--// 하단 콘텐츠 영역 -->
 </div>
 <!-- //mypage -->
 

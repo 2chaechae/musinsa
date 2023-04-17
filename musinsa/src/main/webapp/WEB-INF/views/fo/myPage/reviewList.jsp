@@ -18,7 +18,6 @@
     
 
   <!--  common-layout -->
-  <script type="text/javascript" src="//image.msscdn.net/static/common/1.2.0/chunk-vendors.js"></script>
   <link type="text/css" rel="stylesheet" href="//image.msscdn.net/static/common/1.2.0/pc.css"/>
   <link rel="stylesheet" type="text/css" href="https://static.msscdn.net/ui/build/pc/css/common.css">
 
@@ -38,155 +37,31 @@
   <link rel="stylesheet" href="//image.msscdn.net/ui/musinsa/resources/common/css/icon.min.css?202101051200"/>
 
   <!-- lib -->
-  <script type="text/javascript" src="//static.msscdn.net/mfile_outsrc/js/vendor/jquery-1.11.1.min.js"></script>
-  <script type="text/javascript" src="//static.msscdn.net/mfile_outsrc/js/vendor/jquery.easing.js?202304111445"></script>
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jquery.lazyload.min.js"></script>
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/m_js/jquery-ui.min.js"></script>
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/clipboard.min.js"></script>
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jquery.bxslider.js"></script>
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jquery.cycle.all.js"></script>
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jslib.js"></script>
 
   <!-- Swiper -->
   <link type="text/css" rel="stylesheet" href="//static.msscdn.net/swiper/swiper.min.css?20200316"/>
-  <script type="text/javascript" src="//static.msscdn.net/swiper/swiper.min.js?20200316"></script>
 
   <!--jqModal-->
   <link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/jqModal.css"/>
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jqModal.min.js"></script>
   <!--//jqModal-->
 
   <!-- 스토어, 매거진 공통 스크립트 -->
-  <script type="text/javascript" href="//static.msscdn.net/mfile_outsrc/js/common/base.js?202304111445"></script>
-  <script type="text/javascript" href="//static.msscdn.net/mfile_outsrc/js/common/common.js?202304111445"></script>
 
-<!--  <script type="text/javascript" th:src="|//static.msscdn.net/skin/musinsa/js/common.js?${staticResourceVersion}|"></script>-->
-<!--  <script type="text/javascript" th:src="|//static.msscdn.net/skin/musinsa/js/mini_cart.js?${staticResourceVersion}|"></script>-->
-<!--  <script type="text/javascript" th:src="|//static.msscdn.net/skin/musinsa/js/suggestions.js?${staticResourceVersion}|"></script>-->
-<!--  <script type="text/javascript" th:src="|//static.msscdn.net/skin/musinsa/js/search_form.js?${staticResourceVersion}|"></script>-->
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/ui.js?202304111445"></script>
   <!--// 스토어, 매거진 공통 스크립트 -->
 
   <!-- 유사 이미지 상품 검색 -->
   <link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/image_search.css?202304111445"/>
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/image_search.js?202304111445"></script>
   <!-- //유사 이미지 상품 검색 -->
 
-<!--  <script type="text/javascript" th:src="|${staticContents}/js/pc/common/common_head.js?${staticResourceVersion}|"></script>-->
-  
-<!--  <script type="text/javascript" th:src="|${staticContents}/js/pc/common/contents_common.js?${staticResourceVersion}|"></script>-->
+    
 
 
     
-    <script type="text/javascript">
-        var dataLayer = dataLayer || [];
-    </script>
-    
-        <script type="text/javascript">
-            dataLayer.push({
-                dimension1: '0771f504ee530491a670ea187969f377',
-                dimension2: 'F',
-                dimension3: '2000',
-                dimension4: '4',
-                dimension5: '2018-02-11',
-                dimension6: '41',
-                dimension7: '170만원대'
-            })
-        </script>
-    
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-TXDSFSF');</script>
-    <!-- End Google Tag Manager -->
-
-    
-    <script type="text/javascript">
-        (function(h,o,u,n,d) {
-            h=h[d]=h[d]||{q:[],onReady:function(c){h.q.push(c)}}
-            d=o.createElement(u);d.async=1;d.src=n
-            n=o.getElementsByTagName(u)[0];n.parentNode.insertBefore(d,n)
-        })(window,document,'script','https://www.datadoghq-browser-agent.com/datadog-rum-v4.js','DD_RUM')
-        DD_RUM.onReady(function() {
-            DD_RUM.init({
-                clientToken: 'pub0eedd02457fff6ae2b1143b2cf55a5e0',
-                applicationId: '6c4d2447-23e3-49ff-a5b9-61fbfc1fe681',
-                site: 'datadoghq.com',
-                service: 'review-web',
-                env: 'product',
-                // Specify a version number to identify the deployed version of your application in Datadog
-                // version: '1.0.0',
-                sessionSampleRate: 1,
-                sessionReplaySampleRate: 100,
-                trackUserInteractions: true,
-                trackFrustrations: true,
-                trackResources: true,
-                trackLongTasks: true,
-                defaultPrivacyLevel: 'mask-user-input',
-            });
-
-            DD_RUM.startSessionReplayRecording();
-        })
-    </script>
-
-
-    
-        
-    
-    
-  <script>
-      // pc common-layout 1.2.0
-      mss = window.mss || {};
-      mss.ui = window.mss.ui || {};
-      mss.ui.top = {};
-      mss.ui.left = {
-        category: {
-          dCatCd: ''
-        }
-      };
-      mss.ui.loggedIn = true;
-
-      // config
-      mss.ui.config = (function () {
-        var serviceUrl = {
-          store: "https:\/\/www.musinsa.com",
-          member: "\/\/my.musinsa.com",
-        };
-
-        return {
-          getServiceUrl: function getServiceUrl(kind) {
-            return serviceUrl[kind];
-          }
-        }
-      }());
-  </script>
 
 
     <!-- common-top style  -->
     
     
-        <script>
-            window.globalState = {};
-            window.globalState.common = {"globalFilter":"A","siteKind":2,"siteLower":"musinsa","musinsa":true,"wusinsa":false,"menisna":false,"mobile":false,"app":false,"ios":false} || {};
-            window.globalState.domain = function (service) {
-                var urls = {
-                    'serviceStoreUrl': "https:\/\/www.musinsa.com",
-                    'serviceStoreMobileUrl': "https:\/\/www.musinsa.com",
-                    'serviceGoodsUrl': "\/\/goods.musinsa.com",
-                    'serviceGoodsApiUrl': "\/\/goods.musinsa.com\/api\/goods",
-                    'serviceMemberUrl': "\/\/my.musinsa.com"
-                };
-                return (urls[service] || '');
-            };
-            window.globalState.isLogin = true;
-            window.globalState.env = "product";
-
-            // todo 초기에 작성 된코드 오류 방어.
-            var GOODS_API_DOMAIN = "\/\/goods.musinsa.com\/api\/goods";
-            var STORE_DOMAIN = "https:\/\/www.musinsa.com";
-        </script>
     
     
 <link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/mypage.min.css?202304111445"/>
@@ -197,33 +72,6 @@
     <!-- common-top -->
     
 
-  
-  <script>
-      // pc common-layout 1.2.0
-      mss = window.mss || {};
-      mss.ui = window.mss.ui || {};
-      mss.ui.top = {};
-      mss.ui.left = {
-        category: {
-          dCatCd: ''
-        }
-      };
-      mss.ui.loggedIn = true;
-
-      // config
-      mss.ui.config = (function () {
-        var serviceUrl = {
-          store: "https:\/\/www.musinsa.com",
-          member: "\/\/my.musinsa.com",
-        };
-
-        return {
-          getServiceUrl: function getServiceUrl(kind) {
-            return serviceUrl[kind];
-          }
-        }
-      }());
-  </script>
 
 
   <div class="top-column column top-musinsa" style="display:none;">
@@ -238,7 +86,6 @@
     <div id="topCommonPc"></div>
   </div>
 
-  <script type="text/javascript" src="//image.msscdn.net/static/common/1.2.0/pc.js"></script>
 
 
 
@@ -246,7 +93,6 @@
     <main class="content">
         <!-- ANCHOR Common Mypage -->
         <div id="commonMypage"></div>
-        <script src="//image.msscdn.net/static/common-mypage/1.0.0/common-mypage-pc.js"></script>
 
         <!-- contents -->
         <section class="mypage-cont">
@@ -2392,345 +2238,10 @@
     
   <div id="footerCommonPc"></div>
   <meta name="google-site-verification" content="NqB0BDAEWJTvAPCCxzrckJYnS7-xJILFU40FvSmh5S8"/>
-  <script type="text/javascript"
-          src="//static.msscdn.net/skin/musinsa/js/jquery.url.packed.js"
-          async="true"></script>
 
 </div>
 
-        <script type="text/javascript">
-            var isSubmit = false;
-            var $wrapReviewArea = $('#wrapReviewArea');
-
-            const reviewData = {
-                currentData : {},
-                setCurrentData : e => {
-                    this.currentData = $(e.currentTarget).closest('div').data();
-                },
-                getCurrentData : key => !!key ? (!!this.currentData[key] ? this.currentData[key] : '') : this.currentData
-            }
-
-            $(function () {
-                $("img.lazyload").lazyload();
-            });
-
-            // 삭제
-            $wrapReviewArea.on('click', '.btnDeleteReview', function (e) {
-                if ($(e.currentTarget).data('delEvent') === 'off') {
-                    return;
-                }
-                reviewData.setCurrentData(e);
-                $("#receivePoint").text(reviewData.getCurrentData('reviewTypePoint') + "원");
-
-                // 승인 대기중
-                if (!reviewData.getCurrentData('point')
-                    && reviewData.getCurrentData('confirmYn') === 'N') {
-
-                    if(!confirm("작성하신 상품후기를 삭제하시겠습니까?")) {
-                        return;
-                    }
-
-                    $(e.currentTarget).data('delEvent', 'off');
-                    deleteReview();
-                } else {
-                    uiLayerBasic('#reviewDelete', '', '');
-                }
-            });
-
-            // 수정
-            $wrapReviewArea.on('click', '.btnEditReview', function (e) {
-                if (!confirm("작성하신 구매후기를 수정하시겠습니까?")) {
-                    return false;
-                }
-                var data = $(e.currentTarget).closest('div').data();
-                var params = $.param({
-                    estimateNo: data.estimateNo || 0,
-                    orderOptNo: data.orderOptNo || 0
-                });
-                location.href = '/goods/mypage/review/write/' + data.type + '?' + params;
-            });
-
-            $wrapReviewArea.on('click', '.btnWrite', function (e) {
-                var data = $(e.currentTarget).data();
-                location.href = '/goods/mypage/review/write/' + data.type +'?orderOptNo=' + data.orderOptNo + '&goodsNo=' + data.goodsNo;
-            });
-
-            $('#btnDeleteReviewPopup').on('click', function (e) {
-                if ($(e.currentTarget).data('delEvent') === 'off') {
-                    return;
-                }
-
-                var msg = reviewData.getCurrentData('reviewWritable') === 'Y' ?'정말로 삭제할까요?' : '삭제 후 재작성 불가능 합니다. \n정말로 삭제할까요?'
-                if (!confirm(msg)) {
-                    return;
-                }
-
-                $(e.currentTarget).data('delEvent', 'off');
-                deleteReview();
-            });
-
-            $('#btnUpdateReviewPopup').on('click', function (e) {
-                updateReview();
-            });
-
-            function order_confirm(ord_no, ord_opt_no) {
-                if (isSubmit) {
-                    return false;
-                }
-
-                if (confirm('주문하신 상품을 수령하셨습니까?\n구매확정 시 교환 및 환불이 불가합니다.')) {
-                    isSubmit = true;
-
-                    $.ajax({
-                        type: "POST",
-                        data: "ord_no=" + ord_no + "&ord_opt_no=" + ord_opt_no,
-                        url: globalState.domain('serviceStoreUrl') + "/app/mypage/order_confirm",
-                        xhrFields: {
-                            withCredentials: true
-                        },
-                        success: function (msg) {
-                            try {
-                                isSubmit = false;
-
-                                var json = JSON.parse(msg);
-
-                                if (json["code"] != 1) {
-                                    alert("주문 상태가 변경되었습니다.\n주문 상태를 확인하여 주시기 바랍니다.");
-                                }
-
-                                document.location.reload();
-                            } catch (e) {
-                                isSubmit = false;
-                                alert('문제가 발생했습니다. 다시 시도해주십시오.');
-                                console.log(e);
-                            }
-                        },
-                        error: function (error) {
-                            isSubmit = false;
-                        }
-                    });
-                }
-            }
-
-            //베스트 후기 가이드
-            function layerbestReview() {
-                var obj = $("#bestReview_guide");
-                var dimmZ = obj.css('z-index') - 1;
-
-                $.ajax({
-                    type: "POST",
-                    url: globalState.domain('serviceStoreUrl') + "/app/content/s/svc/best_review_guide",
-                    xhrFields: {
-                        withCredentials: true
-                    },
-                    success: function (msg) {
-                        $('.ui-layer-close.fixed').css({'display': 'block', 'z-index': dimmZ});
-
-                        obj.html(msg);
-                        var top = Math.max(0, (($(window).height() - obj.outerHeight()) / 2) + $(window).scrollTop()) + "px";
-                        obj.css("top", top);
-                        obj.show();
-                    }
-                });
-            }
-
-            // 페이징
-            function click_paging(page) {
-                $("input[name='page']").val(page);
-                document.f1.submit();
-            }
-
-            function search() {
-                var ff = document.f1;
-                var $fromOrderDate = $("input[name='fromOrderDateInput']");
-                var $toOrderDate = $("input[name='toOrderDateInput']");
-
-                var period = $("input[name='period']").val();
-
-                if (period == "input") { // 선택된 기간이 없고 입력했다.
-                    if ($fromOrderDate.val() == "" || $toOrderDate.val() == "") {
-                        alert("검색 기간을 설정해 주세요");
-                        return false;
-                    }
-                }
-
-                ff.submit();
-            }
-
-            // 날짜 선택 후 호출 함수
-            function selDatePicker(obj, chg_val) {
-                var $fromOrderDate = $("input[name='fromOrderDateInput']");
-                var $toOrderDate = $("input[name='toOrderDateInput']");
-
-                var str_chg_val = chg_val.replace(".", "");
-                var hidden_chg_val = chg_val.replace(/\./g, "-");
-                var str_fr = $fromOrderDate.val().replace(".", "");
-                var str_to = $toOrderDate.val().replace(".", "");
-
-                if ($(obj).attr("name") == "fromOrderDateInput") {
-                    // 선택시 To값이 없거나 To보다 크면 To값을 동일하게 세팅
-                    if ($toOrderDate.val() == "" || str_chg_val > str_to) {
-                        $toOrderDate.val(chg_val);
-                        $("input[name='toOrderDate']").val(hidden_chg_val);
-                    }
-
-                    $("input[name='fromOrderDate']").val(hidden_chg_val);
-                } else if ($(obj).attr("name") == "toOrderDateInput") {
-                    // 선택시 From값이 없거나 From보다 작으면 From값을 동일하게 세팅
-                    if ($fromOrderDate.val() == "" || str_chg_val < str_fr) {
-                        $fromOrderDate.val(chg_val);
-                        $("input[name='fromOrderDate']").val(hidden_chg_val);
-                    }
-
-                    $("input[name='toOrderDate']").val(hidden_chg_val);
-                }
-
-                $("input[name='radioTabGuide']").attr("checked", false);
-            }
-
-            // 날짜 형식 체크 및 변경
-            function checkDateFormat(obj) {
-                $("input[name='radioTabGuide']").attr("checked", false);
-                $("input[name='period']").val("input");
-
-                var input_value = $(obj).val();
-                if (input_value !== "") {
-                    var only_nos = input_value.replace(/[^0-9]/g, '');
-
-                    if (only_nos.length === 8) {
-                        var year = only_nos.substr(0, 4);
-                        var month = only_nos.substr(4, 2);
-                        var day = only_nos.substr(6, 2);
-                        var chg_value = year + "." + month + "." + day;
-                        var hidden_chg_value = year + "-" + month + "-" + day;
-
-                        if (month > 12 || day > 31) {
-                            alert("날짜 형식을 잘못 입력하셨습니다.");
-                            chg_value = "";
-                        }
-
-                        $(obj).val(chg_value);
-
-                        if ($(obj).attr("name") === "fromOrderDateInput") {
-                            $("input[name='fromOrderDate']").val(hidden_chg_value);
-                        } else if ($(obj).attr("name") === "toOrderDateInput") {
-                            $("input[name='toOrderDate']").val(hidden_chg_value);
-                        }
-                    } else {
-                        alert("날짜 형식을 잘못 입력하셨습니다.");
-                        $(obj).val("");
-                    }
-                }
-            }
-
-            // 기간 설정
-            function setPeriod(obj, type) {
-                // Type Setting
-                $("input[name='period']").val(type);
-
-                // 기간 검색 부분 Init
-                $("input[name='fromOrderDateInput']").val('');
-                $("input[name='toOrderDateInput']").val('');
-                $("input[name='fromOrderDate']").val('');
-                $("input[name='toOrderDate']").val('');
-
-                // 기간 부분 조건에 따라 Setting
-                var now = new Date();
-
-                var year = now.getFullYear();
-                var mon = (now.getMonth() + 1) > 9 ? '' + (now.getMonth() + 1) : '0' + (now.getMonth() + 1);
-                var day = now.getDate() > 9 ? '' + now.getDate() : '0' + now.getDate();
-
-                var now_date = year + '.' + mon + '.' + day;
-                var hidden_now_date = year + '-' + mon + '-' + day;
-
-                if (type !== "") {
-                    var start_date = setStartDate(type);
-                    var a_date = start_date.split("|");
-
-                    $("input[name='toOrderDateInput']").val(now_date);
-                    $("input[name='fromOrderDateInput']").val(a_date[0]);
-                    $("input[name='toOrderDate']").val(hidden_now_date);
-                    $("input[name='fromOrderDate']").val(a_date[1]);
-                }
-            }
-
-            // 시작 기간 얻기
-            function setStartDate(type) {
-                var time_val = "";
-                var now = new Date();
-                if (type === "1week") {
-                    time_val = now.getTime() - (7 * 24 * 60 * 60 * 1000);
-                } else if (type === "1month") {
-                    time_val = now.getTime() - (30 * 24 * 60 * 60 * 1000);
-                } else if (type === "3month") {
-                    time_val = now.getTime() - (91 * 24 * 60 * 60 * 1000);
-                }
-
-                if (!!time_val) {
-                    now.setTime(time_val);
-                }
-
-                var year = now.getFullYear();
-                var mon = (now.getMonth() + 1) > 9 ? '' + (now.getMonth() + 1) : '0' + (now.getMonth() + 1);
-                var day = now.getDate() > 9 ? '' + now.getDate() : '0' + now.getDate();
-
-                return year + '.' + mon + '.' + day + "|" + year + '-' + mon + '-' + day;
-            }
-
-            function updateReview(data) {
-                const params = $.param({
-                    estimateNo: data.estimateNo || 0,
-                    orderOptNo: data.orderOptNo || 0
-                });
-                location.href = '/goods/mypage/review/write/' + data.type + '?' + params;
-            }
-
-            function deleteReview(data = reviewData.getCurrentData()) {
-                var params = {
-                    estimateType: data.type || '',
-                    estimateNo: data.estimateNo || 0,
-                    orderOptNo: data.orderOptNo || 0,
-                    goodsNo: data.goodsNo || 0
-                };
-
-                $.ajax({
-                    type: "DELETE",
-                    url: globalState.domain('serviceGoodsApiUrl') + '/mypage/review/' + data.estimateNo,
-                    async: false,
-                    dataType: 'json',
-                    data: params,
-                    xhrFields: {
-                        withCredentials: true
-                    },
-
-                    success: function (res) {
-                        alert("삭제 되었습니다.");
-                        location.reload();
-                    },
-                    error: function (xhr, status, error) {
-                        try {
-                            var res = JSON.parse(xhr.responseText);
-                            if (!res || !res.error) {
-                                throw new Error();
-                            }
-                            if (error.code === 'GOODS_002') {
-                                storeLoginAlertRedirect();
-                                return;
-                            }
-                            alert(res.error.message);
-                        } catch (e) {
-                            alert("상품후기 삭제 시 문제가 발생하였습니다. 다시 시도해 주십시오.");
-                            console.log(e);
-                        }
-                        location.href = '/goods/mypage/review/review-history';
-                    }
-                });
-            }
-
-        </script>
 
     
-<script src="//static.msscdn.net/skin/musinsa/js/jquery.url.packed.js" async="true"></script>
 </body>
 </html>

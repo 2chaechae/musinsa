@@ -4,21 +4,6 @@ pageEncoding="UTF-8"%>
 <html lang="ko">
 <head>
 
-<!-- Google Tag Manager -->
-<script>
-var selfCertEnabled = "" || "Y";
-var THIS_PAGE_GF = 'A'; // 전역필터 상태값 caching page reload 필요 체크용
-var dataLayer = window.dataLayer || [];
-window.addEventListener("DOMContentLoaded", function() {
-    
-    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-TXDSFSF');
-}, false);
-</script>
-<!-- End Google Tag Manager -->
 
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -53,58 +38,19 @@ window.addEventListener("DOMContentLoaded", function() {
 
 <!-- Swiper -->
 <link rel="stylesheet" type="text/css" href="//static.msscdn.net/swiper/swiper.min.css" />
-<script src="//static.msscdn.net/swiper/swiper.min.js?20200316"></script>
 <!-- Polyfill -->
 
-<script>
-    if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
-        (function (w, d, s) {
-            var f = d.getElementsByTagName(s)[0];
-            var j = d.createElement(s);
-            j.async=true;
-            j.src= '//static.msscdn.net/skin/musinsa/js/polyfill.min.js?features=Array.from,Promise,fetch&flags=always';
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script');
-    }
-</script>
 
 <!-- 스토어, 매거진 공통 스크립트 -->
-<script type="text/javascript" src="//static.msscdn.net/mfile_outsrc/js/vendor/jquery-1.11.1.min.js?20160201"></script>
-<script type="text/javascript" src="//static.msscdn.net/mfile_outsrc/js/common/base.js?20160201"></script>
-<script type="text/javascript" src="//static.msscdn.net/mfile_outsrc/js/common/common.js?202105041500"></script>
-<script type="text/javascript" src="//static.msscdn.net/mfile_outsrc/js/vendor/jquery.easing.js?20160201"></script>
 <!--// 스토어, 매거진 공통 스크립트 -->
-
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/mini_cart.js?202304061530"></script>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/common.js?202303231111"></script>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jquery.cycle.all.js?20160202"></script>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/m_js/jquery-ui.min.js?20160202"></script>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jslib.js?20200601"></script>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jquery.bxslider.js?20180503"></script>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/clipboard.min.js?20170406"></script>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/ui.js?202203221100"></script>
-<script src="//static.msscdn.net/static/common/1.2.0/chunk-vendors.js"></script>
-
-<script src="//static.msscdn.net/skin/js/app/app.js?24938c3954902c94bd82"></script>
 
     <!--jqModal-->
     <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/jqModal.css?20160119" />
-    <script src="//static.msscdn.net/skin/musinsa/js/jqModal.min.js?20160511" type="text/javascript"></script>
     <!--//jqModal-->
 
 <!-- 유사 이미지 상품 검색 -->
 <link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/image_search.css?202201051301" />
-<script type="text/javascript" src="//static.msscdn.net/static/search/js/common/pc/search/image_search.js?20220127"></script>
-<script type="text/javascript">
-    var search_front_url = "https://search.musinsa.com";
-    
-    $(document).ready(function(){
-        if (window.image_search) {
-            window.image_search.setUrl(search_front_url);
-        }
-    });
-    
-</script>
+
 <!-- //유사 이미지 상품 검색 -->
 
 <link rel="canonical" href="https://www.musinsa.com/app/goods/3026310" />
@@ -112,92 +58,13 @@ window.addEventListener("DOMContentLoaded", function() {
 
 <link rel="stylesheet" type="text/css" href="//static.msscdn.net/ui/build/pc/css/goods.css">
 <link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/product.min.css?202301111800"/>
-<script src="//static.msscdn.net/skin/musinsa/js/jquery.lazyload.min.js?20160119"></script>
 
 
 
-<script>
-    var dataLayer = window.dataLayer || [],
-        stateAll = {"isDebug":false,"isGoodsViewExcludingService":false,"isGoodsReviewExcludingService":false,"params":{"goodsNo":"3026310","goodsSub":0,"sort":"new","selectSimilarNo":"","isSecret":"0","isCache":"Y","sex":0,"wh":"","loc":"goods_rank","pGoodsNo":"","cacheFlush":"","rcdr":""},"IS_LOGIN":"N","app_yn":"N","goods_no":"3026310","goods_sub":0,"productInfo":{"goods_nm":"\uc824-1130 - \ud654\uc774\ud2b8:\ubbf8\ub4dc\ub098\uc774\ud2b8 \/ 1202A164-110","goods_nm_eng":"GEL-1130 W - WHITE\/MIDNIGHT","sale_stat_cl":"40","sex":"6","acc_buy_yn":"Y","category":"Shoes > \uc2a4\ub2c8\ucee4\uc988 > \uae30\ud0c0 \uc2a4\ub2c8\ucee4\uc988","baseCategoryName":"\uae30\ud0c0 \uc2a4\ub2c8\ucee4\uc988","season_type_nm":null,"similar_no":"3026309","normal_price":"99000","price":"99000","reg_dm":"20230116","brand":"asics","opt_kind_cd":"SHOES","brand_nm":"\uc544\uc2dd\uc2a4","brand_nm_eng":"ASICS","size_opt_kind":null,"size_opt_kind_nm":null,"offline_com_id":"\uc0ac\uc774\uc988","ori_avg_est_value":"4.9406","season":"0000","goods_type":"S","sale_rate":0,"estimate_cnt":757,"com_id":"asics","img":"\/images\/goods_img\/20230116\/3026310\/3026310_16740051958464_500.jpg","goods_no":"3026310","goods_sub":0,"restock_yn":"Y","sales_graph_data":"{}","orders_graph_yn":"Y","es_pageview_yn":"Y","img_prd_list":[{"type":"1","kind":"L","big_img":"\/images\/goods_img\/20230116\/3026310\/3026310_16740051958464_big.jpg","img":"\/images\/goods_img\/20230116\/3026310\/3026310_16740051958464_500.jpg","thumb_img":"\/images\/goods_img\/20230116\/3026310\/3026310_16740051958464_60.jpg","img_ext":"jpg","width":null,"height":null,"seq":"1","rep_yn":"Y","big_yn":"Y"},{"type":"1","kind":"D","big_img":"\/images\/prd_img\/20230116\/3026310\/detail_3026310_16740052013775_big.jpg","img":"\/images\/prd_img\/20230116\/3026310\/detail_3026310_16740052013775_500.jpg","thumb_img":"\/images\/prd_img\/20230116\/3026310\/detail_3026310_16740052013775_60.jpg","img_ext":"jpg","width":"1500","height":"1800","seq":"1","rep_yn":"Y","big_yn":"Y"},{"type":"2","kind":"D","big_img":"\/images\/prd_img\/20230116\/3026310\/detail_3026310_16740052028173_big.jpg","img":"\/images\/prd_img\/20230116\/3026310\/detail_3026310_16740052028173_500.jpg","thumb_img":"\/images\/prd_img\/20230116\/3026310\/detail_3026310_16740052028173_60.jpg","img_ext":"jpg","width":"1500","height":"1800","seq":"2","rep_yn":"N","big_yn":"Y"},{"type":"4","kind":"D","big_img":"\/images\/prd_img\/20230116\/3026310\/detail_3026310_16740052039279_big.jpg","img":"\/images\/prd_img\/20230116\/3026310\/detail_3026310_16740052039279_500.jpg","thumb_img":"\/images\/prd_img\/20230116\/3026310\/detail_3026310_16740052039279_60.jpg","img_ext":"jpg","width":"1500","height":"1800","seq":"4","rep_yn":"N","big_yn":"Y"},{"type":"7","kind":"D","big_img":"\/images\/prd_img\/20230116\/3026310\/detail_3026310_16740052051481_big.jpg","img":"\/images\/prd_img\/20230116\/3026310\/detail_3026310_16740052051481_500.jpg","thumb_img":"\/images\/prd_img\/20230116\/3026310\/detail_3026310_16740052051481_60.jpg","img_ext":"jpg","width":"1500","height":"1800","seq":"7","rep_yn":"N","big_yn":"Y"},{"type":"11","kind":"D","big_img":"\/images\/prd_img\/20230116\/3026310\/detail_3026310_16740052067020_big.jpg","img":"\/images\/prd_img\/20230116\/3026310\/detail_3026310_16740052067020_500.jpg","thumb_img":"\/images\/prd_img\/20230116\/3026310\/detail_3026310_16740052067020_60.jpg","img_ext":"jpg","width":"1500","height":"1800","seq":"11","rep_yn":"N","big_yn":"Y"},{"type":"16","kind":"D","big_img":"\/images\/prd_img\/20230116\/3026310\/detail_3026310_16740052081943_big.jpg","img":"\/images\/prd_img\/20230116\/3026310\/detail_3026310_16740052081943_500.jpg","thumb_img":"\/images\/prd_img\/20230116\/3026310\/detail_3026310_16740052081943_60.jpg","img_ext":"jpg","width":"1500","height":"1800","seq":"16","rep_yn":"N","big_yn":"Y"}],"limited_coupon":"Y","ptn_dc_yn":"N","limited_qty_yn":"Y","limited_min_qty":"1","limited_max_qty":"5","item_cat_cd":"005025007","used_yn":"N","offline_goods_yn":"","item_cat_cds":{"cd1":"018","nm1":"\uc2a4\ub2c8\ucee4\uc988","cd2":"018004","nm2":"\uae30\ud0c0 \uc2a4\ub2c8\ucee4\uc988","cd3":"","nm3":""},"specialty_codes":""},"userInfo":{"sex":"","email":""},"similarGoodsSearch":{"update_yn":"N","api_type":"syte"},"cardInfo":{"min_price":0,"max_month":0},"goodsOpt":{"addopt_cnt":0,"first_option_cnt":11,"offline_option_yn":"N","option_cnt":1,"option_info":["\uc0ac\uc774\uc988"],"option_info_str":"\uc0ac\uc774\uc988","almost_sold_out":false},"shop_goodsOpt":[],"fit_count":0,"goods_list_all":["1622069","969541","1762407","2545799","1622068","1296778","2741233","3026306","3026308","2320478","3087002","1762406","1545214","2638067","2150233","3124961","810034","2514237","816033","1594352","2825931","819685","490134","3053324","104239","3181961","3026309","490135","2293400","181907","2027860","2027874","2027877","1434514","2512887","2538178","1867509","2512890","2991901","3122048","1867543","2682283","2027859","2027861","2999705","2307295","2953553","2876635","2860383","2959415","3026310"],"log_arr":{"goods_no":"3026310","goods_sub":0,"age":"","device":"pc","deviceKind":"","gender":"","location":"goods_rank","parentsGoodsNo":"","previousLocation":"","referer":"https:\/\/www.musinsa.com\/app\/","userId":"","userIp":"121.164.221.110","vid":"643288e300063","globalFilter":"A","itemCategoryCodes":["018","018004"]},"video":[],"SITE_LOWER":"musinsa","SITE_SEX":"","IS_APP":"N","IS_MOBILE":"N","domain":"www.musinsa.com","isOpenPlccService":true,"group_dc_price":0,"pickupGoodsFlag":false,"goodsApiDomain":"https:\/\/goods.musinsa.com\/api\/goods","storeDomain":"https:\/\/www.musinsa.com","easypay_available_info":[],"signatureSaleFlag":false,"similarColorGoodsNos":["3026310","3026309","3026308"],"goodsReview":{"totalCount":632,"styleCount":107,"beautyCount":0,"photoCount":181,"goodsCount":344,"eventCount":0,"eventTotalCount":0,"satisfactionScore":4.9000000000000004},"timeSaleRemainDay":0,"isBeauty":false}
-    ;
-    stateAll.header_sex = '';
-    var goods_type = 'S';
-        var restock_yn = stateAll.productInfo.restock_yn,
-        offline_com_id = stateAll.productInfo.offline_com_id,
-        used_yn = stateAll.productInfo.used_yn,
-        goods_no = stateAll.productInfo.goods_no,
-        item_cat_nm2 = stateAll.productInfo.baseCategoryName,
-        similar_goods_update_yn = stateAll.similarGoodsSearch.update_yn
-    ;
-
-    
-    try {
-        dataLayer.push({
-            'dimension12' : stateAll.productInfo.brand,
-            'productInfo' : {
-                "email": stateAll.userInfo.email,
-                "header_sex": stateAll.header_sex,
-                "goods_no": stateAll.productInfo.goods_no,
-                "goods_sub": stateAll.productInfo.goods_sub,
-                "goods_nm": stateAll.productInfo.goods_nm,
-                "category": stateAll.productInfo.item_cat_cds.nm1 + '>' + stateAll.productInfo.item_cat_cds.nm2,
-                "category_ga": stateAll.productInfo.category,
-                "brand": stateAll.productInfo.brand,
-                "season": stateAll.productInfo.season + ' ' + stateAll.productInfo.season_type_nm,
-                "sex": stateAll.productInfo.sex,
-                "goods_type": getGoodsTypeValue(),
-                "price": stateAll.productInfo.price,
-                "specialty_code": stateAll.productInfo.specialty_codes,
-                "currency": "KRW"
-            }
-        });
-    }catch(e){
-        alert('죄송합니다. 내부 서버 문제로 페이지를 불러올 수 없습니다.');
-        location.href = '/';
-    }
-
-    function getGoodsTypeValue() {
-        if (!!stateAll.blackFridayEventGoodsFlag) {
-            return stateAll.productInfo.goods_type+"B";
-        } else {
-            return stateAll.productInfo.goods_type;
-        }
-    }
-    
-</script>
 </head><body>
 <!-- 팝업 공지사항 -->
 
 <!-- 상단 콘텐츠 영역 -->
-
-
-
-<script>
-	var mss = {
-		ui: {
-			loggedIn: false,
-			top: {
-				extendBannerList: { // 상단 배너 리스트
-					code: '',
-					type: '',
-					subject: '',
-					contents: '',
-					extendContents: '',
-					extendUrl: ''
-				},
-				campaignList: [ // 캠페인 리스트
-					
-										
-				],
-			},
-			left: {
-				category: {
-					dCatCd: '', // 선택된 카테고리 코드
-				},
-			},
-		}
-	};
-</script>
 
 
 <div class="top-column column top-musinsa" style="display:none">
@@ -212,14 +79,13 @@ window.addEventListener("DOMContentLoaded", function() {
 	<div id="topCommonPc"></div>
 </div>
 
-<script src="//static.msscdn.net/static/common/1.2.0/pc.js"></script><!--// 상단 콘텐츠 영역 -->
+<!--// 상단 콘텐츠 영역 -->
 
 <!-- wrap -->
 <div class="wrap" id="page_product_detail">
     <!-- 왼쪽 메뉴 영역 -->
     <div id="leftCommonPc"></div>
 
-<script src="//static.msscdn.net/static/common/1.2.0/lnb.js"></script>
     <!--// 왼쪽 메뉴 영역 -->
 
     <!-- 오른쪽 콘텐츠 영역 -->
@@ -602,32 +468,7 @@ window.addEventListener("DOMContentLoaded", function() {
                         </div>
                     </div>
 
-                    <script type="text/javascript">
-                        $(function(){
-                            $.ajax({
-                                type: "GET",
-                                url: "/app/svc/member_price_new/" + productInfo.goods_no + "/" + productInfo.goods_sub + "?" + "&type=detail",
-                                success: function(msg) {
-                                    var first_price = $("#list_price").html(msg).find('.m_list_price').last().text().slice(0,-1);
-                                    var last_price = Comma(stateAll.productInfo.price);
-                                    var cardInfo = stateAll.cardInfo || {max_month:0}
-                                    var listPriceText = first_price + " ~ " + last_price;
-                                    if(first_price === last_price) {
-                                        listPriceText = first_price;
-                                        $("#price_rat, #max_card_price").hide();
-                                    }
-
-                                    $("#list_price").html(listPriceText + "<span class=\"txt_unit_price\">원</span><i class=\"ic-18-line-arrow-bottom\">");
-
-                                    if (Number(stateAll.cardInfo.max_month) > 0 && productInfo.ptn_dc_yn !== 'Y') {
-                                        var min_price = Math.round(unComma(first_price) / cardInfo.max_month);
-                                        $("#min_card_price").html(Comma(min_price));
-                                    }
-
-                                }
-                            });
-                        });
-                    </script>
+                   
 
                 </li>
 
@@ -2073,24 +1914,7 @@ window.addEventListener("DOMContentLoaded", function() {
             <div class="swiper-pagination"></div>
             </div>
 </div>
-    <script>
-        
-        if( $('.goods-banner .swiper-slide').length > 1 ){
-            var bannerPayEventSwiper = new Swiper('.goods-banner .swiper-container', {
-                spaceBetween: 15,
-                loop: true,
-                pagination: {
-                    el: '.goods-banner .swiper-pagination',
-                    type: 'fraction',
-                },
-                navigation: {
-                    nextEl: '.goods-banner .swiper-button-next--goods',
-                    prevEl: '.goods-banner .swiper-button-prev--goods',
-                },
-            });
-        }
-        
-    </script>
+   
 
             <div id="goodsSimilarArea" class="explan_product rel-prd-block">
         <div class="n-rel-prd-sm">
@@ -2129,16 +1953,6 @@ window.addEventListener("DOMContentLoaded", function() {
         </div>
     </div>
 
-<script type="text/javascript">
-    $(document).ready(function() {
-        $('.more-tooltip').mouseenter(function () {
-            $(this).addClass('more_over');
-        });
-        $(".more-tooltip").mouseleave(function() {
-            $(this).removeClass('more_over');
-        });
-    });
-</script>
 
             <!--// 옵션선택 end-->
                     
@@ -4640,24 +4454,6 @@ window.addEventListener("DOMContentLoaded", function() {
 </li>            </div>
 </div>
 
-<script type="text/javascript">
-    $(function(){
-        $("#wrap_rel_beauty_product .owl-carousel").owlCarousel({
-            navigation : true,
-            slideSpeed : 0,
-            paginationSpeed : 0,
-            rewindSpeed: 0,
-            singleItem : true,
-            mouseDrag : false,
-            addClassActive: true,
-            afterAction : function() {
-                var totalItems = $('#wrap_rel_beauty_product .owl-page').length;
-                var currentIndex = $('#wrap_rel_beauty_product .owl-page.active').index() + 1;
-                $('#wrap_rel_beauty_product .page-num').text(currentIndex + "/" + totalItems);
-            }
-        });
-    });
-</script>
 
 <!--//이런 상품 어때요-->
 
@@ -6514,25 +6310,6 @@ window.addEventListener("DOMContentLoaded", function() {
 </div>
 
 
-<script type="text/javascript">
-  $(function(){
-    $("#prd-rel-mem-relations .owl-carousel").owlCarousel({
-      navigation : true,
-      slideSpeed : 0,
-      paginationSpeed : 0,
-      rewindSpeed: 0,
-      singleItem : true,
-      mouseDrag : false,
-      addClassActive: true,
-      afterAction : function() {
-        var totalItems = $('#prd-rel-mem-relations .owl-page').length;
-        var currentIndex = $('#prd-rel-mem-relations .owl-page.active').index() + 1;
-        $('#prd-rel-mem-relations .page-num').text(currentIndex + "/" + totalItems);
-      }
-    });
-  });
-</script>
-
 <!--// 다른 고객들이 함께 찾은 상품-->
 
 
@@ -6541,20 +6318,7 @@ window.addEventListener("DOMContentLoaded", function() {
 
 </div>
                 <div class="right_contents" id="qa_list">
-    <script>
-        var is_secret = "0";
-        
-        $(function(){
-            $('#qPage:has(>ul>li)').addClass('bTop');
-        });
-
-        if(is_secret == "1"){
-            $("input:checkbox[id='filter-secret']").prop("checked", true);
-        }else{
-            $("input:checkbox[id='filter-secret']").prop("checked", false);
-        }
-        
-    </script>
+    
     <form name="qa_form"  method="post">
         <input type="hidden" name="goods_no" value="3026310" />
         <input type="hidden" name="goods_sub" value="0" />
@@ -7167,7 +6931,7 @@ FAQ ▶ https://www.musinsa.com/app/cs/faq<br />
         <!-- 하단 콘텐츠 영역 -->
                                 <div id="footerCommonPc"></div>
 <meta name="google-site-verification" content="NqB0BDAEWJTvAPCCxzrckJYnS7-xJILFU40FvSmh5S8" />
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jquery.url.packed.js" async="true"></script>                <!--// 하단 콘텐츠 영역 -->
+           <!--// 하단 콘텐츠 영역 -->
 
         <!--// 오른쪽 콘텐츠 영역 -->
 
@@ -7329,69 +7093,6 @@ FAQ ▶ https://www.musinsa.com/app/cs/faq<br />
 
 <!-- [D]사은품 적용상품 레이어 -->
 
-<script type="text/javascript">
-    $(function() {
-        giftLayerHandler.showCartBtn = 1;
-    });
-
-    function addCart(optionCnt, goodsNo, goodsSub, firstOptionCnt, giftNo) {
-        var popAddCart = $(".pop-add-cart");
-        prepareOrder.addCart(optionCnt, goodsNo, goodsSub, function (response, msg, redirectUrl) {
-            if (response === 1) {
-                msg = '장바구니에 상품 1개가 추가 되었습니다.';
-                loadCartTotal();
-                $('#mini_cart > li').remove();
-            }
-            popAddCart.text(msg);
-
-            setTimeout(function(){
-                $(".pop-add-cart").animate({top:"40px"}, {duration:300, easing:"easeOutCubic"});
-            },500);
-            setTimeout(function(){
-                $(".pop-add-cart").animate({top:"-48px"}, {duration:300, easing:"easeInCubic"});
-            },3800);
-
-            if (redirectUrl) {
-                document.location.href = redirectUrl;
-            } else {
-                if (giftNo && giftNo!='') {
-                    giftLayerHandler.open(giftNo);
-                }
-            }
-        });
-    }
-
-    function directOrder(optionCnt, goodsNo, goodsSub, firstOptionCnt, giftNo) {
-        if($("[name=buy_list_opt_noprice]").length == 0) {
-            alert("옵션을 선택해 주세요.");
-            return false;
-        }
-
-        if (stateAll.pickupGoodsFlag === true) {
-            giftNo = 0;
-        }
-
-        if (giftNo) {
-            var info = $("#getgiftLayer .info");
-            var applyAmt = info.data('apply-amt');
-            var totalPrice = parseInt(unComma($(".sum-total-price > .price").html()));
-
-            var rate = (totalPrice && applyAmt) ? totalPrice / applyAmt * 100 : 0;
-
-            if (rate < 100) {
-                info.find(".price > span").text([Comma(totalPrice), '원'].join(''));
-
-                var progressbar = info.find('.progressbar-value');
-                progressbar.attr('value', rate);
-                progressbar.css('--value', rate + '%');
-                uiLayerBasic('#getgiftLayer');
-                return;
-            }
-        }
-        prepareOrder.order(optionCnt, goodsNo, goodsSub);
-    }
-</script>
-
 
 <div class="pop-add-cart"></div>
 
@@ -7399,58 +7100,6 @@ FAQ ▶ https://www.musinsa.com/app/cs/faq<br />
     <div class="cart_pop"></div>
     <button type="button" class="ui-layer-close" onclick="giftLayerHandler.close(); return false;"><i class="ico ico-sm ico-close2">레이어 팝업 닫기</i></button>
 </div>
-
-
-<script type="text/javascript">
-    var giftSwiper = new Swiper('.product_list', {
-        slidesPerView:"auto",
-        observer :true,
-        observeParents:true,
-        pagination: {
-            el: '.gift-swiper-pagination',
-            type: 'fraction',
-        },
-        navigation: {
-            nextEl: '.gift-swiper-button-next',
-            prevEl: '.gift-swiper-button-prev',
-        }
-    });
-
-    // 장바구니 담기 시 Confirm -> Toast 변경
-    var cartTimer = null;
-    function addCartToast(optionCnt, goodsNo, goodsSub, shopNo = 1) {
-        if (cartTimer) {
-            clearTimeout(cartTimer);
-        }
-        cartTimer = setTimeout(function () {
-            if (isPickupSelected() && shopNo === 1) {
-                if ($("[name=buy_list_opt_noprice]").length === 0) {
-                    alert("옵션을 선택해 주세요.");
-                    return false;
-                }
-                pickupOrder.showSelectPickupShopLayer(goodsNo, prepareOrder.makeSelectedOptionDataSet(), 'CART');
-                return;
-            }
-            prepareOrder.addCart(optionCnt, goodsNo, goodsSub, function (response, msg, redirectUrl) {
-                if (response === 1) {
-                    $('#select-purchase-Layer').removeClass('is-active');
-                    $('#duplicate_cart_toast').hide();
-                    $("#add_cart_toast").fadeIn(200).delay(2250).fadeOut(200);
-                    loadCartTotal();
-                } else if (response === -27) {
-                    $('#select-purchase-Layer').removeClass('is-active');
-                    $('#add_cart_toast').hide();
-                    $("#duplicate_cart_toast").fadeIn(200).delay(2250).fadeOut(200);
-                } else {
-                    alert(msg);
-                    if (redirectUrl) {
-                        document.location.href = redirectUrl;
-                    }
-                }
-            }, shopNo);
-        }, 300);
-    }
-</script>
 
 <!-- [D]//사은품 적용상품 레이어 -->
 
@@ -7464,48 +7113,7 @@ FAQ ▶ https://www.musinsa.com/app/cs/faq<br />
 <form name=f1>
     <input type="hidden" name="popup"/>
 </form>
-<script src="//static.msscdn.net/skin/musinsa/js/product_v3.js?202304040745"></script>
-<script src="//static.msscdn.net/skin/musinsa/js/relative_cart.js?202304061530"></script>
-<script src="//static.msscdn.net/skin/musinsa/js/gift_suggestion.js?202304041030"></script>
-<script src="//static.msscdn.net/skin/musinsa/js/image_zoom.js?20160119"></script>
-<script src="//static.msscdn.net/skin/musinsa/js/reviews.comments.js?202209140001"></script>
-<script src="//static.msscdn.net/skin/musinsa/js/reviews.sns.js?202011021242"></script>
-<script src="//static.msscdn.net/skin/m_musinsa/js/owl.carousel.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script><!-- chart.js -->
-<script src="//static.msscdn.net/skin/musinsa/js/kakao.min.js?20160204_1"></script><!-- 카카오톡 관련 소스 //-->
-<script src="//static.msscdn.net/skin/musinsa/js/kakao.api.js?20191031"></script>
-<script src="//static.msscdn.net/skin/js/goods/goods_detail.js?v=202304040745"></script>
-<script src="//static.msscdn.net/skin/musinsa/js/goods/goods_detail.js?v=202304040745"></script>
-<script src="//static.msscdn.net/skin/musinsa/js/goods/goods_detail_imagesearch.js?v=202304040745"></script>
-<script src="//static.msscdn.net/skin/js/goods/goods_detail_magazine.js?v=202304040745"></script>
 
-<script>
-
-    var goodsSimilarNo = !!stateAll.productInfo.similar_no ? stateAll.productInfo.similar_no : 0;
-
-    if ($("#goodsSimilarArea").length <= 0) {
-        goodsSimilarNo = 0;
-    }
-
-    var apiVersion = 'v2';
-    $.ajax({
-        type : 'GET',
-        url: GOODS_API_DOMAIN + '/' + apiVersion + '/review/list',
-        data : {
-            goodsNo: stateAll.productInfo.goods_no,
-            similarNo: goodsSimilarNo,
-            type: 'style',
-            itemCategoryCode: stateAll.productInfo.item_cat_cd
-        },
-        dataType : 'html',
-        success : function(fragment) {
-            $('#estimateBox').replaceWith(fragment);
-        },
-        error : function(error) {
-            console.log(error);
-        }
-    });
-</script>
 
 </body>
 </html>

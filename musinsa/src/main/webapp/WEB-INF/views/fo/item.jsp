@@ -6,30 +6,6 @@
 
 <head>
   
-  
-    <script type="text/javascript">
-        var dataLayer = dataLayer || [];
-    </script>
-    
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-TXDSFSF');</script>
-    <!-- End Google Tag Manager -->
-
-    
-    <script>
-        dataLayer.push({
-            mainInfo: {
-                'email': ""
-            }
-        });
-    </script>
-    
-    
-
 
   
   <title>Top &gt; 니트/스웨터 | 무신사 스토어</title>
@@ -74,105 +50,33 @@
   <link rel="stylesheet" type="text/css" href="//static.msscdn.net/static/display/front/css/pc/brandshop.css?1680141600000" />
   
 
-  <script type="text/javascript" src="//static.msscdn.net/mfile_outsrc/js/vendor/jquery-1.11.1.min.js?1680141600000"></script>
-  <script type="text/javascript" src="//static.msscdn.net/mfile_outsrc/js/vendor/jquery.easing.js?1680141600000"></script>
-
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jquery.cycle.all.js?1680141600000"></script>
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jquery.lazyload.min.js?1680141600000"></script>
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jquery.bxslider.js?1680141600000"></script>
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/m_js/jquery-ui.min.js?1680141600000"></script>
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/clipboard.min.js?1680141600000"></script>
-
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jslib.js?1680141600000"></script>
-  <script type="text/javascript" src="//static.msscdn.net/mfile_outsrc/js/common/common.js?1680141600000"></script>
-  <script type="text/javascript" src="//static.msscdn.net/mfile_outsrc/js/common/base.js?1680141600000"></script>
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/ui.js?1680141600000"></script>
 
   <!-- 공통 레이아웃 (pc) -->
   <link rel="stylesheet" type="text/css" href="//static.msscdn.net/static/common/1.2.0/pc.css" />
-  <script type="text/javascript" src="//static.msscdn.net/static/common/1.2.0/chunk-vendors.js"></script>
 
   <!-- Swiper -->
   <link rel="stylesheet" type="text/css" href="//static.msscdn.net/swiper/swiper.min.css" />
-  <script src="//static.msscdn.net/swiper/swiper.min.js"></script>
   <!--jqModal-->
   <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/jqModal.css?1680141600000" />
-  <script src="//static.msscdn.net/skin/musinsa/js/jqModal.min.js?1680141600000" type="text/javascript"></script>
   <!-- 유사 이미지 상품 검색 -->
   <link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/image_search.css?1680141600000" />
-  <script type="text/javascript" src="//static.msscdn.net/static/search/js/common/pc/search/image_search.js?1680141600000"></script>
   <!-- pc ui config -->
-  <script type="text/javascript" src="//static.msscdn.net/static/display/front/js/pc/ui/config.js?1680141600000"></script>
-  <script>
-      mss.ui.config.set({
-          isLogin: false,
-          service: 'musinsa',
-          serviceUrl: '//www.musinsa.com',
-          storeUrl: '//www.musinsa.com',
-          magazineUrl: 'https://www.musinsa.com/mz',
-          likeUrl: '//like.musinsa.com',
-          searchUrl: 'https://www.musinsa.com',
-          authUrl: '//www.musinsa.com/auth',
-          wusinsaUrl: '//wusinsa.musinsa.com',
-          playerUrl: '//player.musinsa.com',
-          viewTitle: 'Top &gt; 니트/스웨터 | 무신사 스토어',
-          imageResourceUrl: '//image.msscdn.net',
-          staticResourceUrl: '//static.msscdn.net',
-          staticResourceVersion: '1680141600000',
-          memberGroupNo: '',
-          globalFilter: 'A',
-          noImagePrefix: 'no_image_',
-          displayApiUrl: 'https://display.musinsa.com'
-      });
-      THIS_PAGE_GF = 'A';
-  </script>
-  <script type="text/javascript">
-      $(document).ready(function(){
-          if (window.image_search) {
-              window.image_search.setUrl(mss.ui.config.getServiceUrl('search'));
-          }
-      });
-  </script>
-  <script type="text/javascript" src="//static.msscdn.net/static/display/front/js/ajax.js?1680141600000" ></script>
+
   <!-- //pc ui config -->
 
-  <script type="text/javascript" src="//static.msscdn.net/static/display/front/js/pc/common.js?1680141600000"></script>
-  <script type="text/javascript" src="//static.msscdn.net/static/display/front/js/pc/display_gtm.js?1680141600000"></script>
-  <script type="text/javascript" src="//static.msscdn.net/static/display/front/js/pc/globalFilter.js?1680141600000"></script>
-  <script type="text/javascript" src="//static.msscdn.net/static/display/front/js/pc/iframeSizer.min.js?1680141600000"></script>
-  
-  <script type="text/javascript" src="//static.msscdn.net/static/display/front/js/api/store-api.js?1680141600000"></script>
-  <script>
-    mss.api.store.init(mss.ui.config.getServiceUrl('store'));
-  </script>
 
   <link rel="stylesheet" type="text/css" href="//static.msscdn.net/ui/build/pc/css/category.css"/>
 </head>
 <body>
 
 
-  <script>
-      // LNB 설정 데이터 주입
-      mss.ui.left = {
-          category: {
-              dCatCd: '',
-          },
-          menuType: "list",
-          brandId: "",
-      };
-
-      mss.ui.loggedIn = mss.ui.config.get().isLogin;
-  </script>
-
 
 <!-- top area -->
 <div id="topCommonPc"></div>
-<script type="text/javascript" src="//static.msscdn.net/static/common/1.2.0/pc.js"></script>
 
 <!-- left menu & body -->
 <div class="wrap">
   <div id="leftCommonPc"></div>
-  <script type="text/javascript" src="//static.msscdn.net/static/common/1.2.0/lnb.js"></script>
 
   <div class="right_area page_items_lists">
     
@@ -327,13 +231,7 @@
        data-bh-custom-mab2="자카드">#자카드</a>
   </div>
   <!-- // 해시태그 -->
-  <script type="text/javascript">
-      $(document).ready(function(){
-          mssBlackholeSdk.page({
-              page_id: "/category"
-          });
-      });
-  </script>
+ 
 </div>
     
     <div class="division_box hover_box box_division_group" id="category_2depth_list">
@@ -33450,15 +33348,7 @@
         </div>
     </template>
 
-<script type="text/javascript" src="//static.msscdn.net/static/display/front/js/pc/contents/category/goods.js?1680141600000" ></script>
-<script type="text/javascript" src="//static.msscdn.net/static/display/front/js/pc/contents/category/filter.js?1680141600000" ></script>
-<script type="text/javascript" src="//static.msscdn.net/static/display/front/js/pc/contents/category/ranking.js?1680141600000" ></script>
-<script type="text/javascript" src="//static.msscdn.net/static/display/front/js/pc/contents/category/issue.js?1680141600000" ></script>
-<script type="text/javascript" src="//static.msscdn.net/static/display/front/js/pc/contents/category/notice.js?1680141600000" ></script>
-<script type="text/javascript" src="//static.msscdn.net/static/lib/blackhole/1.1.0/mssBlackholeSdk.js"></script>
 <!-- /** 브랜드숍 & 카테고리숍 공통 상품 스크립트 -->
-<script type="text/javascript" src="//static.msscdn.net/static/display/front/js/pc/goods_common.js?1680141600000"></script>
 
-<script type="text/javascript" src="//static.msscdn.net/static/display/front/js/pc/like.js?1680141600000"></script>
 </body>
 </html>

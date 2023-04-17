@@ -19,7 +19,6 @@
     
 
   <!--  common-layout -->
-  <script type="text/javascript" src="//image.msscdn.net/static/common/1.2.0/chunk-vendors.js"></script>
   <link type="text/css" rel="stylesheet" href="//image.msscdn.net/static/common/1.2.0/pc.css"/>
   <link rel="stylesheet" type="text/css" href="https://static.msscdn.net/ui/build/pc/css/common.css">
 
@@ -39,155 +38,27 @@
   <link rel="stylesheet" href="//image.msscdn.net/ui/musinsa/resources/common/css/icon.min.css?202101051200"/>
 
   <!-- lib -->
-  <script type="text/javascript" src="//static.msscdn.net/mfile_outsrc/js/vendor/jquery-1.11.1.min.js"></script>
-  <script type="text/javascript" src="//static.msscdn.net/mfile_outsrc/js/vendor/jquery.easing.js?202304111445"></script>
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jquery.lazyload.min.js"></script>
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/m_js/jquery-ui.min.js"></script>
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/clipboard.min.js"></script>
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jquery.bxslider.js"></script>
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jquery.cycle.all.js"></script>
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jslib.js"></script>
 
   <!-- Swiper -->
   <link type="text/css" rel="stylesheet" href="//static.msscdn.net/swiper/swiper.min.css?20200316"/>
-  <script type="text/javascript" src="//static.msscdn.net/swiper/swiper.min.js?20200316"></script>
 
   <!--jqModal-->
   <link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/jqModal.css"/>
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jqModal.min.js"></script>
   <!--//jqModal-->
 
   <!-- 스토어, 매거진 공통 스크립트 -->
-  <script type="text/javascript" href="//static.msscdn.net/mfile_outsrc/js/common/base.js?202304111445"></script>
-  <script type="text/javascript" href="//static.msscdn.net/mfile_outsrc/js/common/common.js?202304111445"></script>
 
-<!--  <script type="text/javascript" th:src="|//static.msscdn.net/skin/musinsa/js/common.js?${staticResourceVersion}|"></script>-->
-<!--  <script type="text/javascript" th:src="|//static.msscdn.net/skin/musinsa/js/mini_cart.js?${staticResourceVersion}|"></script>-->
-<!--  <script type="text/javascript" th:src="|//static.msscdn.net/skin/musinsa/js/suggestions.js?${staticResourceVersion}|"></script>-->
-<!--  <script type="text/javascript" th:src="|//static.msscdn.net/skin/musinsa/js/search_form.js?${staticResourceVersion}|"></script>-->
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/ui.js?202304111445"></script>
   <!--// 스토어, 매거진 공통 스크립트 -->
 
   <!-- 유사 이미지 상품 검색 -->
   <link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/image_search.css?202304111445"/>
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/image_search.js?202304111445"></script>
   <!-- //유사 이미지 상품 검색 -->
 
-<!--  <script type="text/javascript" th:src="|${staticContents}/js/pc/common/common_head.js?${staticResourceVersion}|"></script>-->
-  
-<!--  <script type="text/javascript" th:src="|${staticContents}/js/pc/common/contents_common.js?${staticResourceVersion}|"></script>-->
 
-
-    
-    <script type="text/javascript">
-        var dataLayer = dataLayer || [];
-    </script>
-    
-        <script type="text/javascript">
-            dataLayer.push({
-                dimension1: '0771f504ee530491a670ea187969f377',
-                dimension2: 'F',
-                dimension3: '2000',
-                dimension4: '4',
-                dimension5: '2018-02-11',
-                dimension6: '41',
-                dimension7: '170만원대'
-            })
-        </script>
-    
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-TXDSFSF');</script>
-    <!-- End Google Tag Manager -->
-
-    
-    <script type="text/javascript">
-        (function(h,o,u,n,d) {
-            h=h[d]=h[d]||{q:[],onReady:function(c){h.q.push(c)}}
-            d=o.createElement(u);d.async=1;d.src=n
-            n=o.getElementsByTagName(u)[0];n.parentNode.insertBefore(d,n)
-        })(window,document,'script','https://www.datadoghq-browser-agent.com/datadog-rum-v4.js','DD_RUM')
-        DD_RUM.onReady(function() {
-            DD_RUM.init({
-                clientToken: 'pub0eedd02457fff6ae2b1143b2cf55a5e0',
-                applicationId: '6c4d2447-23e3-49ff-a5b9-61fbfc1fe681',
-                site: 'datadoghq.com',
-                service: 'review-web',
-                env: 'product',
-                // Specify a version number to identify the deployed version of your application in Datadog
-                // version: '1.0.0',
-                sessionSampleRate: 1,
-                sessionReplaySampleRate: 100,
-                trackUserInteractions: true,
-                trackFrustrations: true,
-                trackResources: true,
-                trackLongTasks: true,
-                defaultPrivacyLevel: 'mask-user-input',
-            });
-
-            DD_RUM.startSessionReplayRecording();
-        })
-    </script>
-
-
-    
-        
-    
-    
-  <script>
-      // pc common-layout 1.2.0
-      mss = window.mss || {};
-      mss.ui = window.mss.ui || {};
-      mss.ui.top = {};
-      mss.ui.left = {
-        category: {
-          dCatCd: ''
-        }
-      };
-      mss.ui.loggedIn = true;
-
-      // config
-      mss.ui.config = (function () {
-        var serviceUrl = {
-          store: "https:\/\/www.musinsa.com",
-          member: "\/\/my.musinsa.com",
-        };
-
-        return {
-          getServiceUrl: function getServiceUrl(kind) {
-            return serviceUrl[kind];
-          }
-        }
-      }());
-  </script>
 
 
     <!-- common-top style  -->
     
-    
-        <script>
-            window.globalState = {};
-            window.globalState.common = {"globalFilter":"A","siteKind":2,"siteLower":"musinsa","musinsa":true,"wusinsa":false,"menisna":false,"app":false,"ios":false,"mobile":false} || {};
-            window.globalState.domain = function (service) {
-                var urls = {
-                    'serviceStoreUrl': "https:\/\/www.musinsa.com",
-                    'serviceStoreMobileUrl': "https:\/\/www.musinsa.com",
-                    'serviceGoodsUrl': "\/\/goods.musinsa.com",
-                    'serviceGoodsApiUrl': "\/\/goods.musinsa.com\/api\/goods",
-                    'serviceMemberUrl': "\/\/my.musinsa.com"
-                };
-                return (urls[service] || '');
-            };
-            window.globalState.isLogin = true;
-            window.globalState.env = "product";
-
-            // todo 초기에 작성 된코드 오류 방어.
-            var GOODS_API_DOMAIN = "\/\/goods.musinsa.com\/api\/goods";
-            var STORE_DOMAIN = "https:\/\/www.musinsa.com";
-        </script>
     
     
 <link type="text/css" rel="stylesheet" href="//image.msscdn.net/ui/build/pc/css/mypage.css?202304111445"/>
@@ -199,33 +70,6 @@
     <!-- common-top -->
     
 
-  
-  <script>
-      // pc common-layout 1.2.0
-      mss = window.mss || {};
-      mss.ui = window.mss.ui || {};
-      mss.ui.top = {};
-      mss.ui.left = {
-        category: {
-          dCatCd: ''
-        }
-      };
-      mss.ui.loggedIn = true;
-
-      // config
-      mss.ui.config = (function () {
-        var serviceUrl = {
-          store: "https:\/\/www.musinsa.com",
-          member: "\/\/my.musinsa.com",
-        };
-
-        return {
-          getServiceUrl: function getServiceUrl(kind) {
-            return serviceUrl[kind];
-          }
-        }
-      }());
-  </script>
 
 
   <div class="top-column column top-musinsa" style="display:none;">
@@ -240,7 +84,6 @@
     <div id="topCommonPc"></div>
   </div>
 
-  <script type="text/javascript" src="//image.msscdn.net/static/common/1.2.0/pc.js"></script>
 
 
 
@@ -248,7 +91,6 @@
     <main class="content">
         <!-- ANCHOR Common Mypage -->
         <div id="commonMypage"></div>
-        <script src="//image.msscdn.net/static/common-mypage/1.0.0/common-mypage-pc.js"></script>
 
         <section class="mypage-cont">
             <form id="reviewForm" name="reviewForm" method="post" target="hf">
@@ -627,30 +469,10 @@
     
   <div id="footerCommonPc"></div>
   <meta name="google-site-verification" content="NqB0BDAEWJTvAPCCxzrckJYnS7-xJILFU40FvSmh5S8"/>
-  <script type="text/javascript"
-          src="//static.msscdn.net/skin/musinsa/js/jquery.url.packed.js"
-          async="true"></script>
 
 </div>
 
-    <script>
-        var params = {"goodsNo":1897197,"orderOptNo":186943060,"estimateNo":0,"estimateType":"style","containEstimateType":true,"photoReview":true} || {};
-        var reviewState = {
-            isPhotoReview: true || false,
-            satisfactionListCount: 8 || 0,
-            bodySize: {"sizeHeightStart":100,"sizeHeightEnd":220,"sizeWeightStart":30,"sizeWeightEnd":150} || {},
-            // imageCount: 0,
-            isBeautyGoods : false || false,
-            reviewText : "\uC2A4\uD0C0\uC77C \uD6C4\uAE30" || '',
-            itemCategoryCode : "005011005" || '',
-            skinWorryMaxCheckLength : 3,
-        };
-    </script>
     <link type="text/css" rel="stylesheet" href="//magazine.musinsa.com/modules/musinsautil/musinsa.gallery.editor.css?202304111445"/>
-    <script type="text/javascript" src="//magazine.musinsa.com/modules/musinsautil/musinsa.gallery.editor.js?202304111445"></script>
-    <script src="//goods.musinsa.com/static/js/pc/mypage/review/review_write.js?202304111445"></script>
-    <script src="//goods.musinsa.com/static/js/common/helper/reviewWriteGuide.js?202304111445"></script>
 
-<script src="//static.msscdn.net/skin/musinsa/js/jquery.url.packed.js" async="true"></script>
 </body>
 </html>

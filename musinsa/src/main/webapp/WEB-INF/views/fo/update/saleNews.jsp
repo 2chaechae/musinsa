@@ -4,21 +4,6 @@
 <html lang="ko">
 <head>
 
-<!-- Google Tag Manager -->
-<script>
-var selfCertEnabled = "" || "Y";
-var THIS_PAGE_GF = 'A'; // 전역필터 상태값 caching page reload 필요 체크용
-var dataLayer = window.dataLayer || [];
-window.addEventListener("DOMContentLoaded", function() {
-    
-    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-TXDSFSF');
-}, false);
-</script>
-<!-- End Google Tag Manager -->
 
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -55,120 +40,27 @@ window.addEventListener("DOMContentLoaded", function() {
 
 <!-- Swiper -->
 <link rel="stylesheet" type="text/css" href="//static.msscdn.net/swiper/swiper.min.css" />
-<script src="//static.msscdn.net/swiper/swiper.min.js?20200316"></script>
 <!-- Polyfill -->
 
-<script>
-    if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
-        (function (w, d, s) {
-            var f = d.getElementsByTagName(s)[0];
-            var j = d.createElement(s);
-            j.async=true;
-            j.src= '//static.msscdn.net/skin/musinsa/js/polyfill.min.js?features=Array.from,Promise,fetch&flags=always';
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script');
-    }
-</script>
 
 <!-- 스토어, 매거진 공통 스크립트 -->
-<script type="text/javascript" src="//static.msscdn.net/mfile_outsrc/js/vendor/jquery-1.11.1.min.js?20160201"></script>
-<script type="text/javascript" src="//static.msscdn.net/mfile_outsrc/js/common/base.js?20160201"></script>
-<script type="text/javascript" src="//static.msscdn.net/mfile_outsrc/js/common/common.js?202105041500"></script>
-<script type="text/javascript" src="//static.msscdn.net/mfile_outsrc/js/vendor/jquery.easing.js?20160201"></script>
 <!--// 스토어, 매거진 공통 스크립트 -->
 
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/mini_cart.js?202304061530"></script>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/common.js?202303231111"></script>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jquery.cycle.all.js?20160202"></script>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/m_js/jquery-ui.min.js?20160202"></script>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jslib.js?20200601"></script>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jquery.bxslider.js?20180503"></script>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/clipboard.min.js?20170406"></script>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/ui.js?202203221100"></script>
-<script src="//static.msscdn.net/static/common/1.2.0/chunk-vendors.js"></script>
-
-<script src="//static.msscdn.net/skin/js/app/app.js?24938c3954902c94bd82"></script>
 
     <!--jqModal-->
     <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/jqModal.css?20160119" />
-    <script src="//static.msscdn.net/skin/musinsa/js/jqModal.min.js?20160511" type="text/javascript"></script>
     <!--//jqModal-->
 
 <!-- 유사 이미지 상품 검색 -->
 <link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/image_search.css?202201051301" />
-<script type="text/javascript" src="//static.msscdn.net/static/search/js/common/pc/search/image_search.js?20220127"></script>
-<script type="text/javascript">
-    var search_front_url = "https://search.musinsa.com";
-    
-    $(document).ready(function(){
-        if (window.image_search) {
-            window.image_search.setUrl(search_front_url);
-        }
-    });
-    
-</script>
-<!-- //유사 이미지 상품 검색 --><script src="https://static.msscdn.net/mfile_scr/modules/comment/musinsa.comment.js?version=6.5064" type="text/javascript" charset="utf-8"></script>
+
+<!-- //유사 이미지 상품 검색 -->
 <link type="text/css" rel="stylesheet" charset="utf-8" href="https://static.musinsa.com/mfile_scr/modules/comment/musinsa.comment2.css?2021061815"/>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jquery.lazyload.min.js?20160119"></script>
 </head>
 <body>
 <!-- 상단 콘텐츠 영역 -->
 
 
-
-<script>
-	var mss = {
-		ui: {
-			loggedIn: false,
-			top: {
-				extendBannerList: { // 상단 배너 리스트
-					code: '16MAIN_UP_1_3',
-					type: 'H',
-					subject: '16MAIN_UP_1_3_메인 외_0328_트렌드 키워드',
-					contents: '<a href="/app/banner/check/16MAIN_UP_1_3/1"><span style="display:block;overflow:hidden; height:70px;background-color:#E9ECED" href="https://www.musinsa.com/app/campaign/index/23_changeofseason"><img src="//image.musinsa.com/images/banner/2023032809413100000043883.jpg" alt="트렌드 키워드"></span></a>',
-					extendContents: '',
-					extendUrl: ''
-				},
-				campaignList: [ // 캠페인 리스트
-					
-																
-							{
-								hrefTag: {
-									linkUrl: 'https://www.musinsa.com/app/campaign/index/weekendsale18',
-									style: 'color: #ED00EC',
-									text: '주말 특가'
-								}
-							},
-					
-											
-							{
-								hrefTag: {
-									linkUrl: 'https://www.musinsa.com/app/campaign/index/23_changeofseason',
-									style: 'color: #5800FF',
-									text: '트렌드 픽'
-								}
-							},
-					
-											
-							{
-								hrefTag: {
-									linkUrl: 'https://www.musinsa.com/app/campaign/index/2023springinnershop',
-									style: 'color: #0091FA',
-									text: '봄 이너'
-								}
-							},
-					
-																
-				],
-			},
-			left: {
-				category: {
-					dCatCd: '', // 선택된 카테고리 코드
-				},
-			},
-		}
-	};
-</script>
 
 
 <div class="top-column column top-musinsa" style="display:none">
@@ -183,14 +75,13 @@ window.addEventListener("DOMContentLoaded", function() {
 	<div id="topCommonPc"></div>
 </div>
 
-<script src="//static.msscdn.net/static/common/1.2.0/pc.js"></script><!--// 상단 콘텐츠 영역 -->
+<!--// 상단 콘텐츠 영역 -->
 
 <!-- wrap -->
 <div class="wrap">
 	<!-- 왼쪽 메뉴 영역 -->
 		<div id="leftCommonPc"></div>
 
-<script src="//static.msscdn.net/static/common/1.2.0/lnb.js"></script>
 		<!--// 왼쪽 메뉴 영역 -->
 
 	<!-- 오른쪽 콘텐츠 영역 -->
@@ -204,222 +95,6 @@ window.addEventListener("DOMContentLoaded", function() {
 			<div class="nav_sub"><a href="/">무신사 스토어</a> > <span>신상품 업데이트</span></div>
 		</div>
 
-<script type="text/javascript">
-
-function changeList(menu, value)
-{
-	var ff = document.f1;
-	if(menu == "goingMenu"){
-		ff.is_going.value = value;
-		ff.opt_kind_cd.value = "";
-		ff.brand.value = "";
-	} else if(menu == "optMenu"){
-		ff.opt_kind_cd.value = value;
-		ff.brand.value = "";
-	} else if(menu == "brandMenu"){
-		ff.brand.value = value;
-	} else if(menu == "sexMenu"){
-		ff.sex.value = value;
-		ff.brand.value = "";
-	}
-	ff.page.value = 1;
-	ff.submit();
-}
-
-function setYear(type){
-	var ff = document.board_search_frm;
-	if( type == 'prev' ){
-		if( ff.year_date.value >  ff.min_rt.value ){
-			ff.year_date.value = parseInt(ff.year_date.value) -1 ;
-			set('',ff.year_date.value,'','',ff.type.value,ff.pop.value);
-		}else{
-			alert("기간에 등록된 자료가 없습니다.");
-			return false;
-		}
-	}else if( type == 'next'){
-		if( ff.year_date.value < ff.max_rt.value){
-			ff.year_date.value = parseInt(ff.year_date.value) +1 ;
-			set('',ff.year_date.value,'','',ff.type.value,ff.pop.value);
-		}else{
-			alert("기간에 등록된 자료가 없습니다.");
-			return false;
-		}
-
-	}else{
-			alert("기간에 등록된 자료가 없습니다.");
-			return false;
-	}
-}
-
-function set( brand, year_date, month_date, day_date, type, pop) {
-	var ff = document.board_search_frm;
-	ff.page.value = 1;
-	ff.brand.value = brand;
-	ff.year_date.value = year_date;
-	ff.month_date.value = month_date;
-	ff.day_date.value = day_date;
-	ff.type.value = type;
-	ff.pop.value = pop;
-	ff.submit();
-}
-
-function set_pop( brand, year_date, month_date, day_date, type, pop) {
-	var ff = document.board_search_frm;
-	ff.page.value = 1;
-	ff.brand.value = brand;
-	ff.year_date.value = year_date;
-	ff.month_date.value = month_date;
-	ff.day_date.value = day_date;
-	ff.type.value = type;
-
-	if(pop =="N"){ // 인기소식 체크시
-		pop ="Y"
-		ff.pop.value = pop;
-		ff.submit();
-	}else if(pop =="Y"){ // 인기소식 체크 해제시
-		pop ="N"
-		ff.pop.value = pop;
-		ff.submit();
-	}
-
-}
-
-
-
-function validate_search(ff){
-	if(ff.q.value == ""){
-		alert("검색어를 입력해주세요.");
-		ff.q.focus();
-		return false;
-	}
-
-	ff.submit();
-}
-
-//연관브랜드, 관심브랜드 관련 스크립트
-$(function(){
-	//연관브랜드 30개만 보여주기
-	$('#ico30').click(function() {
-		if($(this).hasClass('brandLayerOpen')) {	// 열린 상태
-			$('#brandLayer>li.hided').hide();
-			$(this).removeClass('brandLayerOpen');
-			$(this).find("img").css("margin-top", "0");
-			$("#more_li").show();
-		} else {	// 닫힌 상태
-			$('#brandLayer>li.hided').show();
-			$(this).addClass('brandLayerOpen');
-			$(this).find("img").css("margin-top", "-20px");
-			$("#more_li").hide();
-		}
-	});
-
-	$("#more_li").click(function() {
-		$("#brandLayer>li.hided").show();
-		$("#ico30").addClass("brandLayerOpen");
-		$("#ico30").find("img").css("margin-top", "-20px");
-		$(this).hide();
-	});
-
-	$("#more_ico_interest").click(function() {
-		if($(this).hasClass('brandLayerOpen')) {	// 열린 상태
-			$("#interest_brand_list li.hided").hide();
-			$(this).removeClass('brandLayerOpen');
-			$(this).find("img").css("margin-top", "0");
-			$("#more_interest_li").show();
-		} else {
-			$("#interest_brand_list li.hided").show();
-			$(this).addClass("brandLayerOpen");
-			$(this).find("img").css("margin-top", "-20px");
-			$("#more_interest_li").hide();
-		}
-	});
-
-	$("#more_interest_li").click(function() {
-		$("#interest_brand_list li.hided").show();
-		$("#more_ico_interest").addClass("brandLayerOpen");
-		$("#more_ico_interest").find("img").css("margin-top", "-20px");
-		$(this).hide();
-	});
-
-	$('.brandNameOff').hover(
-		function() {
-			$(".brandNameOn").hide();
-			$(".brandNameOff").show();
-			$(this).hide();
-			$(this).parents(".brandList").find(".brandNameOn").show();
-		},
-		function() {
-		}
-	);
-	$('.brandNameOn').hover(
-		function() {
-		},
-		function() {
-			$(this).hide();
-			$(this).parents(".brandList").find(".brandNameOff").show();
-		}
-	);
-	$('.moreViewTriger').click(function() {
-		$('.contents_date > .box_other_brand').toggle();
-		$('.moreViewTriger').toggle();
-	});
-});
-
-
-function snsWin(sns, sbj, url, image, description)
-{
-	var snsset = new Array();
-
-	var img = "//image.msscdn.net/images/goods_img/"+image;
-
-	if(image != ""){
-		$('#fbOgImage').attr('content',img);
-	}
-
-	if(description != ""){
-		$('#fbOgDescription').attr('content',description);
-	}
-
-	$('#fbOgUrl').attr('content',url);
-
-	url = encodeURIComponent(url);
-	snsset['t'] = 'http://twitter.com/home/?status=' + sbj + '+++' + url;
-	snsset['f'] = 'http://www.facebook.com/sharer.php?u=' + url + '&t=' + sbj;
-	window.open(snsset[sns]);
-}
-
-function SearchBrandByCategory() {
-	var q = $("#search_brand_input").val();
-
-	if(q != "") {
-		$("#ico30").addClass("brandLayerOpen");
-		$("#ico30 img").css("margin-top", "-20px");
-	}
-
-	q = q.toUpperCase();
-	ql = q.substr(q.length-1,1);
-	if((ql >= 'ㄱ' && ql <= 'ㅎ') || (ql >= 'ㅏ' && ql <= 'ㅣ')) {
-		return;
-	}
-
-	var brands = $("ul#brandLayer li");
-
-	for(var i=0; i<brands.length; i++) {
-		var brand = $(brands[i]).children("a");
-		var brand_txt = $(brand).children("span.brand_name").text();
-		brand_txt.toUpperCase();
-		if(brand_txt.indexOf(q) >= 0){
-			$(brands[i]).addClass("brandList");
-			$(brands[i]).show();
-		} else {
-			$(brands[i]).removeClass("brandList");
-			$(brands[i]).hide();
-		}
-	}
-	$("li#more_li").hide();
-}
-
-</script>
 <!-- 타이틀 -->
 <div class="page_box">
 	<div class="title_box">
@@ -34064,32 +33739,14 @@ function SearchBrandByCategory() {
 </div>
 <!--// 컨텐츠 영역 -->
 <!-- 카카오톡 관련 소스 //-->
-<script src="//static.msscdn.net/skin/musinsa/js/kakao.min.js?20160204"></script>
-<script src="//static.msscdn.net/skin/musinsa/js/kakao.api.js?20160204"></script>
 
 		<!-- 하단 콘텐츠 영역 -->
 				<div id="footerCommonPc"></div>
 <meta name="google-site-verification" content="NqB0BDAEWJTvAPCCxzrckJYnS7-xJILFU40FvSmh5S8" />
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jquery.url.packed.js" async="true"></script>				<!--// 하단 콘텐츠 영역 -->
+			<!--// 하단 콘텐츠 영역 -->
 	</div>
 	<!--// 오른쪽 콘텐츠 영역 -->
 </div>
 <!--// wrap -->
-<script type="text/javascript">
-
-var goodsNos = ["2352919","2333800","2352903","2352902","2333821","2333820","2333808","2352899","2352789","2352773","2333689","2333688","2352925","2352802","2352817","2352813","2333704","2352803","2333709","2333708","2380564","2333728","2333727","2333726","2333724","2352840","2352838","2352863","2352862","2352860","2333670","2333669","2333668","2333681","2352853","2333687","2352881","2333633","2333631","2352760","2352759","2352868","2352745","2380618","2380615","2340263","2340262","2340286","2340276","2471405","2471424","3056703","2966472","2966403","3051367","2686532","2537158","2537155","2537153","2817388","3051344","3051343","3051289","3124062","2644222","2535037","2535034","2817451","2471436","2532974","3143665","3143505","3056694","2817382","2686478","2644201","2643937","2643922","2643900","2643886","2534829","2534798","2534877","3085066","3057057","3057053","3057033","3057023","2817384","2471294","2471258","3056637","2471355","2471316","2471146","2560397","3182085","3182081","3182075","3165210","3165207","3165202","3165200","3165198","3182246","3182233","3182210","3182198","3182186","3182006","3182002","3181990","3165301","3165298","3165295","3165290","3165287","3165283","3165261","3165258","3165251","3165240","3165228","3125888","3125885","3125881","3125874","3125871","3106596","3106593","3106590","3106584","3106579","1891446","1891444","1891422","1042882","1042880","3165050","3165040","3124766","3124706","3124696","3124953","3124790","3124784","1280576","1280570","945355","3142237","3084477","3084475","497055","401149","3065683","3029209","3029205","2699767","2699766","1593755","942911","942903","3142247","2383492","2383490","2352895","2352894","2352892","3142226","3065856","3065844","2524694","2392775","2392759","533067","3084388","1719325","1536398","1536384","2524442","1454812","1438799","1438793","3065832","943145","943115","3029192","3142208","3065643","3065628","1582589","1582583","3041040","2699736","2699732","3142253","3165573","3161825","3161737","3161693","2985953","2985946","2795941","2795926","2246552","2246169","3204370","3066895","3186251","3182199","3109424","3066961","3066940","2786178","2786173","3208849","3208845","3182188","3162229","3162227","3098372","3066946","3066933","3066911","3066906","3062147","2785663","2785661","2616377","2616373","2560852","2560844","2560843","2560855","2560853","2560842","2560841","2560840","2560839","2640672","2640629","2640628","2640627","2616375","2608480","2599228","2599226","2599225","2599224","2599223","2599222","2599221","2599220","2599219","2560854","2560851","2560850","2560848","2560838","2560837","2560834","2104588","2036730","1422838","1422837","1422836","579724","559658","2658313","2658311","2658310","2658309","2041039","2036706","1422841","1422840","780467","780466","3131434","3131469","3131458","3131318","3131291","3131268","3131418","3131388","3131361","3131251","3131197","3131488","3131480","3131520","3131505","3131499","3131496","3109572","3109569","3109042","3092454","3109589","3025827","3046844","3109929","3026328","3109396","3026990","3047327","3026204","3109992","3047508","3038255","3038269","3061452","3110945","3110937","3110910","3085555","3085552","3085540","3085534","3085533","3071255","3106676","3088198","3088196","3085590"];
-goodsNos = Array.from(new Set(goodsNos));
-Like.renderLikeProcess({
-	type : 'cnt',
-	likeType : 'goods',
-	relationId : goodsNos
-});
-
-$(function() {
-	$("img.lazyload").lazyload({
-	});
-});
-
-</script>
 </body>
 </html>

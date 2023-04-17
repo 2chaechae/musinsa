@@ -18,7 +18,6 @@
     
 
   <!--  common-layout -->
-  <script type="text/javascript" src="//image.msscdn.net/static/common/1.2.0/chunk-vendors.js"></script>
   <link type="text/css" rel="stylesheet" href="//image.msscdn.net/static/common/1.2.0/pc.css"/>
   <link rel="stylesheet" type="text/css" href="https://static.msscdn.net/ui/build/pc/css/common.css">
 
@@ -38,202 +37,49 @@
   <link rel="stylesheet" href="//image.msscdn.net/ui/musinsa/resources/common/css/icon.min.css?202101051200"/>
 
   <!-- lib -->
-  <script type="text/javascript" src="//static.msscdn.net/mfile_outsrc/js/vendor/jquery-1.11.1.min.js"></script>
-  <script type="text/javascript" src="//static.msscdn.net/mfile_outsrc/js/vendor/jquery.easing.js?202304111445"></script>
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jquery.lazyload.min.js"></script>
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/m_js/jquery-ui.min.js"></script>
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/clipboard.min.js"></script>
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jquery.bxslider.js"></script>
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jquery.cycle.all.js"></script>
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jslib.js"></script>
 
   <!-- Swiper -->
   <link type="text/css" rel="stylesheet" href="//static.msscdn.net/swiper/swiper.min.css?20200316"/>
-  <script type="text/javascript" src="//static.msscdn.net/swiper/swiper.min.js?20200316"></script>
 
   <!--jqModal-->
   <link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/jqModal.css"/>
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jqModal.min.js"></script>
   <!--//jqModal-->
 
   <!-- 스토어, 매거진 공통 스크립트 -->
-  <script type="text/javascript" href="//static.msscdn.net/mfile_outsrc/js/common/base.js?202304111445"></script>
-  <script type="text/javascript" href="//static.msscdn.net/mfile_outsrc/js/common/common.js?202304111445"></script>
 
-<!--  <script type="text/javascript" th:src="|//static.msscdn.net/skin/musinsa/js/common.js?${staticResourceVersion}|"></script>-->
-<!--  <script type="text/javascript" th:src="|//static.msscdn.net/skin/musinsa/js/mini_cart.js?${staticResourceVersion}|"></script>-->
-<!--  <script type="text/javascript" th:src="|//static.msscdn.net/skin/musinsa/js/suggestions.js?${staticResourceVersion}|"></script>-->
-<!--  <script type="text/javascript" th:src="|//static.msscdn.net/skin/musinsa/js/search_form.js?${staticResourceVersion}|"></script>-->
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/ui.js?202304111445"></script>
   <!--// 스토어, 매거진 공통 스크립트 -->
 
   <!-- 유사 이미지 상품 검색 -->
   <link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/image_search.css?202304111445"/>
-  <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/image_search.js?202304111445"></script>
   <!-- //유사 이미지 상품 검색 -->
 
-<!--  <script type="text/javascript" th:src="|${staticContents}/js/pc/common/common_head.js?${staticResourceVersion}|"></script>-->
   
-<!--  <script type="text/javascript" th:src="|${staticContents}/js/pc/common/contents_common.js?${staticResourceVersion}|"></script>-->
 
 
     
-    <script type="text/javascript">
-        var dataLayer = dataLayer || [];
-    </script>
     
-        <script type="text/javascript">
-            dataLayer.push({
-                dimension1: '0771f504ee530491a670ea187969f377',
-                dimension2: 'F',
-                dimension3: '2000',
-                dimension4: '4',
-                dimension5: '2018-02-11',
-                dimension6: '41',
-                dimension7: '170만원대'
-            })
-        </script>
     
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-TXDSFSF');</script>
-    <!-- End Google Tag Manager -->
 
     
-    <script type="text/javascript">
-        (function(h,o,u,n,d) {
-            h=h[d]=h[d]||{q:[],onReady:function(c){h.q.push(c)}}
-            d=o.createElement(u);d.async=1;d.src=n
-            n=o.getElementsByTagName(u)[0];n.parentNode.insertBefore(d,n)
-        })(window,document,'script','https://www.datadoghq-browser-agent.com/datadog-rum-v4.js','DD_RUM')
-        DD_RUM.onReady(function() {
-            DD_RUM.init({
-                clientToken: 'pub0eedd02457fff6ae2b1143b2cf55a5e0',
-                applicationId: '6c4d2447-23e3-49ff-a5b9-61fbfc1fe681',
-                site: 'datadoghq.com',
-                service: 'review-web',
-                env: 'product',
-                // Specify a version number to identify the deployed version of your application in Datadog
-                // version: '1.0.0',
-                sessionSampleRate: 1,
-                sessionReplaySampleRate: 100,
-                trackUserInteractions: true,
-                trackFrustrations: true,
-                trackResources: true,
-                trackLongTasks: true,
-                defaultPrivacyLevel: 'mask-user-input',
-            });
-
-            DD_RUM.startSessionReplayRecording();
-        })
-    </script>
-
 
     
         
     
-    
-  <script>
-      // pc common-layout 1.2.0
-      mss = window.mss || {};
-      mss.ui = window.mss.ui || {};
-      mss.ui.top = {};
-      mss.ui.left = {
-        category: {
-          dCatCd: ''
-        }
-      };
-      mss.ui.loggedIn = true;
-
-      // config
-      mss.ui.config = (function () {
-        var serviceUrl = {
-          store: "https:\/\/www.musinsa.com",
-          member: "\/\/my.musinsa.com",
-        };
-
-        return {
-          getServiceUrl: function getServiceUrl(kind) {
-            return serviceUrl[kind];
-          }
-        }
-      }());
-  </script>
 
 
     <!-- common-top style  -->
     
     
-        <script>
-            window.globalState = {};
-            window.globalState.common = {"globalFilter":"A","siteKind":2,"siteLower":"musinsa","musinsa":true,"wusinsa":false,"menisna":false,"mobile":false,"app":false,"ios":false} || {};
-            window.globalState.domain = function (service) {
-                var urls = {
-                    'serviceStoreUrl': "https:\/\/www.musinsa.com",
-                    'serviceStoreMobileUrl': "https:\/\/www.musinsa.com",
-                    'serviceGoodsUrl': "\/\/goods.musinsa.com",
-                    'serviceGoodsApiUrl': "\/\/goods.musinsa.com\/api\/goods",
-                    'serviceMemberUrl': "\/\/my.musinsa.com"
-                };
-                return (urls[service] || '');
-            };
-            window.globalState.isLogin = true;
-            window.globalState.env = "product";
-
-            // todo 초기에 작성 된코드 오류 방어.
-            var GOODS_API_DOMAIN = "\/\/goods.musinsa.com\/api\/goods";
-            var STORE_DOMAIN = "https:\/\/www.musinsa.com";
-        </script>
-    
     
 <link type="text/css" rel="stylesheet" href="//image.msscdn.net/ui/build/pc/css/mypage.css?202304111445"/>
 <link type="text/css" rel="stylesheet" href="//image.msscdn.net/skin/musinsa/css/mypage.min.css?202304111445"/>
-<script type="text/javascript" src="//goods.musinsa.com/static/js/pc/mypage/review/comments.js?202304111445"></script>
-<script type="text/javascript" src="//goods.musinsa.com/static/js/common/file/fileUtil.js?202304111445"></script>
-<script type="text/javascript" src="//goods.musinsa.com/static/js/common/common.js?202304111445"></script>
-<script type="text/javascript" src="//goods.musinsa.com/static/js/common/util/loginUtil.js?202304111445"></script>
-<script type="text/javascript">
-        var GOODS_API_DOMAIN = '//goods.musinsa.com/api/goods';
-        var STORE_DOMAIN = 'https://www.musinsa.com';
-    </script>
+
 </head>
 
 <body>
 <div class="container mypage musinsa">
     <!-- common-top -->
     
-
-  
-  <script>
-      // pc common-layout 1.2.0
-      mss = window.mss || {};
-      mss.ui = window.mss.ui || {};
-      mss.ui.top = {};
-      mss.ui.left = {
-        category: {
-          dCatCd: ''
-        }
-      };
-      mss.ui.loggedIn = true;
-
-      // config
-      mss.ui.config = (function () {
-        var serviceUrl = {
-          store: "https:\/\/www.musinsa.com",
-          member: "\/\/my.musinsa.com",
-        };
-
-        return {
-          getServiceUrl: function getServiceUrl(kind) {
-            return serviceUrl[kind];
-          }
-        }
-      }());
-  </script>
-
 
   <div class="top-column column top-musinsa" style="display:none;">
     <div id="short_top_special" class="header header-small store_header clearfix">
@@ -247,7 +93,6 @@
     <div id="topCommonPc"></div>
   </div>
 
-  <script type="text/javascript" src="//image.msscdn.net/static/common/1.2.0/pc.js"></script>
 
 
 
@@ -255,7 +100,6 @@
     <main class="content">
         <!-- ANCHOR Common Mypage -->
         <div id="commonMypage"></div>
-        <script src="//image.msscdn.net/static/common-mypage/1.0.0/common-mypage-pc.js"></script>
         <!-- contents -->
         <section class="mypage-cont">
             <header class="n-section-title">
@@ -2938,188 +2782,10 @@
     
   <div id="footerCommonPc"></div>
   <meta name="google-site-verification" content="NqB0BDAEWJTvAPCCxzrckJYnS7-xJILFU40FvSmh5S8"/>
-  <script type="text/javascript"
-          src="//static.msscdn.net/skin/musinsa/js/jquery.url.packed.js"
-          async="true"></script>
 
 </div>
 
-        <script type="text/javascript">
-
-            const reviewData = {
-                currentData : {},
-                setCurrentData : e => {
-                    this.currentData = $(e.currentTarget).closest('div').data();
-                },
-                getCurrentData : key => !!key ? (!!this.currentData[key] ? this.currentData[key] : '') : this.currentData
-            }
-
-            function search(approvalYn) {
-                document.location.href = "/goods/mypage/review/review-history?approvalYn=" + approvalYn;
-            }
-
-            function click_paging(page) {
-                var approvalYn = $("#search_list a.is-active").attr("approval");
-                document.location.href="/goods/mypage/review/review-history/?page=" + page + "&approvalYn=" + approvalYn
-            }
-
-            $(function(){
-                // 후기 더보기 / 접기 생성
-                var reviewContents = document.querySelectorAll('.review-contents');
-
-                reviewContents.forEach(function (item) {
-                    var reviewContentText = $(item).find('.review-contents__text');
-                    reviewContentText.height() >= 70 && $(reviewContentText).addClass('review-contents--overflow');
-                });
-
-                $('.review-contents').on('click',function(e){
-                    $(this).toggleClass('review-contents--active');
-                    if ($(this).hasClass('review-contents--active')) {
-                        var img_cnt = $(this).find(".review-content-photo__list").find("img").length;
-                        for(var i = 0; i < img_cnt; i++) {
-                            var re_img = $(this).find(".review-content-photo__list").find("img").eq(i).attr("src").replace(".list", ".view");
-                            $(this).find(".review-content-photo__list").find("img").eq(i).attr("src", re_img);
-                        }
-                        $(this).find('.content-more-image').show();
-                        $(this).closest('li').find('.my-review-detail').show();
-                    } else {
-                        var img_cnt = $(this).find(".review-content-photo__list").find("img").length;
-                        for(var i = 0; i < img_cnt; i++) {
-                            var re_img = $(this).find(".review-content-photo__list").find("img").eq(i).attr("src").replace(".view", ".list");
-                            $(this).find(".review-content-photo__list").find("img").eq(i).attr("src", re_img);
-                        }
-                        $(this).find('.content-more-image').hide();
-                        $(this).closest('li').find('.my-review-detail').hide();
-                    }
-                });
-
-                $("img.lazyload").lazyload();
-            });
-
-            // 삭제
-            $('#wrapReviewArea').on('click', '.btnDeleteReview', function (e) {
-                if ($(e.currentTarget).data('delEvent') === 'off') {
-                    return;
-                }
-                reviewData.setCurrentData(e);
-                $("#receivePoint").text(reviewData.getCurrentData('reviewTypePoint') + "원");
-
-                if (!reviewData.getCurrentData('point')
-                    && reviewData.getCurrentData('confirmYn') === 'N') {
-                    if(!confirm("작성하신 상품후기를 삭제하시겠습니까?")) {
-                        return;
-                    }
-
-                    $(e.currentTarget).data('delEvent', 'off');
-                    deleteReview();
-                } else {
-                    uiLayerBasic('#reviewDelete', '', '');
-                }
-
-            }).on('click', '.btnEditReview', function (e) {
-                if(!confirm("작성하신 구매후기를 수정하시겠습니까?")) {
-                    return false;
-                }
-                var data = $(e.currentTarget).closest('div').data();
-                var params = $.param({
-                    estimateNo : data.estimateNo || 0,
-                    orderOptNo: data.orderOptNo || 0
-                });
-                location.href = '/goods/mypage/review/write/' + data.type + '?' + params;
-            });
-
-            $('#btnDeleteReviewPopup').on('click', function (e) {
-                if ($(e.currentTarget).data('delEvent') === 'off') {
-                    return;
-                }
-
-                var msg = reviewData.getCurrentData('reviewWritable') === 'Y' ?'정말로 삭제할까요?' : '삭제 후 재작성 불가능 합니다. \n정말로 삭제할까요?'
-                if (!confirm(msg)) {
-                    return;
-                }
-
-                $(e.currentTarget).data('delEvent', 'off');
-                deleteReview();
-            });
-
-            $('#btnUpdateReviewPopup').on('click', function (e) {
-                updateReview();
-            });
-
-            //베스트 후기 가이드
-            function layerbestReview(){
-                var obj = $("#bestReview_guide");
-                var dimmZ = obj.css('z-index') - 1;
-
-                $.ajax({
-                    type: "POST",
-                    url: globalState.domain('serviceStoreUrl') + "/app/content/s/svc/best_review_guide",
-                    xhrFields: {
-                        withCredentials: true
-                    },
-                    success: function(msg) {
-                        $('.ui-layer-close.fixed').css({'display':'block','z-index':dimmZ});
-
-                        obj.html(msg);
-                        var top = Math.max(0, (($(window).height() - obj.outerHeight()) / 2) + $(window).scrollTop()) + "px";
-                        obj.css("top", top);
-                        obj.show();
-                    }
-                });
-            }
-
-            function updateReview(data = reviewData.getCurrentData()) {
-                const params = $.param({
-                    estimateNo: data.estimateNo || 0,
-                    orderOptNo: data.orderOptNo || 0
-                });
-                location.href = '/goods/mypage/review/write/' + data.type + '?' + params;
-            }
-
-            function deleteReview(data = reviewData.getCurrentData()) {
-                var params = {
-                    estimateType : data.type || '',
-                    estimateNo : data.estimateNo || 0,
-                    orderOptNo: data.orderOptNo || 0,
-                    goodsNo: data.goodsNo || 0
-                };
-
-                $.ajax({
-                    type : "DELETE",
-                    url :  globalState.domain('serviceGoodsApiUrl') + '/mypage/review/'+ data.estimateNo,
-                    async: false,
-                    dataType: 'json',
-                    data: params,
-                    xhrFields: {
-                        withCredentials: true
-                    },
-
-                    success: function (res) {
-                        alert("삭제 되었습니다.");
-                        location.reload();
-                    },
-                    error: function (xhr, status, error) {
-                        try {
-                            var res = JSON.parse(xhr.responseText);
-                            if (!res || !res.error) {
-                                throw new Error();
-                            }
-                            if (error.code === 'GOODS_002') {
-                                storeLoginAlertRedirect();
-                                return;
-                            }
-                            alert(res.error.message);
-                        } catch (e) {
-                            alert("상품후기 삭제 시 문제가 발생하였습니다. 다시 시도해 주십시오.");
-                            console.log(e);
-                        }
-                        location.href = '/goods/mypage/review/review-history';
-                    }
-                });
-            }
-
-        </script>
+      
     
-<script src="//static.msscdn.net/skin/musinsa/js/jquery.url.packed.js" async="true"></script>
 </body>
 </html>

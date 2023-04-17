@@ -6,40 +6,13 @@
     <head>
         <title>상품 랭킹 | 무신사 스토어</title>
         
-    <script type="text/javascript">
-        var dataLayer = dataLayer || [];
-        dataLayer.push({
-            'dimension1': '0771f504ee530491a670ea187969f377',
-            'dimension2': 'F',
-            'dimension3': '0',
-            'dimension4': '4',
-            'dimension5': '2018-02-11',
-            'dimension6': '40',
-            'dimension7': '160만원대'
-        });
-    </script>
-
-        
-
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-TXDSFSF');</script>
-    <!-- End Google Tag Manager -->
-
-
-
+  
         
         <meta charset="utf-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="description" content="무신사 랭킹은 상품 매출, 판매 수량, 상품 조회 수, 작성 후기 수를 반영한 공식에 의해 선정됩니다.
 무신사 스토어는 광고 목적으로 랭킹을 절대 임의 조작하지 않으므로 믿고 구매하셔도 됩니다."/>
 
-        <script type="text/javascript">
-            var THIS_PAGE_GF = 'A';
-        </script>
 
         <link rel="shortcut icon" href="https://image.msscdn.net/favicon.ico" type="image/x-icon"/>
 
@@ -97,127 +70,33 @@
         
 
     <!-- 스토어, 매거진 공통 스크립트 -->
-    <script type="text/javascript" src="//static.msscdn.net/mfile_outsrc/js/vendor/jquery-1.11.1.min.js?202304071330"></script>
-    <script type="text/javascript" src="//static.msscdn.net/mfile_outsrc/js/common/base.js?202304071330"></script>
-    <script type="text/javascript" src="//static.msscdn.net/mfile_outsrc/js/common/common.js?202304071330"></script>
-    <script type="text/javascript" src="//static.msscdn.net/mfile_outsrc/js/vendor/jquery.easing.js?202304071330"></script>
     <!--// 스토어, 매거진 공통 스크립트 -->
-    <script type="text/javascript" src="//static.msscdn.net/static/ranking/202304071330/js/common/pc/layout/common.js"></script>
-    <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jquery.cycle.all.js?202304071330"></script>
-    <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/m_js/jquery-ui.min.js?202304071330"></script>
-    <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jquery.bxslider.js?202304071330"></script>
-    <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/clipboard.min.js?202304071330"></script>
-    <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/ui.js?202304071330"></script>
     <!-- Swiper -->
-    <script src="//static.msscdn.net/swiper/swiper.min.js"></script>
     <!--jqModal-->
-    <script src="//static.msscdn.net/skin/musinsa/js/jqModal.min.js?202304071330" type="text/javascript"></script>
     <!--//jqModal-->
     <!-- 유사 이미지 상품 검색 -->
-    <script type="text/javascript" src="//static.msscdn.net/static/ranking/202304071330/js/common/pc/search/image_search.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function(){
-            if (window.image_search) {
-                window.image_search.setUrl('https://www.musinsa.com');
-            }
-        });
-    </script>
-    <script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jquery.lazyload.min.js?202304071330"></script>
-
-    <script src="//static.msscdn.net/static/common/1.2.0/chunk-vendors.js"></script>
-
-    <script type="text/javascript" href="//static.msscdn.net/layouts/community/js/musinsa_timeline.new.js?version=6.249"></script>
-    <script src="//static.msscdn.net/static/lib/blackhole/1.1.0/mssBlackholeSdk.js?202304071330"></script>
 
 
-        
-    <script>
-        var dataLayer = dataLayer || [];
-        dataLayer.push({
-            "productList" : {
-                "email": "dfebad2adc30f8e42a691eb4c9efea1feee4a4849292cdf28501c5c63291800d",
-                // 조회 결과 중 상위 3개를 셋팅함. (goods_no-goods_sub)
-                "list": []
-            }
-        });
-    </script>
 
 
-        
-    <script type="text/javascript" src="//static.msscdn.net/static/ranking/202304071330/js/common/pc/layout/config.js"></script>
-    <script>
-        var uiConfig = {
-            service : 'mensinsa',
-            isWusinsaService : false,
-            htmlTitle : '상품 랭킹 | 무신사 스토어',
-            isLoginYn: 'Y',
-            memberGroupNo: '4',
-            total: '',
-            siteCode: 'mensinsa',
-            headerSex: '',
-            globalFilter: 'A',
-            globalFilterWrapperCssName: 'musinsa',
 
-            searchFrontServiceUrl: 'https://www.musinsa.com/search/musinsa/',
-            searchFrontUrl: 'https://www.musinsa.com',
-            searchApiUrl: 'https://search.musinsa.com',
-            serviceUrl : 'https://www.musinsa.com',
-            magazineUrl : 'https://magazine.musinsa.com',
-            storeUrl: 'https://www.musinsa.com',
-            mobileStoreUrl: 'https://www.musinsa.com',
-            wusinsaUrl : 'https://wusinsa.musinsa.com',
-            myPageFrontUrl: 'https://www.musinsa.com',
-
-            likeApiUrl : 'https://like.musinsa.com/like',
-            goodsDetailUrl: '/app/goods/',
-            brandShopUrl: 'https://www.musinsa.com/brands/',
-
-            cssResourceUrl : '//static.msscdn.net',
-            httpImageResourceUrl : 'https://image.msscdn.net',
-            imageResourceUrl : 'https://image.msscdn.net',
-            staticResourceUrl : '//static.msscdn.net',
-            staticResourceVersion : '202304071330',
-
-            noImagePrefix: 'no_image_'
-        };
-
-        mss.ui.config.set(uiConfig);
-
-    </script>
     <!-- mss.ui : global config end -->
     <!-- mss.ui : gnb start -->
-    <script type="text/javascript" src="//static.msscdn.net/static/ranking/202304071330/js/ajax.js"></script>
 
 
     </head>
 
     <body>
-        
-    <script>
-        var siteCode = "mensinsa";
-
-        mss.ui.left = {
-            category: {
-                dCatCd: "", // 선택된 카테고리 코드
-            },
-            menuType: 'list'
-        };
-
-        mss.ui.loggedIn = mss.ui.config.get().isLoginYn === 'Y';
-
-    </script>
 
 
         
         <div id="topCommonPc"></div>
-        <script src="//static.msscdn.net/static/common/1.2.0/pc.js"></script>
     
 
         <div class="wrap">
             
             
         <div id="leftCommonPc"></div>
-        <script src="//static.msscdn.net/static/common/1.2.0/lnb.js?202304071330"></script>
     
             <div class="right_area page-contents-best">
                 <input type="hidden" name="d_cat_cd" value="">
@@ -12898,7 +12777,6 @@
     </form>
 
 
-                <script type="text/javascript" src="//static.msscdn.net/static/ranking/202304071330/js/common/pc/contents/goods.js"></script>
                 <div class="ui-layer-close fixed"></div>
                 <meta name="google-site-verification" content="NqB0BDAEWJTvAPCCxzrckJYnS7-xJILFU40FvSmh5S8" />
 
@@ -12909,13 +12787,6 @@
             </div>
         </div>
     </body>
-    <script>
-        $(function() {
-            removeGfParameter();
-            $('img.lazyload').lazyload();
-        });
-    </script>
     
-    <script type="text/javascript" src="//static.msscdn.net/static/ranking/202304071330/js/ranking/goods_pc.js"></script>
 
 </html>

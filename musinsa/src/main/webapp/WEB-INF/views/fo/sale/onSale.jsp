@@ -5,21 +5,6 @@
 <html lang="ko">
 <head>
 
-<!-- Google Tag Manager -->
-<script>
-var selfCertEnabled = "" || "Y";
-var THIS_PAGE_GF = 'A'; // 전역필터 상태값 caching page reload 필요 체크용
-var dataLayer = window.dataLayer || [];
-window.addEventListener("DOMContentLoaded", function() {
-    
-    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-TXDSFSF');
-}, false);
-</script>
-<!-- End Google Tag Manager -->
 
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -56,249 +41,26 @@ window.addEventListener("DOMContentLoaded", function() {
 
 <!-- Swiper -->
 <link rel="stylesheet" type="text/css" href="//static.msscdn.net/swiper/swiper.min.css" />
-<script src="//static.msscdn.net/swiper/swiper.min.js?20200316"></script>
 <!-- Polyfill -->
 
-<script>
-    if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
-        (function (w, d, s) {
-            var f = d.getElementsByTagName(s)[0];
-            var j = d.createElement(s);
-            j.async=true;
-            j.src= '//static.msscdn.net/skin/musinsa/js/polyfill.min.js?features=Array.from,Promise,fetch&flags=always';
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script');
-    }
-</script>
 
 <!-- 스토어, 매거진 공통 스크립트 -->
-<script type="text/javascript" src="//static.msscdn.net/mfile_outsrc/js/vendor/jquery-1.11.1.min.js?20160201"></script>
-<script type="text/javascript" src="//static.msscdn.net/mfile_outsrc/js/common/base.js?20160201"></script>
-<script type="text/javascript" src="//static.msscdn.net/mfile_outsrc/js/common/common.js?202105041500"></script>
-<script type="text/javascript" src="//static.msscdn.net/mfile_outsrc/js/vendor/jquery.easing.js?20160201"></script>
 <!--// 스토어, 매거진 공통 스크립트 -->
 
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/mini_cart.js?202304061530"></script>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/common.js?202303231111"></script>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jquery.cycle.all.js?20160202"></script>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/m_js/jquery-ui.min.js?20160202"></script>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jslib.js?20200601"></script>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jquery.bxslider.js?20180503"></script>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/clipboard.min.js?20170406"></script>
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/ui.js?202203221100"></script>
-<script src="//static.msscdn.net/static/common/1.2.0/chunk-vendors.js"></script>
-
-<script src="//static.msscdn.net/skin/js/app/app.js?24938c3954902c94bd82"></script>
 
     <!--jqModal-->
     <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/jqModal.css?20160119" />
-    <script src="//static.msscdn.net/skin/musinsa/js/jqModal.min.js?20160511" type="text/javascript"></script>
     <!--//jqModal-->
 
 <!-- 유사 이미지 상품 검색 -->
 <link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/image_search.css?202201051301" />
-<script type="text/javascript" src="//static.msscdn.net/static/search/js/common/pc/search/image_search.js?20220127"></script>
-<script type="text/javascript">
-    var search_front_url = "https://search.musinsa.com";
-    
-    $(document).ready(function(){
-        if (window.image_search) {
-            window.image_search.setUrl(search_front_url);
-        }
-    });
-    
-</script>
-<!-- //유사 이미지 상품 검색 --><script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jquery.lazyload.min.js?20160119"></script>
-<script type="text/javascript">
 
-
-function send(obj, obj_value, obj2, obj2_value) {
-	var ff = document.f1;
-
-	if(obj) obj.value = obj_value;
-	if(obj2) obj2.value = obj2_value;
-
-	ff.submit();
-}
-
-function removeBrand(form, obj, value, page){
-
-	document.f1.brand.value = "";
-	getGoodsList(form, obj, value, page);
-
-}
-
-function priceResult() {
-
-    var f1 = document.f1;
-
-    if (isNaN(f1.price1.value) || isNaN(f1.price2.value)) {
-        alert("숫자를 입력하여 주십시오.");
-        return false;
-    }
-    if (f1.price1.value == "" && f1.price2.value == "") {
-        return false;
-    }
-    if (Number(f1.price1.value) > Number(f1.price2.value) && f1.price2.value != "") {
-
-        var price = f1.price2.value + "^" + f1.price1.value;
-        var rr = f1.price1.value;
-        f1.price1.value = f1.price2.value;
-        f1.price2.value = rr;
-
-    } else {
-
-        var price = f1.price1.value + "^" + f1.price2.value;
-
-    }
-
-    f1.price.value = price;
-    f1.page.value = 1;
-
-    f1.submit();
-}
-
-
-//연관브랜드 관련 스크립트
-$(function(){
-	//연관브랜드 30개만 보여주기
-	$('#ico30').click(function() {
-		if($(this).hasClass('brandLayerOpen')) {	// 열린 상태
-			$('#brandLayer>li.hided').hide();
-			$(this).removeClass('brandLayerOpen');
-			$(this).find("img").css("margin-top", "0");
-			$("#more_li").show();
-		} else {	// 닫힌 상태
-			$('#brandLayer>li.hided').show();
-			$(this).addClass('brandLayerOpen');
-			$(this).find("img").css("margin-top", "-20px");
-			$("#more_li").hide();
-		}
-	});
-
-	$("#more_li").click(function() {
-		$("#brandLayer>li.hided").show();
-		$("#ico30").addClass("brandLayerOpen");
-		$("#ico30").find("img").css("margin-top", "-20px");
-		$(this).hide();
-	});
-
-	$('.brandNameOff').hover(
-		function() {
-			$(".brandNameOn").hide();
-			$(".brandNameOff").show();
-			$(this).hide();
-			$(this).parents(".brandList").find(".brandNameOn").show();
-		},
-		function() {
-		}
-	);
-	$('.brandNameOn').hover(
-		function() {
-		},
-		function() {
-			$(this).hide();
-			$(this).parents(".brandList").find(".brandNameOff").show();
-		}
-	);
-
-});
-
-function SearchBrandByCategory() {
-	var q = $("#search_brand_input").val();
-
-	if(q != "") {
-		$("#ico30").addClass("brandLayerOpen");
-		$("#ico30 img").css("margin-top", "-20px");
-	}
-	q = q.toUpperCase();
-	ql = q.substr(q.length-1,1);
-	if((ql >= 'ㄱ' && ql <= 'ㅎ') || (ql >= 'ㅏ' && ql <= 'ㅣ')) {
-		return;
-	}
-
-	var brands = $("ul#brandLayer li");
-	for(var i=0; i<brands.length; i++) {
-		var brand = $(brands[i]).children("a");
-		var brand_txt = $(brand).children("span.brand_name").text();
-		brand_txt.toUpperCase();
-		if(brand_txt.indexOf(q) >= 0){
-			$(brands[i]).addClass("brandList");
-			$(brands[i]).show();
-		} else {
-			$(brands[i]).removeClass("brandList");
-			$(brands[i]).hide();
-		}
-	}
-	$("li#more_li").hide();
-}
-
-function chkCampaign(value) {
-    document.f1.sale_campaign_yn.value = value;
-    document.f1.submit();
-}
-
-
-</script>
+<!-- //유사 이미지 상품 검색 -->
 </head>
 <body>
 <!-- 상단 콘텐츠 영역 -->
 
 
-
-<script>
-	var mss = {
-		ui: {
-			loggedIn: false,
-			top: {
-				extendBannerList: { // 상단 배너 리스트
-					code: '16MAIN_UP_1_3',
-					type: 'H',
-					subject: '16MAIN_UP_1_3_메인 외_0328_트렌드 키워드',
-					contents: '<a href="/app/banner/check/16MAIN_UP_1_3/1"><span style="display:block;overflow:hidden; height:70px;background-color:#E9ECED" href="https://www.musinsa.com/app/campaign/index/23_changeofseason"><img src="//image.musinsa.com/images/banner/2023032809413100000043883.jpg" alt="트렌드 키워드"></span></a>',
-					extendContents: '',
-					extendUrl: ''
-				},
-				campaignList: [ // 캠페인 리스트
-					
-																
-							{
-								hrefTag: {
-									linkUrl: 'https://www.musinsa.com/app/campaign/index/weekendsale18',
-									style: 'color: #ED00EC',
-									text: '주말 특가'
-								}
-							},
-					
-											
-							{
-								hrefTag: {
-									linkUrl: 'https://www.musinsa.com/app/campaign/index/23_changeofseason',
-									style: 'color: #5800FF',
-									text: '트렌드 픽'
-								}
-							},
-					
-											
-							{
-								hrefTag: {
-									linkUrl: 'https://www.musinsa.com/app/campaign/index/2023springinnershop',
-									style: 'color: #0091FA',
-									text: '봄 이너'
-								}
-							},
-					
-																
-				],
-			},
-			left: {
-				category: {
-					dCatCd: '', // 선택된 카테고리 코드
-				},
-			},
-		}
-	};
-</script>
 
 
 <div class="top-column column top-musinsa" style="display:none">
@@ -313,14 +75,13 @@ function chkCampaign(value) {
 	<div id="topCommonPc"></div>
 </div>
 
-<script src="//static.msscdn.net/static/common/1.2.0/pc.js"></script><!--// 상단 콘텐츠 영역 -->
+<!--// 상단 콘텐츠 영역 -->
 
 <!-- wrap -->
 <div class="wrap">
 	<!-- 왼쪽 메뉴 영역 -->
 	<div id="leftCommonPc"></div>
 
-<script src="//static.msscdn.net/static/common/1.2.0/lnb.js"></script>
 	<!--// 왼쪽 메뉴 영역 -->
 
 	<!-- 오른쪽 콘텐츠 영역 -->
@@ -19162,7 +18923,7 @@ function chkCampaign(value) {
 		<!-- 하단 콘텐츠 영역 -->
 				<div id="footerCommonPc"></div>
 <meta name="google-site-verification" content="NqB0BDAEWJTvAPCCxzrckJYnS7-xJILFU40FvSmh5S8" />
-<script type="text/javascript" src="//static.msscdn.net/skin/musinsa/js/jquery.url.packed.js" async="true"></script>				<!--// 하단 콘텐츠 영역 -->
+	<!--// 하단 콘텐츠 영역 -->
 
 	</div>
 	<!--// 오른쪽 콘텐츠 영역 -->
@@ -19170,48 +18931,5 @@ function chkCampaign(value) {
 		</div>
 <!--// wrap -->
 
-<script type="text/javascript">
-
-$(function() {
-	$("img.lazyload").lazyload({
-	});
-});
-
-var goodsNos = ["1778404","2149254","750908","2396645","991339","1736085","2092852","998051","2186292","2122566","1568057","858911","2112061","2272830","1370101","2066837","1264107","2314616","1789507","890338","311052","734085","3081455","2064545","1504726","404474","693318","2037167","2037173","1291017","1552753","999426","1558197","2326935","1576700","1339622","1582356","2702396","991340","2131950","1034480","2108160","3036129","2038497","810034","1986031","1342874","640839","1212776","2704962","1515680","2775713","2351467","2092849","1961481","1139175","2060719","2731878","1558847","1568032","1615829","342189","2043036","978464","1729576","1477272","2194649","2032901","2752332","659554","2706287","3007774","1817394","1848166","2758252","1790383","2184087","2758254","1778408","999449","938746","1136908","2744549","2034137","3012082","2351444","2064478","947088","1844582","2060759"];
-Like.renderLikeProcess({
-	type : 'cnt',
-	likeType : 'goods',
-	relationId : goodsNos
-});
-
-// 로그인 함수
-function goLogin()
-{
-	const url = 'https://www.musinsa.com/auth/login?referer=' + encodeURIComponent(document.location.href);
-	document.location.href = url;
-}
-
-function searchByEnter(element) {
-	if(event.keyCode == 13 || event.code == 'Enter'){
-		filterBySearchKeyword($(element).val());
-	}
-}
-
-function filterBySearchKeyword(searchKeyword) {
-	searchKeyword = searchKeyword || '';
-	searchKeyword = $.trim(searchKeyword);
-	if (!searchKeyword) {
-		return;
-	}
-
-	var regExp = /[\{\}\[\]\/?.,;:|\)*~`!^\-+<>@\#$%&\\\=\(\'\"]/gi;
-	if (regExp.test(searchKeyword)) {
-		searchKeyword = searchKeyword.replace(regExp, '');
-	}
-
-	getGoodsList(document.f1, document.f1.includeKeywords, searchKeyword);
-}
-
-</script>
 </body>
 </html>
