@@ -1,0 +1,169 @@
+.rollingRanking .listItem .rank {
+	margin-right: 4px
+}
+
+.header-channel-v2 {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	height: 50px;
+	padding: 0 15px;
+	background-color: #f9f9f9;
+	border-bottom: 1px solid #ddd;
+	color: #000;
+	font-size: 14px;
+	line-height: 21px
+}
+
+.header-channel-v2, .header-channel-v2__link {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex
+}
+
+.header-channel-v2__link {
+	padding: 5px
+}
+
+.header-channel-v2__link+.header-channel-v2__link {
+	margin-left: 14px
+}
+
+.header-channel-v2__aside {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin-left: auto
+}
+
+.header-channel-v2__raffle {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.header-channel-v2__raffle__link {
+	margin-left: 10px;
+	font-weight: 700;
+	color: #0078ff
+}
+
+.header-channel-v2__raffle:after {
+	display: block;
+	width: 1px;
+	height: 12px;
+	margin: 0 10px;
+	background-color: #d1d1d1;
+	content: ""
+}
+
+.searchWord-box .slick-slide {
+	display: inline-block;
+	overflow: hidden
+}
+
+.salerank .box-word .rank_img img {
+	width: 50px
+}
+
+.salerank .box-word .rank_txt .word {
+	text-overflow: ellipsis
+}
+
+.addressBox__link[data-v-51e92a88] {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	padding-top: 8px
+}
+
+.addressBox__link>a[data-v-51e92a88], .addressBox__link>em[data-v-51e92a88]
+	{
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	line-height: 20px
+}
+
+.addressBox__link>a[data-v-51e92a88]:hover {
+	text-decoration: underline
+}
+
+.addressBox__link>span[data-v-51e92a88] {
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	width: 1px;
+	height: 10px;
+	margin: 0 8px;
+	background-color: #ddd
+}
+
+.addressBox__text[data-v-51e92a88] {
+	margin: 8px 0;
+	line-height: 20px
+}
+
+.addressBox__text>span[data-v-51e92a88] {
+	display: block;
+	color: #6e6e6e
+}
+
+.addressBox__faq[data-v-51e92a88] {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	width: 240px;
+	height: 32px;
+	background-color: #f9f9f9
+}
+
+.addressBox__faq>strong[data-v-51e92a88] {
+	margin-right: 4px;
+	font-family: Musinsa, sans-serif;
+	font-weight: 400;
+	color: #0078ff
+}
+
+.addressBox__faq>svg[data-v-51e92a88] {
+	margin-top: -2px
+}
+
+.addressBox.store-addressBox[data-v-51e92a88] {
+	padding-bottom: 28px
+}
+
+.footer__text-escrow[data-v-51e92a88] {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin-top: 15px;
+	line-height: 18px
+}
+
+.footer__text-escrow__anchor[data-v-51e92a88] {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	padding: 0 3px 0 5px;
+	margin-left: 6px;
+	border: 1px solid #e5e5e5;
+	font-size: 10px;
+	line-height: 16px;
+	color: #4f4f4f
+}

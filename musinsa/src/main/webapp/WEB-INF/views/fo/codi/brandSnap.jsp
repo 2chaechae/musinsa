@@ -27,7 +27,7 @@
 <meta property="fb:app_id" content="256225934421849" />
 <title> 브랜드 스냅  | 무신사</title>
 			<link rel="shortcut icon" href="//image.msscdn.net/favicon.ico" type="image/x-icon" />
-		<link type="text/css" rel="stylesheet" charset="utf-8" href="//static.musinsa.com/mfile_outsrc/css/common/normalizer.css?v=9.217662"/>
+		<!-- <link type="text/css" rel="stylesheet" charset="utf-8" href="//static.musinsa.com/mfile_outsrc/css/common/normalizer.css?v=9.217662"/>
 		<link type="text/css" rel="stylesheet" href="//static.musinsa.com/mfile_outsrc/css/common/base.css?v=9.217662" />
 		<link type="text/css" rel="stylesheet" charset="utf-8" href="//static.musinsa.com/mfile_outsrc/css/common/common-magazine.css?v=9.217662"/>
 		<link type="text/css" rel="stylesheet" charset="utf-8" href="//static.musinsa.com/mfile_outsrc/css/common/common.css?v=9.217662" />
@@ -37,14 +37,33 @@
 		<link type="text/css" rel="stylesheet" href="//static.musinsa.com/mfile_outsrc/css/font-awesome/font-awesome.css?v=9.217662" />
 		<link type="text/css" rel="stylesheet" charset="utf-8" href="https://static.msscdn.net/skin/m_musinsa/css/guide.min.css?v=9.217662"/>
 		<link type="text/css" rel="stylesheet" charset="utf-8" href="//image.msscdn.net/ui/musinsa/resources/common/css/icon.min.css?v=9.217662">
-				<link type="text/css" rel="stylesheet" href="//static.musinsa.com/mfile_outsrc/css/module/shopstaff.css?v=9.217662" />
+		 -->
+		<link rel="stylesheet" href="css/common/normalizer.css"> 
+		<link rel="stylesheet" href="css/common/base.css">
+		<link rel="stylesheet" href="css/common/magazine.css"> 
+		<link rel="stylesheet" href="css/common/common.css"> 
+		<link rel="stylesheet" href="css/common/commonPc.css"> 
+		<link rel="stylesheet" href="css/common/footer.css"> 
+		<link rel="stylesheet" href="css/common/header.css">
+		<link rel="stylesheet" href="css/fontAwesome.css">
+		<link rel="stylesheet" href="css/guideM.css">
+		<link rel="stylesheet" href="css/common/icon.css">
+		<!-- <link type="text/css" rel="stylesheet" charset="utf-8" href="//image.msscdn.net/ui/musinsa/resources/common/css/icon.min.css?v=9.217662"> -->
+				<!-- <link type="text/css" rel="stylesheet" href="//static.musinsa.com/mfile_outsrc/css/module/shopstaff.css?v=9.217662" /> -->
+				<link rel="stylesheet" href="css/module/shopstaff.css">
 </head><body class="STAFF_BODY " data-dico="noTrans" >
-<link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/layout.min.css?v=9.217662">
-<link type="text/css" rel="stylesheet" href="//static.msscdn.net/ui/build/pc/css/common.css?202102221228">
-<link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/style.min.css?202110261421">
-<link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/normalizer.css?202111011141">
-<link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/image_search.css?v=9.217662">
-<link type="text/css" rel="stylesheet" href="//static.msscdn.net/static/common/1.2.0/pc.css" />
+<!-- <link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/layout.min.css?v=9.217662"> -->
+<link rel="stylesheet" href="css/layout.css">
+<!-- <link type="text/css" rel="stylesheet" href="//static.msscdn.net/ui/build/pc/css/common.css?202102221228"> -->
+<link rel="stylesheet" href="css/ui/common.css">
+<!-- <link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/style.min.css?202110261421"> -->
+<link rel="stylesheet" href="css/skin/style.css">
+<!-- <link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/normalizer.css?202111011141"> -->
+<link rel="stylesheet" href="css/skin/normalizer.css">
+<!-- <link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/image_search.css?v=9.217662"> -->
+<link rel="stylesheet" href="css/skin/imageSearch.css">
+<!-- <link type="text/css" rel="stylesheet" href="//static.msscdn.net/static/common/1.2.0/pc.css" /> -->
+<link rel="stylesheet" href="css/static/common.css">
 <style>
 .header {border-bottom:0;}
 </style>

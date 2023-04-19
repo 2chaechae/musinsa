@@ -1,0 +1,983 @@
+@charset "utf-8";
+
+/* ==========================================================================
+   헤더 header
+   ========================================================================== */
+.top-column .header {
+  min-width: 1240px;
+  border-bottom: 1px solid #dddddd;
+  position:relative;
+}
+.top-column .header .gnb-list a {color:#fff;}
+
+/* ==========================================================================
+   유저메뉴 userMenu
+   ========================================================================== */
+.top-column .header .main-wrapper {
+  width: 100%;
+  height: 32px;
+  display: block;
+  padding: 23px 0 23px 0;
+  background-color: #000000;
+}
+.top-column .header .main-wrapper > .wrapper {
+  float: left;
+}
+.top-column .header .main-wrapper h1.title {
+  margin: 0 0 0 20px;
+  display: block;
+  position: relative;
+  float: left;
+  background:url(//image.msscdn.net/mfile_outsrc/img/logo-musinsa-magazine-white@2x.png) no-repeat center;
+  background-size:255px auto;
+  width:255px;
+  height:19px;
+  text-indent:-10000000em;
+  overflow:hidden;
+  padding:0;
+  top:6px;
+}
+.top-column .header .main-wrapper .search-wrapper {
+  margin-left: 19px;
+  position: relative;
+}
+.top-column .header .main-wrapper .search-wrapper .box {
+  float: left;
+}
+
+/* searchInput-box */
+.box.searchInput-box {
+  position: relative;
+}
+.box.searchInput-box input {
+  height: 30px;
+  line-height: 32px;
+  box-sizing: content-box;
+  border: 1px solid #373737;
+}
+.box.searchInput-box input.search {
+  width: 218px;
+  background:#fff;
+}
+.box.searchInput-box input.search:focus {
+  outline: 0;
+}
+.box.searchInput-box input.search:focus + .search-btn {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+.box.searchInput-box .search-btn {
+  width: 30PX;
+  top: 1px;
+  left: 189px;
+  line-height: 30px;
+  position: absolute;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  display: none;
+}
+.box.searchInput-box .search-btn:hover {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+.box.searchInput-box input.search:valid + .search-btn {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+.top-column .header .main-wrapper .gnb {
+  float: right;
+  margin-right: 33px;
+  line-height: 32px;
+}
+.top-column .header .main-wrapper .gnb .gnb-list li {
+  font-size: 18px;
+  font-weight: bold;
+  float: left;
+  position: relative;
+}
+.top-column .header .main-wrapper .gnb .gnb-list li a {
+  padding: 0 9px;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  line-height: 14px;
+  *line-height: 16px;
+}
+.top-column .header .main-wrapper .gnb .gnb-list li a:hover {
+  text-decoration: none;
+}
+.top-column .header .main-wrapper .gnb .gnb-list li:first-child a {
+  padding-left: 0;
+  border-left: none;
+}
+.top-column .header .main-wrapper .gnb .gnb-list li.snap .hoverTarget {
+  width: 131px;
+  left: -38px;
+}
+.top-column .header .main-wrapper .gnb .gnb-list li.db .hoverTarget {
+  width: 78px;
+  left: -13px;
+}
+.top-column .header .main-wrapper .gnb .gnb-list li.news .hoverTarget {
+  width: 78px;
+  right: -11px;
+}
+.top-column .header .main-wrapper .gnb .gnb-list li.store .hoverTarget {
+  width: 132px;
+  left: -30px;
+}
+.top-column .header .main-wrapper .gnb .gnb-list li .hoverTarget {
+  padding-top: 6px;
+  font-size: 16px;
+  color: #000000;
+  position: absolute;
+  z-index: 2000;
+}
+.top-column .header .main-wrapper .gnb .gnb-list li .hoverTarget li {
+  background-color: #ffffff;
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+  border: 1px solid #dddddd;
+  margin-bottom: -1px;
+  text-align: center;
+}
+.top-column .header .main-wrapper .gnb .gnb-list li .hoverTarget li a {
+  width: 100%;
+  height: 100%;
+  line-height: 44px;
+  border-left: none;
+  padding: 0;
+  color:#000;
+}
+.top-column .header .main-wrapper .gnb .gnb-list li .hoverTarget li:hover {
+  background-color: #f3f3f3;
+}
+.top-column .header .userMenu-wrapper {
+  position: relative;
+}
+.userMenu-wrapper .userMenu-list {
+  position: relative;
+  margin: 15px 15px 16px 20px;
+  color: #000000;
+  padding: 0;
+  font-family:"-apple-system","Apple SD Gothic Neo",Roboto,"Noto Sans KR",helvetica,sans-serif;
+}
+.userMenu-wrapper .userMenu-list > .listItem {
+  height: 11px;
+  margin-left: -4px;
+  display: inline-block;
+  *zoom: 1;
+  zoom: 1;
+  *display: inline;
+  position: relative;
+  line-height: 13px;
+  *line-height: 14px;
+  border-left: 1px solid #dddddd;
+}
+.userMenu-wrapper .userMenu-list > .listItem:hover >a span {text-decoration:underline;}
+.userMenu-wrapper .userMenu-list > .listItem:hover a.h_news_feed_triger span {text-decoration:underline;}
+.userMenu-wrapper .userMenu-list > .listItem .cnt {text-align:center; display:inline-block; *zoom:1; zoom:1; text-decoration:none !important;}
+.userMenu-wrapper .userMenu-list > .listItem .new {
+display: inline-block;
+min-width: 8px;
+height: 14px;
+margin: -4px 0 0 0;
+padding: 4px 5px 0 5px;
+border-radius: 18px;
+background-color: #0078ff;
+font-size: 11px;
+font-family: Musinsa,"-apple-system","Apple SD Gothic Neo",Roboto,"Noto Sans KR",helvetica,sans-serif;
+line-height: normal;
+color: #fff;
+text-align: center;
+vertical-align: top;
+text-decoration:none !important;
+}
+.userMenu-wrapper .userMenu-list > .listItem .new:empty {display:none}
+.userMenu-wrapper .userMenu-list > .listItem .like {color:#f00}
+.userMenu-wrapper .userMenu-list > .listItem .cartCnt {
+display: inline-block;
+min-width: 8px;
+height: 14px;
+margin: -4px 0 0 4px;
+padding: 4px 5px 0 5px;
+border-radius: 18px;
+background-color: #0078ff;
+font-size: 11px;
+font-family: Musinsa,"-apple-system","Apple SD Gothic Neo",Roboto,"Noto Sans KR",helvetica,sans-serif;
+line-height: normal;
+color: #fff;
+text-align: center;
+vertical-align: top;
+text-decoration:none !important;
+}
+.userMenu-wrapper .userMenu-list .listItem_feed {
+  padding:0 10px;
+}
+.userMenu-wrapper .userMenu-list > .listItem > a:first-child {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 0 10px;
+}
+.userMenu-wrapper .userMenu-list > .listItem .pm.new:after {
+  content: "N";
+  font-family: 'Doppio One', sans-serif;
+  font-weight: bold;
+  font-size: 10px;
+  position: relative;
+  top: -2px;
+  left: 3px;
+  color: #ff0000;
+}
+.userMenu-wrapper .userMenu-list > .listItem .infoLayout {
+  width: 83px;
+  margin-right: -1px;
+  position: absolute;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  display: none;
+}
+.userMenu-wrapper .userMenu-list > .listItem:first-child {
+  border-left: none;
+}
+.userMenu-wrapper .userMenu-list > .listItem:first-child > a {
+  border-left: none;
+  font-weight:bold;
+}
+.userMenu-wrapper .userMenu-list > .listItem.division:after {
+  margin-right: 0;
+}
+.userMenu-wrapper .userMenu-list > .listItem.newsFeed {
+  position: relative;
+  padding: 0 10px;
+}
+.userMenu-wrapper .userMenu-list > .listItem.newsFeed .toggleTarget {
+  width: 320px;
+  position: absolute;
+  z-index: 2000;
+  left: -120px;
+  top: 20px;
+  background-color: #ffffff;
+  display: none;
+  padding-top: 10px;
+  background: url(//www.musinsa.com/layouts/community/image/tritop.png) no-repeat center top;
+}
+.userMenu-wrapper .userMenu-list > .listItem.newsFeed .toggleTarget.active {
+  display: block;
+}
+.userMenu-wrapper .userMenu-list > .listItem.newsFeed .toggleTarget > .heading {
+  width: 100%;
+  line-height: 41px;
+  background-color: #ffffff;
+}
+.userMenu-wrapper .userMenu-list > .listItem.newsFeed .toggleTarget > .heading .title {
+  border-top: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+  font-weight: bold;
+  float: left;
+  padding-left: 10px;
+  width: 140px;
+}
+.userMenu-wrapper .userMenu-list > .listItem.newsFeed .toggleTarget > .heading .toggle-btn {
+  width: 140px;
+  text-align: right;
+  border-top: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  color: #999999;
+  float: right;
+  padding-right: 10px;
+}
+.userMenu-wrapper .userMenu-list > .listItem.newsFeed .toggleTarget .newsFeedBox {
+  height: 330px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  overflow-y: scroll;
+}
+.userMenu-wrapper .userMenu-list > .listItem.newsFeed .toggleTarget .newsFeedBox .feed-list .listItem {
+  border-top: 1px solid #dddddd;
+  padding: 10px;
+  *zoom: 1;
+}
+.userMenu-wrapper .userMenu-list > .listItem.newsFeed .toggleTarget .newsFeedBox .feed-list .listItem:before,
+.userMenu-wrapper .userMenu-list > .listItem.newsFeed .toggleTarget .newsFeedBox .feed-list .listItem:after {
+  content: " ";
+  display: table;
+}
+.userMenu-wrapper .userMenu-list > .listItem.newsFeed .toggleTarget .newsFeedBox .feed-list .listItem:after {
+  clear: both;
+}
+.userMenu-wrapper .userMenu-list > .listItem.newsFeed .toggleTarget .newsFeedBox .feed-list .listItem .feedImg {
+  float: left;
+  margin-right: 10px;
+}
+.userMenu-wrapper .userMenu-list > .listItem.newsFeed .toggleTarget .newsFeedBox .feed-list .listItem .feedInfo {
+  padding: 2px 0 0 10px;
+}
+.userMenu-wrapper .userMenu-list > .listItem.newsFeed .toggleTarget .newsFeedBox .feed-list .listItem .feedInfo .feed {
+  line-height: 140%;
+}
+.userMenu-wrapper .userMenu-list > .listItem.newsFeed .toggleTarget .newsFeedBox .feed-list .listItem .feedInfo .date {
+  line-height: 16px;
+  color: #999999;
+}
+.userMenu-wrapper .userMenu-list > .listItem.newsFeed .toggleTarget .newsFeedBox .feed-list .listItem:first-child {
+  border-top: none;
+}
+.userMenu-wrapper .userMenu-list > .listItem.newsFeed .toggleTarget .showAll-btn {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 100%;
+  padding: 13px 0;
+  color: #000000;
+  font-weight: bold;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-top: none;
+}
+.userMenu-wrapper .userMenu-list > .listItem.activityInfo {width:84px; margin-right:-1px;}
+.userMenu-wrapper .userMenu-list > .listItem.shoppingInfo {width:84px; margin-right:-1px;}
+.userMenu-wrapper .userMenu-list > .listItem.activityInfo:after,
+.userMenu-wrapper .userMenu-list > .listItem.shoppingInfo:after {
+  margin-left: -9px;
+  margin-right: 10px;
+  content: "↓";
+}
+.userMenu-wrapper .userMenu-list > .listItem:hover.activityInfo,
+.userMenu-wrapper .userMenu-list > .listItem:hover.shoppingInfo {
+  padding-top: 6px;
+  margin-top: -6px;
+  border-top: 1px solid #ddd;
+  border-right:1px solid #ddd;
+  width:85px;
+  height:18px;
+  box-sizing:border-box;
+  margin-right:-1px;
+}
+.userMenu-wrapper .userMenu-list > .listItem:hover.activityInfo {margin-right:-1px;}
+/*
+.userMenu-wrapper .userMenu-list > .listItem:hover.activityInfo + .listItem,
+.userMenu-wrapper .userMenu-list > .listItem:hover.shoppingInfo + .listItem {
+  padding-top: 8px;
+  margin-top: -8px;
+}
+*/
+.userMenu-wrapper .userMenu-list > .listItem:hover.activityInfo:after,
+.userMenu-wrapper .userMenu-list > .listItem:hover.shoppingInfo:after {
+  content: "↑";
+}
+.userMenu-wrapper .userMenu-list > .listItem:hover .infoLayout {
+  left: -1px;
+  margin-top: 0;
+  padding-bottom: 9px;
+  text-indent: 11px;
+  display: block;
+  border-top: none;
+  z-index: 1000;
+}
+.userMenu-wrapper .userMenu-list > .listItem:hover .infoLayout li {
+  margin-top: 9px;
+}
+.userMenu-wrapper .userMenu-list > .listItem:hover .infoLayout li a:hover span {
+  text-decoration: underline;
+}
+.userMenu-wrapper .userMenu-list > .listItem:hover .infoLayout li a .point {
+  display:block;
+  color:#001eff;
+  margin-top:7px;
+  text-decoration: none;
+}
+.userMenu-wrapper .userMenu-list > .listItem:hover .infoLayout li a:hover .point {
+  text-decoration: none;
+}
+.userMenu-wrapper .userMenu-list.userMenu-list-notLogin .listItem.login {
+  margin: 0 8px 0 -1px;
+}
+.userMenu-wrapper .userMenu-list.userMenu-list-notLogin .listItem.login span {font-weight:bold;}
+.userMenu-wrapper .userMenu-list.userMenu-list-notLogin .listItem.login b {margin-left:5px}
+.userMenu-wrapper .userMenu-list.userMenu-list-notLogin .listItem.login .openLogin {display:inline-block; *display: inline; *zoom: 1;}
+.userMenu-wrapper .userMenu-list.userMenu-list-notLogin .listItem.login .closeLogin {display:none;}
+.userMenu-wrapper .userMenu-list.userMenu-list-notLogin .listItem.login.active .openLogin {display:none;}
+.userMenu-wrapper .userMenu-list.userMenu-list-notLogin .listItem.login.active .closeLogin {display:inline-block; *display: inline; *zoom: 1;}
+.userMenu-wrapper .userMenu-list.userMenu-list-notLogin .listItem.social-listItem {
+  width: 115px;
+  padding: 0 9px 0 3px;
+  border-left: none;
+}
+.userMenu-wrapper .userMenu-list.userMenu-list-notLogin .listItem.social-listItem .btn {
+  width: 55px;
+  top: -6px;
+  line-height: 23px;
+  background: url('../../img/btn_social.png') 0 0 no-repeat;
+  text-indent: -9999px;
+  position: relative;
+  float: left;
+}
+.userMenu-wrapper .userMenu-list.userMenu-list-notLogin .listItem.social-listItem .btn.facebook-btn {
+  margin-right: 5px;
+}
+.userMenu-wrapper .userMenu-list.userMenu-list-notLogin .listItem.social-listItem .btn.twitter-btn {
+  background-position: -60px 0;
+}
+.userMenu-wrapper .userMenu-list.userMenu-list-notLogin .loginBox {
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  position:relative;
+}
+.userMenu-wrapper .userMenu-list.userMenu-list-notLogin .loginBox .spacer {
+  padding-top: 34px;
+}
+.userMenu-wrapper .userMenu-list.userMenu-list-notLogin .loginBox .column {
+  float: left;
+}
+.userMenu-wrapper .userMenu-list.userMenu-list-notLogin .loginBox .column .notification {
+  color: #b2b2b2;
+}
+.userMenu-wrapper .userMenu-list.userMenu-list-notLogin .loginBox .left-column {
+  width: 265px;
+  margin-left: 5px;
+}
+.userMenu-wrapper .userMenu-list.userMenu-list-notLogin .loginBox .left-column .box {
+  float: left;
+}
+.userMenu-wrapper .userMenu-list.userMenu-list-notLogin .loginBox .left-column .box.input-box input {
+  width: 183px;
+  height: 21px;
+  border: 1px solid #dddddd;
+}
+.userMenu-wrapper .userMenu-list.userMenu-list-notLogin .loginBox .left-column .box.input-box input.pw {
+  margin-top: 7px;
+}
+.userMenu-wrapper .userMenu-list.userMenu-list-notLogin .loginBox .left-column .box.loginBtn-box input[type="submit"] {
+  width: 53px;
+  height: 53px;
+  margin-left: 7px;
+  border: 1px solid #dddddd;
+  background: #ffffff;
+  -webkit-appearance: none;
+}
+.userMenu-wrapper .userMenu-list.userMenu-list-notLogin .loginBox .left-column .box.checkbox-box {
+  margin-top: 15px;
+  clear: left;
+  width:125px;
+}
+.userMenu-wrapper .userMenu-list.userMenu-list-notLogin .loginBox .left-column .box.checkbox-box input {
+  float:left;
+}
+.userMenu-wrapper .userMenu-list.userMenu-list-notLogin .loginBox .left-column .box.checkbox-box .description {
+  margin-left: 4px;
+  word-break:keep-all;
+  white-space: nowrap;
+  float:left;
+  line-height:12px;
+}
+.userMenu-wrapper .userMenu-list.userMenu-list-notLogin .loginBox .right-column {
+  width: 390px;
+  padding-left: 19px;
+  border-left: 1px solid #dddddd;
+}
+.userMenu-wrapper .userMenu-list.userMenu-list-notLogin .loginBox .right-column .banner-loginOpen img {
+  display:block;
+  margin:0 auto;
+  height:110px;
+}
+.userMenu-wrapper .userMenu-list.userMenu-list-notLogin .loginBox.active {
+  height: 149px;
+}
+.top-column .header .searchWord-box {
+  display: none;
+  color: #000000;
+  border: 1px solid #dddddd;
+  border-top: none;
+  background-color: #ffffff;
+  position: absolute;
+  z-index: 2000;
+}
+.top-column .header .searchWord-box .column {
+  float: left;
+}
+.top-column .header .searchWord-box .column .list {
+  border-top: 1px solid #dddddd;
+  margin-bottom: 7px;
+}
+.top-column .header .searchWord-box .column .list.recommentCategory-list {display:none}
+.top-column .header .searchWord-box .column .list .listItem {
+  margin: 0;
+  padding:0 10px;
+  line-height: 28px;
+  color: #b2b2b2;
+}
+.top-column .header .searchWord-box .column .list dd.ui-listiem {border-bottom:1px solid #ddd; line-height:12px; padding:15px 10px;}
+.top-column .header .searchWord-box .column .list dd.ui-listiem:last-child {border-bottom:0; margin-bottom:-7px;}
+.top-column .header .searchWord-box .column .list .listItem:hover {
+  background-color: #f3f3f3;
+}
+.top-column .header .searchWord-box .column .list .listItem.title-listItem {
+  margin: 0;
+  line-height: 41px;
+  border-bottom: 1px solid #dddddd;
+  background-color: #f3f3f3;
+}
+.top-column .header .searchWord-box .column .list .listItem.title-listItem .title {
+  margin-left: 14px;
+  font-weight: bold;
+  float: left;
+}
+.top-column .header .searchWord-box .column .list .listItem.title-listItem .btn {
+  margin-right: 12px;
+  float: right;
+}
+.top-column .header .searchWord-box .column.left-column {
+  border-right: 1px solid #dddddd;
+  margin-right: -1px;
+  width:288px;
+}
+.top-column .header .searchWord-box .column.left-column .recentSearchWord-list .listItem {
+  *zoom: 1;
+}
+.top-column .header .searchWord-box .column.left-column .recentSearchWord-list .listItem:before,
+.top-column .header .searchWord-box .column.left-column .recentSearchWord-list .listItem:after {
+  content: " ";
+  display: table;
+}
+.top-column .header .searchWord-box .column.left-column .recentSearchWord-list .listItem:after {
+  clear: both;
+}
+.top-column .header .searchWord-box .column.left-column .recentSearchWord-list .word {
+  color: #b2b2b2;
+}
+.top-column .header .searchWord-box .column.right-column {
+  border-left: 1px solid #dddddd;
+  width:308px;
+}
+.top-column .header .searchWord-box .column.right-column .popularSearchWord-ranking-list .listItem .word {
+  margin-left: 5px;
+}
+.top-column .header .searchWord-box.global-searchWord-box {
+/*
+  width: 483px;
+*/
+  width: 296px;
+  height: 336px;
+  left: 1px;
+  top: 31px;
+}
+.top-column .header .searchWord-box.global-searchWord-box .column.left-column {
+  width: 296px;
+}
+.top-column .header .searchWord-box.global-searchWord-box .column.left-column .recentSearchWord-list .listItem.title-listItem {
+  color: #000000;
+}
+.top-column .header .searchWord-box.global-searchWord-box .column.left-column .recentSearchWord-list .listItem .word {
+  max-width: 231px;
+  float: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.top-column .header .searchWord-box.global-searchWord-box .column.left-column .recentSearchWord-list .listItem .delete-btn-red {
+  float: right;
+}
+.top-column .header .searchWord-box.global-searchWord-box .column.right-column .popularSearchWord-ranking-list .listItem {
+  color: #000000;
+}
+.top-column .header .searchWord-box.global-searchWord-box .column.right-column .popularSearchWord-ranking-list .listItem .word {
+  width: 102px;
+}
+.top-column .header .searchWord-box.store-searchWord-box {
+  top:55px;
+  left:295px;
+}
+.top-column .header .searchWord-box.store-searchWord-box .column .title-listItem .title {
+  color: #000000;
+}
+.top-column .header .searchWord-box.store-searchWord-box .column.left-column .recommendSearchWord-list .recommendSearchWord .word {
+  width: 255px;
+}
+.top-column .header .searchWord-box.store-searchWord-box .column.left-column strong {
+  font-style: normal;
+  color: #0099ff;
+}
+.top-column .header .searchWord-box.store-searchWord-box .column.left-column .recommendSearchWord-list .recommendSearchWord .delete-btn-red {
+  margin-left: 21px;
+}
+.top-column .header .searchWord-box.store-searchWord-box .column.right-column .recommendProduct-list {margin:0;}
+.top-column .header .searchWord-box.store-searchWord-box .column.right-column .recommendProduct-list .title-listItem .closeBtn {
+  float: right;
+}
+.top-column .header .searchWord-box.store-searchWord-box .column.right-column .recommendProduct-list .recommendProduct {
+  line-height: 1em;
+  padding: 15px 10px;
+  border-bottom:1px solid #ddd;
+}
+.top-column .header .searchWord-box.store-searchWord-box .column.right-column .recommendProduct-list .recommendProduct:last-child {border-bottom:0;}
+.top-column .header .searchWord-box.store-searchWord-box .column.right-column .recommendProduct-list .recommendProduct .productImg {
+  width: 50px;
+  margin-right: 10px;
+  float: left;
+}
+.top-column .header .searchWord-box.store-searchWord-box .column.right-column .recommendProduct-list .recommendProduct .productImg img {
+  width: 100%;
+}
+.top-column .header .searchWord-box.store-searchWord-box .column.right-column .recommendProduct-list .recommendProduct .productInfo {
+  margin-top: 3px;
+  line-height: 19px;
+  color: #000000;
+  float: left;
+  width:218px;
+}
+.top-column .header .searchWord-box.store-searchWord-box .column.right-column .recommendProduct-list .recommendProduct .productInfo .brand {
+  font-weight: bold;
+}
+.top-column .header .searchWord-box.store-searchWord-box .column.right-column .recommendProduct-list .recommendProduct .productInfo .brand,
+.top-column .header .searchWord-box.store-searchWord-box .column.right-column .recommendProduct-list .recommendProduct .productInfo .product {
+  width: 176px;
+}
+.top-column .header .searchWord-box.store-searchWord-box .column.right-column .recommendProduct-list .recommendProduct .productInfo .original {
+  color: #b2b2b2;
+  text-decoration: line-through;
+}
+.top-column .header .searchWord-box.store-searchWord-box .column.right-column .recommendProduct-list .recommendProduct .productInfo .discount {
+  font-weight: bold;
+  margin-left: 4px;
+}
+.top-column .header .searchWord-box.store-searchWord-box .column.right-column .recommendProduct-list .recommendProduct .productInfo .rating-star {color:#ff0000;}
+.top-column .header .searchWord-box.store-searchWord-box .column.right-column .recommendProduct-list .recommendProduct .productInfo .replyCnt {color:#ff923a;}
+.top-column .header .searchWord-box.store-searchWord-box .column.right-column .recommendProduct-list .recommendProduct .productInfo .rating-star {
+  margin-left: 7px;
+  line-height: 19px;
+}
+.top-column .header .searchWord-box.store-searchWord-box .column.right-column .recommendProduct-list .recommendProduct .productInfo .rating-star-0 {
+  display:none !important;
+}
+.top-column .header .searchWord-box.store-searchWord-box .column.right-column .recommendProduct-list .recommendProduct .productInfo .replyCnt {
+  margin-left: 4px;
+}
+
+/* popularSearchWord-ranking */
+.popularSearchWord-ranking-list-wrapper {
+  width:217px;
+  height: 32px;
+  margin-left: 14px;
+  float: left;
+  position:relative;
+}
+.popularSearchWord-ranking-list-wrapper .rollingRanking {
+  position:relative; 
+  height:32px; 
+  overflow:hidden;
+}
+.popularSearchWord-ranking-list-wrapper .rollingRanking dl {
+  position:absolute;
+  width:217px;
+  left:0;
+  top:0;
+}
+.popularSearchWord-ranking-list-wrapper .rollingRanking dd .rank {
+  font-weight:bold;
+}
+.popularSearchWord-ranking-list-wrapper .rollingRanking dd .word {
+  font-weight:bold;
+  width: 155px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.popularSearchWord-ranking-list-wrapper .listItem {
+  display:block;
+  width:100%;
+  height:32px;
+  overflow:hidden;
+  white-space:nowrap;
+}
+.popularSearchWord-ranking-list-wrapper .listItem a {
+  display:block;
+  height:32px;
+  color:#ffffff;
+}
+.popularSearchWord-ranking-list-wrapper .listItem a span {
+  float:left;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  height:32px;
+  line-height:32px;
+}
+.popularSearchWord-ranking-list-wrapper .listItem a span.rank-variation {float:right;}
+.popularSearchWord-ranking-list-wrapper .listItem a span.rank-variation-up .down {display:none;}
+.popularSearchWord-ranking-list-wrapper .listItem a span.rank-variation-up .even {display:none;}
+.popularSearchWord-ranking-list-wrapper .listItem a span.rank-variation-down .up {display:none;}
+.popularSearchWord-ranking-list-wrapper .listItem a span.rank-variation-down .even {display:none;}
+.popularSearchWord-ranking-list-wrapper .listItem a span.rank-variation-even .up {display:none;}
+.popularSearchWord-ranking-list-wrapper .listItem a span.rank-variation-even .down {display:none;}
+
+.popularSearchWord-ranking-list-wrapper .keywordLayer {
+  width: 259px;
+  position:absolute;
+  left:-1px;
+  top:-1px;
+  background:#fff;
+  z-index:3000;
+  padding:13px 0 0;
+  border:1px solid #ddd;
+  display:none;
+}
+.popularSearchWord-ranking-list-wrapper .keywordLayer .snbBox {
+  padding:0 10px;
+}
+.popularSearchWord-ranking-list-wrapper .keywordLayer .keywordH {
+}
+.popularSearchWord-ranking-list-wrapper .keywordLayer .keywordList .navBtnBox {
+  height:24px;
+  padding:10px;
+}
+.popularSearchWord-ranking-list-wrapper .keywordLayer .keywordList .navBtnBox .title {
+  float:left;
+  text-decoration:underline;
+  color:#999;
+  display:block;
+  line-height:24px;
+}
+.popularSearchWord-ranking-list-wrapper .keywordLayer .keywordR .title {
+  text-decoration:none !important;
+}
+.popularSearchWord-ranking-list-wrapper .keywordLayer .keywordList .navBtnBox .btnBox {
+  float:right;
+}
+.popularSearchWord-ranking-list-wrapper .keywordLayer .keywordList .navBtnBox .btnBox .first {
+  margin-right:-1px;
+}
+.popularSearchWord-ranking-list-wrapper .keywordLayer .keywordLink {
+  clear:both;
+}
+.popularSearchWord-ranking-list-wrapper .keywordLayer .keywordLink .listItem {
+  border-top:1px solid #ddd;
+  height:41px;
+}
+.popularSearchWord-ranking-list-wrapper .keywordLayer .keywordLink .listItem a {
+  font-weight:bold;
+  color:#000000 !important;
+  height:41px;
+}
+.popularSearchWord-ranking-list-wrapper .keywordLayer .keywordLink .listItem a:hover {
+  background:#f3f3f3;
+}
+.popularSearchWord-ranking-list-wrapper .keywordLayer .keywordLink .listItem a span {
+  height:41px;
+  line-height:41px;
+  font-family:Arial, sans-serif;
+}
+.popularSearchWord-ranking-list-wrapper .keywordLayer .keywordLink .listItem .rank {
+  margin-left:14px;
+  width:22px;
+}
+.popularSearchWord-ranking-list-wrapper .keywordLayer .keywordLink .listItem .rank b {color:#999; font-weight:normal;}
+.popularSearchWord-ranking-list-wrapper .keywordLayer .keywordLink .listItem .rank-variation {margin-right:14px;}
+
+.layerOn .keywordLayer {display:block !important;}
+
+.popularSearchWord-ranking-list-wrapper .keywordLayer .step2 {display:none;}
+.popularSearchWord-ranking-list-wrapper .keywordLayer .step2_on .listItem {display:none;}
+.popularSearchWord-ranking-list-wrapper .keywordLayer .step2_on .step2 {display:block;}
+
+.popularSearchWord-ranking-list-wrapper .keywordLayer .keywordR .rank {width:100% !important;}
+
+/* quick cart */
+.q-cart {width:661px; height:543px; position:absolute; left:-1px; top:19px; z-index:999; display:none;}
+.qcart:hover .q-cart {display:block !important;}
+.q-cart-header {width:97px; height:27px; line-height:26px; border:1px solid #ddd; border-bottom:0; text-align:center; background:#fff; position:absolute; left:0; top:-27px;}
+.q-cart-body {width:659px; height:514px; border:1px solid #ddd; background:#fff; }
+.q-cart-body .c-header {padding:0 15px; margin-bottom:14px;}
+.q-cart-body .c-header a {display:block; height:12px; line-height:12px; color:#b2b2b2; margin-top:22px;}
+.q-cart-body .c-header .btnCart {float:left; padding-right:8px; margin-right:8px; border-right:1px solid #ddd;}
+.q-cart-body .c-header .btnGoods {float:left;}
+.q-cart-body .c-header .active {color:#000; font-weight:bold;}
+.q-cart-body .c-header .linkCart {float:right; text-decoration:underline; color:#000; font-weight:bold;}
+.q-cart-body .c-header .linkOrder {float:right; text-decoration:underline; color:#000; font-weight:bold; margin-left:15px; margin-right:15px;}
+.q-cart-body .c-header .arrowLeft {float:right; width:25px; height:25px; margin-top:13px; background:url(//image.msscdn.net/skin/musinsa/images/arrow_rankingLeft.gif) no-repeat;}
+.q-cart-body .c-header .arrowRight {float:right; width:24px; height:25px; margin-top:13px; background:url(//image.msscdn.net/skin/musinsa/images/arrow_rankingRight.gif) no-repeat;}
+.q-cart-body .c-header .inActive {opacity:0.8;}
+
+.body-cart {width:469px; height:514px; border-right:1px solid #ddd; float:left;}
+.body-cart ul {padding:15px 14px 0 14px; clear:both;}
+.body-cart li {float:left; position:relative; width:100px; height:228px; margin:0 5px;}
+.body-cart li .del {display:block; cursor:pointer; position:absolute; right:0; top:0; width:15px; height:15px; background:url(//image.msscdn.net/skin/musinsa/images/btn_quickcart_delete.gif) no-repeat; z-index:1;}
+.body-cart li .img {display:block; width:100px; height:120px; overflow:hidden;}
+.body-cart li .img img {width:100px; vertical-align:middle; display:inline}
+.body-cart li .brand {margin-top:6px; display:block; width:100px; line-height:13px; overflow:hidden; font-weight:bold; text-overflow:ellipsis; white-space:nowrap;}
+.body-cart li .name {margin-top:7px; display:block; width:100px; line-height:13px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.body-cart li .price {margin-top:7px; display:block; width:100px; line-height:13px; overflow:hidden; font-weight:bold;}
+.body-cart li .cnt {margin-top:7px; display:block; text-align:left !important; width:100px; line-height:13px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; color:#b2b2b2;}
+.body-cart li.nodata {width:100%; color:#b2b2b2;}
+
+.body-goods {width:469px; height:514px; border-right:1px solid #ddd; float:left;}
+.body-goods .c-header {height:34px;}
+.body-goods-menu {clear:both; margin:15px 0 20px; padding:0 0 0 15px;}
+.body-goods-menu a {display:block; float:left; border-left:1px solid #ddd; height:12px; line-height:12px; padding-left:12px; margin-left:12px;cursor:pointer; color:#b2b2b2;}
+.body-goods-menu a:first-child {margin-left:0; border:0; padding:0; margin:0;}
+.body-goods-menu a.active {color:#000; font-weight:bold;}
+
+.body-goods ul {padding:15px 14px 0 14px; clear:both;}
+.body-goods ul li {float:left; position:relative; width:220px; height:84px; margin:0 0 23px 0;}
+.body-goods ul li .del {display:block; cursor:pointer; position:absolute; left:55px; top:0; width:15px; height:15px; background:url(//image.msscdn.net/skin/musinsa/images/btn_quickcart_delete.gif) no-repeat; z-index:1;}
+.body-goods ul li .img {display:block; width:70px; height:84px; float:left;}
+.body-goods ul li .img img {width:70px; vertical-align:middle; display:inline}
+.body-goods ul li .brand {float:left; margin-top:7px; margin-left:13px; display:block; width:125px; height:12px; line-height:12px; overflow:hidden; font-weight:bold; text-overflow:ellipsis; white-space:nowrap;}
+.body-goods ul li .name {float:left; margin-top:10px; margin-left:13px; display:block; width:125px; height:12px; line-height:12px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.body-goods ul li .price {float:left; margin-top:10px; margin-left:13px; display:block; width:125px; height:12px; line-height:12px; overflow:hidden; font-weight:bold;}
+.body-goods ul li .price del {font-weight:normal; color:#b2b2b2;}
+.body-goods ul li.nodata {width:100%; color:#b2b2b2;}
+
+.body-brand {width:189px; float:left;}
+.body-brand ul {padding:0 15px; clear:both;}
+.body-brand li {line-height:12px; margin-bottom:15px; color:#b2b2b2;}
+.body-brand li .del {color:#f00; cursor:pointer;}
+.body-brand li.nodata {width:100%; color:#b2b2b2;}
+
+/* google recaptcha */
+.recaptchaOn.active {height:200px !important;}
+.recaptchaOn .left-column {width:320px !important;}
+.loginBox .g-recaptcha {clear:both; padding-top:10px;}
+.loginBox .g-recaptchaIE7 {position:absolute; left:0; top:35px; width:260px; height:111px;}
+.loginBox .g-recaptchaIE7 .screen {position:absolute; left:0; top:0; width:100%; height:100%; background:#000; opacity:0.9; filter:alpha(opacity=90, style=1, finishopacity=90)}
+.loginBox .g-recaptchaIE7 p {position:absolute; left:0; top:0; color:#fff; padding:10px 15px; line-height:18px; z-index:1;}
+
+/* login button 2017.03.21 */
+li.loginBtn {padding-right:10px;}
+li.loginBtn a {width:148px; height:28px; text-align:center; line-height:28px; font-weight:normal !important; border:1px solid #000 !important; padding:0 !important; margin-top:-5px;  display: inline-block;	position:relative;}
+li.loginBtn a:hover,li.loginBtn a:focus,li.loginBtn a:active {color:#fff; background:#000}
+
+/* 2017.09.20 header search box */
+/*롤링 랭킹*/
+.rollingRanking .listItem .rank, .rollingRanking .listItem .word {color:#fff}
+
+/*검색창 추천검색레이어*/
+.top-column .header .searchWord-box.store-searchWord-box .column .recommendSearchWord-list .box-up-kwd {float:right;}
+.top-column .header .store-searchWord-box.searchWord-box.search_layer {left:205px}
+.top-column .header .searchWord-box.store-searchWord-box .column.left-column .recommendProduct-list .recommendProduct{overflow:hidden;text-overflow:ellipsis}
+
+/*검색 개선 키워드 레이어*/
+.top-column .header .store-searchWord-box.searchWord-box.layer-keyword-top{width:1039px; height:466px; left:1px; top:32px;}
+.top-column .header .searchWord-box.layer-keyword-top .column.left-column{width:auto;border-right:none}
+.top-column .header .searchWord-box.layer-keyword-top .column .list{float:left;width:25%;height:466px;margin-bottom:0;border-right:1px solid #ddd;box-sizing:border-box;overflow:hidden}
+.top-column .header .searchWord-box.layer-keyword-top .column .list .box-slide {width:100%;height:100%;}
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem{width:260px;margin:0;padding:2px 10px;border-bottom:1px solid #ddd;box-sizing:border-box}
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem.title-listItem .title{margin-left:0; font-size:12px;}
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem.title-listItem .box-link{float:right}
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem.title-listItem .box-link a.font_basic{float:left;text-decoration:underline}
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem.title-listItem .box-link .btnBox{float:right;position:static; line-height:19px;}
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem.title-listItem .box-link .btnBox .btn{float:none;width:20px;margin-right:0;margin-top:8px;background:transparent;border:none}
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem.title-listItem .box-link .btnBox .btn.btn_prev_left{margin-left:8px;margin-right:-1px !important;}
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem .box-word{display:inline-block;padding:10px 0 9px;line-height:18px}
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem .word.ellipsis{display:inline-block;max-width:195px}
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem a.word.ellipsis{padding:5px 0 4px; vertical-align:top}
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem a span {vertical-align:top;}
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem .rank{color:#000;font-weight:bold}
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem .rank-variation{float:right; font-weight:bold;}
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem .rank-variation em {display:none; font-weight:normal;}
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem .rank-variation-even .even {display:inline}
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem .rank-variation-up .up {display:inline}
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem .rank-variation-down .down {display:inline}
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem .box-edit{float:right}
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem .box-edit a.delete-btn-red{display:inline-block;padding:5px 3px 4px}
+
+.top-column .header .searchWord-box.layer-keyword-top .column .list .word-list-items {line-height:37px}
+.top-column .header .searchWord-box.layer-keyword-top .column .list .word-list-items a:hover {text-decoration:underline;}
+.top-column .header .searchWord-box.layer-keyword-top .column .list .word-list-items .box-up-kwd {float:right; padding:0; margin-right:5px;}
+.top-column .header .searchWord-box.layer-keyword-top .column .list .word-list-items .delete-item-btn {float:right}
+
+.top-column .header .layer-keyword-top .box-up-kwd{display:inline-block;padding:5px 3px 4px;color:#b2b2b2;cursor:pointer}
+.top-column .header .layer-keyword-top .no-data{padding:50px 0;text-align:center;vertical-align:middle}
+/*검색 개선 키워드 레이어 - 인기 검색어*/
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem.popSearchWord > a {display:block;text-decoration:none}
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem.popSearchWord .word.ellipsis {max-width:125px;color:#000;}
+/*검색 개선 키워드 레이어 - 추천 검색어*/
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem.recommendSearchWord > a{display:block;text-decoration:none}
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem.recommendSearchWord .word.ellipsis{max-width:190px;color:#000}
+/*검색 개선 키워드 레이어 - 판매 검색어*/
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem.salerank > a{display:block;padding:6px 0 5px 56px; text-decoration:none; position:relative;}
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem.salerank > a .img {display:block; width:50px; height:60px; position:absolute; left:0; top:3px; overflow:hidden;}
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem.salerank > a .img img {width:50px; vertical-align:middle; display:inline;}
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem.salerank .brand{color:#000}
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem.salerank .word {display:block;max-width:inherit;color:#000;line-height:18px; height:36px; overflow:hidden;}
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem.salerank .rank-variation {position:absolute; right:5px; bottom:6px;}
+
+/*인기검색어/추천검색어*/
+.keywordLink dd {font-size:12px;}
+.btnBox_reset {position:absolute; z-index:9999; top:65px; right:10px}/*개선 후 삭제*/
+.popularSearchWord-ranking-list-wrapper .keywordLayer.layer-keyword-top{top:0;width:345px;padding-top:0;border-bottom:none}
+.popularSearchWord-ranking-list-wrapper .keywordLayer.layer-keyword-top .keywordLink{max-height:419px;overflow:hidden;overflow-y:auto}
+.popularSearchWord-ranking-list-wrapper .keywordLayer.layer-keyword-top .title{padding:14px 10px 13px;background:#f3f3f3;font-weight:bold;line-height:14px}
+.popularSearchWord-ranking-list-wrapper .keywordLayer.layer-keyword-top .keywordLink .listItem a span.word{max-width:190px;font-weight:normal}
+.popularSearchWord-ranking-list-wrapper .keywordLayer.layer-keyword-top .keywordLink .listItem a span.font_basic{margin-left:5px;font-weight:normal}
+
+/* outer2017 banner */
+.eventBanner_repeat {height:40px;background:#91b1be url(//image.msscdn.net/eventBanner/outer_banner.gif?20171116) repeat 0 0; background-size:auto 40px}
+.eventBanner_repeat a {display:block;height:40px;text-indent:-9999px;}
+.eventBanner_repeat.black {background:#91b1be url(//image.msscdn.net/mfile_outsrc/img/banner_2017black.gif) repeat 0 0; background-size:auto 40px}
+
+/* head text banner ef */
+@-webkit-keyframes changeMenu{0%,49.9%{opacity:1} 50.1%,100%{opacity:0}}
+@-moz-keyframes changeMenu{0%,49.9%{opacity:1} 50.1%,100%{opacity:0}}
+@keyframes changeMenu{0%,49.9%{opacity:1} 50.1%,100%{opacity:0}}
+@-webkit-keyframes changeMenu2{0%,49.9%{opacity:0} 50.1%,100%{opacity:1}}
+@-moz-keyframes changeMenu2{0%,49.9%{opacity:0} 50.1%,100%{opacity:1}}
+@keyframes changeMenu2{0%,49.9%{opacity:0} 50.1%,100%{opacity:1}}
+.changeMenu{width:69px; height:14px; padding-right:26px !important; position:relative;}
+.changeMenu span{width:100%; display:block;position:absolute;left:0;right:9px;top:-1px;text-align:center;white-space:nowrap;opacity:0}
+.changeMenu span.cf{color:#2150ff !important;
+	-webkit-animation:changeMenu 3s infinite;
+	-moz-animation:changeMenu 3s infinite;
+	animation:changeMenu 3s infinite;
+	line-height:12px;
+}
+.changeMenu span.cp{color:#2150ff !important;
+	-webkit-animation:changeMenu2 3s infinite;
+	-moz-animation:changeMenu2 3s infinite;
+	animation:changeMenu2 3s infinite;
+}
+
+/* 2021.03.25 pc new feed */
+.newFeed {position: relative; z-index:1000;}
+.newFeed .newFeedBox {position:absolute; left:50%; top:30px; z-index:100; width:375px; margin-left:-95px; border:1px solid #ddd; background:#fff;}
+.newFeed .newFeedBox::before {content:'';display:block; position:absolute; background: url(//www.musinsa.com/layouts/community/image/tritop.png) no-repeat center top; background-color:#fff; width:20px; height:11px; left:50%; margin-left:-104px; top:-11px;}
+.newFeed .newFeedTriger {display: block; padding: 0 10px;}
+
+.newFeedBox header {position:relative; padding:15px 15px 25px 15px;}
+.newFeedBox header p {color:#777; line-height:18px; font-size:12px;}
+.newFeedBox header .close {position:absolute; right:9px; top:4px; padding:6px; cursor:pointer; width:18px; height:18px; background:url(//image.msscdn.net/mfile_outsrc/img/icon-close.svg) no-repeat center;}
+
+.newFeedBox section {border:0; overflow-x:hidden; overflow-y:scroll; width:100%; max-height:590px;}
+.newFeedBox  ul {border:0; width:100%; padding:0 15px; box-sizing:border-box;}
+.newFeedBox  ul:empty::after {position:relative; display:block; content:'등록된 알림이 없습니다.'; width:100%; padding:78px 0; font-size:12px; line-height:14px; text-align:center; color:#777}
+.newFeedBox  li {position:relative; margin-bottom:20px; padding:0 50px 0 36px;}
+.newFeedBox  li a {display:block; width:100%; height:100%;}
+.newFeedBox  li .icon-category {display:block; position:absolute; left:0; top:0; width:26px; height:26px;}
+.newFeedBox  li .status {display:block; font-size:14px; line-height:21px; margin-bottom:2px; font-weight:700;}
+.newFeedBox  li p {display:block; font-size:14px; line-height:21px; margin-bottom:3px;}
+.newFeedBox  li em {font-style:normal; font-size:12px; display:block; line-height:18px; color:#aaa}
+.newFeedBox  li .thumnail {display:block; position:absolute; right:0; top:13px; width:40px; height:40px; overflow:hidden;}
+.newFeedBox  li .thumnail img {position: absolute; top:50%; left:0; width:100%; height:auto; transform:translateY(-50%);}
+
+.newFeedBox .moreFeed {width:100%; background:transparent; width:calc(100% - 30px); margin-left:15px; border:0; border-top:1px solid #ddd; font-size:13.33px; line-height:18px; padding:11px 0; display:block; font-weight:bold;}
+.newFeedBox .moreFeed svg {vertical-align:top; margin-top:2px;}
+
+/* 분류에 따른 처리 */
+.newFeedBox  li.class-feedType-FEED_MOTION {padding:0 0 0 36px;}
+.newFeedBox  li.class-feedType-FEED_MOTION .thumnail {position:relative; width:100%; height:auto; top:0}
+.newFeedBox  li.class-feedType-FEED_MOTION .thumnail img {position:relative; width:100%; height:auto; transform:translate(0, 0)}
+.newFeedBox  li.DELIVERY_START .status {color:#0078ff}
+.newFeedBox  li.class-category-NOTICE .icon-category {background:url(//image.msscdn.net/mfile_outsrc/img/icon-notice.svg?v20210326) no-repeat;}
+.newFeedBox  li.class-category-ORDER .icon-category {background:url(//image.msscdn.net/mfile_outsrc/img/icon-order.svg) no-repeat;}
+
+/* 이미 읽은피드 */
+.newFeedBox  li.opened .status,
+.newFeedBox  li.opened p {color:#aaa}
+.newFeedBox  li.opened .thumnail,
+.newFeedBox  li.opened .icon-category {opacity:0.5}

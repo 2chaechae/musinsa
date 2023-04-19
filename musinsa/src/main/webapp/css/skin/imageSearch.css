@@ -1,0 +1,296 @@
+@charset "UTF-8";
+
+.wrap_image_search_form {
+  display: none;
+  position: absolute;
+  box-sizing: border-box;
+  top: 125px;
+  left: 180px;
+  width: 521px;
+  border: 1px solid #ddd;
+  border-top: 0;
+  background-color: #f3f3f3;
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  z-index: 10004;
+}
+.wrap_image_search_form_cover {
+  display: none;
+  position: absolute;
+  top: 125px;
+  left: 235px;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  width: 521px;
+  height: 131px;
+  background-color: #f3f3f3;
+  color: #888;
+  font: 16px "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  z-index: 10005;
+  pointer-events: none;
+}
+.wrap_image_search_form_mask {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10003;
+}
+.wrap_image_search_form .tab_menu {
+  overflow: hidden;
+}
+.wrap_image_search_form .tab_menu span {
+  display: block;
+  float: left;
+  height: 46px;
+  box-sizing: border-box;
+  padding: 16px 0 19px;
+  width: 50%;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1;
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+}
+.wrap_image_search_form .tab_menu .active {
+  background-color: #fff;
+  color: #000;
+}
+.wrap_image_search_form .content {
+
+  background-color: #fff;
+  text-align: center;
+}
+.wrap_image_search_form .content::after {
+display: none !important;
+}
+
+.mypage .wrap_image_search_form .content{
+  min-width: auto !important;
+  padding: 0 !important;
+}
+@media only screen and (min-width:1880px){
+  .mypage .wrap_image_search_form{
+    left: calc((100% - 1880px) / 2 + 180px)
+  }
+
+}
+.wrap_image_search_form .content .c1 {
+  padding: 27px;
+  justify-content: space-around;
+}
+.wrap_image_search_form .content .c1 .image_url {
+  box-sizing: border-box;
+  padding: 6px;
+  width: 351px;
+  height: 30px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+.wrap_image_search_form .content .c1 .image_url_btn {
+  width: 100px;
+  height: 30px;
+  margin-left: 5px;
+  padding: 8px 0 9px;
+  color: #fff;
+  background-color: #000;
+  line-height: 1;
+  cursor: pointer;
+}
+.wrap_image_search_form .content .c2 {
+  display: none;
+  box-sizing: border-box;
+  padding: 27px 15px 27px 30px;
+  height: 84px;
+  text-align: left;
+}
+.wrap_image_search_form .content .c2 input {
+  display: none;
+}
+.wrap_image_search_form .content .c2 .image_file_btn {
+  display: inline-block;
+  width: 76px;
+  height: 30px;
+  padding: 8px 0 9px;
+  color: #fff;
+  background-color: #000;
+  box-sizing: border-box;
+  text-align: center;
+  cursor: pointer;
+}
+.wrap_image_search_form .content .c2 .image_file_text {
+  display: inline-block;
+  padding: 8px 8px 9px;
+  line-height: 1;
+}
+.wrap_image_search_form.middle {
+  display: block;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  border: 0px;
+  background-color: #f3f3f3;
+  z-index: initial;
+}
+.wrap_image_search_form_cover.middle {
+  top: 0;
+  left: 0;
+  width: 575px;
+  height: 111px;
+}
+.wrap_image_search_form.middle {
+  padding-left: 17px;
+  padding-bottom: 23px;
+}
+.wrap_image_search_form.middle .tab_menu span {
+  width: auto;
+  height: auto;
+  padding: 25px 14px 21px;
+  font-weight: bold;
+  color: #b2b2b2;
+}
+.wrap_image_search_form.middle .tab_menu .active {
+  background-color: transparent;
+  color: #000;
+}
+.wrap_image_search_form.middle .content {
+  padding-left: 14px;
+  background-color: transparent;
+  text-align: left;
+}
+.wrap_image_search_form.middle .content .c1 {
+  display: block;
+  padding: 0;
+}
+.wrap_image_search_form.middle .content .c1 .image_url {
+  width: 430px;
+}
+.wrap_image_search_form.middle .content .c2 {
+  margin: 0;
+  padding: 0;
+  height: auto;
+}
+
+.right_contents.image_search_result {
+  padding: 30px 0 0;
+}
+.wrap_image_search_result {
+  display: flex;
+}
+.wrap_image_search_result .main_image {
+  padding-left: 20px;
+  padding-right: 38px;
+  width: 160px;
+  height: 160px;
+  background-image: url(/skin/musinsa/images/loading2.gif);
+  background-repeat: no-repeat;
+  background-size: 48px auto;
+  background-position: center center;
+  text-align: center;
+}
+.wrap_image_search_result .main_image .img {
+  visibility: hidden;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.wrap_image_search_result .wrap_bounds_list {
+  display: flex;
+  align-items: center;
+  padding: 0 20px 0 0;
+  width: calc(100% - 618px);
+}
+.wrap_image_search_result .wrap_bounds_list .bound {
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 0 26px 0 0;
+  width: 100px;
+  height: 100px;
+  background-color: #000;
+  cursor: pointer;
+  opacity: 0.9;
+}
+.wrap_image_search_result .wrap_bounds_list .bound:hover {
+  opacity: 1;
+}
+.wrap_image_search_result .wrap_bounds_list .bound.active {
+  opacity: 1;
+  border: 2px solid #0078ff;
+}
+.wrap_image_search_result .desc {
+  position: absolute;
+  width: 316px;
+  right: 20px;
+  padding: 26px 23px 25px 31px;
+  border-left: 1px solid #ddd;
+  color: #666;
+  font: 14px/1.5 "맑은 고딕", sans-serif;
+}
+.wrap_image_search_result .desc .title {
+  display: block;
+  margin-bottom: 12px;
+  color: #000;
+  font-weight: bold;
+  line-height: 1;
+}
+.search_result_text {
+  margin: 40px 20px 20px 20px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1;
+}
+.search_result_text b {
+  color: #0078ff;
+}
+
+.wrap_image_search_form.wusinsa {
+  top: 124px;
+  left: 165px;
+  border-top: 1px solid #ddd;
+}
+.wrap_image_search_form_cover.wusinsa {
+  top: 124px;
+  left: 165px;
+}
+
+/* Loader */
+.loader {
+  display: inline-block;
+  position: relative;
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+.loader-quart {
+  border-radius: 50px;
+  border: 5px solid rgba(225, 225, 225, 0.75);
+}
+.loader-quart::after {
+  content: "";
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  bottom: -5px;
+  left: -5px;
+  border-radius: 50px;
+  border: 5px solid transparent;
+  border-top-color: #888;
+  -webkit-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  0% {
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    tranform: rotate(0deg);
+  }
+  100% {
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    tranform: rotate(360deg);
+  }
+}

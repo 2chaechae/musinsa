@@ -1,0 +1,1 @@
+.innerBorder{ box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box}.clearfix{ *zoom:1}.clearfix:before,.clearfix:after{ content:""; display:table}.clearfix:after{ clear:both}.absCenter{ margin:auto; position:absolute; top:0; left:0; bottom:0; right:0}.ellipsis{ text-overflow:ellipsis; white-space:nowrap; overflow:hidden}

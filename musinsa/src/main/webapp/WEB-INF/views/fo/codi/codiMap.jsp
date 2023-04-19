@@ -25,7 +25,8 @@
 
 <title>코디맵(Codimap) | 무신사 스토어</title>
 
-<link rel="stylesheet" type="text/css" href="//static.msscdn.net/static/common/1.2.0/pc.css" />
+<!-- <link rel="stylesheet" type="text/css" href="//static.msscdn.net/static/common/1.2.0/pc.css" /> -->
+<link rel="stylesheet" href="css/static/common.css">
 <link rel="stylesheet" type="text/css" href="//static.msscdn.net/ui/build/pc/css/common.css?202109290900">
 
 
