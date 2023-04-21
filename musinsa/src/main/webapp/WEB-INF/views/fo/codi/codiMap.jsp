@@ -41,7 +41,8 @@
     <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/new.css?202112010912" />
 
 <!-- Swiper -->
-<link rel="stylesheet" type="text/css" href="//static.msscdn.net/swiper/swiper.min.css" />
+<!-- <link rel="stylesheet" type="text/css" href="//static.msscdn.net/swiper/swiper.min.css" /> -->
+<link rel="stylesheet" href="css/swiper/swiper.css">
 <!-- Polyfill -->
 
 <!-- 스토어, 매거진 공통 스크립트 -->
