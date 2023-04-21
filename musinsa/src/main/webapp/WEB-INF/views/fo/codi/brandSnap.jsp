@@ -40,7 +40,7 @@
 		 -->
 		<link rel="stylesheet" href="css/common/normalizer.css"> 
 		<link rel="stylesheet" href="css/common/base.css">
-		<link rel="stylesheet" href="css/common/magazine.css"> 
+		<link rel="stylesheet" href="css/common/commonMagazine.css"> 
 		<link rel="stylesheet" href="css/common/common.css"> 
 		<link rel="stylesheet" href="css/common/commonPc.css"> 
 		<link rel="stylesheet" href="css/common/footer.css"> 

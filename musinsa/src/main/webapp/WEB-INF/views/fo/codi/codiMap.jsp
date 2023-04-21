@@ -27,19 +27,28 @@
 
 <!-- <link rel="stylesheet" type="text/css" href="//static.msscdn.net/static/common/1.2.0/pc.css" /> -->
 <link rel="stylesheet" href="css/static/common.css">
-<link rel="stylesheet" type="text/css" href="//static.msscdn.net/ui/build/pc/css/common.css?202109290900">
+<!-- <link rel="stylesheet" type="text/css" href="//static.msscdn.net/ui/build/pc/css/common.css?202109290900"> -->
+<link rel="stylesheet" href="css/ui/build/common.css">
 
-
-    <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/magazine_common.css?202202150915" />
-    <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/store_common.css?202112011113" />
-    <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/layout.min.css?202201131000"/>
-<link rel="stylesheet" href="//image.msscdn.net/ui/musinsa/resources/common/css/icon.min.css?202101051200"/>
-<link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/guide.min.css?202304111644"/>
-<link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/style.min.css?202303211032"/>    <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/sub.css?202303281957" />
-    <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/media_query.css?202010301640" />
-    <!--<link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/font.css?20170221" />-->
-    <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/new.css?202112010912" />
-
+   <!--  <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/magazine_common.css?202202150915" /> -->
+    <link rel="stylesheet" href="css/skin/magazineCommon.css">
+    <!-- <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/store_common.css?202112011113" /> -->
+    <link rel="stylesheet" href="css/skin/storeCommon.css">
+   <!--  <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/layout.min.css?202201131000"/> -->
+	<link rel="stylesheet" href="css/skin/layout.css">
+	
+<!-- <link rel="stylesheet" href="//image.msscdn.net/ui/musinsa/resources/common/css/icon.min.css?202101051200"/> -->
+<link rel="stylesheet" href="css/ui/common/icon.css">
+<!-- <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/guide.min.css?202304111644"/> -->
+<link rel="stylesheet" href="css/skin/guide.css">
+<!-- <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/style.min.css?202303211032"/>  -->  
+<link rel="stylesheet" href="css/skin/codimapStyle.css"> 
+<!-- <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/sub.css?202303281957" /> -->
+    <link rel="stylesheet" href="css/skin/sub.css"> 
+    <!-- <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/media_query.css?202010301640" /> -->
+    <link rel="stylesheet" href="css/skin/mediaQuery.css">
+    <!-- <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/new.css?202112010912" /> -->
+	<link rel="stylesheet" href="css/skin/new.css">
 <!-- Swiper -->
 <!-- <link rel="stylesheet" type="text/css" href="//static.msscdn.net/swiper/swiper.min.css" /> -->
 <link rel="stylesheet" href="css/swiper/swiper.css">
@@ -51,14 +60,15 @@
 
 
     <!--jqModal-->
-    <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/jqModal.css?20160119" />
+    <!-- <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/jqModal.css?20160119" /> -->
+    <link rel="stylesheet" href="css/skin/jqModal.css">
     <!--//jqModal-->
 
 <!-- 유사 이미지 상품 검색 -->
-<link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/image_search.css?202201051301" />
-
-<link rel="stylesheet" type="text/css" href="//static.msscdn.net/ui/build/pc/css/style.css?202109290900">
-
+<!-- <link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/image_search.css?202201051301" /> -->
+<link rel="stylesheet" href="css/skin/imageSearch.css">
+<!-- <link rel="stylesheet" type="text/css" href="//static.msscdn.net/ui/build/pc/css/style.css?202109290900"> -->
+<link rel="stylesheet" href="css/ui/build/style.css">
 <style>
 	.style-list{width:100%; border-top:1px solid #ddd; border-left:1px solid #ddd;}
 </style>

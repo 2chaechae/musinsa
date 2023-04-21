@@ -1,0 +1,3528 @@
+@charset "UTF-8";
+/*common_layout*/
+.top_banner {
+  width: 100%;
+  background: #253c8c;
+  text-align: center;
+}
+
+.top-column .store_header {
+  min-width: 1560px;
+}
+
+.top-column .store_header.header-small {
+  border-bottom: 0 none;
+}
+
+.eventBanner_repeat.outerFsetival {
+  height: 40px;
+  text-indent: -9999px;
+  background: url(https://image.msscdn.net/eventBanner/outer_banner.gif?20171116) repeat-x 0 0;
+  background-size: auto 40px;
+}
+
+.eventBanner_repeat.blackFriday {
+  height: 40px;
+  text-indent: -9999px;
+  background: url(https://image.msscdn.net/eventBanner/black_banner.gif) repeat-x 0 0;
+  background-size: auto 40px;
+}
+
+.eventBanner_repeat a {
+  display: block;
+  height: 40px;
+}
+
+/*header small*/
+.top-column .header {
+  z-index: 1000;
+}
+
+.top-column .header.header-small .main-wrapper {
+  height: 28px;
+  padding: 6px 0;
+  text-align: center;
+}
+
+.top-column .header.header-small .main-wrapper h1.title {
+  float: none;
+  display: inline-block;
+  margin: 0;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+}
+
+.top-column .header.header-small .main-wrapper h1.title span {
+  vertical-align: middle;
+  font: 12px/16px "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+}
+
+.top-column .header.header-small .main-wrapper .btn-cursor {
+  display: inline-block;
+  margin-top: 3px;
+  color: #fff;
+  vertical-align: middle;
+  line-height: 20px;
+}
+
+.box_login {
+  position: absolute;
+  right: 0;
+  top: 14px;
+  z-index: 1000;
+  color: #b2b2b2;
+  font: normal 12px/16px "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  *zoom: 1;
+}
+
+.box_login:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+.box_login a:hover {
+  text-decoration: none;
+}
+
+.box_login_link {
+  float: left;
+  margin-right: 10px;
+}
+
+.box_login_link:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+.box_login_link .list_item {
+  float: left;
+  position: relative;
+  margin-left: 7px;
+  padding-left: 7px;
+  border-left: 1px solid #3c3c3c;
+  line-height: 12px;
+}
+
+.box_login_link .list_item:first-child {
+  margin-left: 0;
+  padding-left: 0;
+  border-left: none;
+}
+
+.box_login .plain-btn-black {
+  float: left;
+  margin: -8px 10px 0 0;
+  padding: 8px 7px 6px 7px;
+  background: #000;
+  color: #fff;
+  font-weight: normal;
+}
+
+.box_login .list_item .list_activity {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  width: 61px;
+  padding: 0 7px 5px;
+  background: #fff;
+  border: 1px solid #ddd;
+  color: #000;
+}
+
+.box_login .list_item .list_activity.shoping_info {
+  top: -11px;
+  left: -8px;
+}
+
+.box_login .list_item .list_activity.activity_info {
+  top: -11px;
+  left: -1px;
+}
+
+.box_login .list_item:hover .list_activity {
+  display: block;
+}
+
+.box_login .list_item .list_activity li {
+  padding-top: 8px;
+  line-height: 16px;
+}
+
+.box_login .list_item .list_activity li a:hover {
+  text-decoration: underline;
+}
+
+.box_login .list_item .list_activity li a:hover span {
+  text-decoration: underline;
+}
+
+.box_login .list_item .list_activity li span {
+  display: inline-block;
+}
+
+.box_login .list_item .list_activity li.list_activity_title a:hover {
+  text-decoration: none;
+}
+
+/*롤링 랭킹*/
+.rollingRanking .listItem .rank,
+.rollingRanking .listItem .word {
+  max-width: 130px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #fff;
+}
+
+/*검색창 추천검색레이어*/
+.top-column .header .searchWord-box.store-searchWord-box .column .recommendSearchWord-list .box-up-kwd {
+  float: right;
+}
+
+.top-column .header .store-searchWord-box.searchWord-box.search_layer {
+  left: 205px;
+}
+
+.top-column .header .searchWord-box.store-searchWord-box .column.left-column .recommendProduct-list .recommendProduct {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.top-column .header .searchWord-box.store-searchWord-box .column.right-column .recommendProduct-list .recommendProduct {
+  padding: 0;
+}
+
+.top-column .header .searchWord-box.store-searchWord-box .column.right-column .recommendProduct-list .recommendProduct a {
+  display: block;
+  padding: 15px 10px;
+}
+
+.top-column .header .searchWord-box.store-searchWord-box .column.right-column .recommendProduct-list .recommendProduct a:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+.top-column .header .searchWord-box.store-searchWord-box .column.right-column .recommendProduct-list .recommendProduct .productInfo .original {
+  margin-right: 4px;
+}
+
+.top-column .header .searchWord-box.store-searchWord-box .column.right-column .recommendProduct-list .recommendProduct .productInfo .discount {
+  margin-left: 0;
+}
+
+.top-column .header .searchWord-box.store-searchWord-box .column.right-column .recommendProduct-list .recommendProduct .productInfo .img-score {
+  position: relative;
+  margin-top: 2px;
+  margin-left: 4px;
+}
+.top-column .header .searchWord-box.store-searchWord-box .column.right-column .recommendProduct-list .recommendProduct .productInfo .img-score .bar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  height: 100%;
+  background: url(/skin/musinsa/images/icon_star_score.png) no-repeat 0 -120px;
+  font-style: normal;
+  content: "";
+}
+
+/*검색 개선 키워드 레이어*/
+.top-column .header .store-searchWord-box.searchWord-box.layer-keyword-top {
+  width: 1040px;
+  left: 205px;
+  top: 55px;
+  border-right: none;
+}
+
+.top-column .header .searchWord-box.layer-keyword-top .column.left-column {
+  width: auto;
+  border-right: none;
+}
+
+.top-column .header .searchWord-box.layer-keyword-top .column .list {
+  float: left;
+  width: 260px;
+  height: 466px;
+  margin-bottom: 0;
+  border-right: 1px solid #ddd;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.top-column .header .searchWord-box.layer-keyword-top .column .list .box-slide {
+  width: 100%;
+  height: 100%;
+}
+
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem.title-listItem .title {
+  margin-left: 0;
+}
+
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem.title-listItem .box-link {
+  float: right;
+}
+
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem.title-listItem .box-link a.font_basic {
+  float: left;
+  text-decoration: underline;
+}
+
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem.title-listItem .box-link .btnBox {
+  float: right;
+  position: static;
+}
+
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem.title-listItem .box-link .btnBox .btn {
+  float: none;
+  width: 20px;
+  margin-right: 0;
+  margin-top: 8px;
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem.title-listItem .box-link .btnBox .btn.btn_prev_left {
+  margin-left: 8px;
+  margin-right: -1px;
+}
+
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem.recentSearchWord {
+  width: 260px;
+  margin: 0;
+  padding: 0;
+  padding-right: 10px;
+  border-bottom: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem .box-word {
+  display: inline-block;
+  padding: 10px 0 9px;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem .word.ellipsis {
+  display: inline-block;
+  box-sizing: border-box;
+  width: calc(100% - 36px);
+  max-width: none;
+}
+
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem a.word.ellipsis {
+  padding: 6px 0 5px 10px;
+}
+
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem .rank {
+  color: #000;
+  font-weight: bold;
+}
+
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem .rank-variation {
+  float: right;
+}
+
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem .rank-variation em {
+  display: inline;
+}
+
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem .box-edit {
+  float: right;
+}
+
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem .box-edit a.delete-btn-red {
+  display: inline-block;
+  padding: 6px 3px 5px;
+}
+
+.top-column .header .layer-keyword-top .box-up-kwd {
+  display: inline-block;
+  padding: 6px 3px 5px;
+  color: #b2b2b2;
+  cursor: pointer;
+}
+
+.top-column .header .layer-keyword-top .no-data {
+  padding: 50px 0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/*검색 개선 키워드 레이어 - 공통*/
+.top-column .header .searchWord-box .column .list dd.ui-listiem {
+  position: relative;
+  padding: 0;
+}
+
+.top-column .header .searchWord-box .column .list dd.ui-listiem a {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 15px 10px;
+}
+
+.top-column .header .searchWord-box .column .list dd.ui-listiem a.box-up-kwd {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+}
+
+.top-column .header .searchWord-box .column .list dd.ui-listiem a .word {
+  color: #000;
+}
+
+.top-column .header .searchWord-box .column .list dd.ui-listiem a .keyword-enm {
+  display: inline-block;
+  margin-left: 8px;
+  color: #aaa;
+}
+
+.top-column .header .searchWord-box.store-searchWord-box .column.left-column strong {
+  font-weight: normal;
+}
+
+.top-column .header .searchWord-box .column .list dd.ui-listiem:last-child {
+  overflow: hidden;
+}
+
+.top-column .header .searchWord-box .column .list dd.ui-listiem.listItem a:hover {
+  text-decoration: none;
+}
+
+.top-column .header .searchWord-box .column .list.recommendSearchWord-list dd.ui-listiem.listItem a:hover {
+  text-decoration: underline;
+}
+
+/*검색 개선 키워드 레이어 - 인기 검색어*/
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem.popSearchWord > a {
+  display: block;
+  text-decoration: none;
+}
+
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem.popSearchWord .word.ellipsis {
+  width: auto;
+  max-width: 125px;
+  color: #000;
+}
+
+/*검색 개선 키워드 레이어 - 추천 검색어*/
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem.recommendSearchWord > a {
+  display: block;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem.recommendSearchWord .word.ellipsis {
+  width: auto;
+  max-width: 185px;
+  color: #000;
+}
+
+/*검색 개선 키워드 레이어 - 판매 검색어*/
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem.salerank {
+  height: 70px;
+}
+
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem.salerank > a {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  padding: 7px 0 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem.salerank > a .rank_img {
+  display: table-cell;
+  width: 50px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem.salerank > a .rank_img span {
+  display: inline-block;
+  height: 50px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem.salerank > a .rank_txt {
+  display: table-cell;
+  padding-left: 5px;
+}
+
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem.salerank > a .rank_txt .rank {
+  display: block;
+}
+
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem.salerank > a .rank_txt .rank-variation {
+  padding-top: 17px;
+}
+
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem.salerank > a .rank_txt .word {
+  float: left;
+  display: block;
+  width: 152px;
+  color: #000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem.salerank .brand {
+  color: #000;
+}
+
+.top-column .header .searchWord-box.layer-keyword-top .column .list .listItem.salerank .word.ellipsis {
+  display: block;
+  max-width: inherit;
+  color: #000;
+  line-height: 24px;
+}
+
+.top-column .header .searchWord-box.store-searchWord-box .column.right-column .recommendProduct-list .recommendProduct .productImg {
+  position: relative;
+}
+
+.top-column .header .searchWord-box.store-searchWord-box .column.right-column .recommendProduct-list .recommendProduct .productImg .icon_coupon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: inline-block;
+  padding: 5px 6px 4px;
+  background: #525fc6;
+  border: 1px solid #4162c9;
+  text-align: center;
+  color: #fff;
+  font: 12px/12px "Nanum Barun Gothic", sans-serif;
+}
+
+/*인기검색어/추천검색어*/
+.keywordLink dd {
+  font-size: 12px;
+}
+
+.btnBox_reset {
+  position: absolute;
+  z-index: 9999;
+  top: 65px;
+  right: 10px;
+}
+
+/*개선 후 삭제*/
+.popularSearchWord-ranking-list-wrapper .keywordLayer.layer-keyword-top {
+  top: 0;
+  width: 345px;
+  padding-top: 0;
+  border-bottom: none;
+}
+
+.popularSearchWord-ranking-list-wrapper .keywordLayer.layer-keyword-top .keywordLink {
+  max-height: 419px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.popularSearchWord-ranking-list-wrapper .keywordLayer.layer-keyword-top .title {
+  padding: 14px 10px 13px;
+  background: #f3f3f3;
+  font-weight: bold;
+  line-height: 14px;
+}
+
+.popularSearchWord-ranking-list-wrapper .keywordLayer.layer-keyword-top .keywordLink .listItem a span.word {
+  max-width: 185px;
+  font-weight: normal;
+}
+
+.popularSearchWord-ranking-list-wrapper .keywordLayer.layer-keyword-top .keywordLink .listItem a span.font_basic {
+  margin-left: 5px;
+  font-weight: normal;
+}
+
+/*오른쪽 상단 메뉴*/
+.top-column .header .main-wrapper {
+  min-height: 32px;
+  height: auto;
+}
+
+.top-column .header .main-wrapper .gnb {
+  margin-top: -5px;
+  margin-bottom: -7px;
+}
+
+.top-column .header .main-wrapper .gnb .gnb-list li.hovering {
+  line-height: 12px;
+}
+
+.top-column .header .main-wrapper .gnb .gnb-list li.hovering > a {
+  padding: 15px 9px;
+}
+
+.top-column .header .main-wrapper .gnb .gnb-list li.hovering .hoverTarget {
+  width: 130px;
+  top: 34px;
+  left: -30px;
+}
+
+.top-column .header .main-wrapper .gnb .gnb-list li.gnb-update-list .hoverTarget {
+  left: -21px;
+}
+
+.top-column .header .main-wrapper .gnb .gnb-list .hoverTarget li.list_clearance a {
+  color: #f00;
+}
+
+.top-column .header .main-wrapper .gnb .gnb-list li.hovering.gnb-style-list .hoverTarget {
+  left: -36px;
+}
+
+.top-column .header .main-wrapper .gnb .gnb-list li.hovering.gnb-onsale .hoverTarget {
+  left: -39px;
+}
+
+/*.top-column .header .main-wrapper .gnb .gnb-list li.hovering.gnb-special .hoverTarget{left:-27px;width:126px}*/
+.top-column .header .main-wrapper .gnb .gnb-list li.hovering.gnb-contents .hoverTarget {
+  left: -29px;
+}
+
+.top-column .header .main-wrapper .gnb .gnb-list li.gnb-campaign-list a {
+  color: #0078ff;
+}
+
+/*header_group_area*/
+.header_group_area {
+  background: #f3f3f3;
+  padding: 17px 15px;
+  position: relative;
+}
+
+.header_group_area:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+.group_list li {
+  float: left;
+  margin-left: 7px;
+  margin-right: 7px;
+  font: 14px gulim, "굴림", sans-serif;
+}
+
+.group_list li:first-child {
+  margin-left: 0;
+}
+
+.group_list li a {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #b2b2b2;
+}
+
+.group_list li a.selected {
+  font-weight: bold;
+  color: #000;
+  text-decoration: underline;
+}
+
+.header_group_area .txt-raffle {
+  font-size: 14px;
+  line-height: 30px;
+  position: absolute;
+  right: 29px;
+  top: 10px;
+}
+
+.header_group_area .txt-raffle a {
+  display: inline-block;
+  color: #0078ff;
+  font-weight: bold;
+  margin-left: 8px;
+}
+
+/*login*/
+.login_open {
+  width: 310px;
+  margin: 20px 20px 20px 0;
+  padding-top: 5px;
+  border-right: 1px solid #ddd;
+}
+
+.login_open dl {
+  text-align: right;
+}
+
+rPtks .login_open dt {
+  display: inline-block;
+}
+
+.login_open dd {
+  display: inline-block;
+  margin: 0 10px 10px 10px;
+}
+
+.login_open input[type=text] {
+  width: 203px;
+}
+
+.login_open input[type=password] {
+  width: 203px;
+}
+
+.login_open .checking {
+  color: #666;
+  padding-left: 87px;
+  text-align: left;
+}
+
+.login_open .checking .box_check {
+  padding-bottom: 10px;
+}
+
+.login_open .checking .box_check input[type=checkbox] {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.input_select {
+  display: inline-block;
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  font-size: 12px;
+  color: #b2b2b2;
+  width: 116px;
+}
+
+.input_select ul {
+  width: 116px;
+  position: absolute;
+  z-index: 999;
+  background: #fff;
+  border-left: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+
+.input_select ul li {
+  padding: 0 0 0 9px;
+  height: 31px;
+  line-height: 31px;
+  border-bottom: 1px solid #ddd;
+}
+
+.input_select ul li:hover {
+  background: #f5f5f5;
+}
+
+.input_basic {
+  border: 1px solid #ddd;
+  height: 23px;
+  vertical-align: middle;
+  padding-left: 10px;
+  font-size: 12px;
+}
+
+.top_on_layer {
+  display: none;
+  position: absolute;
+  top: 11px;
+  left: 0px;
+  padding-top: 20px;
+  z-index: 9999;
+}
+
+.on_contents {
+  width: 225px;
+  height: 187px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.on_contents ol {
+  border: 1px solid #ddd;
+  background: #f5f5f5;
+  padding: 10px;
+  line-height: 20px;
+  margin: 10px 0 10px 0;
+}
+
+.on_contents p {
+  text-align: center;
+}
+
+.on_contents p a {
+  display: inline-block;
+  padding: 6px 10px;
+  border: 1px solid #ddd;
+  font-weight: bold;
+}
+
+.txt_point_top,
+.txt_fund_top {
+  color: #06f;
+  padding-top: 8px;
+}
+
+.userMenu-wrapper .userMenu-list {
+  height: 31px;
+  margin: 20px 15px 0 10px;
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+}
+
+.userMenu-wrapper .userMenu-list.userMenu-list-notLogin .login_box.active {
+  padding: 20px 0 34px;
+}
+
+.userMenu-wrapper .userMenu-list > .listItem.atonce {
+  position: static;
+  border: 0;
+  margin-right: 8px;
+}
+
+.userMenu-wrapper .userMenu-list > .listItem .txt_direct_on {
+  display: inline-block;
+  color: #b2b2b2;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.userMenu-wrapper .userMenu-list > .listItem.atonce .box_icon {
+  margin-top: -3px;
+}
+
+/**************** 장바구니 레이어 디자인 변경으로 인한 퍼블리싱 수정 (전체 46~106 전체 교체)*/
+.listItem a:hover {
+  text-decoration: underline;
+}
+
+/*알림*/
+.store_listItem_feed {
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+}
+
+.store_header div.h_news_feed div.tl_box {
+  top: 21px;
+}
+
+.store_header .n-newsfeed-list div.h_news_feed div.tl_box {
+  top: 21px;
+  width: 330px;
+  margin-left: -165px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* 알림창 개선 200330 */
+.store_header .n-newsfeed-list div.h_news_feed div.tl_config {
+  width: 330px;
+}
+
+.store_header .n-newsfeed-list div.h_news_feed div.tl_config dl {
+  width: 330px;
+  height: 40px;
+  box-sizing: border-box;
+  border-bottom: 0;
+}
+
+.store_header .n-newsfeed-list div.h_news_feed div.tl_config dd.tit_config {
+  width: 144px;
+  height: 39px;
+  line-height: 39px;
+}
+
+.store_header .n-newsfeed-list div.h_news_feed div.tl_config dd.btn_config {
+  height: 39px;
+  padding-right: 15px;
+}
+
+.store_header .n-newsfeed-list div.h_news_feed .n-newsfeed-cont {
+  padding: 0 15px;
+  border: 1px solid #ddd;
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.store_header .n-newsfeed-list div.h_news_feed li {
+  float: none;
+  width: 100%;
+  padding: 0px 0 20px !important;
+  border-top: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: "AppleSDGothicNeo", "Apple SD Gothic Neo", "Apple SD 산돌고딕 Neo", sans-serif;
+}
+
+.store_header .n-newsfeed-list div.h_news_feed li:last-child {
+  border-bottom: 1px solid #ddd;
+}
+
+.store_header .n-newsfeed-list div.h_news_feed li .n-newsfeed-text {
+  float: left;
+}
+
+.store_header .n-newsfeed-list div.h_news_feed li .n-newsfeed-top {
+  display: block;
+  color: #777;
+  letter-spacing: -0.5px;
+  line-height: 18px;
+}
+
+.store_header .n-newsfeed-list div.h_news_feed li .n-newsfeed-top i {
+  margin-right: 2px;
+}
+
+.store_header .n-newsfeed-list div.h_news_feed li a {
+  display: block;
+  max-width: 240px;
+  padding: 2px 0 4px;
+  font-size: 13px;
+  color: #000;
+  line-height: 21px;
+  letter-spacing: -1px;
+}
+
+.store_header .n-newsfeed-list div.h_news_feed li .n-newsfeed-reply {
+  max-width: 100%;
+}
+
+.store_header .n-newsfeed-list div.h_news_feed li .n-newsfeed-bot {
+  color: #777;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.store_header .n-newsfeed-list div.h_news_feed li .n-newsfeed-bot span {
+  display: inline-block;
+  padding-left: 5px;
+}
+
+.store_header .n-newsfeed-list div.h_news_feed li .n-newsfeed-img {
+  float: right;
+  width: 50px;
+  border-radius: 4px;
+}
+
+.store_header .n-newsfeed-list div.h_news_feed li .n-newsfeed-img .n-brand-img-area {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  line-height: 49px;
+  border-radius: 25px;
+  background: #f5f5f5;
+  text-align: center;
+}
+
+.store_header .n-newsfeed-list div.h_news_feed li .n-newsfeed-img .n-brand-img-area img {
+  max-width: 70%;
+  max-height: 50%;
+  vertical-align: middle;
+}
+
+.store_header .n-newsfeed-list div.h_news_feed li .n-newsfeed-img .n-brand-img-area.musinsa > img {
+  width: 35px;
+  height: 6px;
+}
+
+.store_header .n-newsfeed-list div.h_news_feed li .n-newsfeed-img .img {
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border-radius: 4px;
+  background-size: 100% auto;
+  overflow: hidden;
+}
+
+.store_header .n-newsfeed-list div.h_news_feed .n-newsfeed-view {
+  display: block;
+  font-weight: bold;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #ddd;
+  border-top: 0;
+  border-bottom: 0;
+  text-align: center;
+  font-family: "AppleSDGothicNeo", "Apple SD Gothic Neo", "Apple SD 산돌고딕 Neo", sans-serif;
+}
+
+.store_header .n-newsfeed-list div.h_news_feed li.n-newsfeed-none {
+  height: 65px;
+  padding: 20px 0 0 !important;
+  text-align: center;
+  color: #777;
+  border: 0 !important;
+}
+
+.store_header .n-newsfeed-list div.h_news_feed li.confirm-list .n-newsfeed-top {
+  color: #aaa !important;
+}
+
+.store_header .n-newsfeed-list div.h_news_feed li.confirm-list .n-newsfeed-top i {
+  color: #aaa !important;
+}
+
+.store_header .n-newsfeed-list div.h_news_feed li.confirm-list a {
+  color: #aaa !important;
+}
+
+.store_header .n-newsfeed-list div.h_news_feed li.confirm-list .n-newsfeed-bot {
+  color: #aaa !important;
+}
+
+.store_header .n-newsfeed-list div.h_news_feed li.n-newsfeed-text-only .n-newsfeed-text {
+  float: none;
+}
+
+.store_header .n-newsfeed-list div.h_news_feed li.n-newsfeed-text-only a {
+  max-width: 100%;
+}
+
+.userMenu-wrapper .userMenu-list > .listItem {
+  margin-left: 0;
+  padding-bottom: 2px;
+}
+
+.userMenu-wrapper .userMenu-list > .listItem.activityInfo {
+  margin-right: -4px;
+}
+
+.userMenu-wrapper .userMenu-list > .listItem.activityInfo.width-modify .infoLayout {
+  width: 82px;
+}
+
+.userMenu-wrapper .userMenu-list > .listItem.activityInfo .txt_activity_nav {
+  display: inline-block;
+  padding-right: 8px;
+}
+
+.userMenu-wrapper .userMenu-list-notLogin.userMenu-list .login.listItem {
+  margin: 0;
+}
+
+.userMenu-wrapper .userMenu-list > .listItem > a:first-child {
+  padding: 0 5px 0 9px;
+}
+
+.userMenu-wrapper .userMenu-list > .listItem:hover.activityInfo {
+  margin-right: -4px;
+}
+
+.userMenu-wrapper .userMenu-list > .listItem:hover.activityInfo,
+.userMenu-wrapper .userMenu-list > .listItem:hover.shoppingInfo {
+  height: 20px;
+  padding-top: 7px;
+  margin-top: -8px;
+  border-top: 1px solid #ddd;
+  border-right: none;
+}
+
+.userMenu-wrapper .userMenu-list > .listItem:hover.activityInfo + .listItem,
+.userMenu-wrapper .userMenu-list > .listItem:hover.shoppingInfo + .listItem {
+  padding-top: 8px;
+  margin-top: -8px;
+}
+
+.userMenu-wrapper .userMenu-list > .listItem:hover.activityInfo:after,
+.userMenu-wrapper .userMenu-list > .listItem:hover.shoppingInfo:after {
+  margin-left: -7px;
+  margin-right: 6px;
+  content: "↑";
+}
+
+.userMenu-wrapper .userMenu-list > .listItem:hover .infoLayout {
+  left: -1px;
+  margin-top: -1px;
+  padding-right: 1px;
+  text-indent: 11px;
+  display: block;
+  border-top: none;
+  z-index: 1000;
+}
+
+.userMenu-wrapper .userMenu-list > .listItem:hover .infoLayout li {
+  margin-top: 9px;
+}
+
+.userMenu-wrapper .userMenu-list > .listItem:hover .infoLayout li a:hover span {
+  text-decoration: underline;
+}
+
+.userMenu-wrapper .userMenu-list > .listItem.cart_list:after {
+  margin-left: -7px;
+  margin-right: 2px;
+  content: "↓";
+}
+
+.userMenu-wrapper .userMenu-list > .listItem .infoLayout .listItem_review {
+  padding-top: 5px;
+}
+
+.userMenu-wrapper .userMenu-list > .listItem .infoLayout .listItem_review li {
+  margin-top: 0;
+  line-height: 18px;
+}
+
+.userMenu-wrapper .userMenu-list > .listItem.wishlistItem a {
+  margin: 0 6px 0 10px;
+  padding: 4px 0 5px 24px;
+  color: #f33;
+  background: url("/skin/musinsa/images/icon_like_small_on.png?20171024") no-repeat 0 0;
+}
+
+/*상단레이어 장바구니 공통*/
+.activity_cart_area {
+  display: inline-block;
+  height: 31px;
+}
+
+.cart_out_line {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: -1px;
+  right: 0;
+  z-index: 1010;
+  height: 28px;
+  padding: 7px 8px 1px 9px;
+  box-sizing: border-box;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #fff;
+  background-color: #fff;
+  color: #000;
+}
+
+.userMenu-wrapper .userMenu-list > .listItem:hover.activityInfo.activity_cart {
+  max-width: 100%;
+  width: auto;
+  height: 40px;
+  white-space: nowrap;
+}
+
+.cart_out_line:after {
+  content: "↑";
+}
+
+.userMenu-wrapper .userMenu-list > .activity_cart .activity_cart_box {
+  width: 659px;
+  height: 514px;
+}
+
+.userMenu-wrapper .userMenu-list > .activity_cart:hover .cart_in_positon {
+  top: 27px;
+  border-top: 1px solid #ddd;
+}
+
+.userMenu-wrapper .userMenu-list > .activity_cart:hover .infoLayout {
+  padding-bottom: 0;
+  text-indent: 0;
+}
+
+.userMenu-wrapper .userMenu-list > .activity_cart:hover .infoLayout li {
+  margin-top: 0;
+}
+
+.userMenu-wrapper .userMenu-list > .activity_cart:hover .cart_out_line {
+  display: block;
+}
+
+.top_layer_cart {
+  float: left;
+  height: 516px;
+  line-height: 12px;
+  overflow: hidden;
+}
+
+.top_layer_cart .txt_empty_layer {
+  padding-left: 15px;
+  margin-top: 20px;
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  font-size: 12px;
+  color: #b2b2b2;
+}
+
+.top_cart_arrow {
+  float: right;
+  margin: 13px 15px 0 0;
+}
+
+.top_section_tit {
+  display: inline-block;
+  margin-top: 21px;
+  padding: 0 8px;
+  border-left: 1px solid #ddd;
+  color: #b2b2b2;
+}
+
+.top_section_tit.active {
+  font-weight: bold;
+  color: #000;
+}
+
+.top_section_tit.first {
+  border-left: 0;
+  margin-left: 7px;
+}
+
+.top_layer_cart .tit_brand {
+  font-weight: bold;
+}
+
+.top_layer_cart .txt_price_origin {
+  text-decoration: line-through;
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  font-size: 12px;
+  color: #b2b2b2;
+}
+
+.top_layer_cart .txt_price_sale {
+  font-weight: bold;
+}
+
+.view_70 .view_close {
+  right: 0;
+}
+
+.view_70 .vertical_standard {
+  height: 84px;
+}
+
+.view_100 .view_close {
+  right: 0;
+}
+
+.view_100 .vertical_standard {
+  height: 120px;
+}
+
+/*상단레이어 최근본 브랜드*/
+.layer_cart_brand {
+  width: 189px;
+}
+
+.layer_cart_brand .top_view_brand {
+  line-height: 18px;
+}
+
+.layer_cart_brand .brand-name {
+  display: inline-block;
+  max-width: 140px;
+  padding-top: 6px;
+  padding-bottom: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+
+.layer_cart_brand .delete-btn-red {
+  display: inline-block;
+}
+
+.layer_cart_brand .delete-btn-red a {
+  display: inline-block;
+  padding-top: 6px;
+  padding-bottom: 4px;
+}
+
+.userMenu-wrapper .userMenu-list > .activity_cart:hover .top_view_brand {
+  padding: 10px 10px 20px;
+}
+
+.userMenu-wrapper .userMenu-list > .activity_cart:hover .top_view_brand li {
+  padding: 0 5px;
+}
+
+/*상단레이어 최근본상품*/
+.layer_cart_product {
+  width: 469px;
+  border-right: 1px solid #ddd;
+}
+
+.userMenu-wrapper .userMenu-list > .activity_cart:hover .top_view_product1 {
+  clear: both;
+  display: block;
+  padding: 15px;
+}
+
+.userMenu-wrapper .userMenu-list > .activity_cart:hover .top_view_product1:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+.userMenu-wrapper .userMenu-list > .activity_cart:hover .top_view_product1 li {
+  float: left;
+  line-height: 12px;
+  border-left: 1px solid #ddd;
+  padding: 0 12px;
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  font-size: 12px;
+  color: #b2b2b2;
+}
+
+.userMenu-wrapper .userMenu-list > .activity_cart:hover .top_view_product1 li.active {
+  font-weight: bold;
+  color: #000;
+}
+
+.userMenu-wrapper .userMenu-list > .activity_cart:hover .top_view_product1 li:first-child {
+  padding-left: 0;
+  border-left: 0;
+}
+
+.userMenu-wrapper .userMenu-list > .activity_cart:hover .top_view_product2 {
+  clear: both;
+  display: block;
+  padding: 0 0 20px 10px;
+}
+
+.userMenu-wrapper .userMenu-list > .activity_cart:hover .top_view_product2:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+.userMenu-wrapper .userMenu-list > .activity_cart:hover .top_view_product2 li {
+  padding: 5px;
+}
+
+.top_viewed_list {
+  float: left;
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  margin-bottom: 13px;
+}
+
+.view_70 {
+  width: 70px;
+  height: 84px;
+  margin: 0;
+}
+
+.view_70_info {
+  width: 125px;
+  text-align: left;
+  margin: 7px 10px 0 82px;
+}
+
+.view_70_info dd {
+  line-height: 16px;
+  margin-top: 8px;
+}
+
+.view_70_desc {
+  max-height: 32px;
+  overflow: hidden;
+  word-break: break-all;
+  text-overflow: ellipsis;
+}
+
+/*상단레이어 카트*/
+.layer_cart_btn {
+  position: absolute;
+  top: 0px;
+  right: 189px;
+  display: inline-block;
+}
+
+.layer_cart_btn .txt_link_cart a {
+  display: inline-block;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #000;
+  margin-right: 15px;
+  margin-top: 22px;
+}
+
+.userMenu-wrapper .userMenu-list > .activity_cart:hover .top_view_cart {
+  clear: both;
+  display: block;
+  padding: 14px 0 0 15px;
+}
+
+.userMenu-wrapper .userMenu-list > .activity_cart:hover .top_view_cart:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+.top_cart_list {
+  float: left;
+  width: 100px;
+  margin: 9px 0 17px 0;
+  padding: 5px 5px 0 5px;
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+}
+
+.view_100 {
+  width: 100px;
+  height: 120px;
+  margin: 0;
+}
+
+.view_100_info {
+  clear: both;
+  width: 100px;
+  text-align: left;
+  padding-top: 6px;
+}
+
+.view_100_info dt,
+.view_100_info dd {
+  width: 100px;
+  height: 13px;
+  line-height: 13px;
+  margin-bottom: 7px;
+}
+
+.userMenu-wrapper .userMenu-list > .activity_cart:hover .top_view_cart .option {
+  color: #b2b2b2;
+}
+
+.top_layer_cart .box_btn {
+  margin-top: 5px;
+}
+
+.top_cart_btn {
+  width: 437px;
+  height: 38px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 38px;
+  border: 1px solid #000;
+  margin: 0 0 15px 15px;
+  background-color: #000;
+  color: #fff;
+}
+
+.top_cart_btn:hover {
+  border: 1px solid #ddd;
+  background-color: #fff;
+  color: #000;
+}
+
+/*contents area*/
+.wrap {
+  clear: both;
+  position: relative;
+  width: 100%;
+}
+
+/*버튼*/
+.code {
+  position: absolute;
+}
+
+/*탭버튼*/
+.snb-multi {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  box-sizing: border-box;
+}
+
+.snb-multi:before,
+.snb-multi:after {
+  content: none;
+}
+
+.snb-multi li {
+  float: none;
+  display: table-cell;
+  width: 10%;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+.snb-multi .tab-btn.box-tab-btn {
+  float: none;
+  font-weight: normal;
+  line-height: 14px;
+}
+
+.snb-multi li a {
+  display: table;
+  width: 100%;
+  height: 38px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.snb-multi .box-tab-btn a {
+  display: table;
+}
+
+.snb-multi li a span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* 상위 점프 버튼
+.jump_up {z-index:1111; background:#fff;}
+*/
+/* 왼쪽 하단 버튼  // SNS 쉐어 버튼 2차 수정 디자인 적용시 주석제거 위에 상위 점프 버튼css 제거 */
+.code.box-btn-leftbottom a {
+  position: fixed;
+  right: 0;
+  z-index: 99999;
+  width: 28px;
+  height: 28px;
+  padding: 7px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  font-size: 0px;
+  line-height: 0;
+  text-indent: -99999px;
+}
+
+.btn-like-left {
+  bottom: 106px;
+  background-image: url("/skin/musinsa/images/icon_like_small_off.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.btn-like-left.active {
+  background-image: url("/skin/musinsa/images/icon_like_small_on.png");
+}
+
+.btn-share-left {
+  bottom: 63px;
+  background-image: url("/skin/musinsa/images/icon_share.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.box-btn-leftbottom .jump_up {
+  bottom: 20px;
+  background-image: url("/skin/musinsa/images/icon_top.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  display: inline-block;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  text-align: center;
+  color: #000;
+  outline: 0;
+}
+
+/*왼쪽 메뉴 여닫기 버튼*/
+.left_menu_btn {
+  position: absolute;
+  top: -1px;
+  left: 270px;
+  background: #fff;
+  z-index: 99;
+}
+
+/*left*/
+.left_area {
+  float: left;
+  width: 270px;
+  border-right: 1px solid #ddd;
+}
+
+.left_basic_btn.left_top_btn {
+  margin: 15px;
+}
+
+.left_basic_btn.left_top_btn:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+.left_basic_btn li {
+  float: left;
+  margin-left: 5px;
+}
+
+.left_basic_btn li:first-child {
+  margin-left: 0;
+}
+
+.left_basic_btn li a:hover {
+  background-color: #f2f2f2;
+}
+
+.left_basic_btn .plain-btn {
+  padding: 11px 6px 8px !important;
+}
+
+.left_top_btn li a {
+  width: 42px;
+}
+
+.title_kr {
+  color: #b2b2b2;
+  font-size: 12px;
+  line-height: 20px;
+  vertical-align: bottom;
+  display: inline-block;
+  margin: 0 5px 0;
+}
+
+.left_area .link_type {
+  margin-right: 6px;
+  color: #b2b2b2;
+}
+
+/*아코디언 탭*/
+#selectshop_area {
+  margin: 0 15px;
+}
+
+.box_menu_left {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+}
+
+.box_menu_left .snb {
+  width: 240px;
+  margin: 0 15px;
+}
+
+.box_menu_left .snb.snb-2 {
+  margin-left: 0;
+}
+
+.option-list .brand-option-list .listItem.quick-searchBrand {
+  margin: 0 15px 13px 15px;
+}
+
+.item_sub_menu {
+  display: none;
+}
+
+.nav_category.active .item_sub_menu {
+  display: block;
+}
+
+.item_sub_menu .item_sub_menu_all a {
+  color: #666;
+}
+
+.item_sub_menu .item_sub_menu_all a:hover {
+  color: #000;
+  font-weight: bold;
+}
+
+.nav_menu {
+  margin: 0 15px;
+  font-size: 12px;
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  color: #b2b2b2;
+  margin-top: 8px;
+}
+
+.nav_menu div:first-child {
+  border-top: none;
+}
+
+.nav_menu > div {
+  clear: both;
+  line-height: 35px;
+}
+
+.nav_menu > div ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.nav_menu:last-child {
+  border-bottom: 1px solid #ddd;
+}
+
+.nav_menu:last-child:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.nav_menu_title {
+  line-height: 31px;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.nav_menu_title .on {
+  background: none !important;
+}
+
+.nav_menu .title {
+  display: block;
+  float: left;
+}
+
+.nav_menu .nav_kr {
+  display: block;
+  float: left;
+  padding-left: 5px;
+}
+
+#select_accordion .nav_menu {
+  margin: 0;
+}
+
+.nav_kr {
+  display: inline-block;
+  color: #b2b2b2;
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  font-size: 11px;
+  line-height: 22px;
+}
+
+.nav_category:first-child {
+  border-top: 1px solid #ddd;
+}
+
+.nav_category on:hover {
+  background: none;
+}
+
+.nav_category {
+  border-top: 1px solid #ddd;
+  line-height: 35px;
+}
+
+.nav_category .nav_menu_title a {
+  display: block;
+  line-height: 20px;
+  padding: 10px 0 8px;
+  background: url(/skin/musinsa/images/add.png) no-repeat;
+  background-position: top 15px right 0;
+}
+
+.nav_category.active .nav_menu_title a {
+  display: block;
+  line-height: 20px;
+  padding: 10px 0 8px;
+  background: url(/skin/musinsa/images/sbb.png) no-repeat;
+  background-position: top 15px right 0;
+}
+
+.nav_category.non-toggle .nav_menu_title a {
+  background: none;
+}
+
+.nav_category .nav_menu_title a:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.nav_menu_title:hover {
+  background-color: #f5f5f5;
+}
+
+.nav_menu_title.ui-accordion-header-active.ui-state-active:hover {
+  background: none;
+}
+
+.nav_category .item_sub_menu:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+.nav_category_menu {
+  *zoom: 1;
+}
+
+.nav_category_menu:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.nav_category_menu {
+  padding-right: 12px;
+  padding-bottom: 4px;
+  float: left;
+}
+
+.nav_category_menu li {
+  text-align: left;
+  margin-bottom: 10px;
+  line-height: 15px;
+  color: #666;
+}
+
+.nav_category_menu span {
+  color: #b2b2b2;
+  font-weight: normal;
+}
+
+.nav_category_menu li a {
+  display: block;
+  width: 105px;
+}
+
+.nav_category_menu li a:hover {
+  color: #000;
+  font-weight: bold;
+}
+
+.nav_category_menu .on a:link {
+  color: #000;
+  font-weight: bold;
+}
+
+.nav_category_menu.list_menu_left {
+  font: 11px "verdana", "Geneva", sans-serif;
+}
+
+.nav_category_select ul li {
+  border-bottom: 1px solid #ddd;
+  line-height: 20px;
+  padding: 10px 0 10px 10px;
+}
+
+.nav_category_select ul li div {
+  margin-right: 5px;
+  float: left;
+  color: #b2b2b2;
+}
+
+.nav_category_select ul li div p {
+  font-size: 16px;
+  color: #000;
+}
+
+.nav_category_select ul li:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.category_sub_menu .category_sub_menu_all a {
+  color: #666;
+  font-size: 11px;
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+}
+
+.category_sub_menu .category_sub_menu_all a:hover {
+  color: #000;
+  font-weight: bold;
+}
+
+.list.letter-list > .listItem {
+  margin: 0px 1px 2px 1px;
+}
+
+.list.option-list .brand-option-list > .listItem.list_item_store {
+  margin-bottom: -3px;
+}
+
+.list.option-list .brand-option-list > .listItem.list_item_store #selectBrand .listItem {
+  margin: 0 15px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #ddd;
+}
+
+.list.option-list .brand-option-list > .listItem.list_item_store #selectBrand .listItem .brandSave {
+  margin-top: -16px;
+}
+
+.list.option-list .brand-option-list > .listItem .brand-list.brand_list_store .listItem {
+  position: relative;
+  width: 240px;
+  margin-bottom: 12px;
+}
+
+.list.option-list .brand-option-list > .listItem .brand-list.brand_list_store .listItem .brandSave {
+  position: absolute;
+  right: 3px;
+  top: 50%;
+  margin-top: -10px;
+}
+
+.list.option-list .brand-option-list > .listItem .brand-list.brand_list_store .listItem .add-btn {
+  margin-top: 0;
+  margin-left: 0;
+  background: transparent;
+  border: none;
+}
+
+.list.option-list .brand-option-list > .listItem .brand-list.brand_list_store .listItem .saved .add-btn {
+  background: url("/skin/musinsa/images/icon_like_small_on.png") no-repeat center;
+}
+
+.list.option-list .brand-option-list > .listItem .brand-list.brand_list_store .listItem .title {
+  width: 219px;
+  color: #b2b2b2;
+}
+
+.list.option-list .brand-option-list > .listItem .brand-list.brand_list_store .listItem .title-name {
+  display: block;
+  max-width: 205px;
+  margin-bottom: 4px;
+}
+
+.list.option-list .brand-option-list > .listItem .brand-list.brand_list_store .listItem .title .eng {
+  display: inline-block;
+  max-width: 170px;
+  vertical-align: middle;
+  color: #000;
+  font-weight: bold;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.list.option-list .brand-option-list > .listItem .brand-list.brand_list_store .listItem .title .kor {
+  display: inline-block;
+  max-width: 170px;
+  margin-left: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.list.option-list .brand-option-list > .listItem .brand-list.brand_list_store .listItem .title .n-label {
+  min-width: 0;
+  margin-top: -1px;
+  margin-left: 3px;
+  padding: 3px 3px 0;
+  border-radius: 2px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-size: 10px;
+  line-height: 10px;
+  font-style: normal;
+}
+
+.list.option-list .brand-option-list > .listItem .brand-list.brand_list_store .listItem .title .replyCnt {
+  margin-left: 0;
+}
+
+.myfavorite_brand {
+  width: 236px;
+  color: #b2b2b2;
+  text-align: center;
+  border: 1px solid #ddd;
+  margin-left: 16px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.myfavorite_brand a {
+  display: block;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.myfavorite_brand.active {
+  border-color: #f33;
+}
+
+.myfavorite_brand.active a {
+  background-color: #ff3333;
+}
+
+#brand_list_print {
+  padding-top: 11px;
+  margin-left: 15px;
+  height: expression(this.scrollHeight > 1499 ? "1500px": "auto");
+  max-height: 1500px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-arrow-color: #fff;
+  scrollbar-track-color: #fff;
+  scrollbar-base-color: #fff;
+  scrollbar-face-color: #f3f3f3;
+  scrollbar-3dlight-color: #fff;
+  scrollbar-darkshadow-color: #fff;
+  scrollbar-highlight-color: #f3f3f3;
+  scrollbar-shadow-color: #f3f3f3;
+  scrollbar-darkshadow-color: #f3f3f3;
+}
+
+#brand_list_print::-webkit-scrollbar {
+  width: 7px;
+}
+
+#brand_list_print::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+#brand_list_print::-webkit-scrollbar-thumb {
+  height: 50px;
+  width: 50px;
+  background: #f3f3f3;
+}
+
+/* SCROLLBAR Chrome Safari*/
+#brand_list_print::-webkit-scrollbar {
+  width: 7px;
+}
+
+#brand_list_print::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+#brand_list_print::-webkit-scrollbar-thumb {
+  height: 50px;
+  width: 50px;
+}
+
+/*좌측 하단 탭*/
+.slide_rank_coupon {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 3px 5px;
+  color: #fff;
+  background: #4162c9;
+  font: 12px "Malgun Gothic", 맑은 고딕;
+  border: 0;
+}
+
+.icon_o {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 3px 5px;
+  color: #fff;
+  background: #1b8cb0;
+  font: 12px "Malgun Gothic", 맑은 고딕;
+  border: 0;
+}
+
+.icon_l {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 3px 5px;
+  color: #fff;
+  background: #cc4e63;
+  font: 12px "Malgun Gothic", 맑은 고딕;
+  border: 0;
+}
+
+.icon_m {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 3px 5px;
+  color: #fff;
+  background: #18a286;
+  font: 12px "Malgun Gothic", 맑은 고딕;
+  border: 0;
+}
+
+.icon_s {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 3px 5px;
+  color: #fff;
+  background: #000000;
+  font: 12px "Malgun Gothic", 맑은 고딕;
+  border: 0;
+}
+
+.icon_r {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 3px 5px;
+  color: #fff;
+  background: #ff797a;
+  font: 12px "Malgun Gothic", 맑은 고딕;
+  border: 0;
+}
+
+.section-tabbox-left {
+  clear: both;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ddd;
+}
+
+.section-tabbox-left .tabBox {
+  padding: 0 15px 15px;
+}
+
+.section-tabbox-left .tab {
+  height: 375px;
+  border: 1px solid #ddd;
+  border-top: none;
+  overflow: hidden;
+}
+
+.section-tabbox-left .tab.tab-goods {
+  height: 427px;
+}
+
+.section-tabbox-left .tab.new {
+  height: 398px;
+}
+
+.section-tabbox-left .box-page {
+  padding: 10px 10px 0;
+}
+
+.section-tabbox-left .box-page ul {
+  display: inline-block;
+  max-width: 140px;
+}
+
+.section-tabbox-left .box-page li {
+  display: inline-block;
+}
+
+.section-tabbox-left .box-page .link-text {
+  display: inline-block;
+  height: 18px;
+  margin-top: 4px;
+  margin-right: 1px;
+  color: #b2b2b2;
+}
+
+.section-tabbox-left .box-page .link-text.active {
+  text-decoration: underline;
+}
+
+.section-tabbox-left .box-page .box-btn {
+  float: right;
+}
+
+.section-tabbox-left .box-page .btn-prev {
+  border-right: none;
+}
+
+.section-tabbox-left .box-page.box-cate {
+  padding: 9px 0 0;
+  margin: 13px 10px 0;
+  border-top: 1px solid #ddd;
+}
+
+.section-tabbox-left .box-page.box-cate .box-indicate {
+  max-width: inherit;
+}
+
+.section-tabbox-left .box-page.box-cate .link-text {
+  margin-right: 1px;
+}
+
+.section-tabbox-left .box-swipe {
+  overflow: hidden;
+  width: 100%;
+}
+
+.section-tabbox-left .box-swipe-list {
+  width: 238px;
+  height: 343px;
+}
+
+.section-tabbox-left .box-swipe-contents {
+  float: left;
+  width: 238px;
+}
+
+.section-tabbox-left .box_item.loading {
+  height: 348px;
+  background: url("/skin/musinsa/images/loading2.gif") no-repeat center;
+  text-align: center;
+}
+
+/*좌측 하단 탭 - 상품*/
+.section-tabbox-left .box_item {
+  padding: 7.5px 7px 0 7px;
+}
+
+.section-tabbox-left .box_item:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+.section-tabbox-left .li_box {
+  width: 74px;
+  min-width: 0;
+  padding: 2px 2px 0 2px;
+  border: none;
+}
+
+.section-tabbox-left .li_box:hover img {
+  opacity: 1;
+}
+
+.section-tabbox-left .tabBox .li_inner {
+  height: 160px;
+  margin: 0 auto 3px;
+}
+
+.section-tabbox-left .list_img {
+  width: 70px;
+  height: 84px;
+  margin-bottom: 6px;
+}
+
+.section-tabbox-left .list_img a {
+  position: relative;
+  display: block;
+  width: 70px;
+  height: 84px;
+  background-color: #fff;
+}
+
+.section-tabbox-left .list_img img {
+  width: 100%;
+  border: none;
+}
+
+.section-tabbox-left .vertical_standard {
+  height: 84px;
+}
+
+.section-tabbox-left .icon_event {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 14px;
+  padding: 2px 0 4px;
+  background: #fff;
+  border: none;
+  color: #09f;
+  font-family: "Musinsa", sans-serif;
+}
+
+.section-tabbox-left .icon_best {
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 14px;
+  padding: 2px 0 4px;
+  background: #fff;
+  border: none;
+}
+
+.section-tabbox-left .icon_online {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 14px;
+  padding: 2px 3px 5px;
+  background: #f93;
+  color: #fff;
+  font-family: "AppleSDGothicNeo Medium", "Malgun Gothic", "맑은 고딕", sans-serif;
+}
+
+.section-tabbox-left .icon_ex {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 14px;
+  padding: 2px 3px 5px;
+  background: #5c7b5a;
+  color: #fff;
+  font-family: "AppleSDGothicNeo Medium", "Malgun Gothic", "맑은 고딕", sans-serif;
+}
+
+.section-tabbox-left .icon_limit {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 14px;
+  padding: 2px 3px 5px;
+  background: #c6c;
+  color: #fff;
+  font-family: "AppleSDGothicNeo Medium", "Malgun Gothic", "맑은 고딕", sans-serif;
+}
+
+.section-tabbox-left .icon_sale {
+  position: absolute;
+  left: inherit;
+  top: inherit;
+  right: 0;
+  bottom: 0;
+  display: inline-block;
+  height: 14px;
+  padding: 4px 6px 3px;
+  background: #f00;
+  border: none;
+  color: #fff;
+}
+
+.section-tabbox-left .article_info {
+  width: 70px;
+}
+
+.section-tabbox-left .article_info .item_title {
+  margin-bottom: 3px;
+  font-weight: normal;
+}
+
+.section-tabbox-left .article_info .item_title a {
+  display: inline;
+}
+
+.section-tabbox-left .article_info .list_info {
+  margin-bottom: 6px;
+  color: #b2b2b2;
+  word-break: break-all;
+}
+
+.section-tabbox-left .article_info .list_info a {
+  color: #b2b2b2;
+}
+
+.section-tabbox-left .article_info .price {
+  color: #000;
+}
+
+.section-tabbox-left .article_info .item_title .icon-rank {
+  display: block;
+  width: 11px;
+  height: 19px;
+  text-align: right;
+  float: right;
+  right: 6px;
+  top: 16px;
+}
+
+.section-tabbox-left .article_info .item_title .icon-rank.rank-up,
+.section-tabbox-left .article_info .item_title .icon-rank.rank-stay,
+.section-tabbox-left .article_info .item_title .icon-rank.rank-down {
+  background: url(/skin/m_musinsa/images/icon_ranking.png?v=20180508) no-repeat;
+  background-size: 12px 72px;
+}
+
+.section-tabbox-left .article_info .item_title .icon-rank.rank-up {
+  color: #ff0000;
+  background-position: 0 4px;
+}
+
+.section-tabbox-left .article_info .item_title .icon-rank.rank-down {
+  color: #006cff;
+  background-position: 0px -28px;
+}
+
+.section-tabbox-left .article_info .item_title .icon-rank.rank-stay {
+  color: #aaa;
+  background-position: 0 -60px;
+}
+
+/*좌측 하단 탭 - 브랜드*/
+.section-tabbox-left .tabBox .box-brand .li_box {
+  margin-bottom: 5px;
+}
+
+.section-tabbox-left .tabBox .box-brand .li_inner {
+  height: 95px;
+}
+
+.section-tabbox-left .box-brand .list_img {
+  height: 70px;
+  margin-bottom: 7px;
+}
+
+.section-tabbox-left .box-brand .list_img a {
+  width: 55px;
+  height: 55px;
+  padding: 7.5px;
+  background-color: #fff;
+}
+
+.section-tabbox-left .box-brand .vertical_standard {
+  height: 70px;
+}
+
+/*좌측 하단 탭 - 신상품*/
+.section-tabbox-left .box-board {
+  padding-top: 0;
+}
+
+.section-tabbox-left .li_column {
+  width: auto;
+  margin: 0 3px;
+  padding: 10px 0 0;
+  border-top: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+.section-tabbox-left .li_column:first-child {
+  border-top: none;
+}
+
+.section-tabbox-left .li_column .li_inner {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.section-tabbox-left .li_column .li_inner > div {
+  display: table-cell;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+.section-tabbox-left .li_column .list_img {
+  width: 65px;
+  height: 76px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.section-tabbox-left .li_column .list_img a {
+  width: 55px;
+  height: 65px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.section-tabbox-left .li_column .list_img .vertical_standard {
+  height: 65px;
+}
+
+.section-tabbox-left .li_column .article_info {
+  width: auto;
+}
+
+.section-tabbox-left .li_column .list_info {
+  max-height: 38px;
+}
+
+.section-tabbox-left .li_column .article_info .list_info .text-title {
+  display: inline;
+  color: #000;
+  line-height: 19px;
+}
+
+.section-tabbox-left .li_column .article_info .list_info .replyCnt.list_comment {
+  height: 19px;
+}
+
+.section-tabbox-left .li_column .box_date_view li {
+  max-width: 70px;
+  overflow: hidden;
+  line-height: 14px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.section-tabbox-left .li_column .box_date_view li a:before {
+  content: ", ";
+}
+
+.section-tabbox-left .li_column .box_date_view li a:first-child:before {
+  content: "";
+}
+
+/*좌측 하단 탭 - 타임세일*/
+.section-tabbox-left .box-timesale {
+  padding-top: 0;
+}
+
+.section-tabbox-left .box-timesale .li_column .list_img {
+  width: 85px;
+  padding-left: 0;
+  padding-right: 10px;
+}
+
+.section-tabbox-left .box-timesale .li_column .list_img a {
+  width: 75px;
+  height: 90px;
+  background-color: #fff;
+}
+
+.section-tabbox-left .box-timesale .li_column .li_inner .article_info {
+  padding-top: 3px;
+}
+
+.section-tabbox-left .box-timesale .li_column .list_info {
+  max-height: 30px;
+}
+
+.section-tabbox-left .box-timesale .li_column .price {
+  font-weight: bold;
+}
+
+.section-tabbox-left .box-timesale .li_column .price del.box_origin_price {
+  display: inline-block;
+  margin-right: 3px;
+}
+
+.section-tabbox-left .box-timesale .li_column .limit-date {
+  color: #000;
+  font-weight: bold;
+}
+
+.section-tabbox-left .box-timesale .li_column .limit-date em {
+  margin-right: 6px;
+}
+
+.section-tabbox-left .box-timesale .li_column .list_img a .vertical_standard {
+  height: 90px;
+}
+
+/*cs*/
+.cs_area {
+  border-top: 1px solid #ddd;
+  padding-top: 15px;
+}
+
+.cs_contents {
+  border: 1px solid #ddd;
+  padding: 10px 10px 0 10px;
+  font-size: 12px;
+  line-height: 20px;
+  margin: 15px 0 0 0;
+}
+
+.cs_time {
+  line-height: 35px;
+  text-align: center;
+  border: 1px solid #ddd;
+  background: #f3f3f3;
+  font-size: 12px;
+  margin-top: -1px;
+}
+
+.cs_numb {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.cs_info {
+  color: #b2b2b2;
+  padding: 5px 0 10px 0;
+}
+
+.cs_info.first {
+  border-bottom: 1px solid #ddd;
+}
+
+.cs_info .link_type {
+  color: #000;
+}
+
+.cs_contents .txt_num_cs {
+  color: #666;
+}
+
+.box_cs_left {
+  line-height: 21px;
+  margin: 15px;
+}
+
+.txt_tel_left {
+  font: 24px "Musinsa";
+  margin-bottom: 15px;
+}
+
+.txt_tel_left .fa.fa-phone {
+  margin-top: 5px;
+}
+
+.txt_csinfo_left {
+  font-weight: bold;
+  color: #000;
+}
+
+.box_info_left {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.box_info_left a {
+  color: #000;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.box_bottom_left {
+  margin: 15px;
+}
+
+.box_bottom_left:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+.box_bottom_left li a {
+  width: 62px;
+}
+
+/*footer*/
+.footer_support {
+  *zoom: 1;
+  padding: 15px 0 14px;
+}
+
+.footer_support:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.footer_support p {
+  float: right;
+  font-family: "Musinsa", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  line-height: 12px;
+  font-weight: bold;
+}
+
+.footer_support p:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.phoneNumber_click {
+  color: #ace5cf;
+  background: #0d8355;
+  font-size: 11px;
+  text-align: center;
+  padding: 2px 5px 0 4px;
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+  margin-top: -3px;
+  margin-left: 4px;
+  font-weight: normal;
+}
+
+.phoneNumber_click strong {
+  color: #fff;
+}
+
+.phoneNumber_click a {
+  display: inline-block;
+}
+
+.footer_social {
+  *zoom: 1;
+  margin-bottom: 30px;
+}
+
+.footer_social:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.footer_social a {
+  display: block;
+  float: left;
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+  text-indent: -9999px;
+  background: url(/skin/musinsa/images/footer_sns.png?20190903) no-repeat;
+}
+
+.footer_social a.youtube {
+  background-position: 0 0;
+}
+
+.footer_social a.instagram {
+  background-position: -78px 0;
+}
+
+.footer_social a.facebook {
+  background-position: -156px 0;
+}
+
+.footer_social a.twitter {
+  background-position: -234px 0;
+}
+
+.footer_social a.post {
+  background-position: -312px 0;
+}
+
+.footer_social a.studio {
+  background-position: -390px 0;
+}
+
+.footer_social a.tv {
+  background-position: -468px 0;
+}
+
+.footer_social a.terrace {
+  background-position: -546px 0;
+}
+
+.footer_emoticon {
+  position: absolute;
+  right: 20px;
+  top: 129px;
+}
+
+.footer .snb ul li {
+  font-weight: normal !important;
+}
+
+.footer .snb ul li.division span {
+  font-size: 11px;
+  color: #0078ff;
+  margin-left: 2px;
+  vertical-align: top;
+  line-height: 12px;
+}
+
+.footer .snb ul li.division strong {
+  text-decoration: underline;
+}
+
+.footer {
+  padding: 0px;
+  position: relative;
+  border-top: none;
+}
+
+.footer .clearfix_store {
+  padding-left: 19px;
+}
+
+.footer .snb {
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer .snb_store {
+  padding-left: 0;
+}
+
+.footer .row.row2 .box.copyright-box .description p.last {
+  margin-top: 15px;
+}
+
+.footer .row.row2 .box.copyright-box a.bottom_top_btn {
+  position: absolute;
+  right: 20px;
+  bottom: 195px;
+  font-weight: normal;
+  vertical-align: bottom;
+}
+
+.switch_mobile {
+  padding: 10px;
+  text-align: center;
+  color: #666;
+  font-weight: bold;
+}
+
+.txt_scroll_footer {
+  font: 18px "Musinsa";
+}
+
+.txt_arrow_footer {
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  line-height: 28px;
+}
+
+footer .footer .row.row1 {
+  padding-bottom: 18px;
+}
+
+footer .footer .row.row1 .addressBox-wrapper {
+  margin-bottom: 13px;
+}
+
+footer .footer .row1.row .global-notice {
+  white-space: nowrap;
+  padding: 8px 9px 8px 10px;
+}
+
+footer .footer .row.row2 {
+  padding-top: 34px;
+}
+
+footer .row.row3 {
+  width: 100%;
+  background-color: #000000;
+  color: #b2b2b2;
+  font-size: 13px;
+  line-height: 36px;
+  font-family: "Musinsa", "gulim", sans-serif;
+}
+
+footer .row.row3 .title {
+  padding-left: 19px;
+}
+
+footer .row.row3 .title span {
+  color: #fff;
+}
+
+.addressBox .title .brackets {
+  padding-left: 5px;
+}
+
+.cs-addressBox .phoneNumberBox {
+  padding-top: 5px;
+}
+
+.authentication-box .imageBox .last {
+  padding-top: 3px;
+}
+
+.footer .row.row2 .box.authentication-box {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.footer .row.row2 .box.authentication-box .imageBox {
+  position: absolute;
+  left: 1067px;
+  bottom: 0;
+  margin-left: 0;
+}
+
+.footer__text {
+  padding-top: 20px;
+  clear: both;
+}
+
+/*right*/
+.right_area {
+  position: absolute;
+  left: 270px;
+  top: 0;
+  right: 0;
+  min-width: 1229px;
+  border-left: 1px solid #ddd;
+}
+
+.right_area.lnb-close {
+  left: 0;
+  min-width: 1500px;
+}
+
+/***** Shop In Shop *****/
+/*Shop In Shop left menu tab*/
+.tab.select li {
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid #ddd;
+  overflow: hidden;
+}
+
+.tab.select li:hover {
+  background-color: #f3f3f3;
+}
+
+.tab.select li a {
+  display: block;
+  width: 100%;
+  height: 60px;
+  vertical-align: middle;
+}
+
+.tab.select li img {
+  display: inline-block;
+  max-width: 100px;
+  max-height: 50px;
+  vertical-align: middle;
+}
+
+.tab.select li span {
+  display: inline-block;
+  width: 128px;
+  margin-left: 10px;
+  overflow: hidden;
+  vertical-align: middle;
+  color: #b2b2b2;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.tab.select li span.vertical_standard {
+  display: inline-block;
+  width: auto;
+  height: 60px;
+  margin-left: 0;
+  vertical-align: middle;
+}
+
+/*Shop In Shop right*/
+.page_select .right_area {
+  left: 0;
+}
+
+/*타임세일 레이어*/
+.layer_timesale {
+  position: fixed;
+  right: 30px;
+  bottom: 0;
+  z-index: 99999;
+  width: 318px;
+  height: 170px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-bottom: none;
+  overflow: hidden;
+  *zoom: 1;
+}
+
+.layer_timesale:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.layer_timesale .box_title_left {
+  float: left;
+}
+
+.layer_timesale .box_title_right {
+  float: right;
+}
+
+.layer_timesale .box_title .txt_title {
+  color: #000;
+  font-weight: bold;
+}
+
+.layer_timesale .box_title .all_view {
+  padding-top: 6px;
+  padding-left: 5px;
+  color: #b2b2b2;
+  text-decoration: underline;
+}
+
+.layer_timesale .btn_close {
+  font-weight: bold;
+  padding: 0 7px 0 0;
+  margin-top: 4px;
+}
+
+.layer_timesale .btn_wrap {
+  display: inline-block;
+  margin-top: -4px !important;
+}
+
+.layer_timesale .btn_wrap .btn_prev_left {
+  border-right: none;
+}
+
+.layer_timesale .box_title {
+  padding: 14px 10px 9px 14px;
+}
+
+.layer_timesale .box_contents {
+  position: relative;
+  padding: 15px;
+  border-top: 1px solid #ddd;
+}
+
+.layer_timesale .box_img {
+  float: left;
+  width: 70px;
+  height: 85px;
+  overflow: hidden;
+}
+
+.layer_timesale .box_img img {
+  vertical-align: middle;
+}
+
+.layer_timesale .box_img .vertical_standard {
+  height: 85px;
+}
+
+.layer_timesale .box_info {
+  width: 200px;
+  margin-left: 80px;
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+}
+
+.layer_timesale .box_info a {
+  display: block;
+}
+
+.layer_timesale .txt_brand {
+  font-weight: bold;
+}
+
+.layer_timesale .txt_item {
+  margin-top: 8px;
+  line-height: 18px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 200px;
+}
+
+.layer_timesale .box_info .box_price {
+  margin-top: 4px;
+  color: #f60;
+  font-weight: bold;
+}
+
+.layer_timesale .box_price del {
+  vertical-align: bottom;
+  color: #b2b2b2;
+  font-weight: normal;
+  line-height: 16px;
+}
+
+.layer_timesale .box_price em.txt_price {
+  font: bold 17px verdana;
+}
+
+.layer_timesale .box_price .txt_unit {
+  vertical-align: bottom;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.layer_timesale .box_time {
+  margin-top: 8px;
+  width: 190px;
+}
+
+.layer_timesale .box_time span {
+  font-family: "Musinsa", sans-serif;
+  font-size: 24px;
+}
+
+.layer_timesale .box_time span.txt {
+  vertical-align: bottom;
+  font: bold 12px/25px "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+}
+
+/*header*/
+.top-column .header .main-wrapper {
+  min-width: 1560px;
+}
+
+.top-column .header .main-wrapper .gnb .gnb-list li.wusinsa_menu a {
+  color: #ff6666;
+}
+
+/*상단 배너*/
+.banner_headTop {
+  min-width: 1560px;
+}
+
+.banner_headTop_content {
+  min-width: 1560px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.extend_banner {
+  position: relative;
+  min-width: 1560px;
+}
+
+.btn_banner_close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: right;
+  z-index: 10;
+}
+
+.btn_banner_close a {
+  text-indent: 0;
+  height: 30px;
+}
+
+/* login button 2017.03.21 */
+li.loginBtn {
+  padding-right: 2px;
+  margin-left: 5px !important;
+  border-left: 0 !important;
+}
+
+li.loginBtn a {
+  display: inline-block;
+  position: relative;
+  width: 148px;
+  height: 28px;
+  text-align: center;
+  line-height: 28px;
+  border: 1px solid #000 !important;
+  padding: 0 !important;
+  margin-top: -8px;
+  font-weight: bold;
+  vertical-align: middle;
+  text-decoration: none;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+li.loginBtn a:hover,
+li.loginBtn a:focus,
+li.loginBtn a:active {
+  color: #fff;
+  text-decoration: none;
+}
+
+li.loginBtn a:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #000;
+  text-decoration: none;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+li.loginBtn a:hover:before,
+li.loginBtn a:focus:before,
+li.loginBtn a:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+/*flagship button*/
+.list.option-list .brand-option-list > .box-btn-flagship {
+  margin-left: 1px;
+  margin-bottom: 7px;
+  background: #f3f3f3;
+  border: 1px solid #ddd;
+}
+
+.list.option-list .brand-option-list > .box-btn-flagship a {
+  display: block;
+  padding: 9px 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* header light */
+.header-small-light {
+  min-width: 1560px;
+  height: 50px;
+  padding: 5px 0;
+  background: #000;
+}
+
+.header-small-light h1 a {
+  display: block;
+  width: 200px;
+  height: 50px;
+  background: url(/skin/musinsa/images/logo_nsl.png?20200204) no-repeat 50% 50%;
+  overflow: hidden;
+  text-indent: -9999px;
+  margin: 0 auto;
+}
+
+/* header css */
+.top-column .header .main-wrapper h1.title {
+  width: 140px;
+  height: 23px;
+  margin-top: -2px;
+  background: url(/skin/musinsa/images/logo_nsl_20211229.png?20200204) 0 0 no-repeat;
+  background-size: auto 100%;
+  overflow: hidden;
+  text-indent: -9999px;
+}
+
+.top-column .header .main-wrapper h1.title a {
+  display: block;
+  height: 100%;
+}
+
+.top-column .store_header.header-small .main-wrapper {
+  background: #000;
+  padding: 16px 0;
+}
+
+.top-column .store_header.header-small .main-wrapper h1.title {
+  width: 100%;
+  height: 28px;
+  background: url(/skin/musinsa/images/logo_ns_20211229.png?20211229) center center no-repeat;
+  background-size: auto;
+  top: 0;
+}
+
+.store_header .searchInput-box.box {
+  width: 260px;
+  position: relative;
+}
+
+.store_header .box.searchInput-box input {
+  width: 258px;
+}
+
+.store_header .searchInput-box.box .search-btn {
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+  padding: 4px;
+  background-color: #000;
+  left: auto;
+  right: 1px;
+}
+
+.store_header .searchInput-box.box .search-btn > i {
+  vertical-align: top;
+}
+
+.store_header .searchInput-box.box .cam-btn {
+  padding: 4px;
+  position: absolute;
+  right: 33px;
+  top: 1px;
+}
+
+.top-column .header .store-searchWord-box.searchWord-box.layer-keyword-top,
+.top-column .header .store-searchWord-box.searchWord-box.search_layer {
+  left: 180px;
+}
+
+.top-column .header .main-wrapper .gnb .gnb-list li.hovering.gnb-ranking-list .hoverTarget {
+  left: -39px;
+}
+
+/*검색창*/
+.searchInput-box form {
+  background: #fff;
+  border: 1px solid #373737;
+}
+
+.store_header .box.searchInput-box input.search {
+  width: 195px;
+  border: none;
+}
+
+.popularSearchWord-ranking-list-wrapper .rank-variation-even .even {
+  color: #ffffff !important;
+}
+
+.top-join-txt {
+  padding-bottom: 0;
+  border-left: none;
+}
+
+.top-join-txt a {
+  display: inline-block;
+  color: #0078ff;
+  font-size: 14px;
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+}
+
+.n-popup-wrap {
+  background-color: #ffffff;
+  padding: 20px;
+}
+.n-popup-wrap .popup-tit {
+  font-family: "Musinsa", sans-serif !important;
+  font-size: 24px;
+  line-height: 36px;
+  padding-bottom: 14px;
+}
+.n-popup-wrap .popup-btn {
+  text-align: center;
+}
+.n-popup-wrap .popup-btn .n-btn {
+  margin: 0 1px;
+}
+
+/***** WUSINSA *****/
+.top-column.top-wusinsa {
+  /* top bg */
+  /* header light */
+}
+.top-column.top-wusinsa .header .main-wrapper {
+  background: #a5a9b9;
+}
+.top-column.top-wusinsa .header .main-wrapper h1.title {
+  width: 131px;
+  height: 21px;
+  background-image: url(/skin/musinsa/images/logo_nw.png?20200204);
+}
+.top-column.top-wusinsa .header .main-wrapper h1.title a {
+  display: block;
+  width: 131px;
+  height: 100%;
+}
+.top-column.top-wusinsa .header .store-searchWord-box.searchWord-box.layer-keyword-top,
+.top-column.top-wusinsa .header .store-searchWord-box.searchWord-box.search_layer {
+  left: 171px;
+}
+.top-column.top-wusinsa .store_header .box.searchInput-box input {
+  border-color: #ddd;
+}
+.top-column.top-wusinsa .store_header .box.searchInput-box form {
+  border-color: #a5a9b9;
+}
+.top-column.top-wusinsa .store_header .searchInput-box.box .cam-btn {
+  color: #6f7383;
+}
+.top-column.top-wusinsa .store_header .searchInput-box.box .search-btn {
+  background-color: #6f7383;
+}
+.top-column.top-wusinsa .store_header.header-small .main-wrapper {
+  background: #a5a9b9;
+}
+.top-column.top-wusinsa .store_header.header-small .main-wrapper h1.title {
+  height: 28px;
+  background-image: url(/skin/musinsa/images/logo_nws.png?20200204);
+}
+.top-column.top-wusinsa .header_group_area {
+  background-color: #f5f6fc;
+}
+.top-column.top-wusinsa .header_group_area .txt-raffle a {
+  color: #685bba;
+}
+.top-column.top-wusinsa .group_list li a:not(.selected) {
+  color: #a5a9b9;
+}
+.top-column.top-wusinsa .gnb-list li.gnb-campaign-list a {
+  color: #515976 !important;
+}
+.top-column.top-wusinsa .header-small-light {
+  background: #fff;
+}
+.top-column.top-wusinsa .header-small-light h1 a {
+  background-image: url(/skin/musinsa/images/logo_nwsl.png?20200204);
+}
+.top-column.top-wusinsa .top-join-txt a {
+  color: #685bba;
+}
+
+.wrap_image_search_form.imageSearch-wusinsa {
+  left: 171px;
+}
+
+.footer.footer-wusinsa .row.row3 .title {
+  background-color: #a5a9b9;
+  color: #f9f9fb;
+}
+.footer.footer-wusinsa .snb ul li.division span {
+  color: #685bba;
+}
+
+/***** MENSINSA *****/
+.top-column.top-mensinsa {
+  /* top bg */
+  /* header light */
+}
+.top-column.top-mensinsa .header .main-wrapper {
+  background: #1a294f;
+}
+.top-column.top-mensinsa .header .main-wrapper h1.title {
+  width: 184px;
+  height: 20px;
+  background-image: url(/skin/musinsa/images/logo_nm.png?20200204);
+}
+.top-column.top-mensinsa .header .main-wrapper h1.title a {
+  display: block;
+  width: 184px;
+  height: 100%;
+}
+.top-column.top-mensinsa .header .store-searchWord-box.searchWord-box.layer-keyword-top,
+.top-column.top-mensinsa .header .store-searchWord-box.searchWord-box.search_layer {
+  left: 223px;
+}
+.top-column.top-mensinsa .store_header .box.searchInput-box input {
+  border-color: #3f558e;
+}
+.top-column.top-mensinsa .store_header .box.searchInput-box form {
+  border-color: #3f558e;
+}
+.top-column.top-mensinsa .store_header .searchInput-box.box .search-btn {
+  background-color: #1a294f;
+}
+.top-column.top-mensinsa .store_header.header-small .main-wrapper {
+  background: #1a294f;
+}
+.top-column.top-mensinsa .store_header.header-small .main-wrapper h1.title {
+  width: 222px;
+  height: 28px;
+  background-image: url(/skin/musinsa/images/logo_nms.png?20200204);
+}
+.top-column.top-mensinsa .store_header.header-small .main-wrapper h1.title a {
+  width: 100%;
+}
+.top-column.top-mensinsa .header_group_area {
+  background-color: #f2f5fb;
+}
+.top-column.top-mensinsa .header-small-light {
+  background: #1a294f;
+}
+.top-column.top-mensinsa .header-small-light h1 a {
+  background-image: url(/skin/musinsa/images/logo_nmsl.png);
+}
+
+.wrap_image_search_form.imageSearch-mensinsa {
+  left: 223px;
+}
+
+.footer.footer-mensinsa .row.row3 .title {
+  background-color: #1a294f;
+}
+
+/***** PLAYER *****/
+.top-column.top-player {
+  /* top bg */
+  /* header light */
+}
+.top-column.top-player .header .main-wrapper {
+  background: #3b3bfd;
+}
+.top-column.top-player .header .main-wrapper h1.title {
+  width: 123px;
+  height: 21px;
+  background-image: url(/skin/musinsa/images/logo_np.png?20190715);
+}
+.top-column.top-player .header .main-wrapper h1.title a {
+  display: block;
+  width: 123px;
+  height: 100%;
+}
+.top-column.top-player .header .store-searchWord-box.searchWord-box.layer-keyword-top {
+  left: 163px;
+}
+.top-column.top-player .header .store-searchWord-box.searchWord-box.search_layer {
+  left: 163px;
+}
+.top-column.top-player .store_header .box.searchInput-box input {
+  border-color: #3b3bfd;
+}
+.top-column.top-player .store_header .box.searchInput-box form {
+  border-color: #3b3bfd;
+}
+.top-column.top-player .store_header .searchInput-box.box .cam-btn {
+  color: #3b3bfd;
+}
+.top-column.top-player .store_header .searchInput-box.box .search-btn {
+  background-color: #000dc8;
+}
+.top-column.top-player .store_header.header-small .main-wrapper {
+  background: #3b3bfd;
+}
+.top-column.top-player .store_header.header-small .main-wrapper h1.title {
+  height: 28px;
+  background-image: url(/skin/musinsa/images/logo_nps.png?20190716);
+}
+.top-column.top-player .header_group_area {
+  background-color: #000dc8;
+}
+.top-column.top-player .header_group_area .txt-raffle {
+  color: #ffffff;
+}
+.top-column.top-player .header_group_area .txt-raffle a {
+  color: #f70d1a;
+}
+.top-column.top-player .group_list li a:not(.selected) {
+  color: #ccccff;
+}
+.top-column.top-player .group_list li a.selected {
+  color: #ffffff;
+}
+.top-column.top-player .gnb-list li.gnb-campaign-list a {
+  color: #00fff3 !important;
+}
+.top-column.top-player .header-small-light {
+  background: #3b3bfd;
+}
+.top-column.top-player .header-small-light h1 a {
+  background-image: url(/skin/musinsa/images/logo_npsl.png);
+}
+.top-column.top-player .top-join-txt a {
+  color: #f70d1a;
+}
+.top-column.top-player .rank-variation-down {
+  color: #20e7e7 !important;
+}
+
+.wrap_image_search_form.imageSearch-player {
+  left: 163px;
+}
+
+.footer.footer-player .row.row3 .title {
+  background-color: #3b3bfd;
+  color: #ccccff;
+}
+.footer.footer-player .snb ul li.division span {
+  color: #f70d1a;
+}
+
+.n-contents-area {
+  padding: 30px 30px 120px 30px;
+  border-bottom: 1px solid #ddd;
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  font-size: 14px;
+  color: #000;
+  line-height: 1.5;
+}
+.n-contents-area h1,
+.n-contents-area h2,
+.n-contents-area h3,
+.n-contents-area h4,
+.n-contents-area h5,
+.n-contents-area h6 {
+  font-size: inherit;
+}
+.n-contents-area input,
+.n-contents-area textarea,
+.n-contents-area select {
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  font-size: 1em;
+  color: #000;
+  vertical-align: middle;
+}
+.n-contents-area button {
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  font-size: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+  line-height: 1.5;
+  background: none;
+  outline: none;
+}
+.n-contents-area button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+.n-contents-area em {
+  font-style: normal;
+}
+.n-contents-area a {
+  text-decoration: none;
+  color: inherit;
+}

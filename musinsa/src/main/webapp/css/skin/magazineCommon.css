@@ -1,0 +1,441 @@
+@charset "utf-8";
+/*reset&font*/
+@import url("//static.msscdn.net/skin/musinsa/css/normalizer.css?202112011447");
+/*musinsa magazine css*/
+@import url("//static.msscdn.net/mfile_outsrc/css/common/base.css?202112011447");
+@import url("//static.msscdn.net/mfile_outsrc/css/common/common.css?202112011447");
+@import url("//static.msscdn.net/mfile_outsrc/css/common/common-pc.css?202112011447");
+@import url("//static.msscdn.net/mfile_outsrc/css/common/header.css?202112011447");
+@import url("//static.msscdn.net/mfile_outsrc/css/common/footer.css?202112011447");
+@import url("//static.msscdn.net/mfile_outsrc/css/module/gallery.css?202007151826");
+/*font_awesome*/
+@import url("//static.msscdn.net/skin/musinsa/css/font-awesome.css?20220215");
+
+/* 임시 : common-hooking */
+.section > .section-titleBox-pageTop {
+  background: #f2f2f2;
+}
+.section-titleBox-pageSub {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.showAll-btn {
+  float: none;
+}
+
+/* comment form */
+.cFormBox .cForm {
+  border: 1px solid #ddd;
+  border-bottom: 0;
+  padding: 15px 15px 0 15px;
+}
+.cForm textarea {
+  width: 100%;
+  height: 88px;
+  border: 1px solid #ddd;
+  border-bottom: 0;
+  background: #fff;
+  padding: 0;
+  -webkit-border-radius: 0;
+  -webkit-appearance: none;
+}
+
+.cEmoticons {
+  border: 1px solid #ddd;
+  border-bottom: 0;
+  padding: 15px 15px 0 15px;
+}
+.cEmoticons .cEmoticonsBox {
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-bottom: 0;
+}
+.cEmoticons .cEmoticonsBox .scroll {
+  width: 100%; /* height:230px*/
+  overflow: hidden;
+}
+
+.cEmoticons span {
+  float: left;
+  width: 102px;
+  height: 102px;
+  display: block;
+  margin: 5px;
+  cursor: pointer;
+}
+.cEmoticons span b {
+  width: 100px;
+  height: 100px;
+  display: block;
+  border: 1px solid #fff;
+}
+.cEmoticons span.emo001 b {
+  background: url(//image.msscdn.net/images/emoticons/A_01_100_S.gif) no-repeat;
+}
+.cEmoticons span.emo002 b {
+  background: url(//image.msscdn.net/images/emoticons/A_02_100_S.gif) no-repeat;
+}
+.cEmoticons span.emo003 b {
+  background: url(//image.msscdn.net/images/emoticons/A_03_100_S.gif) no-repeat;
+}
+.cEmoticons span.emo004 b {
+  background: url(//image.msscdn.net/images/emoticons/A_04_100_S.gif) no-repeat;
+}
+.cEmoticons span.emo005 b {
+  background: url(//image.msscdn.net/images/emoticons/A_05_100_S.gif) no-repeat;
+}
+.cEmoticons span.emo006 b {
+  background: url(//image.msscdn.net/images/emoticons/A_06_100_S.gif) no-repeat;
+}
+.cEmoticons span.emo007 b {
+  background: url(//image.msscdn.net/images/emoticons/A_07_100_S.gif) no-repeat;
+}
+.cEmoticons span.emo008 b {
+  background: url(//image.msscdn.net/images/emoticons/A_08_100_S.gif) no-repeat;
+}
+.cEmoticons span.emo009 b {
+  background: url(//image.msscdn.net/images/emoticons/A_09_100_S.gif) no-repeat;
+}
+.cEmoticons span.emo010 b {
+  background: url(//image.msscdn.net/images/emoticons/A_10_100_S.gif) no-repeat;
+}
+.cEmoticons span.emo001 .on {
+  background: url(//image.msscdn.net/images/emoticons/A_01_100.gif) no-repeat;
+  background-color: #f3f3f3;
+}
+.cEmoticons span.emo002 .on {
+  background: url(//image.msscdn.net/images/emoticons/A_02_100.gif) no-repeat;
+  background-color: #f3f3f3;
+}
+.cEmoticons span.emo003 .on {
+  background: url(//image.msscdn.net/images/emoticons/A_03_100.gif) no-repeat;
+  background-color: #f3f3f3;
+}
+.cEmoticons span.emo004 .on {
+  background: url(//image.msscdn.net/images/emoticons/A_04_100.gif) no-repeat;
+  background-color: #f3f3f3;
+}
+.cEmoticons span.emo005 .on {
+  background: url(//image.msscdn.net/images/emoticons/A_05_100.gif) no-repeat;
+  background-color: #f3f3f3;
+}
+.cEmoticons span.emo006 .on {
+  background: url(//image.msscdn.net/images/emoticons/A_06_100.gif) no-repeat;
+  background-color: #f3f3f3;
+}
+.cEmoticons span.emo007 .on {
+  background: url(//image.msscdn.net/images/emoticons/A_07_100.gif) no-repeat;
+  background-color: #f3f3f3;
+}
+.cEmoticons span.emo008 .on {
+  background: url(//image.msscdn.net/images/emoticons/A_08_100.gif) no-repeat;
+  background-color: #f3f3f3;
+}
+.cEmoticons span.emo009 .on {
+  background: url(//image.msscdn.net/images/emoticons/A_09_100.gif) no-repeat;
+  background-color: #f3f3f3;
+}
+.cEmoticons span.emo010 .on {
+  background: url(//image.msscdn.net/images/emoticons/A_10_100.gif) no-repeat;
+  background-color: #f3f3f3;
+}
+
+.cPhoto {
+  border: 1px solid #ddd;
+  border-bottom: 0;
+  padding: 15px 15px 0 15px;
+}
+.cPhoto .cfile {
+  background: #fff;
+  padding: 10px;
+  border-bottom: 0;
+}
+.cPhoto .cfile .finp {
+  float: left;
+  display: block;
+  width: 65px;
+  height: 65px;
+  margin-right: 10px;
+  background: url(//image.msscdn.net/mfile_s01/musinsa/plus.png) no-repeat
+    center;
+  overflow: hidden;
+  background-size: 100% auto;
+}
+.cPhoto .cfile .finp input {
+  display: block;
+  width: 65px;
+  height: 65px;
+  opacity: 0;
+  filter: alpha(opacity=0, style=1, finishopacity=0);
+}
+
+.btnGroup {
+  padding: 0 15px;
+  border: 1px solid #ddd;
+  border-top: 0;
+}
+.btnGroup .btnGroupBox {
+  border-top: 1px solid #ddd;
+  position: relative;
+}
+.btnGroup .command-form {
+  float: left;
+  display: block;
+  width: 48px;
+  height: 48px;
+  border: 1px solid #ddd;
+  border-top: 0;
+  text-indent: -10000em;
+  overflow: hidden;
+  background: url(//image.msscdn.net/mfile_outsrc/img/sprites-icon.png)
+    no-repeat;
+  margin-top: -1px;
+  cursor: pointer;
+}
+.btnGroup .command-emo {
+  float: left;
+  display: block;
+  width: 48px;
+  height: 48px;
+  border: 1px solid #ddd;
+  border-top: 0;
+  border-left: 0;
+  text-indent: -10000em;
+  overflow: hidden;
+  background: url(//image.msscdn.net/mfile_outsrc/img/sprites-icon.png)
+    no-repeat;
+  margin-top: -1px;
+  cursor: pointer;
+}
+.btnGroup .command-photo {
+  float: left;
+  display: block;
+  width: 48px;
+  height: 48px;
+  border: 1px solid #ddd;
+  border-top: 0;
+  border-left: 0;
+  text-indent: -10000em;
+  overflow: hidden;
+  background: url(//image.msscdn.net/mfile_outsrc/img/sprites-icon.png)
+    no-repeat;
+  margin-top: -1px;
+  cursor: pointer;
+}
+
+.btnGroup .cnt-emo {
+  position: absolute;
+  left: 86px;
+  top: -10px;
+  text-align: center;
+  color: #fff;
+  background: url(//image.msscdn.net/mfile_outsrc/img/sprites-icon.png)
+    no-repeat 0 -200px;
+}
+.btnGroup .cnt-photo {
+  position: absolute;
+  line-height: 23px;
+  left: 135px;
+  top: -10px;
+  text-align: center;
+  color: #fff;
+  background: url(//image.msscdn.net/mfile_outsrc/img/sprites-icon.png)
+    no-repeat 0 -200px;
+}
+
+.groupType-cForm .cForm {
+  display: block;
+}
+.groupType-cForm .cEmoticons {
+  display: none;
+}
+.groupType-cForm .cPhoto {
+  display: none;
+}
+.groupType-cForm .command-form {
+  background-position: 0 -30px !important;
+  background-color: #fff !important;
+  border-top: 1px solid #fff !important;
+}
+.groupType-cForm .command-emo {
+  background-position: -50px -100px !important;
+  border-top: 1px solid #ddd !important;
+}
+.groupType-cForm .command-photo {
+  background-position: -100px -100px !important;
+  border-top: 1px solid #ddd !important;
+}
+
+.groupType-cEmoticons .cForm {
+  display: none;
+}
+.groupType-cEmoticons .cEmoticons {
+  display: block;
+}
+.groupType-cEmoticons .cPhoto {
+  display: none;
+}
+.groupType-cEmoticons .command-form {
+  background-position: 0 -100px !important;
+  border-top: 1px solid #ddd !important;
+}
+.groupType-cEmoticons .command-emo {
+  background-position: -50px -30px !important;
+  background-color: #fff !important;
+}
+.groupType-cEmoticons .command-photo {
+  background-position: -100px -100px !important;
+  border-top: 1px solid #ddd !important;
+}
+
+.groupType-cPhoto .cForm {
+  display: none;
+}
+.groupType-cPhoto .cEmoticons {
+  display: none;
+}
+.groupType-cPhoto .cPhoto {
+  display: block;
+}
+.groupType-cPhoto .command-form {
+  background-position: 0 -100px !important;
+  border-top: 1px solid #ddd !important;
+}
+.groupType-cPhoto .command-emo {
+  background-position: -50px -100px !important;
+  border-top: 1px solid #ddd !important;
+}
+.groupType-cPhoto .command-photo {
+  background-position: -100px -30px !important;
+  background-color: #fff !important;
+}
+
+.btnGroup .commentCheckbox {
+  float: left;
+  padding: 0 0 0 15px;
+  color: #999;
+  line-height: 50px;
+  letter-spacing: 0;
+}
+.btnGroup .commentMsg {
+  float: right;
+  line-height: 50px;
+  color: #999;
+}
+.btnGroup .commentMsg a {
+  font-weight: bold;
+  color: #000;
+}
+.btnGroup .submit {
+  float: right;
+  width: 70px;
+  height: 35px;
+  border: 0;
+  display: block;
+  background: #000;
+  color: #fff;
+  font-weight: bold;
+  margin: 10px 0 0 10px;
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  font-size: 12px;
+  -webkit-border-radius: 0;
+  -webkit-appearance: none;
+}
+.btnGroup .submitLoading {
+  background: url(//image.msscdn.net/mfile_s01/musinsa/loadingComment.gif)
+    no-repeat center;
+  position: absolute;
+  right: 0;
+  top: 10px;
+  width: 68px;
+  height: 33px;
+  border: 1px solid #ddd;
+  display: block;
+  background-color: #fff;
+}
+
+.clearfix15 {
+  clear: both;
+  height: 15px;
+}
+
+/* new-comment 20190605 */
+.new-comment .date {
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif !important;
+}
+.new-comment .score {
+  color: #000 !important;
+}
+.new-comment .lev {
+  color: #000;
+}
+.new-comment .comment_post .info .date a {
+  color: #000 !important;
+}
+.new-comment .btnGroup {
+  padding: 0 !important;
+  border: 0 !important;
+}
+.new-comment .btnGroup .btnGroupBox {
+  border: 0 !important;
+}
+.new-comment .btnGroup .btnGroupBox:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.new-comment .btnTab {
+  border: 0 !important;
+}
+.new-comment input.submit {
+  margin: 0 !important;
+  width: auto !important;
+  height: auto !important;
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif !important;
+}
+.new-comment .cEmoticons,
+.new-comment .cEmoticonsBox,
+.new-comment .cPhoto {
+  padding: 0 !important;
+  border: 0 !important;
+}
+.new-comment .cForm {
+  border: 0 !important;
+}
+
+/*댓글영역 20190628*/
+.reple-area {
+  padding-left: 15px;
+}
+.postRight
+  .comment
+  .commentList
+  .musinsa-comment
+  .comment_post
+  .score.ui-require-all
+  a {
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+}
+.btnGroup .btnGroupBox .cnt-emo,
+.btnGroup .btnGroupBox .cnt-photo {
+  position: absolute;
+  min-width: 18px;
+  height: 18px;
+  line-height: 18px;
+  left: 77px;
+  top: 27px;
+  text-align: center;
+  background: #0078ff;
+  color: #fff;
+  font-size: 11px;
+  border-radius: 18px;
+}
+.btnGroup .btnGroupBox .cnt-photo {
+  left: 126px;
+}
+
+/* 상단 배너 이미지 */
+.banner_headTop > a {
+  text-indent: 0;
+}

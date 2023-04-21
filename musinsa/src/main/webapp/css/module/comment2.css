@@ -1,0 +1,475 @@
+.clear {clear:both !important;}
+.clear10 {clear:both !important; height:10px;}
+.clear15 {clear:both !important; height:15px;}
+.clear20 {clear:both !important; height:20px;}
+
+.MARKETPLACE_BODY .detailOn .comment {background:#fff; padding:10px;}
+
+.postRight .comment {padding-bottom:30px;}
+.postRight .comment .commentCnt {float:left; font-size:14px; line-height:21px; margin-bottom:14.5px; display:inline-block; vertical-align:top; font-family:auto;}
+.postRight .comment form {float:left; width:100%}
+.postRight .commentList {clear:both;}
+iframe[name=_friends_] {display:none;}
+
+/* 蹂몃Ц蹂닿린 �쒓굅 */
+.postRight .goPost,
+.replyBoard-box .goPost {display:none !important;}
+
+/* comment form */
+.cFormBox {border:1px solid #e5e5e5; font-family:auto;}
+.commentForm:focus-within .cFormBox,
+.commentForm:focus .cFormBox,
+.cFormBox:hover,
+.cFormBox:focus-within,
+.cFormBox:focus {border:1px solid #000;}
+.cFormBox::after {content:'';display:block; clear:both;}
+.cFormBox .cForm {padding:10px 10px 12px 10px}
+.cFormBox .cForm textarea {width:100%; height:88px; border:0; background:#fff; padding:0; -webkit-border-radius:0; -webkit-appearance:none; vertical-align:top;}
+.cFormBox .cForm textarea::-webkit-input-placeholder {font-family:auto; color:#aaa;}
+.cFormBox .cForm textarea::-ms-input-placeholder {font-family:auto; color:#aaa}
+.cFormBox .cForm textarea::placeholder {font-family:auto; color:#aaa}
+
+.cFormBox .cEmoticons {padding:6px 10px 12px 10px}
+.cFormBox .cEmoticons .cEmoticonsBox {background:#fff;}
+.cFormBox .cEmoticons .cEmoticonsBox .scroll {width:100%; overflow:hidden;}
+
+.cEmoticons span {float:left; width:100px; height:100px; display:block; margin:5px; cursor:pointer;}
+.cEmoticons span b {width:100px; height:100px; display:block; position:relative;}
+.cEmoticons .scroll span b.on::after {position:absolute; right:0; top:0; content:''; display:block; width:22px; height:22px; background: url(//image.msscdn.net/mfile_outsrc/img/re2018/check-small-select@2x.png) no-repeat; background-size:22px 22px;}
+.cEmoticons .scroll span b.on::before {position:absolute; left:0; top:0; content:''; display:block; width:100px; height:100px; background:#000; opacity:0.05;}
+.cEmoticons span.emo001 b {background:url(//image.msscdn.net/images/emoticons/A_01_100_S.gif) no-repeat;}
+.cEmoticons span.emo002 b {background:url(//image.msscdn.net/images/emoticons/A_02_100_S.gif) no-repeat;}
+.cEmoticons span.emo003 b {background:url(//image.msscdn.net/images/emoticons/A_03_100_S.gif) no-repeat;}
+.cEmoticons span.emo004 b {background:url(//image.msscdn.net/images/emoticons/A_04_100_S.gif) no-repeat;}
+.cEmoticons span.emo005 b {background:url(//image.msscdn.net/images/emoticons/A_05_100_S.gif) no-repeat;}
+.cEmoticons span.emo006 b {background:url(//image.msscdn.net/images/emoticons/A_06_100_S.gif) no-repeat;}
+.cEmoticons span.emo007 b {background:url(//image.msscdn.net/images/emoticons/A_07_100_S.gif) no-repeat;}
+.cEmoticons span.emo008 b {background:url(//image.msscdn.net/images/emoticons/A_08_100_S.gif) no-repeat;}
+.cEmoticons span.emo009 b {background:url(//image.msscdn.net/images/emoticons/A_09_100_S.gif) no-repeat;}
+.cEmoticons span.emo010 b {background:url(//image.msscdn.net/images/emoticons/A_10_100_S.gif) no-repeat;}
+.cEmoticons span.emo011 b {background:url(//image.msscdn.net/images/emoticons/A_11_100_S.gif) no-repeat;}
+.cEmoticons span.emo012 b {background:url(//image.msscdn.net/images/emoticons/A_12_100_S.gif) no-repeat;}
+.cEmoticons span.emo013 b {background:url(//image.msscdn.net/images/emoticons/A_13_100_S.gif) no-repeat;}
+.cEmoticons span.emo001 .on {background:url(//image.msscdn.net/images/emoticons/A_01_100.gif) no-repeat;}
+.cEmoticons span.emo002 .on {background:url(//image.msscdn.net/images/emoticons/A_02_100.gif) no-repeat;}
+.cEmoticons span.emo003 .on {background:url(//image.msscdn.net/images/emoticons/A_03_100.gif) no-repeat;}
+.cEmoticons span.emo004 .on {background:url(//image.msscdn.net/images/emoticons/A_04_100.gif) no-repeat;}
+.cEmoticons span.emo005 .on {background:url(//image.msscdn.net/images/emoticons/A_05_100.gif) no-repeat;}
+.cEmoticons span.emo006 .on {background:url(//image.msscdn.net/images/emoticons/A_06_100.gif) no-repeat;}
+.cEmoticons span.emo007 .on {background:url(//image.msscdn.net/images/emoticons/A_07_100.gif) no-repeat;}
+.cEmoticons span.emo008 .on {background:url(//image.msscdn.net/images/emoticons/A_08_100.gif) no-repeat;}
+.cEmoticons span.emo009 .on {background:url(//image.msscdn.net/images/emoticons/A_09_100.gif) no-repeat;}
+.cEmoticons span.emo010 .on {background:url(//image.msscdn.net/images/emoticons/A_10_100.gif) no-repeat;}
+.cEmoticons span.emo011 .on {background:url(//image.msscdn.net/images/emoticons/A_11_100.gif) no-repeat;}
+.cEmoticons span.emo012 .on {background:url(//image.msscdn.net/images/emoticons/A_12_100.gif) no-repeat;}
+.cEmoticons span.emo013 .on {background:url(//image.msscdn.net/images/emoticons/A_13_100.gif) no-repeat;}
+
+.cFormBox .cPhoto {padding:6px 10px 12px 10px; min-height:88px;}
+.cFormBox .cPhoto .cfile {background:#fff;}
+.cFormBox .cPhoto .cfile .finp {float:left; display:block; width:62px; height:62px; margin-right:10px; background:url(//image.msscdn.net/skin/m_musinsa/images/bg_upload.png) no-repeat center; overflow:hidden; background-size:100% auto;}
+.cFormBox .cPhoto .cfile .finp input {display:block; width:62px; height:62px; opacity:0; filter:alpha(opacity=0, style=1, finishopacity=0);}
+
+.cFormBox .btnGroup .btnGroupBox {position:relative;}
+.cFormBox .btnGroup .btnGroupBox .btnTab {float:left; display:block; width:30px; height:30px; text-indent:-10000em; overflow:hidden;  background:url(//image.msscdn.net/mfile_outsrc/img/icon-comment_v2.png) no-repeat; background-size:90px auto; cursor:pointer; margin-left:10px;}
+.cFormBox .btnGroup .command-form {background-position:0 0;}
+.cFormBox .btnGroup .command-emo {background-position:-60px 0;}
+.cFormBox .btnGroup .command-photo {background-position:-30px 0;}
+
+.cFormBox .btnGroup .cnt-emo {position:absolute; min-width:18px; height:18px; line-height:18px; left:106px; top:18px; text-align:center; background:#0078ff; color:#fff; font-size:11px; border-radius:18px}
+.cFormBox .btnGroup .cnt-photo {position:absolute; min-width:18px; height:18px; line-height:18px; left:65px; top:18px; text-align:center; background:#0078ff; color:#fff; font-size:11px; border-radius:18px}
+
+.groupType-cForm .cForm {display:block;}
+.groupType-cForm .cEmoticons {display:none;}
+.groupType-cForm .cPhoto {display:none;}
+.groupType-cForm .command-form {background-position:0 -30px !important;}
+.groupType-cForm .command-emo {background-position:-60px 0 !important;}
+.groupType-cForm .command-photo {background-position:-30px 0 !important;}
+
+.groupType-cEmoticons .cForm {display:none;}
+.groupType-cEmoticons .cEmoticons {display:block;}
+.groupType-cEmoticons .cPhoto {display:none;}
+.groupType-cEmoticons .command-form {background-position:0 0 !important;}
+.groupType-cEmoticons .command-emo {background-position:-60px -30px !important;}
+.groupType-cEmoticons .command-photo {background-position:-30px 0 !important;}
+
+.groupType-cPhoto .cForm {display:none;}
+.groupType-cPhoto .cEmoticons {display:none;}
+.groupType-cPhoto .cPhoto {display:block;}
+.groupType-cPhoto .command-form {background-position:0 0 !important;}
+.groupType-cPhoto .command-emo {background-position:-60px 0 !important;}
+.groupType-cPhoto .command-photo {background-position:-30px -30px !important;}
+
+.commentCheckbox {float:left; color:#aaa; line-height:21px; font-size:14px; margin-top:10px;}
+.commentMsg {float:right; line-height:21px; margin-top:10px; font-size:14px; color:#aaa; display:inline-block; font-family:auto; word-break:keep-all;}
+.commentMsg a {font-weight:bold; color:#000; text-decoration:underline;}
+
+.cFormBox .btnGroup .submit {float:right; padding:10px 15px 9px 15px; border:0; display:block; background:transparent; color:#000; font-weight:bold; font-size:14px; line-height:21px; -webkit-border-radius:0; -webkit-appearance:none;}
+.cFormBox .submit.pureFormClose {display:none; margin-right:0; color:#aaa !important;}
+.cFormTriger + .cFormBox .submit.pureFormClose {display:block !important;}
+.cFormBox .btnGroup .submitLoading {background:url(//image.msscdn.net/mfile_s01/musinsa/loadingComment.gif) no-repeat center; position:absolute; right:0; top:10px; width:68px; height:33px; border:1px solid #ddd; display:block; background-color:#fff;}
+
+.cFormBox .btnGroup .submit2On {right:80px !important;}
+.cFormBox .btnGroup .submit2 {float:right; width:70px; height:35px; border:0; display:block; background:#09f; color:#fff; font-weight:bold; margin:10px 0 0 10px;  font-size:12px;-webkit-border-radius:0; -webkit-appearance:none;}
+.cFormBox .btnGroup .submitLoading2 {background:url(//image.msscdn.net/mfile_s01/musinsa/loadingComment.gif) no-repeat center; position:absolute; right:0; top:10px; width:68px; height:33px; border:1px solid #ddd; display:block; background-color:#fff;}
+.cFormBox .btnGrey {color:#aaa !important;}
+
+/* comment list */
+.comment_post {position:relative; font-family:auto; padding:25px 0 20px 68px; border-bottom:1px solid #f1f1f1;}
+.comment_post:last-of-type {border-bottom:0; padding-bottom:20px;}
+.comment_post .pic {width:48px; height:48px; position:absolute; left:0; top:25px; overflow:hidden; border-radius:24px; background:url(//image.msscdn.net/mfile_outsrc/img/simbol.png) no-repeat center; background-size:48px auto;}
+.comment_post .pic img {width:48px;}
+.comment_post .pic.stf {border-radius:0; background:transparent;}
+.comment_post .pic.stf img {width:100%; display:inline; vertical-align:middle;}
+.comment_post .info {position:relative;}
+.comment_post .info .lev {font-size:16px; font-weight:bold; float:left; line-height:21px; display:inline-block;}
+.comment_post .info .lev.denied::after {content:'.'; display:inline; padding-left:5px;}
+.comment_post .info .lev.stf {color:#0078ff}
+.comment_post .info .dreg {font-size:14px; color:#ccc; float:left; margin-left:10px; line-height:21px;}
+.comment_post .info .date {display:inline-block; vertical-align:top; float:left; max-width:calc(100% - 105px);}
+.comment_post .info .date a {float:right; font-size:14px; line-height:21px; font-weight:bold; margin-left:30px;}
+.comment_post .info .date .bar {display:none;}
+
+.comment_post .info .btnArea {position:absolute; right:0; top:0;}
+.comment_post .info .btnArea input[type=checkbox] {display:none;}
+.comment_post .info .btnArea input[type=checkbox] + span {display:block; background:url(//image.msscdn.net/mfile_outsrc/img/btnOpenPc.png) no-repeat; background-size:30px 30px; width:30px; height:30px; margin-left:8px; margin-top:-5px; cursor:pointer; opacity:0.45;}
+.comment_post .info .btnArea input[type=checkbox]:checked + span {}
+.comment_post .info .btnArea input[type=checkbox] ~ .area-equip-button {width:112px; display:none; position:absolute; right:0; top:25px; background:#fff; border:1px solid #e5e5e5; z-index:1;}
+.comment_post .info .btnArea input[type=checkbox]:checked ~ .area-equip-button {display:block;}
+.comment_post .info .btnArea .area-equip-button a {display:block; font-size:14px; line-height:21px; width:calc(100% - 15px); padding:6px 0 6px 15px; cursor:pointer;}
+.comment_post .info .btnArea .area-equip-button a:hover {background:#e5e5e5;}
+.comment_post .info .btnArea .area-equip-button a:first-child {margin-top:9px;}
+.comment_post .info .btnArea .area-equip-button a:last-child {margin-bottom:9px;}
+
+.comment_post .info .cont {font-size:14px; line-height:20px; float:left; width:100%;word-break:break-word; padding-right:10px; box-sizing:border-box; margin-top:7px; color:#333;}
+.comment_post .info .cont img {vertical-align:baseline;}
+.comment_post .info .cont .best {display:inline-block; vertical-align:middle; border:1px solid #0078ff; color:#0078ff; font-weight:normal; height:18px; line-height:18px; width:40px; text-align:center; font-size:12px; margin-top:-2px}
+.comment_post.writer .info .comment-cont {color:#06f !important;}
+.comment_post .info .cont-image {float:left; width:100%;}
+.comment_post .info .cont-image::after {display:block; clear:both; content:'';}
+.comment_post .info .cont-image img {max-width:100%; vertical-align:top; margin:10px 10px 0 0; display:inline-block;}
+.comment_post .info .cont-emoticons {float:left; width:100%; border:0; padding:0; clear:both;}
+.comment_post .info .cont-emoticons span {width:152px; height:152px; margin:10px 10px 10px 0 !important;}
+.comment_post .info .cont-emoticons span b {width:150px; height:150px; border:0 !important; background-color:transparent !important;}
+.comment_post .sortComment {display:none;}
+
+.cont-emoticons span.emo001 b {background:url(//image.msscdn.net/images/emoticons/A_01_150.gif) no-repeat !important;}
+.cont-emoticons span.emo002 b {background:url(//image.msscdn.net/images/emoticons/A_02_150.gif) no-repeat !important;}
+.cont-emoticons span.emo003 b {background:url(//image.msscdn.net/images/emoticons/A_03_150.gif) no-repeat !important;}
+.cont-emoticons span.emo004 b {background:url(//image.msscdn.net/images/emoticons/A_04_150.gif) no-repeat !important;}
+.cont-emoticons span.emo005 b {background:url(//image.msscdn.net/images/emoticons/A_05_150.gif) no-repeat !important;}
+.cont-emoticons span.emo006 b {background:url(//image.msscdn.net/images/emoticons/A_06_150.gif) no-repeat !important;}
+.cont-emoticons span.emo007 b {background:url(//image.msscdn.net/images/emoticons/A_07_150.gif) no-repeat !important;}
+.cont-emoticons span.emo008 b {background:url(//image.msscdn.net/images/emoticons/A_08_150.gif) no-repeat !important;}
+.cont-emoticons span.emo009 b {background:url(//image.msscdn.net/images/emoticons/A_09_150.gif) no-repeat !important;}
+.cont-emoticons span.emo010 b {background:url(//image.msscdn.net/images/emoticons/A_10_150.gif) no-repeat !important;}
+.cont-emoticons span.emo011 b {background:url(//image.msscdn.net/images/emoticons/A_11_150.gif) no-repeat !important;}
+.cont-emoticons span.emo012 b {background:url(//image.msscdn.net/images/emoticons/A_12_150.gif) no-repeat !important;}
+.cont-emoticons span.emo013 b {background:url(//image.msscdn.net/images/emoticons/A_13_150.gif) no-repeat !important;}
+
+/* notice & best */
+.comment_post.notice .best {font-weight:bold;}
+.comment_post.best .best {font-weight:bold;}
+
+/* comment cool */
+.comment_post .score {margin-top:15px; float:left;}
+.comment_post .score a {display:inline-block; vertical-align:top; width:auto; height:18px; padding-left:22px; position:relative; line-height:18px; font-size:12px; font-family:auto;}
+.comment_post .score a.ui-require-cool {color:#aaa}
+.comment_post .score a.ui-require-cool.on {color:#0078ff;}
+.comment_post .score a.ui-require-cool::after {display:block; position:absolute; left:0; top:0; content:''; width:18px; height:18px; background:url(//image.msscdn.net/mfile_outsrc/img/icon-comment_v2.png?v=1) no-repeat; background-size:84px auto; background-position:-54px -56px}
+.comment_post .score a.ui-require-cool.on::after {background-position:-36px -56px}
+.comment_post .score a.ui-require-hmm {color:#aaa; margin-left:15px;}
+.comment_post .score a.ui-require-hmm.on {color:#f00; }
+.comment_post .score a.ui-require-hmm::after {display:block; position:absolute; left:0; top:0; content:''; width:18px; height:18px; background:url(//image.msscdn.net/mfile_outsrc/img/icon-comment_v2.png?v=1) no-repeat; background-size:84px auto; background-position:-0 -56px }
+.comment_post .score a.ui-require-hmm.on::after {background-position:-18px -56px}
+
+/* comment btn */
+.comment_post .chand {margin:15px 0 0 20px; float:left; font-size:12px; line-height:18px; color:#aaa;}
+.comment_post .conEvent {color:#008bff}
+.comment_post .delOnedreg,
+.comment_post .mc-command-blind {color:#f00;}
+.comment_post .btnBlind {color:#f00;}
+.comment_post .chand .count-oneline {}
+.comment_post .chand .stUp,
+.comment_post .chand .stDown {display:none !important;}
+.comment_post .chand .ele-is-new {color:#f00; font-style:normal;}
+.comment_post .chand.on {color:#fff; padding-left:25px; position:relative;}
+.comment_post .chand.on::before {content:'�듦�痍⑥냼'; display:block; color:#f00; font-size:12px; position:absolute; left:0; top:0;}
+.comment_post .chand.on span {color:#aaa}
+.comment_post .chand.on .ele-is-new {color:#f00}
+
+/* online form */
+.onlineForm {width:100%; clear:both; display:block;}
+.onelineForm {float:left; width:100%; box-sizing:border-box; padding:0 0 40px 0; position:relative; border:1px solid #e5e5e5; margin-top:9px;}
+.onelineForm:focus-within {border:1px solid #000;}
+.onelineForm::after {position:absolute; content:''; display:block; left:10px; bottom:10px; width:30px; height:30px; background:url(//image.msscdn.net/mfile_outsrc/img/icon-comment_v2.png) no-repeat; background-size:90px auto; background-position:0 -30px !important;}
+.onelineForm textarea {width:calc(100% - 22px); height:88px; border:0; background:#fff; padding:0; -webkit-border-radius:0; -webkit-appearance:none; vertical-align:top; margin:10px 10px 12px 10px; z-index:1}
+.onelineForm textarea::-webkit-input-placeholder {font-family:auto; color:#aaa;}
+.onelineForm textarea::-ms-input-placeholder {font-family:auto; color:#aaa}
+.onelineForm textarea::placeholder {font-family:auto; color:#aaa}
+.onelineForm input[type=button] {position:absolute; right:0; bottom:0; font-size:14px; padding:10px 15px 9px 15px; line-height:21px; color:#000; font-weight:bold; background:#fff; border:0;-webkit-border-radius:0; -webkit-appearance:none;}
+.onelineForm .onlineClose {right:59px !important; color:#aaa !important;}
+.onelineForm .boxresize {display:none;}
+.onelineForm .lev {display:none;}
+
+.onelineReplyForm {float:left; width:100%; box-sizing:border-box; padding:0 0 40px 0; position:relative; border:1px solid #e5e5e5; margin-top:9px;}
+.onelineReplyForm:focus-within {border:1px solid #000;}
+.onelineReplyForm::after {position:absolute; content:''; display:block; left:10px; bottom:10px; width:30px; height:30px; background:url(//image.msscdn.net/mfile_outsrc/img/icon-comment_v2.png) no-repeat; background-size:90px auto; background-position:0 -30px !important;}
+.onelineReplyForm textarea {width:calc(100% - 22px); height:88px; border:0; background:#fff; padding:0; -webkit-border-radius:0; -webkit-appearance:none; vertical-align:top; margin:10px 10px 12px 10px; z-index:1}
+.onelineReplyForm textarea::-webkit-input-placeholder {font-family:auto; color:#aaa;}
+.onelineReplyForm textarea::-ms-input-placeholder {font-family:auto; color:#aaa}
+.onelineReplyForm textarea::placeholder {font-family:auto; color:#aaa}
+.onelineReplyForm input[type=button] {position:absolute; right:0; bottom:0; font-size:14px; padding:10px 15px 9px 15px; line-height:21px; color:#000; font-weight:bold; background:#fff; border:0;-webkit-border-radius:0; -webkit-appearance:none;}
+.onelineReplyForm .onlineClose {right:59px !important; color:#aaa !important;}
+.onelineReplyForm .boxresize {display:none;}
+.onelineReplyForm .lev {display:none;}
+
+/* online list */
+.onelineList {float:left; width:100%;}
+.onelinePost {position:relative; font-family:auto; padding-top:20px; padding-left:17px;}
+.onelinePost::before {content:''; width:14px; height:14px; display:block; position:absolute; left:0; top:20px;}
+.onelinePost.toOneline {}
+.onelinePost.toOneline::before {content:''; width:14px; height:14px; display:block; position:absolute; left:17px; top:20px}
+.onelinePost::after {content:'';clear:both; display:block;}
+.onelinePost.modifyOneline .onelineForm {margin-top:0;}
+.onelinePost.modifyOneline .onelineFormTriger {display:none !important;}
+.onelinePost.modifyOneline .onlineClose.pureFormClose {display:none !important;}
+.onelinePost .info {position:relative;}
+.onelinePost .info .lev {font-size:16px; font-weight:bold; float:left; line-height:21px;}
+.onelinePost .info .dreg {font-size:14px; color:#aaa; float:left; margin-left:10px; line-height:21px;}
+.onelinePost .info .date a {float:right; font-size:14px; line-height:21px; font-weight:bold; margin-left:30px;}
+.onelinePost .info .cont {font-size:14px; line-height:20px; float:left; width:100%; margin-top:6px;}
+.onelinePost .info::after {content:'';clear:both; display:block;}
+
+.onelinePost .info .btnArea .area-equip-button {top:}
+
+.oneline-cont .toWriter {font-weight:normal; color:#0078ff;}
+.onelineWriter .oneline-cont {color:#06f !important}
+.onelinePost .mo-command-blind {color:#f00;}
+
+/**/
+.onlineWarea {margin-top:5px;}
+.onlineWarea a {font-size:12px; line-height:22px; color:#aaa; display:block;}
+
+/* sort */
+.sortComment {margin:40px 0 0 0; padding-bottom:10px; border-bottom:1px solid #ccc; position:relative; display:block;}
+.sortComment label {cursor:pointer;}
+.sortComment a {display:inline-block; vertical-align:top; font-size:14px; line-height:21px; font-family:auto; color:#aaa; cursor:pointer; font-weight:bold}
+.sortComment a.date {color:#000; margin-right:15px}
+.sortComment.onCool a.date {color:#aaa;}
+.sortComment.onCool a.cool {color:#000;;}
+.sortComment input[type=checkbox] {display:none;}
+.sortComment .btnSort {position:relative; height:21px; padding-right:26px;}
+.sortComment .layerSort {position:absolute; left:0; top:0; z-index:1;}
+.sortComment .layerSort a {display:block; cursor:pointer; float:left}
+.sortComment .layerSort a:hover {color:#000;}
+
+/* no data */
+.commentNoList {font-size:14px; line-height:21px; font-family:auto; padding:20px 0 40px 0; text-align:center; width:100%;}
+
+/* close form */
+.cFormTriger {height:30px; overflow:hidden;  padding:5px 10px; position:relative; border:1px solid #e5e5e5; cursor:pointer;}
+.cFormTriger div {position:absolute; left:10px; top:5px; width:30px; height:30px; background:url(//image.msscdn.net/mfile_outsrc/img/icon-comment_v2.png) no-repeat; background-size:90px auto; background-position:0 0;}
+.cFormTriger div::before {content:''; position:absolute; left:40px; top:0; width:30px; height:30px; background:url(//image.msscdn.net/mfile_outsrc/img/icon-comment_v2.png) no-repeat; background-size:90px auto; background-position:-30px 0;}
+.cFormTriger div::after {content:''; position:absolute; left:80px; top:0; width:30px; height:30px; background:url(//image.msscdn.net/mfile_outsrc/img/icon-comment_v2.png) no-repeat; background-size:90px auto; background-position:-60px 0;}
+.cFormTriger span {display:block; line-height:20px; font-size:14px; color:#aaa; float:left; font-family:auto; margin:4px 0 4px 120px;}
+
+.onelineFormTriger {width:calc(100% - 20px); height:30px; overflow:hidden; padding:5px 10px; position:relative; border:1px solid #e5e5e5; cursor:pointer; float:left; margin-top:13px;}
+.onelineFormTriger div {position:absolute; left:10px; top:5px; width:30px; height:30px; background:url(//image.msscdn.net/mfile_outsrc/img/icon-comment_v2.png) no-repeat; background-size:90px auto; background-position:0 0;}
+.onelineFormTriger div::before {display:none !important;}
+.onelineFormTriger div::after {display:none !important;}
+.onelineFormTriger span {display:block; line-height:20px; font-size:14px; color:#aaa; float:left; font-family:auto; margin:4px 0 4px 40px;}
+
+/* not login form */
+.cFormBox.notLogin {display:block !important;}
+.notLogin {width:calc(100% - 20px) ;height:30px; overflow:hidden;  padding:5px 10px; position:relative; border:1px solid #e5e5e5 !important;}
+.notLogin .icon-comment {position:absolute; left:10px; top:5px; width:30px; height:30px; background:url(//image.msscdn.net/mfile_outsrc/img/icon-comment_v2.png) no-repeat; background-size:90px auto; background-position:0 0;}
+.notLogin .icon-comment::before {content:''; position:absolute; left:40px; top:0; width:30px; height:30px; background:url(//image.msscdn.net/mfile_outsrc/img/icon-comment_v2.png) no-repeat; background-size:90px auto; background-position:-30px 0;}
+.notLogin .icon-comment::after {content:''; position:absolute; left:80px; top:0; width:30px; height:30px; background:url(//image.msscdn.net/mfile_outsrc/img/icon-comment_v2.png) no-repeat; background-size:90px auto; background-position:-60px 0;}
+.notLogin .waitLogin {display:block; line-height:20px; font-size:14px; color:#aaa; float:left; font-family:auto; margin:10px 10px 0 130px;}
+.notLogin .goLogin,
+.notLogin .goCertify {position:absolute; width:100%; height:100%; left:0; top:0; display:block;}
+.notLogin.onelineForm {float:left; width:calc(100% - 20px); padding:5px 10px; box-sizing:content-box;}
+.notLogin.onelineForm::after {display:none;}
+.onelineForm.notLogin .icon-comment::before {display:none}
+.onelineForm.notLogin .icon-comment::after {display:none}
+.onelineForm.notLogin .waitLogin {margin-left:50px;}
+
+/* moreview */
+.commentMoreViewBox {width:200px; height:40px; background:#f9f9f9; border:1px solid #e5e5e5; margin:10px auto 0 auto;}
+.commentMoreViewLayer {text-align:center; line-height:21px; padding:10px 0 0 0; font-size:14px; color:#000; cursor:pointer; position:relative; font-family:auto;}
+.commentMoreViewLayer .loading {display:block; background:url(//image.msscdn.net/mfile_s01/musinsa/loadingComment.gif) no-repeat center; background-color:#f3f3f3; position:absolute; left:0; top:0; width:100%; height:50px; z-index:1;}
+.onlineMoreViewBox {width:200px; height:40px; background:#f9f9f9; border:1px solid #e5e5e5; margin:10px auto 0 auto;}
+.onlineMoreViewLayer {text-align:center; line-height:21px; padding:10px 0 0 0; font-size:14px; color:#000; cursor:pointer; position:relative; font-family:auto;}
+.onlineMoreViewLayer .loading {display:block; background:url(//image.msscdn.net/mfile_s01/musinsa/loadingComment.gif) no-repeat center; background-color:#f3f3f3; position:absolute; left:0; top:0; width:100%; height:50px; z-index:1;}
+
+/* cool hmm motion */
+.comment_post .score a.ui-require-cool.st::after {animation:cool 0.3s;}
+.comment_post .score a.ui-require-hmm.st::after {animation:hmm 0.3s;}
+
+@-webkit-keyframes cool {
+	0% {-webkit-transform:translateY(-15px)}
+	33% {-webkit-transform:translateY(0)}
+	66% {-webkit-transform:translateY(-7px)}
+	100% {-webkit-transform:translateY(0)}
+}
+@keyframes cool {
+	0% {transform:translateY(-15px)}
+	33% {transform:translateY(0)}
+	66% {transform:translateY(-7px)}
+	100% {transform:translateY(0)}
+}
+@-webkit-keyframes hmm {
+	0% {-webkit-transform:translateY(15px)}
+	33% {-webkit-transform:translateY(0)}
+	66% {-webkit-transform:translateY(7px)}
+	100% {-webkit-transform:translateY(0)}
+}
+@keyframes hmm {
+	0% {transform:translateY(15px)}
+	33% {transform:translateY(0)}
+	66% {transform:translateY(7px)}
+	100% {transform:translateY(0)}
+}
+
+/* mobile */
+@media only screen and (max-width: 640px) {
+
+	.postRight .comment {padding-left:15px; padding-right:15px; border-bottom:10px solid #f1f1f1; margin-bottom:30px;}
+	.MARKETPLACE_BODY .postRight .comment {padding-top:10px; padding-bottom:10px; border-bottom:0; margin-bottom:0;}
+
+	/* comment form */
+	.cFormBox {border:1px solid #000;}
+	.cFormBox .toNick {margin:10px 0 0 11px; font-size:12px; line-height:18px;}
+	.commentCheckbox {line-height:18px; font-size:12px;}
+	.commentMsg {line-height:18px; font-size:12px;}
+	.cEmoticons span {width:65px; height:65px;}
+	.cEmoticons span b {width:65px; height:65px; background-size:cover !important;}
+	.cEmoticons .scroll span b.on::before {width:65px; height:65px;}
+
+	.cFormBox .cEmoticons .cEmoticonsBox .scroll {height:88px; overflow-y:auto; -webkit-overflow-scrolling:touch;}
+
+	.cFormBox .btnGroup .cnt-emo {left:117px;}
+	.cFormBox .btnGroup .cnt-photo {left:72px;}
+
+	.cFormBox .btnGroup .btnGroupBox .btnTab:first-child {margin-left:10px;}
+	.cFormBox .btnGroup .btnGroupBox .btnTab {margin-left:16px;}
+
+	.cFormTriger div {left:10px;}
+	.cFormTriger div::before {left:46px;}
+	.cFormTriger div::after {left:92px;}
+
+	/* comment list */
+	.comment_post {padding:12px 0 15px 0 !important; border:0;}
+	.comment_post:first-of-type {margin-top:5px;}
+	.comment_post .pic {width:32px; height:32px; border-radius:16px; background-size:32px auto; top:13px;}
+	.comment_post .pic img {width:32px;}
+	.comment_post.comment_modify .pic {display:none}
+	.comment_post .info .cont {margin-top:4px;}
+	.comment_post .info .date,
+	.comment_post .info .cont,
+	.comment_post .info .cont-image,
+	.comment_post .info .cont-emoticons {padding-left:42px; box-sizing:border-box;}
+	.comment_post .info .cont-emoticons span {width:77px; height:77px;}
+	.comment_post .info .cont-emoticons span b {width:75px; height:75px; background-size:cover !important;}
+	.comment_post .info .lev {font-size:14px; line-height:22px; cursor:not-allowed; -webkit-tap-highlight-color:transparent;}
+	.comment_post .info .dreg {font-size:12px; float:right; line-height:22px;}
+	.comment_post .info .date a {font-size:12px; margin-left:20px;}
+	.comment_post .info .btnArea + .dreg {margin-right:30px;}
+	.comment_post .info .btnArea {display:block; width:22px; height:22px;}
+	.comment_post .info .btnArea .area-equip-button a {white-space:nowrap}
+	.comment_post .info .btnArea input[type=checkbox] + span {margin:0; display:block; width:22px; height:22px; background:url(//image.msscdn.net/mfile_outsrc/img/ic-more-line-thin-22@2x.png) no-repeat; background-size:22px 22px; opacity:1;}
+
+	/* comment cool */
+	.comment_post .score {margin-top:2px; float:right;}
+	.comment_post .score a {font-size:12px; line-height:22px}
+	.comment_post .score a.ui-require-cool::after,
+	.comment_post .score a.ui-require-hmm::after {top:2px}
+	.comment_post .score a.ui-require-hmm {margin-left:20px;}
+
+	/* comment btn */
+	.comment_post .chand {margin:2px 0 0 0; font-size:12px; line-height:22px;}
+
+	/* online list */
+	.oneline {padding-left:42px;}
+	.oneline::after {content:'';clear:both; display:block;}
+	.onelinePost {padding-top:18px;}
+	.onelinePost:first-child {padding-top:20px}
+	.onelinePost.modifyOneline {padding-top:20px;}
+	.onelinePost.modifyOneline .pic {left:-43px; top:-1px;}
+	.onelinePost .info .date,
+	.onelinePost .info .cont,
+	.onelinePost .info .cont-image,
+	.onelinePost .info .cont-emoticons {padding-left:0;}
+	.onelinePost .info .cont {margin-top:4px}
+	.onelinePost .info .lev {font-size:14px; cursor:not-allowed; -webkit-tap-highlight-color:transparent;}
+	.onelinePost .info .dreg {font-size:12px;}
+	.onelinePost .info .date a {font-size:12px; margin-left:20px;}
+
+	.onelineForm {margin-top:6px;}
+	.onlineWarea {margin-top:2px}
+
+	/* sort */
+	.sortComment {margin-top:20px;}
+	.sortComment::after{content:'';display:block;clear:both;}
+
+	/* close form */
+	.cFormTriger span {float:right;margin:4px 0 0 0}
+	.onelineFormTriger {margin-top:6px;}
+	.onelineFormTriger span {float:right;margin:4px 0 0 0;}
+	.notLogin .waitLogin {float:right;margin:10px 10px 0 0}
+	.onelineForm.notLogin .waitLogin {float:right;margin:10px 10px 0 0}
+
+	.notLogin .icon-comment {left:10px;}
+	.notLogin .icon-comment::before {left:46px;}
+	.notLogin .icon-comment::after {left:92px;}
+
+	/* more view */
+	.commentMoreViewBox {width:100%; height:50px; background:#f9f9f9; border:0;}
+	.commentMoreViewLayer {text-align:center; line-height:22px; padding:15px 0 14px 0; margin-top:5px; font-size:14px; color:#000; cursor:pointer; position:relative; font-family:auto;}
+	.onlineMoreViewBox {width:100%; height:50px; background:#f9f9f9; border:0;}
+	.onlineMoreViewLayer {text-align:center; line-height:22px; padding:15px 0 14px 0; margin-top:5px; font-size:14px; color:#000; cursor:pointer; position:relative; font-family:auto;}
+
+	/* font size */
+	.cFormBox .cForm textarea {font-size:16px}
+	.cFormBox .cForm textarea::-webkit-input-placeholder {font-size:14px;}
+	.cFormBox .cForm textarea::-ms-input-placeholder {font-size:14px;}
+	.cFormBox .cForm textarea::placeholder {font-size:14px;}
+	.onelineForm textarea {font-size:16px}
+	.onelineForm textarea::-webkit-input-placeholder {font-size:14px;}
+	.onelineForm textarea::-ms-input-placeholder {font-size:14px;}
+	.onelineForm textarea::placeholder {font-size:14px;}
+	.onelineReplyForm {margin-top:6px}
+	.onelineReplyForm textarea {font-size:16px}
+	.onelineReplyForm textarea::-webkit-input-placeholder {font-size:14px;}
+	.onelineReplyForm textarea::-ms-input-placeholder {font-size:14px;}
+	.onelineReplyForm textarea::placeholder {font-size:14px;}
+}
+
+/* pop comment fixed */
+.m-popup-comment .postRight .comment {padding-left:15px; padding-right:15px; border-bottom:10px solid #f1f1f1; margin-bottom:30px;}
+
+/* mobile */
+@media only screen and (max-width: 320px) {
+	.notLogin .icon-comment {left:5px;}
+	.notLogin .icon-comment::before {left:35px;}
+	.notLogin .icon-comment::after {left:70px;}
+	.notLogin .waitLogin {font-size:12px;}
+}
+
+/* write not use */
+.notUseWrite .gWarea,
+.notUseWrite .command-open-oneline,
+.notUseWrite .onelineFormTriger,
+.notUseWrite .onelineForm,
+.notUseWrite .onlineWarea {display:none !important;}
+
+/* util fixed 2022.05.18 */
+.musinsa-comment.noShowCool .score {display:none !important;}
+.musinsa-comment.noShowCool .comment_post .chand {margin-left:0 !important;}
+
+/* form close :: for CMS */
+.comment.formClose .commentForm,
+.comment.formClose .cFormBox,
+.comment.formClose .commentMsg {display:none !important;}
+.comment.formClose .gWarea {display:flex; width:100%; height:100px; align-items:center; justify-content:center}
+.comment.formClose .gWarea::after {content:'�볤� �대깽�� 湲곌컙�� �꾨떃�덈떎.'; font-size:18px; font-family:"AppleSDGothicNeo", "Apple SD Gothic Neo","Apple SD �곕룎怨좊뵓 Neo",sans-serif; font-weight:700; line-height:27px;}

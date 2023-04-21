@@ -1,0 +1,767 @@
+@charset "UTF-8";
+
+/* 무신사 폰트 적용 */
+.nav_category strong.title {
+  font-family: "Musinsa", sans-serif;
+  margin-top: 1px;
+}
+.title-page,
+.txt_selected_division,
+.font-mss {
+  font-family: "Musinsa", sans-serif !important;
+}
+.title-box.font-mss,
+.section .section_title.font-mss {
+  font-size: 18px;
+}
+
+/* 최소 넓이 추가 */
+.footer,
+.wrap-campaign-title,
+.wrap.page-campaign {
+  min-width: 1560px;
+  overflow: hidden;
+}
+.page-campaign .center-area {
+  min-width: 1120px;
+}
+.right_area .footer {
+  min-width: 1289px;
+}
+
+.event2-detail-content .photos li {
+  width: 20%;
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.event2-detail-content .photos a,
+.event2-detail-content .photos img {
+  display: block;
+  width: 100%;
+}
+.event2-detail-content .photos a {
+  overflow: hidden;
+  position: relative;
+}
+.event2-detail-content .photos a:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7)
+    url(/skin/musinsa/images/campaign/icon-download.png) 50% 50% no-repeat;
+  -webkit-background-size: 40px auto;
+  background-size: 40px auto;
+  content: "";
+  opacity: 0;
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
+.event2-detail-content .photos a img,
+.event2-detail-content .photos a:after {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  animation-duration: 2s;
+}
+.event2-detail-content .photos a:hover:after {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+}
+.event2-detail-content .photos a:hover img {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.wrap-campaign-sale {
+  width: 1036px;
+  margin: 0 auto;
+  padding-top: 63px;
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  font-size: 20px;
+  letter-spacing: -1px;
+}
+.wrap-campaign-sale .campaign-title-area {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 36px;
+}
+.wrap-campaign-sale .campaign-title-area p {
+  padding-bottom: 37px;
+}
+.wrap-campaign-sale .campaign-title-area p > strong {
+  font-size: 46px;
+  letter-spacing: -3px;
+}
+.wrap-campaign-sale .campaign-title-area p > strong,
+.wrap-campaign-sale .campaign-title-area p > span {
+  color: #185fff;
+}
+.wrap-campaign-sale .campaign-contents-area {
+}
+.wrap-campaign-sale .campaign-contents-area .event-info {
+  *zoom: 1;
+}
+.wrap-campaign-sale .campaign-contents-area .event-info:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+.wrap-campaign-sale .campaign-contents-area .event-info dt {
+  width: 137px;
+  font-weight: bold;
+}
+.wrap-campaign-sale .campaign-contents-area .event-info dd {
+}
+.wrap-campaign-sale .campaign-contents-area .event-info dt,
+.wrap-campaign-sale .campaign-contents-area .event-info dd {
+  float: left;
+  line-height: 43px;
+}
+.wrap-campaign-sale .campaign-contents-area .event-reference dt {
+  padding-bottom: 16px;
+  font-weight: bold;
+}
+.wrap-campaign-sale .campaign-contents-area .event-reference dd li {
+  line-height: 40px;
+}
+
+.wrap-campaign-sale .campaign-contents-area .images-area {
+  margin: 47px 0;
+}
+.wrap-campaign-sale .campaign-contents-area .images-area ul {
+  *zoom: 1;
+  position: relative;
+}
+.wrap-campaign-sale .campaign-contents-area .images-area ul:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+.wrap-campaign-sale .campaign-contents-area .images-area li {
+  display: block;
+  width: 250px;
+  float: left;
+  margin: 0 12px 12px 0;
+}
+.wrap-campaign-sale .campaign-contents-area .images-area li:nth-child(4n + 4) {
+  margin-right: 0;
+}
+.wrap-campaign-sale .campaign-contents-area .images-area li a.btn_layer > img {
+  width: 250px;
+}
+.wrap-campaign-sale .campaign-contents-area .layer_bg {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  left: 0;
+  top: 0;
+  z-index: 999;
+}
+.wrap-campaign-sale .campaign-contents-area .layer_wrap {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -300px;
+  margin-top: -300px;
+  width: 600px;
+  height: 600px;
+  text-align: center;
+  z-index: 9999;
+}
+.wrap-campaign-sale .campaign-contents-area .layer_wrap > img {
+  width: 600px;
+}
+.wrap-campaign-sale .campaign-contents-area .layer_wrap .btn_close {
+  position: absolute;
+  top: -50px;
+  right: 0;
+  width: 30px;
+}
+
+.lunchTime_wrap {
+  width: 960px;
+  padding: 20px 0 83px;
+}
+.lunchTime_wrap p.info-text {
+  padding: 29px 0 99px;
+  text-align: right;
+}
+.lunchTime_wrap a {
+  display: block;
+  text-align: center;
+}
+/*���Ĵٵ� �����ν� ��ǰ ����*/
+.standard_wrap {
+  padding-top: 20px;
+  text-align: center;
+}
+.standard_wrap .contents-button > div a {
+  width: 200px;
+  height: 80px;
+  display: block;
+  position: absolute;
+  bottom: 120px;
+  overflow: hidden;
+  text-indent: -9999px;
+}
+.standard_wrap .contents-button > div a.naturalCont {
+  left: 105px;
+}
+.standard_wrap .contents-button > div a.casualCont {
+  left: 380px;
+}
+.standard_wrap .contents-button > div a.superCont {
+  left: 655px;
+}
+.standard_wrap .contents-button > div a:hover {
+  background: url(http://image.msscdn.net/detail/hairwax/btn_intro.gif)
+    no-repeat 0 0;
+}
+.standard_wrap .contents-wrap > div {
+  margin-top: 220px;
+}
+.standard_wrap .productImg {
+  padding: 90px 0 40px;
+}
+.standard_wrap .productPoint {
+  padding: 50px 0 70px;
+}
+.standard_wrap .productStyle {
+  padding: 30px 0 180px;
+}
+.standard_wrap .productDetail {
+  padding-bottom: 200px;
+}
+.standard_wrap .relativeWrap {
+  position: relative;
+}
+.standard_wrap .relativeWrap .video {
+  width: 960px;
+  height: 540px;
+  position: absolute;
+  left: 1px;
+  top: 0;
+}
+.standard_wrap .contents-wrap .relativeWrap span {
+  display: block;
+  position: absolute;
+  left: 252px;
+}
+.standard_wrap .contents-wrap .relativeWrap .motion01 {
+  top: 149px;
+}
+.standard_wrap .contents-wrap .relativeWrap .motion02 {
+  top: 836px;
+}
+.standard_wrap .contents-wrap .relativeWrap .motion03 {
+  top: 1523px;
+}
+.standard_wrap .contents-wrap .video {
+  top: 150px;
+}
+.standard_wrap .top_btn {
+  width: 902px;
+  height: 132px;
+  margin: 150px auto 0;
+  *zoom: 1;
+}
+.standard_wrap .top_btn:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+.standard_wrap .top_btn a {
+  display: block;
+  float: left;
+  width: 447px;
+  height: 132px;
+  text-indent: -9999px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+.standard_wrap .top_btn a.topButton {
+  margin-right: 8px;
+  background-image: url(http://image.msscdn.net/detail/hairwax02/btn_top.gif);
+}
+.standard_wrap .top_btn a.topButton:hover {
+  background-image: url(http://image.msscdn.net/detail/hairwax02/btn_top_hover.gif?20180822);
+}
+.standard_wrap .top_btn a.reportButton {
+  background-image: url(http://image.msscdn.net/detail/hairwax02/btn_report.gif);
+}
+.standard_wrap .top_btn a.reportButton:hover {
+  background-image: url(http://image.msscdn.net/detail/hairwax02/btn_report_hover.gif);
+}
+
+.detail_product_info .linkWrap:hover .linkBtn {
+  display: none;
+}
+.detail_product_info .linkWrap:hover .linkBtn_on {
+  display: block !important;
+}
+
+/* 상단 배너 확장 */
+.banner_headTop,
+.extend_banner,
+.wrap-campaign-title {
+  overflow: hidden;
+}
+.banner_headTop div,
+.banner_headTop_content div,
+.extend_banner span,
+.wrap-campaign-title a {
+  width: 300%;
+  margin-left: -100%;
+  text-align: center;
+}
+.extend_banner .btn_banner_close,
+.banner_headTop .btn_banner_close {
+  width: auto;
+  margin-left: 0;
+}
+
+/* 쇼케이스 스페셜이슈 리스트 개선 */
+.main_specialissue_list {
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+}
+.main_specialissue_list .tit {
+  display: block;
+  height: 24px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #000;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding-top: 18px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.main_specialissue_list .period {
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: bold;
+  color: #000;
+}
+.main_specialissue_list .cont {
+  height: 44px;
+  font-size: 12px;
+  line-height: 22px;
+  color: #b2b2b2;
+  overflow: hidden;
+  margin-top: 11px;
+}
+
+/* 브랜드 로고 사이즈 개선 */
+.brandLogo {
+  vertical-align: middle;
+}
+.brandLogo img {
+  width: auto !important;
+  max-width: 100%;
+  max-height: 60%;
+  vertical-align: middle;
+}
+.section-tabbox-left .box-brand .list_img .vertical_standard {
+  height: 57px;
+}
+.main_brand_logo.brandLogo {
+  width: 100px;
+  height: 34px;
+  padding: 12px 17px 6px 15px;
+}
+.main_brand_logo.brandLogo a img {
+  max-width: 50%;
+  max-height: 100%;
+}
+.page_select .ranking_item.brand .ranking_item_img img {
+  max-width: 100%;
+  max-height: 60%;
+}
+.page-campaign .right-area #brand_tab_area .ranking_item .list_img a {
+  display: block;
+}
+.page-campaign .box-brand-rank ul li .list_img {
+  position: relative;
+}
+.page-campaign .box-brand-rank ul li .list_img a {
+  display: block;
+  margin: 0 auto;
+  line-height: 90px;
+}
+.page-campaign .box-brand-rank ul li .list_img .list_img_inner {
+  display: table-cell;
+  width: 90px;
+  height: 90px;
+  vertical-align: middle;
+}
+.page-campaign .box-brand-rank ul li .list_img img {
+  display: inline-block;
+  max-width: 90px;
+}
+.page-campaign .box-brand-rank ul li .list_img .vertical_standard {
+  height: 90px;
+}
+.section_container_mypage .box_brand .box_img > a {
+  height: 50px;
+  text-align: center;
+}
+
+/* 2018 광고 이벤트 */
+.tab-2018event {
+  min-width: 1560px;
+  height: 69px;
+  background: #202020;
+  border-top: 1px solid #202020;
+}
+.tab-2018event ul {
+  overflow: hidden;
+}
+.tab-2018event li {
+  width: 50%;
+  float: left;
+  position: relative;
+}
+.tab-2018event a {
+  display: block;
+  width: 640px;
+  height: 69px;
+  padding-bottom: 1px;
+  background: url("//image.msscdn.net/festival/2018totalEvent/tab.png?v=2")
+    no-repeat;
+  overflow: hidden;
+  text-indent: -9999px;
+}
+.tab-2018event li.on {
+  background: #fff;
+}
+.tab-2018event li a.evt {
+  background-position: 50% 0;
+  float: right;
+}
+.tab-2018event li.on a.evt {
+  background-position: 50% -70px;
+}
+.tab-2018event li a.cpi {
+  background-position: 50% -140px;
+  float: left;
+}
+.tab-2018event li.on a.cpi {
+  background-position: 50% -210px;
+}
+.tab-2018event a.share {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: url(//image.msscdn.net/festival/2018totalEvent/ico_share.png)
+    no-repeat 50% 50%;
+  position: absolute;
+  top: 14px;
+}
+.tab-2018event a.share.share-evt {
+  right: 187px;
+}
+.tab-2018event a.share.share-cpi {
+  left: 416px;
+}
+
+.popup-sns {
+  display: none;
+  width: 352px;
+  background: #fff;
+  position: absolute;
+  left: 50%;
+  margin-left: -176px;
+  text-align: center;
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+}
+.popup-sns .tit {
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+  line-height: 26px;
+  padding: 32px 0 6px 0;
+}
+.popup-sns .txt {
+  font-size: 16px;
+  color: #000;
+  line-height: 24px;
+}
+.popup-sns .share {
+  padding: 34px 0 45px 0;
+}
+.popup-sns .share > a {
+  display: inline-block;
+  width: 62px;
+  height: 62px;
+  background: url(/skin/musinsa/images/event_img/ico_sns.png?v=1) no-repeat;
+  overflow: hidden;
+  text-indent: -9999px;
+  margin: 0 15px;
+}
+.popup-sns .share > a.fb {
+  background-position: 0 0;
+}
+.popup-sns .share > a.tw {
+  background-position: -70px 0;
+}
+.popup-sns .share > a.url {
+  background-position: -140px 0;
+}
+.popup-sns .btn-close {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  background: #000;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* 55857 top menu motion */
+@-webkit-keyframes changeMenu {
+  0%,
+  49.9% {
+    opacity: 1;
+  }
+  50.1%,
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes changeMenu {
+  0%,
+  49.9% {
+    opacity: 1;
+  }
+  50.1%,
+  100% {
+    opacity: 0;
+  }
+}
+@-ms-keyframes changeMenu {
+  0%,
+  49.9% {
+    opacity: 1;
+  }
+  50.1%,
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes changeMenu {
+  0%,
+  49.9% {
+    opacity: 1;
+  }
+  50.1%,
+  100% {
+    opacity: 0;
+  }
+}
+.changeMenu {
+  width: 64px;
+  height: 14px;
+  position: relative;
+}
+.changeMenu span {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  text-align: center;
+  color: #2150ff;
+  white-space: nowrap;
+  opacity: 0;
+}
+.changeMenu span.cf {
+  margin-top: -1px;
+  -webkit-animation: changeMenu 3s infinite;
+  -moz-animation: changeMenu 3s infinite;
+  -ms-animation: changeMenu 3s infinite;
+  animation: changeMenu 3s infinite;
+}
+.changeMenu span.cp {
+  -webkit-animation: changeMenu 3s 1.5s infinite;
+  -moz-animation: changeMenu 3s 1.5s infinite;
+  -ms-animation: changeMenu 3s 1.5s infinite;
+  animation: changeMenu 3s 1.5s infinite;
+}
+
+/* 2018black tab */
+.menu-2018black {
+  min-width: 1560px;
+  margin: 0 auto;
+  background: #111;
+}
+.menu-2018black h2 {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  text-indent: -9999px;
+  visibility: hidden;
+}
+.menu-2018black .menu {
+  width: 1120px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.menu-2018black a {
+  display: block;
+  width: 33.33%;
+  height: 70px;
+  line-height: 70px;
+  float: left;
+  font-family: "Musinsa", sans-serif;
+  font-size: 22px;
+  color: #777;
+  text-align: center;
+}
+.menu-2018black a.active {
+  background: #0078ff;
+  color: #fff;
+}
+
+/* 2018 outer tab */
+.tab-2018outer {
+  height: 69px;
+  background: #202020;
+  border-top: 1px solid #202020;
+  position: relative;
+}
+.tab-2018outer:before {
+  content: "";
+  display: block;
+  height: 69px;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+.tab-2018outer.actl:before {
+  width: 50%;
+  left: 0;
+  right: 50%;
+}
+.tab-2018outer.actr:before {
+  width: 50%;
+  left: 50%;
+  right: 0;
+}
+.tab-2018outer .menu {
+  width: 1280px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  z-index: 10;
+}
+.tab-2018outer .menu li {
+  width: 33.33%;
+  background: #202020;
+  font-family: "Musinsa", sans-serif;
+  font-size: 22px;
+  color: #777;
+  font-weight: normal;
+  line-height: 69px;
+  text-align: center;
+  float: left;
+  position: relative;
+}
+.tab-2018outer .menu li.on {
+  background: #fff;
+  color: #000;
+}
+.tab-2018outer .menu a {
+  display: block;
+  overflow: hidden;
+  text-indent: -9999px;
+}
+.tab-2018outer .menu a.link {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.tab-2018outer .menu a.share {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: url(//image.msscdn.net/festival/2018totalEvent/ico_share.png)
+    no-repeat 50% 50%;
+  vertical-align: middle;
+  margin: -5px 0 0 -5px;
+  position: relative;
+  z-index: 1;
+}
+
+/* 2019 sweat tab */
+
+.top_menu {
+  overflow: hidden;
+  min-width: 1560px;
+}
+.top_menu li {
+  float: left;
+  width: 50%;
+  height: 70px;
+  padding-left: 183px;
+  line-height: 70px;
+  box-sizing: border-box;
+  background-color: #202020;
+  transition: background-color 0.2s ease;
+}
+.top_menu li:first-child {
+  padding: 0 211px 0 0px;
+  text-align: right;
+}
+.top_menu li a {
+  display: inline-block;
+  color: #777;
+  font-size: 22px;
+  font-family: "Musinsa", sans-serif;
+  letter-spacing: -1px;
+  vertical-align: middle;
+}
+.top_menu li:first-child a {
+  color: #fff;
+}
+.top_menu li .btn_share {
+  display: none;
+  margin-left: 10px;
+}
+.top_menu li.on .btn_share {
+  display: inline-block;
+}
+.top_menu li.on {
+  background-color: #fff;
+}
+.top_menu li.on a {
+  color: #000;
+}
