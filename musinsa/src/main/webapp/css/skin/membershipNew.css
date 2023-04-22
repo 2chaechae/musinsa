@@ -1,0 +1,206 @@
+section {
+  padding: 0;
+}
+
+.membership990 {
+  min-width: 1280px;
+}
+.membership990 main {
+  overflow: hidden;
+  padding-bottom: 160px;
+}
+.membership990__visual {
+  position: relative;
+  height: 795px;
+}
+.membership990__visual__video {
+  height: 720px;
+}
+.membership990__visual__header {
+  position: absolute;
+  left: 50%;
+  top: 80px;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+.membership990__visual__header h2 {
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: 400;
+  font-family: "Musinsa", Sans-Serif;
+}
+.membership990__visual__header h2 span {
+  color: #007aff;
+  font-family: "Musinsa", Sans-Serif;
+}
+.membership990__visual__header p {
+  font-size: 67px;
+  line-height: 70px;
+  font-weight: 400;
+  font-family: "Musinsa", Sans-Serif;
+  text-align: center;
+}
+.membership990__visual__header p span {
+  font-family: "Musinsa", Sans-Serif;
+  color: #007aff;
+}
+.membership990__visual__image, .membership990__visual video {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: auto;
+  height: 100%;
+  transform: translateX(-50%);
+}
+.membership990__nav {
+  position: relative;
+  height: 80px;
+  z-index: 10;
+}
+.membership990__nav__list {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-width: 1280px;
+  border-bottom: 1px solid #f1f1f1;
+  background-color: #fff;
+}
+.membership990__nav__list.is-active {
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+.membership990__nav__list > li {
+  display: flex;
+  flex: 1;
+  padding: 0 10px;
+  margin: 0 15px;
+}
+.membership990__nav__list > li a {
+  position: relative;
+  display: block;
+  height: 80px;
+  line-height: 80px;
+  font-size: 18px;
+  color: #aaa;
+}
+.membership990__nav__list > li:first-of-type a {
+  margin-left: auto;
+}
+.membership990__nav__list > li.is-active a {
+  color: #000;
+}
+.membership990__nav__list > li.is-active a::after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+  content: "";
+}
+.membership990__nav + .membership990__section {
+  padding-top: 160px !important;
+}
+.membership990__mb-space > img {
+  width: 100%;
+}
+.membership990__section {
+  width: 1280px;
+  margin: 0 auto;
+  padding-top: 240px;
+}
+.membership990__section__header {
+  margin-bottom: 60px;
+  text-align: center;
+}
+.membership990__section__header br {
+  display: none;
+}
+.membership990__section__header > h2 {
+  margin-bottom: 12px;
+  font-size: 40px;
+  font-weight: 400;
+  font-family: "Musinsa", Sans-Serif;
+  line-height: 42px;
+}
+.membership990__section__header > p {
+  padding-top: 10px;
+  font-size: 18px;
+  font-family: "Musinsa", Sans-Serif;
+  color: #aaa;
+}
+.membership990__section--coupon .CButtons {
+  margin-top: 60px;
+}
+.membership990__section--coupon .CImageFreeBanner > p {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #AAAAAA;
+}
+.membership990__section--coupon .CImageFreeBanner > p br {
+  display: none;
+}
+.membership990__section--coupon .CImageFreeBanner__thumbnail {
+  pointer-events: none;
+}
+.membership990__spc-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -2.1%;
+}
+.membership990__spc-item {
+  width: 29.813559322%;
+  min-width: 85px;
+  padding: 0 1.6949152542%;
+  margin-bottom: 30px;
+}
+.membership990__spc-item > a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+  font-family: "Musinsa", Sans-Serif;
+}
+.membership990__spc-item > a img {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.membership990__floating {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 10;
+}
+.membership990__floating__wrap {
+  display: flex;
+  width: 1280px;
+  margin: 0 auto;
+}
+.membership990__floating__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  height: 80px;
+  background-color: #000;
+  color: #fff;
+  font-size: 24px;
+  font-family: "Musinsa", Sans-Serif;
+}
+.membership990__floating__button > svg {
+  margin-right: 10px;
+}
+.membership990__floating__button:last-child {
+  background-color: #0078FF;
+}
+.membership990 .column4 {
+  padding-top: 100px;
+}

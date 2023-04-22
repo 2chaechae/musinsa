@@ -42,7 +42,8 @@
 <!-- <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/guide.min.css?202304111644"/> -->
 <link rel="stylesheet" href="css/skin/guide.css">
 <!-- <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/style.min.css?202303211032"/>  -->  
-<link rel="stylesheet" href="css/skin/codimapStyle.css"> 
+<!-- <link rel="stylesheet" href="css/skin/codimapStyle.css">  -->
+<link rel="stylesheet" href="css/skin/style.css">
 <!-- <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/sub.css?202303281957" /> -->
     <link rel="stylesheet" href="css/skin/sub.css"> 
     <!-- <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/media_query.css?202010301640" /> -->

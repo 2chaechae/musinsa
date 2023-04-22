@@ -34,8 +34,10 @@
     <link rel="apple-touch-icon" href="https://static.msscdn.net/favicon_152.ico?202211021806">
     <link rel="apple-touch-icon-precomposed" href="https://static.msscdn.net/favicon_152.ico?202211021806">
     <link rel="apple-touch-startup-image" href="https://static.msscdn.net/favicon_152.ico?202211021806">
-    <link rel="stylesheet" href="https://static.msscdn.net/ui/build/m/css/common.css?202211021806" />
-    <link rel="stylesheet" href="https://static.msscdn.net/ui/build/m/css/promotions.css?202211021806" />
+    <!-- <link rel="stylesheet" href="https://static.msscdn.net/ui/build/m/css/common.css?202211021806" />
+    <link rel="stylesheet" href="https://static.msscdn.net/ui/build/m/css/promotions.css?202211021806" /> -->
+    <link rel="stylesheet" href="css/ui/build/m/common.css">
+    <link rel="stylesheet" href="css/ui/build/m/promotions.css">
 
         
 

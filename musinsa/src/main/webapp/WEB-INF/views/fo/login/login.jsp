@@ -30,9 +30,10 @@
         <meta property="fb:app_id" content="256225934421849"/>
         <meta name="google-site-verification" content="NqB0BDAEWJTvAPCCxzrckJYnS7-xJILFU40FvSmh5S8"/>
 
-        <link rel="stylesheet" href="https://static.msscdn.net/ui/build/m/css/common.css">
-        <link rel="stylesheet" href="https://static.msscdn.net/ui/build/m/css/login.css">
-
+        <!-- <link rel="stylesheet" href="https://static.msscdn.net/ui/build/m/css/common.css">
+        <link rel="stylesheet" href="https://static.msscdn.net/ui/build/m/css/login.css"> -->
+		<link rel="stylesheet" href="css/ui/build/m/common.css">
+    	<link rel="stylesheet" href="css/ui/build/m/login.css">
         
         
             <link rel="shortcut icon" href="https://image.msscdn.net/favicon.ico?202211021806"

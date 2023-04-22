@@ -1,0 +1,1347 @@
+@charset "UTF-8"; 
+
+@
+-webkit-keyframes fadeIn { 0%{
+	opacity: 0
+}
+
+100
+%
+{
+opacity
+:
+1
+}
+}
+@
+keyframes fadeIn { 0%{
+	opacity: 0
+}
+
+100
+%
+{
+opacity
+:
+1
+}
+}
+@
+-webkit-keyframes fadeOut { 0%{
+	opacity: 1
+}
+
+100
+%
+{
+opacity
+:
+0
+}
+}
+@
+keyframes fadeOut { 0%{
+	opacity: 1
+}
+
+100
+%
+{
+opacity
+:
+0
+}
+}
+@
+-webkit-keyframes roundAll { 0%{
+	transform: rotate(0)
+}
+
+100
+%
+{
+transform
+:
+rotate(
+360deg
+)
+}
+}
+@
+keyframes roundAll { 0%{
+	transform: rotate(0)
+}
+
+100
+%
+{
+transform
+:
+rotate(
+360deg
+)
+}
+}
+@font-face {
+	font-style: normal;
+	font-weight: 300;
+	font-family: Musinsa;
+	src: url(//image.msscdn.net/musinsaUI/fonts/musinsaot-Light.eot);
+	src: local("☺"),
+		url(//image.msscdn.net/musinsaUI/fonts/musinsaot-Light.eot?#iefix)
+		format("embedded-opentype"),
+		url(//image.msscdn.net/musinsaUI/fonts/musinsaot-Light.woff2)
+		format("woff2"),
+		url(//image.msscdn.net/musinsaUI/fonts/musinsaot-Light.woff)
+		format("woff"),
+		url(//image.msscdn.net/musinsaUI/fonts/musinsaot-Light.ttf)
+		format("truetype"),
+		url(//image.msscdn.net/musinsaUI/fonts/musinsaot-Light.svg#MusinsaLight)
+		format("svg")
+}
+
+@font-face {
+	font-style: normal;
+	font-weight: 500;
+	font-family: Musinsa;
+	src: url(//image.msscdn.net/musinsaUI/fonts/musinsaot-Medium.eot);
+	src: local("☺"),
+		url(//image.msscdn.net/musinsaUI/fonts/musinsaot-Medium.eot?#iefix)
+		format("embedded-opentype"),
+		url(//image.msscdn.net/musinsaUI/fonts/musinsaot-Medium.woff2)
+		format("woff2"),
+		url(//image.msscdn.net/musinsaUI/fonts/musinsaot-Medium.woff)
+		format("woff"),
+		url(//image.msscdn.net/musinsaUI/fonts/musinsaot-Medium.ttf)
+		format("truetype"),
+		url(//image.msscdn.net/musinsaUI/fonts/musinsaot-Medium.svg#MusinsaRegular)
+		format("svg")
+}
+
+@font-face {
+	font-style: normal;
+	font-weight: 700;
+	font-family: Musinsa;
+	src: url(//image.msscdn.net/musinsaUI/fonts/musinsaot-Bold.eot);
+	src: local("☺"),
+		url(//image.msscdn.net/musinsaUI/fonts/musinsaot-Bold.eot?#iefix)
+		format("embedded-opentype"),
+		url(//image.msscdn.net/musinsaUI/fonts/musinsaot-Bold.woff2)
+		format("woff2"),
+		url(//image.msscdn.net/musinsaUI/fonts/musinsaot-Bold.woff)
+		format("woff"),
+		url(//image.msscdn.net/musinsaUI/fonts/musinsaot-Bold.ttf)
+		format("truetype"),
+		url(//image.msscdn.net/musinsaUI/fonts/musinsaot-Bold.svg#musinsaot-Bold)
+		format("svg")
+}
+
+@font-face {
+	font-style: normal;
+	font-weight: 300;
+	font-family: "Musinsa Stencil";
+	src: url(//image.msscdn.net/musinsaUI/fonts/MusinsaLightStencil.eot);
+	src: local("☺"),
+		url(//image.msscdn.net/musinsaUI/fonts/MusinsaLightStencil.eot?#iefix)
+		format("embedded-opentype"),
+		url(//image.msscdn.net/musinsaUI/fonts/MusinsaLightStencil.woff2)
+		format("woff2"),
+		url(//image.msscdn.net/musinsaUI/fonts/MusinsaLightStencil.woff)
+		format("woff"),
+		url(//image.msscdn.net/musinsaUI/fonts/MusinsaLightStencil.ttf)
+		format("truetype"),
+		url(//image.msscdn.net/musinsaUI/fonts/MusinsaLightStencil.svg#MusinsaLightStencil)
+		format("svg")
+}
+
+@font-face {
+	font-style: normal;
+	font-weight: 500;
+	font-family: "Musinsa Stencil";
+	src: url(//image.msscdn.net/musinsaUI/fonts/MusinsaRegularStencil.eot);
+	src: local("☺"),
+		url(//image.msscdn.net/musinsaUI/fonts/MusinsaRegularStencil.eot?#iefix)
+		format("embedded-opentype"),
+		url(//image.msscdn.net/musinsaUI/fonts/MusinsaRegularStencil.woff2)
+		format("woff2"),
+		url(//image.msscdn.net/musinsaUI/fonts/MusinsaRegularStencil.woff)
+		format("woff"),
+		url(//image.msscdn.net/musinsaUI/fonts/MusinsaRegularStencil.ttf)
+		format("truetype"),
+		url(//image.msscdn.net/musinsaUI/fonts/MusinsaRegularStencil.svg#MusinsaRegularStencil)
+		format("svg")
+}
+
+@font-face {
+	font-style: normal;
+	font-weight: 300;
+	font-family: "Musinsa Italic";
+	src: url(//image.msscdn.net/musinsaUI/fonts/musinsait-Light.eot);
+	src: local("☺"),
+		url(//image.msscdn.net/musinsaUI/fonts/musinsait-Light.eot?#iefix)
+		format("embedded-opentype"),
+		url(//image.msscdn.net/musinsaUI/fonts/musinsait-Light.woff2)
+		format("woff2"),
+		url(//image.msscdn.net/musinsaUI/fonts/musinsait-Light.woff)
+		format("woff"),
+		url(//image.msscdn.net/musinsaUI/fonts/musinsait-Light.ttf)
+		format("truetype"),
+		url(//image.msscdn.net/musinsaUI/fonts/musinsait-Light.svg#musinsait-Light)
+		format("svg")
+}
+
+@font-face {
+	font-style: normal;
+	font-weight: 500;
+	font-family: "Musinsa Italic";
+	src: url(//image.msscdn.net/musinsaUI/fonts/musinsait-Medium.eot);
+	src: local("☺"),
+		url(//image.msscdn.net/musinsaUI/fonts/musinsait-Medium.eot?#iefix)
+		format("embedded-opentype"),
+		url(//image.msscdn.net/musinsaUI/fonts/musinsait-Medium.woff2)
+		format("woff2"),
+		url(//image.msscdn.net/musinsaUI/fonts/musinsait-Medium.woff)
+		format("woff"),
+		url(//image.msscdn.net/musinsaUI/fonts/musinsait-Medium.ttf)
+		format("truetype"),
+		url(//image.msscdn.net/musinsaUI/fonts/musinsait-Medium.svg#musinsait-Medium)
+		format("svg")
+}
+
+@font-face {
+	font-style: normal;
+	font-weight: 700;
+	font-family: "Musinsa Italic";
+	src: url(//image.msscdn.net/musinsaUI/fonts/musinsait-Bold.eot);
+	src: local("☺"),
+		url(//image.msscdn.net/musinsaUI/fonts/musinsait-Bold.eot?#iefix)
+		format("embedded-opentype"),
+		url(//image.msscdn.net/musinsaUI/fonts/musinsait-Bold.woff2)
+		format("woff2"),
+		url(//image.msscdn.net/musinsaUI/fonts/musinsait-Bold.woff)
+		format("woff"),
+		url(//image.msscdn.net/musinsaUI/fonts/musinsait-Bold.ttf)
+		format("truetype"),
+		url(//image.msscdn.net/musinsaUI/fonts/musinsait-Bold.svg#musinsait-Bold)
+		format("svg")
+}
+
+@font-face {
+	font-style: normal;
+	font-weight: 500;
+	font-family: "Musinsa Round";
+	src: url(//image.msscdn.net/musinsaUI/fonts/musinsard-Medium.eot);
+	src: local("☺"),
+		url(//image.msscdn.net/musinsaUI/fonts/musinsard-Medium.eot?#iefix)
+		format("embedded-opentype"),
+		url(//image.msscdn.net/musinsaUI/fonts/musinsard-Medium.woff2)
+		format("woff2"),
+		url(//image.msscdn.net/musinsaUI/fonts/musinsard-Medium.woff)
+		format("woff"),
+		url(//image.msscdn.net/musinsaUI/fonts/musinsard-Medium.ttf)
+		format("truetype"),
+		url(//image.msscdn.net/musinsaUI/fonts/musinsard-Medium.svg#musinsard-Medium)
+		format("svg")
+}
+
+@font-face {
+	font-style: normal;
+	font-weight: 700;
+	font-family: "Musinsa Round";
+	src: url(//image.msscdn.net/musinsaUI/fonts/musinsard-Bold.eot);
+	src: local("☺"),
+		url(//image.msscdn.net/musinsaUI/fonts/musinsard-Bold.eot?#iefix)
+		format("embedded-opentype"),
+		url(//image.msscdn.net/musinsaUI/fonts/musinsard-Bold.woff2)
+		format("woff2"),
+		url(//image.msscdn.net/musinsaUI/fonts/musinsard-Bold.woff)
+		format("woff"),
+		url(//image.msscdn.net/musinsaUI/fonts/musinsard-Bold.ttf)
+		format("truetype"),
+		url(//image.msscdn.net/musinsaUI/fonts/musinsard-Bold.svg#musinsard-Bold)
+		format("svg")
+}
+
+@font-face {
+	font-style: normal;
+	font-weight: 400;
+	font-family: "Noto Sans KR";
+	src: url(//image.msscdn.net/musinsaUI/fonts/NotoSans-Regular.eot);
+	src: local("☺"),
+		url(//image.msscdn.net/musinsaUI/fonts/NotoSans-Regular.eot?#iefix)
+		format("embedded-opentype"),
+		url(//image.msscdn.net/musinsaUI/fonts/NotoSans-Regular.woff2)
+		format("woff2"),
+		url(//image.msscdn.net/musinsaUI/fonts/NotoSans-Regular.woff)
+		format("woff"),
+		url(//image.msscdn.net/musinsaUI/fonts/NotoSans-Regular.ttf)
+		format("truetype"),
+		url(//image.msscdn.net/musinsaUI/fonts/NotoSans-Regular.svg#NotoSans-Regular)
+		format("svg")
+}
+
+@font-face {
+	font-style: normal;
+	font-weight: 700;
+	font-family: "Noto Sans KR";
+	src: url(//image.msscdn.net/musinsaUI/fonts/NotoSans-Bold.eot);
+	src: local("☺"),
+		url(//image.msscdn.net/musinsaUI/fonts/NotoSans-Bold.eot?#iefix)
+		format("embedded-opentype"),
+		url(//image.msscdn.net/musinsaUI/fonts/NotoSans-Bold.woff2)
+		format("woff2"),
+		url(//image.msscdn.net/musinsaUI/fonts/NotoSans-Bold.woff)
+		format("woff"),
+		url(//image.msscdn.net/musinsaUI/fonts/NotoSans-Bold.ttf)
+		format("truetype"),
+		url(//image.msscdn.net/musinsaUI/fonts/NotoSans-Bold.svg#NotoSans-Bold)
+		format("svg")
+}
+
+.blind {
+	overflow: hidden;
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	clip: rect(0, 0, 0, 0)
+}
+
+body.fixed {
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup,
+	menu, nav, section {
+	display: block
+}
+
+a, blockquote, body, button, caption, dd, div, dl, dt, fieldset, figure,
+	form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, input, li, ol, p,
+	pre, select, small, span, table, td, textarea, th, ul {
+	margin: 0;
+	padding: 0
+}
+
+body, html {
+	height: 100%
+}
+
+body {
+	font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+	color: #000
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: inherit
+}
+
+ol, ul {
+	list-style: none
+}
+
+fieldset {
+	border: 0 solid transparent
+}
+
+img {
+	border: none;
+	line-height: 0;
+	vertical-align: top
+}
+
+table {
+	border-collapse: collapse
+}
+
+table, td, th {
+	border-spacing: 0
+}
+
+input, select, textarea {
+	border: 0;
+	border-radius: 0;
+	font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+	color: #000;
+	vertical-align: middle
+}
+
+caption {
+	visibility: hidden;
+	width: 0;
+	height: 0;
+	font-size: 0;
+	line-height: 0
+}
+
+button {
+	border: 0;
+	background: 0 0;
+	font-size: inherit;
+	font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+	line-height: 1.5;
+	cursor: pointer;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0
+}
+
+em {
+	font-style: normal
+}
+
+a {
+	color: inherit;
+	text-decoration: none
+}
+
+.review-list {
+	padding-top: 20px;
+	font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif
+}
+
+.review-list__text {
+	padding: 91px 0;
+	font-size: 12px;
+	text-align: center
+}
+
+.review-list__wrap {
+	border-bottom: 1px solid #f5f5f5
+}
+
+.review-list--mypage .review-list {
+	padding-top: 21px
+}
+
+.review-list-wrap {
+	box-sizing: border-box;
+	width: 960px;
+	border: 1px solid #ddd;
+	border-top: 0
+}
+
+.review-list-wrap--member-review {
+	width: auto;
+	min-width: 912px;
+	border-top: 1px solid #ddd
+}
+
+.review-list-wrap--member-view {
+	width: auto;
+	min-width: 912px;
+	border: 0
+}
+
+.review-list+.review-list {
+	border-top: 1px solid #ddd
+}
+
+.review-list__rating-wrap {
+	height: 17px;
+	padding-bottom: 10px
+}
+
+.review-list__rating {
+	display: inline-flex;
+	overflow: hidden;
+	height: 17px;
+	padding-left: 53px;
+	font-family: Musinsa, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+	line-height: 1;
+	color: #ff923a;
+	text-align: left;
+	align-items: baseline
+}
+
+.review-list__rating__unit {
+	overflow: hidden;
+	width: 90px;
+	height: 100%;
+	background: url(../img/common/ic-star-off.svg?v=20230421155434)
+		no-repeat;
+	background-position: left top;
+	background-size: 90px 100%
+}
+
+.review-list__rating__active {
+	display: block;
+	width: 90px;
+	height: 100%;
+	background: url(../img/common/ic-star-on.svg?v=20230421155434) no-repeat;
+	background-position: left top;
+	background-size: 90px 100%
+}
+
+.review-list__rating__active--single {
+	width: 17px
+}
+
+.review-list__rating__text {
+	box-sizing: border-box;
+	margin-left: 5px;
+	font-size: 15px;
+	font-family: Musinsa, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+	color: #ff923a;
+	transform: translateY(-15%)
+}
+
+.review-list--mypage .review-list__rating {
+	padding-left: 21px
+}
+
+.review-list__comment-wrap {
+	display: block;
+	margin-bottom: 20px;
+	padding-left: 53px;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 18px
+}
+
+.review-list--mypage .review-list__comment-wrap {
+	padding-left: 21px
+}
+
+.review-list__comment {
+	color: #aaa
+}
+
+.review-list__comment--new {
+	color: #0078ff
+}
+
+.review-list--none {
+	text-align: center
+}
+
+.review-list--none__text {
+	padding: 68px 0 66px;
+	font-weight: 700;
+	font-size: 12px;
+	font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif
+}
+
+.review-label {
+	display: inline-flex;
+	height: 20px;
+	margin: 0 5px 15px 0;
+	padding: 0 6px;
+	border-radius: 2px;
+	background: #ff923a;
+	font-weight: 700;
+	font-size: 11px;
+	color: #fff;
+	align-content: center;
+	align-items: center
+}
+
+.review-label-wrap {
+	display: flex
+}
+
+.review-information-mypage__wrap .review-label {
+	margin: 0 10px 0 0
+}
+
+.review-label:first-child {
+	margin-left: 15px
+}
+
+.review-information-mypage__wrap .review-label:first-child {
+	margin-left: 0
+}
+
+.review-label--experience {
+	background: #14aaff
+}
+
+.review-label--sponsored {
+	background: #e1efff;
+	color: #0078ff
+}
+
+.review-profile {
+	display: flex;
+	padding: 0 15px 0 13px;
+	font-size: 14px;
+	font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+	line-height: 1.5
+}
+
+.review-profile__link {
+	display: block;
+	overflow: hidden;
+	position: relative;
+	width: 32px;
+	height: 32px;
+	margin-top: 2px;
+	border-radius: 100%
+}
+
+.review-profile__image {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	transform: translateY(-50%)
+}
+
+.review-profile__text-wrap {
+	box-sizing: border-box;
+	width: calc(100% - 32px);
+	padding-left: 8px
+}
+
+.review-profile__text {
+	display: flex
+}
+
+.review-profile__name {
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 23px;
+	color: #000
+}
+
+.review-profile__information {
+	display: flex;
+	margin-top: -2px;
+	padding-bottom: 9px;
+	font-size: 12px;
+	color: #aaa;
+	align-items: center
+}
+
+.review-profile__information>a {
+	cursor: pointer
+}
+
+.review-profile__body_information {
+	display: flex;
+	line-height: 18px;
+	align-items: center
+}
+
+.review-profile__body_information::after {
+	display: inline-block;
+	width: 2px;
+	height: 2px;
+	margin: 0 5px;
+	background: #aaa;
+	content: ''
+}
+
+.review-profile-experience__name::after {
+	display: none
+}
+
+.review-profile__date {
+	margin-left: auto;
+	padding-top: 2px;
+	font-size: 12px;
+	color: #aaa
+}
+
+.review-goods-information {
+	display: flex;
+	max-height: 54px;
+	padding: 0 15px 15px 53px;
+	align-items: center
+}
+
+.review-list--mypage .review-goods-information {
+	padding-left: 15px
+}
+
+.review-goods-information--mypage {
+	max-height: inherit;
+	padding: 21px 10px 0 10px
+}
+
+.review-goods-information__thumbnail {
+	overflow: hidden;
+	position: relative;
+	width: 45px;
+	height: 54px;
+	border-radius: 4px
+}
+
+.review-goods-information--mypage .review-goods-information__thumbnail {
+	width: 80px;
+	height: 96px;
+	border-radius: 0;
+	flex: 0 0 80px
+}
+
+.review-goods-information__link {
+	display: block;
+	height: 100%
+}
+
+.review-goods-information__soldout {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 2;
+	background: rgba(255, 255, 255, .8);
+	font-size: 12px;
+	line-height: 12px;
+	text-align: center
+}
+
+.review-goods-information__soldout>span {
+	display: inline-block;
+	font-family: Musinsa, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+	color: #777;
+	vertical-align: middle
+}
+
+.review-goods-information__soldout::before {
+	display: inline-block;
+	width: 0;
+	height: 100%;
+	vertical-align: middle;
+	content: ""
+}
+
+.review-goods-information__image {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 100%;
+	transform: translate(-50%, -50%);
+	-o-object-fit: contain;
+	object-fit: contain
+}
+
+.review-goods-information__item {
+	width: calc(100% - 51px);
+	margin-left: 10px;
+	padding-top: 1px;
+	font-size: 12px
+}
+
+.review-goods-information--mypage .review-goods-information__item {
+	box-sizing: border-box;
+	width: 100%;
+	font-size: 14px
+}
+
+.review-goods-information__brand {
+	display: block;
+	line-height: 18px;
+	color: #777
+}
+
+.review-goods-information--mypage .review-goods-information__brand {
+	line-height: 21px;
+	color: #000
+}
+
+.review-goods-information__name {
+	display: block;
+	line-height: 18px;
+	color: #777
+}
+
+.review-goods-information--mypage .review-goods-information__name {
+	font-weight: 700;
+	line-height: 21px;
+	color: #000
+}
+
+.review-goods-information__option-wrap {
+	display: flex;
+	line-height: 18px;
+	color: #aaa
+}
+
+.review-goods-information--mypage .review-goods-information__option-wrap
+	{
+	line-height: 21px;
+	color: #777
+}
+
+.review-goods-information__option {
+	overflow: hidden;
+	max-width: 237px;
+	padding-right: 5px;
+	white-space: nowrap;
+	text-overflow: ellipsis
+}
+
+.review-goods-information--mypage .review-goods-information__option {
+	max-width: inherit;
+	padding-right: 0;
+	white-space: normal
+}
+
+.review-goods-information__body-information {
+	line-height: 21px;
+	color: #aaa
+}
+
+.review-contents {
+	cursor: pointer
+}
+
+.review-contents__experience-title {
+	padding: 15px 15px 10px 53px;
+	font-weight: 700;
+	font-size: 15px
+}
+
+.review-contents__experience-title::after {
+	display: block;
+	font-weight: 400;
+	line-height: 23px;
+	color: #aaa;
+	content: '...더보기'
+}
+
+.review-contents--active .review-contents__experience-title::after {
+	display: none
+}
+
+.review-contents__experience-thumbnail {
+	overflow: hidden;
+	position: relative;
+	width: 307px;
+	height: 307px;
+	margin: 0 15px 0 53px;
+	border-radius: 4px
+}
+
+.review-contents__experience-thumbnail>img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 100%;
+	transform: translate(-50%, -50%);
+	-o-object-fit: contain;
+	object-fit: contain
+}
+
+.review-contents--active .review-contents__experience-thumbnail {
+	display: none
+}
+
+.review-contents__text {
+	overflow: hidden;
+	position: relative;
+	max-height: 93px;
+	padding: 0 15px 0 53px;
+	font-size: 15px;
+	-webkit-text-size-adjust: none;
+	line-height: 23px;
+	word-break: break-all;
+	-moz-text-size-adjust: none;
+	text-size-adjust: none
+}
+
+.review-contents__text--experience {
+	display: block;
+	padding: 15px 0 10px;
+	font-size: 12px;
+	line-height: 18px;
+	color: #777
+}
+
+.review-contents__text--experience-close::after {
+	display: block;
+	font-size: 15px;
+	color: #aaa;
+	content: '접기'
+}
+
+.review-contents__text>img {
+	display: block;
+	max-width: 100%
+}
+
+.review-list--mypage .review-contents__text {
+	margin-right: 14.7%;
+	padding-left: 21px
+}
+
+.review-contents__experience-thumbnail+.review-contents__text {
+	display: none
+}
+
+.review-contents--active .review-contents__text {
+	display: block;
+	overflow: visible;
+	height: auto;
+	max-height: initial;
+	text-overflow: unset;
+	-webkit-line-clamp: unset
+}
+
+.review-contents__experience-title+.review-contents__text {
+	margin-bottom: 15px
+}
+
+.review-contents--overflow {
+	min-height: 46px
+}
+
+.review-contents--overflow::after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	box-sizing: border-box;
+	width: 100%;
+	padding-left: 53px;
+	background-color: #fff;
+	font-size: 15px;
+	color: #aaa;
+	content: '...더보기'
+}
+
+.review-contents--active .review-contents--overflow::after {
+	display: block;
+	position: inherit;
+	bottom: 0;
+	left: 0;
+	padding-left: 0;
+	content: '접기'
+}
+
+.review-list__list:hover .review-contents--overflow::after {
+	background-color: #f7f7f7
+}
+
+.review-list--mypage .review-contents--overflow::after {
+	padding-left: 21px
+}
+
+.review-list--mypage .review-contents--active .review-contents--overflow::after
+	{
+	padding-left: 0
+}
+
+.review-evaluation {
+	display: flex;
+	padding: 10px 0 0 53px
+}
+
+.review-list--mypage .review-evaluation {
+	padding-left: 21px
+}
+
+.review-evaluation__list {
+	display: flex;
+	width: auto;
+	justify-content: flex-start
+}
+
+.review-evaluation__item {
+	display: flex;
+	flex-direction: row;
+	box-sizing: border-box;
+	height: 25px;
+	padding: 0 8px;
+	border: 1px solid #eee;
+	border-radius: 20px;
+	font-size: 12px;
+	color: #aaa;
+	align-items: center
+}
+
+.review-evaluation__item>span {
+	padding-left: 3px;
+	color: #595959
+}
+
+.review-evaluation__item+.review-evaluation__item {
+	margin-left: 5px
+}
+
+.review-content-photo {
+	margin: 15px 0 0;
+	padding-left: 53px
+}
+
+.review-list--mypage .review-content-photo {
+	padding-left: 21px
+}
+
+.review-content-photo__wrap {
+	position: relative;
+	padding: 144px 15px 0 0
+}
+
+.review-contents--active .review-content-photo__wrap {
+	padding-top: 0
+}
+
+.review-list--mypage .review-contents--active .review-content-photo__wrap
+	{
+	padding-right: 21px
+}
+
+.review-content-photo__list {
+	display: flex;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0
+}
+
+.review-contents--active .review-content-photo__list {
+	display: block;
+	overflow: initial;
+	position: static;
+	height: auto
+}
+
+.review-content-photo__item {
+	overflow: hidden;
+	position: relative;
+	width: 144px;
+	height: 144px;
+	border-radius: 4px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	align-items: center;
+	justify-content: center
+}
+
+.review-content-photo__item+.review-content-photo__item {
+	margin-left: 5px
+}
+
+.review-content-photo__item>img {
+	display: none
+}
+
+.review-contents--active .review-content-photo__item>img {
+	display: block;
+	width: 100%
+}
+
+.review-content-photo__item.review-content-photo--more {
+	display: flex
+}
+
+.review-contents--active .review-content-photo__item {
+	display: block;
+	width: 307px;
+	height: auto;
+	background-image: none !important
+}
+
+.review-contents--active .review-content-photo__item+.review-content-photo__item
+	{
+	margin: 10px 0 0 0
+}
+
+.review-content-photo__dim {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, .3)
+}
+
+.review-contents--active .review-content-photo__dim {
+	display: none
+}
+
+.review-content-photo__count {
+	position: relative;
+	z-index: 1;
+	font-size: 28px;
+	color: #fff
+}
+
+.review-contents--active .review-content-photo__count {
+	display: none
+}
+
+.review-content-emoticon {
+	padding: 10px 0 0 53px
+}
+
+.review-content-emoticon__image {
+	width: 100px
+}
+
+.review-content-emoticon__image+.review-content-emoticon__image {
+	margin-left: 5px
+}
+
+.review-evaluation-button {
+	padding: 20px 0 20px 53px
+}
+
+.review-list--mypage .review-evaluation-button {
+	padding-left: 21px
+}
+
+.review-evaluation-button__wrap {
+	display: flex
+}
+
+.review-evaluation-button__list+.review-evaluation-button__list {
+	margin-left: 5px
+}
+
+.review-evaluation-button__list>input {
+	display: none
+}
+
+.review-evaluation-button__list>input:checked+label {
+	border-color: #0078ff;
+	color: #0078ff
+}
+
+.review-evaluation-button__item01 {
+	display: flex;
+	box-sizing: border-box;
+	min-width: 90px;
+	height: 30px;
+	padding: 1px 8px 0 5px;
+	border: 1px solid #ccc;
+	border-radius: 20px;
+	font-size: 12px;
+	line-height: normal;
+	cursor: pointer;
+	align-items: center
+}
+
+.review-evaluation-button__item01::before {
+	display: inline-block;
+	width: 18px;
+	height: 16px;
+	margin-right: 5px;
+	background-image:
+		url(../img/review/ic-22-solid-smile-1.svg?v=20230421155434);
+	background-repeat: no-repeat;
+	background-size: 18px 16px;
+	content: ''
+}
+
+.review-evaluation-button__item02 {
+	display: flex;
+	box-sizing: border-box;
+	min-width: 90px;
+	height: 30px;
+	padding: 1px 8px 0 5px;
+	border: 1px solid #ccc;
+	border-radius: 20px;
+	font-size: 12px;
+	line-height: normal;
+	cursor: pointer;
+	align-items: center
+}
+
+.review-evaluation-button__item02::before {
+	display: inline-block;
+	width: 18px;
+	height: 16px;
+	margin-right: 5px;
+	background-image:
+		url(../img/review/ic-22-solid-smile-2.svg?v=20230421155434);
+	background-repeat: no-repeat;
+	background-size: 18px 16px;
+	content: ''
+}
+
+.review-evaluation-button__item03 {
+	display: flex;
+	box-sizing: border-box;
+	min-width: 90px;
+	height: 30px;
+	padding: 1px 8px 0 5px;
+	border: 1px solid #ccc;
+	border-radius: 20px;
+	font-size: 12px;
+	line-height: normal;
+	cursor: pointer;
+	align-items: center
+}
+
+.review-evaluation-button__item03::before {
+	display: inline-block;
+	width: 18px;
+	height: 16px;
+	margin-right: 5px;
+	background-image:
+		url(../img/review/ic-22-solid-smile-3.svg?v=20230421155434);
+	background-repeat: no-repeat;
+	background-size: 18px 16px;
+	content: ''
+}
+
+.review-evaluation-button__count {
+	padding-left: 3px
+}
+
+.review-information-mypage {
+	padding-left: 21px
+}
+
+.review-information-mypage__wrap {
+	display: flex;
+	margin-bottom: 15px;
+	align-items: center
+}
+
+.review-information-mypage__information {
+	display: flex;
+	margin-right: 20px;
+	font-size: 14px;
+	color: #aaa
+}
+
+.review-information-mypage__date {
+	display: flex;
+	align-items: center
+}
+
+.review-information-mypage__date::after {
+	display: inline-flex;
+	width: 1px;
+	height: 12px;
+	margin: 0 8px;
+	background: #aaa;
+	content: '';
+	align-items: center
+}
+
+.review-information-mypage__state--fail {
+	color: red
+}
+
+.review-information-mypage__state--pass {
+	color: #14aaff
+}
+
+.review-information-mypage__state--waiting {
+	color: #777
+}
+
+.review-information-mypage__button-wrap {
+	display: flex
+}
+
+.review-information-mypage__button {
+	display: flex;
+	font-size: 14px;
+	align-items: center
+}
+
+.review-information-mypage__button:first-child::after {
+	display: inline-flex;
+	width: 1px;
+	height: 12px;
+	margin: 0 8px;
+	background: #aaa;
+	content: '';
+	align-items: center
+}
+
+.review-benefit {
+	width: 960px;
+	margin-bottom: 20px
+}
+
+.review-benefit__toggle-title {
+	display: flex;
+	box-sizing: border-box;
+	height: 45px;
+	padding: 0 20px 0 15px;
+	border: 1px solid #ffdfc5;
+	background-color: #fff4eb;
+	cursor: pointer;
+	align-items: center
+}
+
+.review-benefit__toggle-title__arrow {
+	margin-left: auto
+}
+
+.review-benefit__toggle-title--active .review-benefit__toggle-title__arrow
+	{
+	transform: rotate(180deg)
+}
+
+.review-benefit__text {
+	padding-left: 8px;
+	font-size: 12px;
+	font-family: Musinsa, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif
+}
+
+.review-benefit__text>span {
+	color: #14aaff
+}
+
+.review-benefit__toggle-content {
+	display: none;
+	padding: 15px 0 20px 40px;
+	border: 1px solid #ffdfc5;
+	border-top: 0;
+	font-size: 12px;
+	line-height: 18px
+}
+
+.review-benefit__toggle-title--active+.review-benefit__toggle-content {
+	display: block
+}
+
+.review-benefit__list {
+	display: flex
+}
+
+.review-benefit__list+.review-benefit__list {
+	margin-top: 5px
+}
+
+.review-benefit__title {
+	width: 191px
+}
+
+.review-benefit__price>span {
+	color: #14aaff
+}
+
+.review-list-wrap .comments-list {
+	padding: 0 15px 15px 53px
+}
+
+.review-list-wrap .nslist_bottom {
+	height: 82px
+}
+
+.review-list-wrap .nslist_bottom .box_page_msg {
+	height: 40px;
+	padding-right: 12px;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	font-weight: 700;
+	line-height: 40px;
+	color: #000;
+	text-align: right
+}
+
+.review-list__list .my-review-detail {
+	clear: both;
+	padding-left: calc(24.4% + 21px)
+}

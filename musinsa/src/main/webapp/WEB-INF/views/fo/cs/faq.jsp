@@ -25,34 +25,48 @@ pageEncoding="UTF-8"%>
 
 <title>고객 센터 | 무신사 스토어</title>
 
-<link rel="stylesheet" type="text/css" href="//static.msscdn.net/static/common/1.2.0/pc.css" />
-<link rel="stylesheet" type="text/css" href="//static.msscdn.net/ui/build/pc/css/common.css?202109290900">
+<!-- <link rel="stylesheet" type="text/css" href="//static.msscdn.net/static/common/1.2.0/pc.css" />
+<link rel="stylesheet" type="text/css" href="//static.msscdn.net/ui/build/pc/css/common.css?202109290900"> -->
+<link rel="stylesheet" href="css/static/common.css">
+<link rel="stylesheet" href="css/ui/common.css">
 
 
-    <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/magazine_common.css?202202150915" />
+    <!-- <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/magazine_common.css?202202150915" />
     <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/store_common.css?202112011113" />
     <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/layout.min.css?202201131000"/>
 <link rel="stylesheet" href="//image.msscdn.net/ui/musinsa/resources/common/css/icon.min.css?202101051200"/>
 <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/guide.min.css?202304111644"/>
-<link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/style.min.css?202303211032"/>    <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/sub.css?202303281957" />
+<link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/style.min.css?202303211032"/>    
+<link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/sub.css?202303281957" />
     <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/media_query.css?202010301640" />
-    <!--<link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/font.css?20170221" />-->
-    <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/new.css?202112010912" />
-
+    <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/new.css?202112010912" /> -->
+<link rel="stylesheet" href="css/skin/magazineCommon.css">
+<link rel="stylesheet" href="css/skin/storeCommon.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/common/icon.css">
+<link rel="stylesheet" href="css/skin/guide.css">
+<link rel="stylesheet" href="css/skin/style.css">
+<link rel="stylesheet" href="css/skin/sub.css">
+<link rel="stylesheet" href="css/skin/mediaQuery.css">
+<link rel="stylesheet" href="css/skin/new.css">
 <!-- Swiper -->
-<link rel="stylesheet" type="text/css" href="//static.msscdn.net/swiper/swiper.min.css" />
+<!-- <link rel="stylesheet" type="text/css" href="//static.msscdn.net/swiper/swiper.min.css" /> -->
+<link rel="stylesheet" href="css/swiper/swiper.css">
 <!-- Polyfill -->
 
 <!-- 스토어, 매거진 공통 스크립트 -->
 <!--// 스토어, 매거진 공통 스크립트 -->
 
     <!--jqModal-->
-    <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/jqModal.css?20160119" />
+    <!-- <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/jqModal.css?20160119" /> -->
+    <link rel="stylesheet" href="css/skin/jqModal.css">
     <!--//jqModal-->
 
 <!-- 유사 이미지 상품 검색 -->
-<link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/image_search.css?202201051301" />
-<link rel="stylesheet" type="text/css" href="//static.msscdn.net/ui/build/pc/css/faq.css?20220525000000">
+<!-- <link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/image_search.css?202201051301" />
+<link rel="stylesheet" type="text/css" href="//static.msscdn.net/ui/build/pc/css/faq.css?20220525000000"> -->
+<link rel="stylesheet" href="css/skin/imageSearch.css">
+<link rel="stylesheet" href="css/ui/build/faq.css">
 
 </head>
 <body>

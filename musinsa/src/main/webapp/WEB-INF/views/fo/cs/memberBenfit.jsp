@@ -30,7 +30,8 @@ pageEncoding="UTF-8"%>
 	<link rel="apple-touch-icon" href="https://static.msscdn.net/favicon_152.ico?202211021806">
 	<link rel="apple-touch-icon-precomposed" href="https://static.msscdn.net/favicon_152.ico?202211021806">
 	<link rel="apple-touch-startup-image" href="https://static.msscdn.net/favicon_152.ico?202211021806">
-	<link rel="stylesheet" type="text/css" href="https://static.msscdn.net/skin/musinsa/css/magazine_common.css?202211021806" />
+	
+	<!-- <link rel="stylesheet" type="text/css" href="https://static.msscdn.net/skin/musinsa/css/magazine_common.css?202211021806" />
 	<link rel="stylesheet" type="text/css" href="https://static.msscdn.net/skin/musinsa/css/store_common.css?202211021806" />
 	<link rel="stylesheet" type="text/css" href="https://static.msscdn.net/skin/musinsa/css/layout.min.css?202211021806" />
 	<link rel="stylesheet" type="text/css" href="https://static.msscdn.net/ui/musinsa/resources/common/css/icon.min.css?202211021806" />
@@ -40,10 +41,23 @@ pageEncoding="UTF-8"%>
 	<link rel="stylesheet" type="text/css" href="https://static.msscdn.net/skin/musinsa/css/media_query.css?202211021806" />
 	<link rel="stylesheet" type="text/css" href="https://static.msscdn.net/skin/musinsa/css/new.css?202211021806" />
 	<link rel="stylesheet" type="text/css" href="https://static.msscdn.net/static/common/1.2.0/pc.css" />
-	<link type="text/css" rel="stylesheet" charset="utf-8" href="https://static.msscdn.net/skin/musinsa/css/normalizer.css?202211021806"/>
+	 -->
+	<link rel="stylesheet" href="css/skin/magazineCommon.css">
+	<link rel="stylesheet" href="css/skin/storeCommon.css">
+	<link rel="stylesheet" href="css/skin/layout.css">
+	<link rel="stylesheet" href="css/ui/common/icon.css">
+	<link rel="stylesheet" href="css/skin/guide.css">
+	<link rel="stylesheet" href="css/skin/sub.css"> 
+	<link rel="stylesheet" href="css/skin/style.css">
+	<link rel="stylesheet" href="css/skin/mediaQuery.css">
+	<link rel="stylesheet" href="css/skin/new.css">
+	<link rel="stylesheet" href="css/static/common.css">
+	<!-- <link type="text/css" rel="stylesheet" charset="utf-8" href="https://static.msscdn.net/skin/musinsa/css/normalizer.css?202211021806"/>
 	<link rel="stylesheet" href="https://static.msscdn.net/ui/build/pc/css/common.css">
-	<link rel="stylesheet" href="https://static.msscdn.net/ui/build/pc/css/member.css">
-
+	<link rel="stylesheet" href="https://static.msscdn.net/ui/build/pc/css/member.css"> -->
+<link rel="stylesheet" href="css/skin/normalizer.css">
+<link rel="stylesheet" href="css/ui/common.css">
+<link rel="stylesheet" href="css/ui/build/member.css">
 </head>
 <body class="page musinsa">
 
@@ -52,7 +66,8 @@ pageEncoding="UTF-8"%>
 
     
 <!-- 유사 이미지 상품 검색 -->
-<link type="text/css" rel="stylesheet" href="https://static.msscdn.net/skin/musinsa/css/image_search.css?202211021806" />
+<!-- <link type="text/css" rel="stylesheet" href="https://static.msscdn.net/skin/musinsa/css/image_search.css?202211021806" /> -->
+<link rel="stylesheet" href="css/skin/imageSearch.css">
 <!-- //유사 이미지 상품 검색 -->
 <div id="topCommonPc"></div>
 

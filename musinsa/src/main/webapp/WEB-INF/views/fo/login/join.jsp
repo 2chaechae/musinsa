@@ -9,8 +9,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,viewport-fit=cover">
     <meta name="title" content="회원가입">
-    <link rel="stylesheet" href="https://static.msscdn.net/ui/build/m/css/common.css">
-    <link rel="stylesheet" href="https://static.msscdn.net/ui/build/m/css/login.css">
+    <!-- <link rel="stylesheet" href="https://static.msscdn.net/ui/build/m/css/common.css">
+    <link rel="stylesheet" href="https://static.msscdn.net/ui/build/m/css/login.css">  -->
+     <link rel="stylesheet" href="css/ui/build/m/common.css">
+     <link rel="stylesheet" href="css/ui/build/m/login.css"> 
     <title>회원가입 | 무신사 스토어</title>
 
     <!-- import jquery for GA -->
