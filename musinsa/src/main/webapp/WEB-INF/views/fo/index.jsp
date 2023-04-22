@@ -1,99 +1,12 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-
-
-
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<link rel="shortcut icon" href="/favicon.ico?20200213" type="image/x-icon">
-<meta name="description" content="온라인 패션 스토어. 우리가 사랑한 패션의 모든 것, 다 무신사랑 해." />
-
-
-<!-- 페이스북 오픈 그래프 메타태그  -->
-<meta id="fbAddId" property="fb:app_id" content="648837775133366" />
-<meta id="fbOgType" property="og:type" content="website" />
-<meta id="fbOgTitle" property="og:title" content="무신사 스토어" />
-<meta id="fbOgImage" property="og:image" content="https://image.msscdn.net/mfile_s01/fb/share_musinsa.png" />
-<meta id="fbOgDescription" property="og:description" content="온라인 패션 스토어. 우리가 사랑한 패션의 모든 것, 다 무신사랑 해." />
-<meta id="fbOgUrl" property="og:url" content="https://www.musinsa.com/app/?_gf=A">
-<!--// 페이스북 오픈 그래프 메타태그 -->
-
-<title>무신사 스토어</title>
-
-<!-- <link rel="stylesheet" type="text/css" href="//static.msscdn.net/static/common/1.2.0/pc.css" /> -->
-<link rel="stylesheet" href="css/static/common.css">
-<!-- <link rel="stylesheet" type="text/css" href="//static.msscdn.net/ui/build/pc/css/common.css?202109290900"> -->
-<link rel="stylesheet" href="css/ui/common.css">
-
-<link rel="stylesheet" href="css/skin/magazineCommon.css">
-<link rel="stylesheet" href="css/skin/storeCommon.css">
-<link rel="stylesheet" href="css/skin/layout.css">
-<link rel="stylesheet" href="css/ui/common/icon.css">
-<link rel="stylesheet" href="css/skin/guide.css">
-<link rel="stylesheet" href="css/skin/style.css">
-<link rel="stylesheet" href="css/skin/mediaQuery.css">
-<link rel="stylesheet" href="css/skin/new.css">
-   <!--  <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/magazine_common.css?202202150915" />
-    <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/store_common.css?202112011113" />
-    <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/layout.min.css?202201131000"/>
-<link rel="stylesheet" href="//image.msscdn.net/ui/musinsa/resources/common/css/icon.min.css?202101051200"/>
-<link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/guide.min.css?202304201708"/>
-<link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/style.min.css?202303211032"/>    <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/sub.css?202304201708" />
-    <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/media_query.css?202010301640" />
-    <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/new.css?202112010912" />
- -->
-<!-- Swiper -->
-<!-- <link rel="stylesheet" type="text/css" href="//static.msscdn.net/swiper/swiper.min.css" /> -->
-<link rel="stylesheet" href="css/swiper/swiper.css">
-<!-- Polyfill -->
-
-
-
-<!-- 스토어, 매거진 공통 스크립트 -->
-<!--// 스토어, 매거진 공통 스크립트 -->
-
-
-
-    <!--jqModal-->
-    <!-- <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/jqModal.css?20160119" /> -->
-    <link rel="stylesheet" href="css/skin/jqModal.css">
-    <!--//jqModal-->
-
-<!-- 유사 이미지 상품 검색 -->
-<!-- <link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/image_search.css?202201051301" /> -->
-<link rel="stylesheet" href="css/skin/imageSearch.css">
-
-<!-- //유사 이미지 상품 검색 -->
-
-<style>
-	.renew-menu-list > a.active{color:#000 !important; }
-</style>
-
-<!-- <link href="//static.msscdn.net/skin/musinsa/css/main.css?202204221324" rel="stylesheet" type="text/css" /> -->
-<link rel="stylesheet" href="css/skin/main.css">
-</head>
-
-
-
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ include file="/WEB-INF/views/fo/header.jsp" %>
 <body>
 <!-- 팝업 공지사항 -->
-
 <form name=f1>
 	<input type="hidden" name="popup" />
 	<input type="hidden" name="sex" value="" />
 	<input type="hidden" name="u_cat_cd" value=""/>
 </form>
-<!-- 상단 배너 -->
-<!-- 임시 주석 처리
-<div class="top_banner"><img src="//image.msscdn.net/skin/musinsa/images/banner_top.jpg" width="1167" height="50" border="0" alt=""></div>
---><!-- //상단 배너 -->
-<!-- 상단 콘텐츠 영역 -->
-
-
-
 
 
 <div class="top-column column top-musinsa" style="display:none">
@@ -104,10 +17,139 @@ pageEncoding="UTF-8"%>
 	</div>
 </div>
 
+<!-- 최상단 배너  -->
 <div id="default_top" >
-	<div id="topCommonPc"></div>
+	<div class="extend_banner" style="text-align: center;">
+		<div>
+			<a href="#" target="">
+			<span style="display:block;overflow:hidden; height:70px;background-color:#000000" href="#">
+			<img src="https://musinsapjt.s3.ap-southeast-2.amazonaws.com/banner/BANNER.jpg" alt="봄 시즌 오프"></span></a>
+		</div>
+		<div class="btn_banner_close">
+			<a href="#">
+				<img src="https://image.msscdn.net/skin/musinsa/images/top_banner_close.png" alt="배너 닫기">
+			</a>
+		</div>
+	</div>
+	<!-- 상단 메뉴바  -->
+	<div class="top-column column top-musinsa">
+		<div id="default_top" class="header store_header clearfix">
+			<div class="main-wrapper wrapper">
+				<h1 class="title">
+					<a href="#">MUSINSA</a>
+				</h1>
+				<div class="search-wrapper wrapper clearfix">
+					<!-- 검색창 -->
+					<div class="fl searchInput-box box">
+						<form id="search_form" method="get" action="#">
+							<input id="search_type" type="hidden" name="type" value="">
+							<label for="search_query" class="blind">통합 검색</label>
+							<input id="search_query" type="text" name="q" maxlength="30" autocomplete="off" class="search head-search-inp" control-id="ControlID-1">
+							<span id="search_button" class="search-btn btn ui-head-search-btn"><i class="ic-22-stencil-search ic-white">검색</i></span>
+						</form>
+					</div>
+					<!-- 실시간 검색어 롤링 -->
+					<div class="popularSearchWord-ranking-list-wrapper">
+						<div class="rollingRanking">
+							<div data-v-3d1a4f76="" dir="ltr" class="slick-slider slick-initialized slick-vertical">
+							<!-- 데이터 생성 (js) -->
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- gnb 주말특가~브랜드 상단메뉴 -->
+				<div class="gnb wrapper clearfix">
+					<ul class="gnb-list clearfix gnb-list-wrap">
+						<li class="hovering gnb-campaign-list"><a href="#" style="color: rgb(237, 0, 236);"> 주말 특가 </a></li>
+						<li class="hovering gnb-campaign-list"><a href="#" style="color: rgb(237, 0, 96);"> 시즌 오프 </a></li>
+						<li class="hovering gnb-campaign-list"><a href="#" style="color: rgb(0, 145, 250);"> 무제한 쿠폰팩 </a></li>
+						<li class="hovering"><a href="#">랭킹</a>
+							<ul class="hoverTarget">
+								<li><a href="#"><span>상품</span></a></li>
+								<li><a href="#"><span>브랜드</span></a></li>
+								<li><a href="#"><span>검색어</span></a></li>
+							</ul>
+						</li>
+						<li class="hovering"><a href="#">업데이트</a>
+							<ul class="hoverTarget">
+								<li><a href="#"><span>신상품</span></a></li>
+								<li><a href="#"><span>재입고</span></a></li>
+								<li><a href="#"><span>세일소식</span></a></li>
+								<li><a href="#"><span>이벤트</span></a></li>
+								<li><a href="#"><span>입점</span></a></li>
+							</ul>
+						</li>
+						<li class="hovering"><a href="#">코디</a>
+							<ul class="hoverTarget">
+								<li><a href="#"><span>코디숍</span></a></li>
+								<li><a href="#"><span>코디맵</span></a></li>
+								<li><a href="#"><span>브랜드 스냅</span></a></li>
+								<li><a href="#"><span>스트릿 스냅</span></a></li>
+							</ul>
+						</li>
+						<li class="hovering"><a href="#">세일</a>
+							<ul class="hoverTarget">
+								<li><a href="#"><span>쿠폰</span></a></li>
+								<li><a href="#"><span>세일</span></a></li>
+								<li><a href="#"><span>타임세일</span></a></li>
+								<li><a href="#"><span>기획전</span></a></li>
+							</ul>
+						</li>
+						<li class="hovering"><a href="#">스페셜</a>
+							<ul class="hoverTarget"><li><a href="#"><span>쇼케이스</span></a></li>
+								<li><a href="#"><span>스페셜 이슈</span></a></li>
+								<li><a href="#"><span>단독상품</span></a></li>
+							</ul>
+						</li>
+						<li class="hovering"><a href="#">매거진</a>
+							<ul class="hoverTarget">
+								<li><a href="#"><span>뉴스</span></a></li>
+								<li><a href="#"><span>매거진</span></a></li>
+								<li><a href="#"><span>쇼케이스</span></a></li>
+								<li><a href="#"><span>큐레이팅</span></a></li>
+								<li><a href="#"><span>커뮤니티</span></a></li>
+								<li><a href="#"><span>브랜드 구인</span></a></li>
+							</ul>
+						</li>
+						<li class="hovering"><a href="#">TV</a>
+							<ul class="hoverTarget">
+								<li><a href="#"><span>TV</span></a></li>
+								<li><a href="#"><span>비디오</span></a></li>
+							</ul>
+						</li>
+						<li class="hovering"><a href="#">이벤트</a>
+							<ul class="hoverTarget">
+								<li><a href="#"><span>래플</span></a></li>
+								<li><a href="#"><span>랜덤 이벤트</span></a></li>
+								<li><a href="#"><span>룩북 이벤트</span></a></li>
+								<li><a href="ㅍ"><span>체험단</span></a></li>
+								<li><a href="#"><span>회원후기</span></a></li>
+								<li><a href="#"><span>신규 브랜드</span></a></li>
+								<li><a href="#"><span>웰컴 브랜드 쇼</span></a></li>
+								<li><a href="#"><span>첫 구매 990원</span></a></li>
+								<li><a href="#"><span>친구 초대</span></a></li>
+								<li><a href="#"><span>사은품</span></a></li>
+							</ul>
+						</li>
+						<li class="hovering"><a href="#">브랜드</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- 카테고리 / 로그인 / 회원메뉴 -->
+			<div class="header-member">
+				<a href="#" ><img src="https://musinsapjt.s3.ap-southeast-2.amazonaws.com/icon/menu_handle.gif" alt="무신사 메뉴"></a>
+				<button type="button" aria-label="로그인 페이지로 이동" data-for="loginBox" class="header-member__login"> 로그인 </button>
+				<div class="header-member__block"><a href="#" aria-label="마이페이지로 이동" class="header-member__link"> 마이페이지 </a></div>
+				<div class="header-member__block"><a href="#" aria-label="최근본상품 페이지로 이동" class="header-member__link"> 최근 본 상품 </a></div>
+				<div class="header-member__block"><a href="#" aria-label="좋아요 페이지로 이동" class="header-member__link header-member__link--like"> 좋아요 </a></div>
+				<div class="header-member__block"><a href="#" aria-label="장바구니 페이지로 이동" class="header-member__link"> 장바구니 </a></div>
+				<div class="header-member__block"><a href="#" aria-label="주문배송조회 페이지로 이동" class="header-member__link"> 주문배송조회 </a></div>
+				<div class="header-member__block"><a href="#" aria-label="고객센터 페이지로 이동" class="header-member__link"> 고객센터 </a></div>
+				<div class="header-member__block"><a href="#" aria-label="이벤트 페이지로 이동" class="header-member__link header-member__link--event"> 회원 가입 EVENT. 신규 가입 후 바로 사용 가능한 20% 할인 쿠폰 / 무신사 스탠다드 990원 구매 기회 </a></div>
+			</div>
+		</div>
+	</div>
 </div>
-
 <!--// 상단 콘텐츠 영역 -->
 <!-- wrap -->
 <div class="wrap">
