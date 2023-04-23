@@ -1,0 +1,5102 @@
+@charset "UTF-8";
+.n-hidden {
+  display: block;
+  position: absolute;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  clip: rect(0 0 0 0);
+}
+
+.n-hidden-t {
+  overflow: hidden;
+  text-indent: -9999px;
+}
+
+.font-mss, #trading-statement-layer .pop-btn-set .pop-btn, #trading-statement-layer .pop-tit {
+  font-family: "Musinsa", sans-serif !important;
+}
+
+button {
+  padding: 0;
+  border: 0;
+  -webkit-appearance: none;
+  background: none;
+}
+
+/** layout **/
+.header.store_header {
+  border-bottom: none;
+}
+
+.header_group_area,
+.userMenu-wrapper {
+  display: none;
+}
+
+/** contents **/
+.mypage-cont {
+  width: calc(100% - 210px);
+  padding: 0;
+  float: right;
+}
+.mypage-cont-inner {
+  width: 1207px;
+  margin: 0 auto;
+}
+.mypage-cont .n-section-block .cancel-fee .n-info-txt {
+  padding-top: 0;
+  margin-bottom: 0;
+}
+.mypage-cont .n-order-cancel {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+.mypage-cont .n-order-cancel .select-prd {
+  float: left;
+  width: 50%;
+}
+.mypage-cont .n-order-cancel .select-prd-wrap {
+  overflow: hidden;
+}
+.mypage-cont .n-order-cancel .select-prd .n-prd-row {
+  padding: 22px 10px;
+}
+.mypage-cont .n-txt-primary {
+  color: #0078ff;
+}
+.mypage-cont .btn-set.btn-parents .n-btn {
+  width: 130px;
+}
+.mypage-cont .duedate {
+  color: #777;
+  font-weight: 600;
+}
+.mypage-cont .n-claim-btn {
+  width: 220px;
+  height: 50px;
+}
+.mypage-cont .my-review .write-review__wrap {
+  position: relative;
+  max-width: 152px;
+  margin: 0 auto;
+}
+.mypage-cont .my-review .write-review__wrap + .write-review__wrap {
+  margin-top: 4px;
+}
+.mypage-cont .my-review .write-review-label {
+  position: absolute;
+  top: -9px;
+  left: -27px;
+}
+.mypage-cont .my-review .write-review .n-btn {
+  width: 152px;
+  padding: 0;
+}
+.mypage-cont .my-review .write-review .n-btn.btn-complete {
+  background: #f3f3f3;
+  border-color: #f3f3f3;
+  color: #0078ff;
+}
+.mypage-cont .my-review .write-review .n-btn.btn-expiration {
+  background: #f3f3f3;
+  border-color: #f3f3f3;
+  color: #b3b3b3;
+}
+.mypage-cont .my-review .write-review .n-btn.btn-unfulfilled {
+  background: #f3f3f3;
+  border-color: #f3f3f3;
+  color: #FF0000;
+}
+.mypage-cont .my-review .write-review .n-btn.btn-review-layer:hover + .write-review__layer-util {
+  display: block;
+}
+.mypage-cont .my-review .write-review .write-review__layer-util:hover {
+  display: block;
+}
+.mypage-cont .my-review .write-review__layer-util {
+  display: none;
+  position: absolute;
+  left: 50%;
+  z-index: 1;
+  width: 111px;
+  margin-left: -55px;
+  padding-top: 4px;
+  text-align: center;
+}
+.mypage-cont .my-review .write-review__layer {
+  padding: 15px 0;
+  background: #fff;
+  border: 1px solid #dedede;
+}
+.mypage-cont .my-review .write-review__layer > a {
+  display: block;
+  padding: 0 15px;
+  color: #000;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: left;
+}
+.mypage-cont .my-review .write-review__layer > a + a {
+  margin-top: 12px;
+}
+.mypage-cont .my-review .review-text-complete {
+  margin-top: 8px;
+  font-family: "Musinsa", sans-serif;
+  font-size: 13px;
+  color: #919191;
+}
+.mypage-cont .my-review .review-text-complete > span {
+  color: #0078ff;
+}
+.mypage-cont .my-review .write-review-text {
+  color: #919191;
+}
+
+.mypage-tab {
+  margin: 50px 0 16px 0;
+}
+.mypage-tab > .btn {
+  display: inline-block;
+  font-size: 16px;
+  color: #aaaaaa;
+  margin-right: 18px;
+}
+.mypage-tab > .btn.is-active {
+  color: #000000;
+}
+
+.mypage-point {
+  height: 70px;
+  padding-top: 30px;
+}
+.mypage-point > div {
+  display: inline-block;
+}
+.mypage-point > div > strong {
+  display: block;
+  min-width: 132px;
+  font-family: "Musinsa", sans-serif !important;
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 30px;
+  margin-top: 10px;
+}
+.mypage-point > div > strong.zero {
+  color: #ccc;
+}
+.mypage-point > div .n-input {
+  display: block;
+  width: 173px;
+  margin-top: 8px;
+}
+.mypage-point > span {
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Musinsa", sans-serif !important;
+  line-height: 20px;
+  font-weight: bold;
+  margin: 36px 36px 0 36px;
+}
+.mypage-point > span.bar {
+  width: 1px;
+  height: 60px;
+  background-color: #f1f1f1;
+  overflow: hidden;
+  text-indent: -9999px;
+  margin: 6px 46px 0 46px;
+}
+.mypage-point .n-btn {
+  width: auto;
+  min-width: 80px;
+  margin: 26px 0 0 24px;
+  padding: 8px 16px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.mypage-point .point-expire {
+  position: relative;
+  padding-left: 38px;
+  margin-left: 38px;
+  text-align: center;
+}
+.mypage-point .point-expire::before {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 1px;
+  height: 60px;
+  background-color: #efefef;
+  content: "";
+}
+.mypage-point .point-expire > span {
+  display: block;
+  margin-top: 1px;
+  font-size: 12px;
+  color: #777;
+}
+
+.mypage-main {
+  margin-top: -32px;
+}
+.mypage-main .n-section-title {
+  margin-top: 80px;
+}
+.mypage-main .n-section-title .state {
+  padding: 14px 0 10px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Musinsa", sans-serif !important;
+}
+.mypage-main .n-section-title .state li {
+  display: inline-block;
+  color: #aaaaaa;
+  margin-right: 16px;
+}
+.mypage-main .n-section-title .state a {
+  display: block;
+}
+.mypage-main .n-section-title .state a:hover {
+  text-decoration: underline;
+}
+.mypage-main .n-section-title .tab-group {
+  display: inline-block;
+  padding: 1px 0 0 18px;
+}
+.mypage-main .n-section-title .n-link {
+  color: #000000;
+}
+.mypage-main .img-block .n-state.state-md {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.mypage-cont .n-section-title .state {
+  padding: 14px 0 10px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Musinsa", sans-serif !important;
+}
+.mypage-cont .n-section-title .state li {
+  display: inline-block;
+  color: #ccc;
+  margin-right: 16px;
+}
+.mypage-cont .n-section-title .state li.is-active {
+  color: #000000;
+}
+.mypage-cont .n-section-title .state a {
+  display: block;
+}
+.mypage-cont .n-section-title .state a:hover {
+  text-decoration: underline;
+}
+.mypage-cont .n-section-title .n-link {
+  color: #000000;
+}
+.mypage-cont .n-prd-row .info {
+  width: 100%;
+}
+.mypage-cont .n-btn-change-info {
+  display: inline-block;
+  padding-top: 20px;
+  color: #777777;
+}
+.mypage-cont .n-btn-change-info i {
+  margin: 1px 4px 0 0;
+  vertical-align: top;
+}
+.mypage-cont .n-btn-change-info span {
+  display: inline-block;
+  padding-top: 2px;
+  vertical-align: top;
+  font-size: 16px;
+  line-height: 22px;
+}
+.mypage-cont .n-info-txt + .n-btn-change-info {
+  padding-top: 14px;
+  color: #000000;
+}
+.mypage-cont .bestreview-guide-btn {
+  display: inline-block;
+  padding-top: 10px;
+  font-size: 0;
+}
+.mypage-cont .bestreview-guide-btn i {
+  margin-right: 4px;
+  vertical-align: top;
+}
+.mypage-cont .bestreview-guide-btn span {
+  display: inline-block;
+  padding-top: 2px;
+  font-size: 16px;
+  line-height: 22px;
+  vertical-align: top;
+}
+.mypage-cont .n-delv-notice {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #6E6E6E;
+}
+.mypage-cont .claim-notice {
+  padding: 40px;
+  margin-top: 80px;
+  background-color: #f9f9f9;
+}
+.mypage-cont .claim-notice__sub-title {
+  display: block;
+  margin: 20px 0 12px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.mypage-cont .claim-notice__title {
+  position: inherit;
+  font-family: "Musinsa", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.mypage-cont .claim-notice__item {
+  position: relative;
+  padding-left: 7px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #6E6E6E;
+}
+.mypage-cont .claim-notice__item::before {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  display: block;
+  width: 3px;
+  height: 3px;
+  border-radius: 100%;
+  background-color: #6e6e6e;
+  content: "";
+}
+.mypage-cont .claim-notice__item + .claim-notice__item {
+  margin-top: 12px;
+}
+.mypage-cont .claim-notice__faq {
+  color: #0078ff;
+  text-decoration: underline;
+}
+.mypage-cont .n-table.table-row td {
+  vertical-align: inherit;
+}
+.mypage-cont .n-table.table-row td span {
+  vertical-align: top;
+}
+.mypage-cont .thumbnail-box {
+  width: 60px;
+  height: 70px;
+  margin-right: 8px;
+  display: flex;
+  position: relative;
+}
+.mypage-cont .thumbnail-box .thumbnail-img {
+  width: inherit;
+  height: 60px;
+  position: absolute;
+}
+.mypage-cont .thumbnail-box .btn-delete-thumbnail {
+  width: 20px;
+  height: 20px;
+  right: 0;
+  top: 0;
+  position: absolute;
+  background-color: black;
+  cursor: pointer;
+}
+.mypage-cont .thumbnail-box .ic-14-line-close {
+  left: 17%;
+  top: 14%;
+  position: absolute;
+}
+.mypage-cont .uploading {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: white;
+  text-align: center;
+  opacity: 0.8;
+  z-index: 999;
+}
+.mypage-cont .file-upload {
+  display: flex;
+}
+.mypage-cont .btn-file {
+  width: 60px;
+  height: 60px;
+  background-color: #f3f3f3;
+  position: relative;
+}
+.mypage-cont .btn-file::before, .mypage-cont .btn-file::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  width: 1px;
+  height: 12px;
+  background-color: #919191;
+  content: "";
+}
+.mypage-cont .btn-file::before {
+  transform: translate(50%, -50%);
+}
+.mypage-cont .btn-file::after {
+  transform: translate(50%, -50%) rotate(90deg);
+}
+.mypage-cont .btn-file-flex {
+  display: inline-flex;
+  width: min-content;
+  height: 100%;
+}
+.mypage-cont .sale-fault-content th, .mypage-cont .sale-fault-content td {
+  border-top: none !important;
+  padding: 5px 0 15px;
+}
+.mypage-cont .col-file-upload th, .mypage-cont .col-file-upload td {
+  border-top: none !important;
+  padding: 0;
+}
+
+/** contents **/
+.n-table tr.my-info-img th {
+  padding-top: 29px;
+}
+.n-table tr.my-info-img .img {
+  display: block;
+  width: 80px;
+  height: 80px;
+  margin: 10px 0 0 -6px;
+  background: url(/skin/musinsa/images/mypage/bg_user2.png) no-repeat 50% 50%;
+  background-size: cover;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.n-table tr.my-info-img .txt {
+  margin: 13px 0 9px 0;
+}
+.n-table tr.my-info-img .n-btn {
+  margin-bottom: 5px;
+}
+.n-table tr.my-info-img .btn-group {
+  margin: 22px 0 0 0;
+}
+.n-table.my-info-setting {
+  margin-top: 25px;
+}
+.n-table.my-info-setting .n-check + label {
+  width: 90px;
+  margin-left: 28px;
+}
+.n-table .my-info-modify .input {
+  margin-top: 16px;
+}
+.n-table .my-info-modify .input:first-child {
+  margin-top: 15px;
+}
+.n-table .my-info-modify .input > label {
+  display: inline-block;
+  min-width: 165px;
+  line-height: 32px;
+}
+.n-table .my-info-modify .input .n-input {
+  width: 240px;
+  margin: 0;
+}
+.n-table .my-info-modify .input.input-btn {
+  width: 290px;
+  position: relative;
+}
+.n-table .my-info-modify .input.input-btn .n-input {
+  width: 100%;
+  padding-right: 76px;
+}
+.n-table .my-info-modify .input.input-btn .n-btn {
+  margin: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.n-table .my-info-modify .input.input-w {
+  width: 290px;
+}
+.n-table .my-info-modify .input.input-w .n-input {
+  width: 100%;
+}
+.n-table .my-info-modify .input.input-birth > input {
+  width: 100px;
+}
+.n-table .my-info-modify .input.input-birth > .n-select {
+  width: 100px;
+  margin: 0 1px;
+}
+.n-table .my-info-modify .input .input-password__wrap {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+}
+.n-table .my-info-modify .input .input-password__wrap:focus-within {
+  border-color: #aaa;
+}
+.n-table .my-info-modify .input .input-password__wrap.input-danger {
+  border-color: #ff0000;
+}
+.n-table .my-info-modify .input .input-password__wrap.input-danger + .validate.danger {
+  margin-top: 0;
+}
+.n-table .my-info-modify .input .input-password__wrap .n-input {
+  flex: 1;
+  height: 30px;
+  padding: 4px 5px;
+  border: none;
+}
+.n-table .my-info-modify .input .input-password__wrap .n-input:focus {
+  outline: none;
+}
+.n-table .my-info-modify .input .input-password__button {
+  overflow: hidden;
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 0 10px 0 6px;
+  background: url(/skin/musinsa/images/ic-30-solid-eye-show.png) no-repeat 50% 50%;
+  background-size: 30px auto;
+  text-indent: -9999px;
+}
+.n-table .my-info-modify .input .input-password__button--active {
+  background-image: url(/skin/musinsa/images/ic-30-solid-eye-hide.png);
+}
+.n-table .my-info-modify .btn-group {
+  padding: 22px 0 15px 0;
+}
+.n-table .my-info-modify .btn-group .n-btn {
+  margin: 0;
+}
+.n-table .my-info-modify .n-info-txt {
+  padding-top: 0;
+  margin-bottom: 0;
+}
+.n-table .my-info-modify--nickname .validate {
+  color: #6e6e6e;
+}
+.n-table .my-info-modify--nickname .validate__accent {
+  color: #14aaff;
+}
+.n-table .txt-caution {
+  color: #ff5300;
+}
+.n-table .n-reviewevent-tooltip {
+  margin-top: -34px;
+  padding-bottom: 8px;
+}
+.n-table .n-reviewevent-tooltip .n-tooltip {
+  z-index: 0;
+}
+.n-table .btn-parents .n-reviewevent-tooltip {
+  padding-bottom: 4px;
+}
+.n-table .txt-confirm {
+  color: #668fbd;
+}
+.n-table .usr-modify {
+  padding-top: 6px;
+}
+.n-table .usr-modify .btn {
+  min-width: 50px;
+  height: 32px;
+  padding: 0 5px;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  color: #000;
+  font-size: 12px;
+  line-height: 22px;
+}
+.n-table a.my-question {
+  display: block !important;
+  margin: -10px;
+  padding: 10px;
+}
+.n-table tr.my-faq {
+  display: none;
+}
+.n-table tr.my-faq.is-active {
+  display: table-row;
+}
+.n-table tr.my-faq td {
+  padding: 28px 10px;
+  background-color: #f1f1f1;
+}
+.n-table tr.my-faq td > img {
+  display: block;
+  width: 460px;
+  margin-top: 10px;
+}
+.n-table tr.my-faq.answer td {
+  border-color: #e2e2e2;
+}
+.n-table td a.n-previous-order {
+  color: #0078ff;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.n-inquiry-cnt {
+  float: right;
+  padding-top: 4px;
+  color: #aaa;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+}
+.n-inquiry-cnt span {
+  color: #000;
+}
+
+.my-info-intro {
+  margin: 24px 20px 15px 0;
+  position: relative;
+}
+.my-info-intro .info {
+  line-height: 32px;
+  color: #aaaaaa;
+  margin-top: -4px;
+}
+.my-info-intro .img {
+  width: 300px;
+}
+.my-info-intro .img > img {
+  width: auto;
+  max-width: 100%;
+  max-height: 300px;
+}
+.my-info-intro .txt {
+  padding-top: 16px;
+  font-weight: bold;
+  word-break: break-all;
+}
+.my-info-intro .btn-group {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.my-info-intro.form {
+  margin: 20px 0 0 0;
+}
+.my-info-intro.form .input {
+  position: relative;
+}
+.my-info-intro.form .input .n-input {
+  width: 100%;
+  height: 292px;
+  background: none;
+  border: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  resize: none;
+}
+.my-info-intro.form .input .n-input::placeholder {
+  color: #aaa;
+}
+.my-info-intro.form .input .length {
+  height: 40px;
+  border: 1px solid #e5e5e5;
+  font-size: 12px;
+  line-height: 40px;
+  text-align: right;
+  padding: 292px 15px 0 15px;
+  -webkit-transition: border 0.2s ease-in-out;
+  -moz-transition: border 0.2s ease-in-out;
+  -o-transition: border 0.2s ease-in-out;
+  transition: border 0.2s ease-in-out;
+}
+.my-info-intro.form .input .n-input:focus + .length {
+  border-color: #000000;
+}
+.my-info-intro.form .n-info-txt {
+  padding: 10px 0 15px 0;
+}
+.my-info-intro.none {
+  margin: 0;
+  color: #777777;
+  text-align: center;
+  padding: 202px 0;
+}
+
+.my-info-social {
+  padding: 10px 0 59px;
+}
+.my-info-social li {
+  position: relative;
+  padding: 10px 0 10px 167px;
+}
+.my-info-social li em {
+  position: absolute;
+  top: 14px;
+  left: 0;
+  line-height: 21px;
+}
+.my-info-social li input + label {
+  min-width: 50px;
+  height: 30px;
+  padding: 6px 0;
+  margin-right: -1px;
+  line-height: 18px;
+  border: 1px solid #ebebeb;
+  border-radius: 4px 0 0 4px;
+  color: #a5a5a5;
+  font-size: 12px;
+  box-sizing: border-box;
+}
+.my-info-social li input + label:last-child {
+  border-radius: 0 4px 4px 0;
+}
+.my-info-social li input:checked + label {
+  border: 1px solid #0078ff;
+  color: #fff;
+  background: #0078ff;
+}
+
+.my-info-withdrawal {
+  padding-top: 20px;
+  border-top: 1px solid #f1f1f1;
+  color: #aaaaaa;
+  line-height: 32px;
+  text-align: right;
+  margin-top: 13px;
+}
+.my-info-withdrawal .n-btn {
+  color: #777777;
+  margin-left: 4px;
+}
+
+.my-order-state {
+  background-color: #f7f7f7;
+  padding: 0 50px 30px 50px;
+  margin-top: 65px;
+}
+.my-order-state > dl {
+  padding-top: 30px;
+}
+.my-order-state > dl > dt {
+  font-family: "Musinsa", sans-serif !important;
+  font-size: 18px;
+}
+.my-order-state > dl > dd {
+  padding-left: 124px;
+  color: #777777;
+  font-weight: 400;
+  position: relative;
+  margin-top: 10px;
+  word-break: keep-all;
+}
+.my-order-state > dl > dd.my-order-state__comment {
+  padding-left: 0;
+}
+.my-order-state > dl > dd > em {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-weight: bold;
+}
+
+.my-order-return {
+  padding: 15px 0 0 170px;
+  position: relative;
+}
+.my-order-return > .label {
+  position: absolute;
+  left: 0;
+  top: 15px;
+}
+.my-order-return > .n-check + label,
+.my-order-return > .n-radio + label {
+  min-width: 42px;
+  margin-right: 4px;
+}
+.my-order-return .n-table {
+  margin-top: 15px;
+}
+.my-order-return + .n-info-txt {
+  border-top: 1px solid #f1f1f1;
+}
+
+.img-block.newsfeed {
+  display: inline-block;
+  width: 50px;
+  padding-top: 50px;
+}
+
+.n-input.friend {
+  width: 116px;
+  margin-right: -1px;
+}
+
+.my-benefit {
+  background-color: #f7f7f7;
+  padding: 25px 28px 33px 28px;
+  margin-top: 30px;
+}
+.my-benefit .info {
+  font-size: 16px;
+  color: #000000;
+  font-weight: bold;
+}
+.my-benefit .info > em {
+  color: #14aaff;
+}
+.my-benefit .progress {
+  height: 18px;
+  font-size: 12px;
+  margin-top: 15px;
+}
+.my-benefit .progress .bar {
+  display: inline-block;
+  width: 355px;
+  height: 12px;
+  background-color: #ccc;
+  margin: 3px 12px;
+}
+.my-benefit .progress .bar div {
+  display: block;
+  height: 100%;
+  background-color: #000000;
+  position: relative;
+}
+.my-benefit .progress .bar span {
+  display: block;
+  width: 80px;
+  font-size: 12px;
+  text-align: center;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  margin: 5px -40px 0 0;
+}
+
+.n-table.benefit {
+  margin-top: 60px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.n-table.benefit thead th {
+  font-size: 18px;
+  font-family: "Musinsa", sans-serif !important;
+  padding: 10px 0;
+  border-bottom: 1px solid #000000;
+}
+
+.my-withdrawal {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.my-withdrawal .password {
+  padding: 3px 0 35px 0;
+}
+.my-withdrawal .n-input-wrap {
+  margin-top: 22px;
+}
+.my-withdrawal .n-info-tit {
+  font-size: 14px;
+  font-weight: 700;
+}
+.my-withdrawal .n-info-txt {
+  padding-top: 8px;
+}
+
+.n-check.withdrawal + label {
+  margin: 15px 0 18px 0;
+}
+
+.my-coupon-enroll {
+  display: inline-block;
+  margin-top: 35px;
+  padding: 20px 302px 0 0;
+  position: relative;
+}
+.my-coupon-enroll .tit {
+  font-size: 20px;
+  font-family: "Musinsa", sans-serif !important;
+}
+.my-coupon-enroll .link {
+  display: inline-block;
+  color: #aaaaaa;
+}
+.my-coupon-enroll .input {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.my-coupon-enroll .input .n-input {
+  width: 168px;
+  height: 70px;
+  float: left;
+}
+.my-coupon-enroll .input .n-btn {
+  width: 115px;
+  height: 70px;
+  font-size: 16px;
+  line-height: 68px;
+  float: left;
+}
+
+.my-review-write {
+  padding-top: 40px;
+}
+.my-review-write .n-prd-row {
+  padding-bottom: 20px;
+}
+.my-review-write .review-score {
+  padding: 20px 0 10px 152px;
+  position: relative;
+  border-top: 1px solid #f1f1f1;
+}
+.my-review-write .review-score .label {
+  line-height: 30px;
+  position: absolute;
+  left: 0;
+  top: 20px;
+}
+.my-review-write .review-check {
+  padding-bottom: 4px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.my-review-write .review-check li {
+  padding: 16px 0 16px 153px;
+  position: relative;
+}
+.my-review-write .review-check .label {
+  position: absolute;
+  left: 0;
+  top: 20px;
+}
+.my-review-write .review-check .n-radio + label {
+  width: 106px;
+}
+.my-review-write .review-check .n-radio-tab input:nth-child(4) + label {
+  border-radius: 4px 0 0 4px;
+}
+.my-review-write .review-check .n-radio-tab input + label {
+  min-width: 90px;
+  height: 26px;
+  padding-top: 2px;
+  margin-right: 0;
+  line-height: 28px;
+  border: 1px solid #ebebeb;
+  border-right: 0;
+  color: #a5a5a5;
+  font-size: 12px;
+}
+.my-review-write .review-check .n-radio-tab input + label:last-child {
+  border-right: 1px solid #ebebeb;
+  border-radius: 0 4px 4px 0;
+}
+.my-review-write .review-check .n-radio-tab input:nth-child(4):checked + label {
+  border-right: 0;
+}
+.my-review-write .review-check .n-radio-tab input:checked + label {
+  border: 1px solid #0078ff;
+  color: #fff;
+  background: #0078ff;
+  border-right: 0;
+}
+.my-review-write .review-check .n-radio-tab input:checked + label:last-child {
+  border-right: 1px solid #0078ff;
+}
+.my-review-write .review-share {
+  padding: 17px 0;
+}
+.my-review-write .review-share .n-check + label {
+  font-weight: bold;
+}
+.my-review-write .review-share h2 {
+  font-weight: normal;
+  font-family: "Musinsa", sans-serif;
+  font-size: 18px;
+}
+.my-review-write .review-share-view {
+  display: none;
+}
+.my-review-write .review-share-view li {
+  padding: 0px 0 0px 153px;
+  position: relative;
+}
+.my-review-write .review-share-view li:first-child {
+  margin: 13px 0 15px;
+  font-size: 0;
+}
+.my-review-write .review-share-view li:first-child label {
+  width: 135px;
+  height: 30px;
+  padding-left: 0;
+  border: 1px solid #ebebeb;
+  border-right: 0;
+  box-sizing: border-box;
+  font-size: 12px;
+  line-height: 30px;
+  color: #a5a5a5;
+  text-align: center;
+}
+.my-review-write .review-share-view li:first-child label:before {
+  display: none;
+}
+.my-review-write .review-share-view li:first-child label:after {
+  display: none;
+}
+.my-review-write .review-share-view li:first-child input:checked + label {
+  background: #0078ff;
+  border: none;
+  color: #fff;
+}
+.my-review-write .review-share-view li:first-child label:last-of-type {
+  border-right: 1px solid #ebebeb;
+  border-radius: 0 4px 4px 0;
+}
+.my-review-write .review-share-view li:first-child label:first-of-type {
+  border-radius: 4px 0 0 4px;
+}
+.my-review-write .review-share-view li .label {
+  position: absolute;
+  left: 0;
+  top: 5px;
+  font-size: 14px;
+  line-height: 21px;
+}
+.my-review-write .review-share-view li .n-input {
+  width: 270px;
+  margin-bottom: 14px;
+}
+.my-review-write .review-share-view li input[type=number]::-webkit-outer-spin-button,
+.my-review-write .review-share-view li input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.my-review-write .review-share-view li input[type=number]::-ms-clear {
+  display: none;
+}
+.my-review-write .review-share-view li span {
+  position: absolute;
+  top: 6px;
+  left: 393px;
+  line-height: 21px;
+}
+.my-review-write .review-share-view .review-share-all {
+  margin-top: 17px;
+  padding: 16px 0 16px 10px;
+  background: #f5f5f5;
+}
+.my-review-write .review-share-view .review-share-all p {
+  padding-left: 26px;
+  padding-top: 2px;
+  font-size: 12px;
+  color: #777;
+  line-height: 18px;
+}
+.my-review-write .review-share-view .review-share-all p span {
+  color: #14aaff;
+}
+.my-review-write .review-share-view.on {
+  display: block;
+}
+.my-review-write .review-share-size .size-row {
+  padding: 20px 0;
+  border-top: 1px solid #f1f1f1;
+  border-bottom: 1px solid #f1f1f1;
+}
+.my-review-write .review-share-size .size-row li {
+  position: relative;
+  padding-left: 153px;
+  margin-bottom: 15px;
+}
+.my-review-write .review-share-size .size-row li .input-wrap {
+  position: relative;
+  width: 270px;
+}
+.my-review-write .review-share-size .size-row li .input-wrap .n-input {
+  width: 100%;
+  padding: 6px 30px 6px 10px;
+}
+.my-review-write .review-share-size .size-row li .input-wrap input[type=number]::-webkit-outer-spin-button,
+.my-review-write .review-share-size .size-row li .input-wrap input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.my-review-write .review-share-size .size-row li .input-wrap input[type=number]::-ms-clear {
+  display: none;
+}
+.my-review-write .review-share-size .size-row li .input-wrap span {
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  line-height: 21px;
+}
+.my-review-write .review-share-size .size-row li:last-of-type {
+  margin-bottom: 0;
+}
+.my-review-write .review-share-size .size-row-last {
+  border-top: none;
+}
+.my-review-write .review-share-size .label {
+  position: absolute;
+  left: 0;
+  top: 4px;
+  line-height: 21px;
+}
+.my-review-write .review-share-size .n-radio-tab {
+  display: table;
+  width: 270px;
+}
+.my-review-write .review-share-size .n-radio-tab .radio-wrap {
+  display: table-cell;
+}
+.my-review-write .review-share-size .n-radio-tab .radio-wrap label {
+  width: 100%;
+  height: 30px;
+  border: 1px solid #ebebeb;
+  border-right: 0;
+  box-sizing: border-box;
+  font-size: 12px;
+  color: #a5a5a5;
+}
+.my-review-write .review-share-size .n-radio-tab .radio-wrap input:checked + label {
+  background: #0078ff;
+  border: none;
+  color: #fff;
+}
+.my-review-write .review-share-size .n-radio-tab .radio-wrap:last-of-type label {
+  border-right: 1px solid #ebebeb;
+  border-radius: 0 4px 4px 0;
+}
+.my-review-write .review-share-size .n-radio-tab .radio-wrap:first-of-type label {
+  border-radius: 4px 0 0 4px;
+}
+.my-review-write .review-share-size .n-wrap-agree {
+  margin-top: 20px;
+}
+.my-review-write .review-share-size .n-btn-group {
+  padding-top: 32px;
+}
+.my-review-write .review-write {
+  padding-top: 16px;
+  margin-bottom: 14px;
+}
+.my-review-write .review-write .label {
+  display: inline-block;
+  margin-bottom: 8px;
+}
+.my-review-write .review-write .n-input {
+  width: 100%;
+  margin-bottom: 24px;
+}
+.my-review-write .review-write .n-comment-input {
+  height: 280px;
+}
+.my-review-write .review-write .n-comment-input .tab-block {
+  height: 209px;
+}
+.my-review-write .review-write .n-comment-input .input-area textarea {
+  height: 228px;
+}
+.my-review-write .n-wrap-agree label {
+  display: block;
+  margin-bottom: 10px;
+}
+.my-review-write .n-wrap-agree label.n-all-agree {
+  font-weight: bold;
+}
+.my-review-write .beauty-check {
+  margin-top: 14px;
+  padding-left: 154px;
+}
+.my-review-write .review-information-wrap {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.my-recent {
+  margin: 0 -10px;
+}
+.my-recent .n-prd-col {
+  width: 187px;
+  margin-top: 30px;
+}
+
+.n-list-row.my-like .n-prd-row {
+  padding: 0 10px;
+  margin-top: 22px;
+}
+.n-list-row.my-like .n-prd-row .n-check + label {
+  top: -10px;
+  bottom: -10px;
+}
+.n-list-row.my-like .n-prd-row .n-check + label:before,
+.n-list-row.my-like .n-prd-row .n-check + label:after {
+  margin: 12px 0 0 11px;
+}
+
+.n-list-row.mgz .n-prd-row {
+  table-layout: auto;
+}
+
+.mysize-category {
+  margin: 40px 0 28px 0;
+  border-bottom: 1px solid #f1f1f1;
+  overflow: hidden;
+}
+.mysize-category .sort {
+  display: block;
+  height: 40px;
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif !important;
+  color: #aaaaaa;
+  line-height: 40px;
+  padding: 0 10px;
+  margin: 0 5px;
+  float: left;
+  position: relative;
+}
+.mysize-category .sort:first-child {
+  margin-left: -10px;
+  color: #aaaaaa;
+}
+.mysize-category .sort:hover {
+  color: #000000;
+}
+.mysize-category .sort.is-active {
+  color: #000000;
+  font-weight: bold;
+}
+.mysize-category .sort.is-active:before {
+  content: "";
+  display: block;
+  height: 2px;
+  background: #000000;
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 0;
+}
+
+.mysize-type {
+  clear: both;
+  height: 160px;
+  padding: 0 45px;
+  overflow: hidden;
+  position: relative;
+}
+.mysize-type .inner {
+  height: 180px;
+  white-space: nowrap;
+  overflow: hidden;
+  overflow-x: auto;
+}
+.mysize-type .sort {
+  display: inline-block;
+  width: 11.11%;
+  height: 160px;
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  line-height: 1.5;
+  font-size: 14px;
+  color: #aaaaaa;
+}
+.mysize-type .sort.is-active {
+  color: #000000;
+  font-weight: bold;
+}
+.mysize-type .my-ico {
+  display: block;
+  width: 120px;
+  height: 120px;
+  margin-bottom: 4px;
+  background: url(/skin/musinsa/images/mypage/icon_size.png?20200623) no-repeat;
+  margin: 0 auto;
+}
+.mysize-type .my-ico.ico-default {
+  background-position: -480px -840px;
+}
+.mysize-type .my-ico.ico-top1 {
+  background-position: 0 0;
+}
+.mysize-type .my-ico.ico-top2 {
+  background-position: -120px 0;
+}
+.mysize-type .my-ico.ico-top3 {
+  background-position: -240px 0;
+}
+.mysize-type .my-ico.ico-top4 {
+  background-position: -360px 0;
+}
+.mysize-type .my-ico.ico-top5 {
+  background-position: -480px 0;
+}
+.mysize-type .my-ico.ico-top6 {
+  background-position: -600px 0;
+}
+.mysize-type .my-ico.ico-top7 {
+  background-position: -720px 0;
+}
+.mysize-type .my-ico.ico-otr1 {
+  background-position: 0 -120px;
+}
+.mysize-type .my-ico.ico-otr2 {
+  background-position: -120px -120px;
+}
+.mysize-type .my-ico.ico-otr3 {
+  background-position: -240px -120px;
+}
+.mysize-type .my-ico.ico-otr4 {
+  background-position: -360px -120px;
+}
+.mysize-type .my-ico.ico-otr5 {
+  background-position: -480px -120px;
+}
+.mysize-type .my-ico.ico-ops1 {
+  background-position: -720px -120px;
+}
+.mysize-type .my-ico.ico-bot1 {
+  background-position: 0 -240px;
+}
+.mysize-type .my-ico.ico-bot2 {
+  background-position: -120px -240px;
+}
+.mysize-type .my-ico.ico-bot3 {
+  background-position: -240px -240px;
+}
+.mysize-type .my-ico.ico-bot4 {
+  background-position: -360px -240px;
+}
+.mysize-type .my-ico.ico-shoe1 {
+  background-position: -600px -240px;
+}
+.mysize-type .my-ico.ico-snk1 {
+  background-position: -720px -240px;
+}
+.mysize-type .my-ico.ico-bag1 {
+  background-position: 0 -360px;
+}
+.mysize-type .my-ico.ico-bag2 {
+  background-position: -120px -360px;
+}
+.mysize-type .my-ico.ico-bag3 {
+  background-position: -240px -360px;
+}
+.mysize-type .my-ico.ico-bag4 {
+  background-position: -360px -360px;
+}
+.mysize-type .my-ico.ico-bag5 {
+  background-position: -480px -360px;
+}
+.mysize-type .my-ico.ico-bag6 {
+  background-position: -600px -360px;
+}
+.mysize-type .my-ico.ico-bag7 {
+  background-position: -720px -360px;
+}
+.mysize-type .my-ico.ico-cap1 {
+  background-position: 0 -480px;
+}
+.mysize-type .my-ico.ico-cap2 {
+  background-position: -120px -480px;
+}
+.mysize-type .my-ico.ico-cap3 {
+  background-position: -240px -480px;
+}
+.mysize-type .my-ico.ico-cap4 {
+  background-position: -360px -480px;
+}
+.mysize-type .my-ico.ico-uw1 {
+  background-position: -600px -480px;
+}
+.mysize-type .my-ico.ico-uw2 {
+  background-position: -720px -480px;
+}
+.mysize-type .my-ico.ico-acs1 {
+  background-position: 0 -600px;
+}
+.mysize-type .my-ico.ico-acs2 {
+  background-position: -120px -600px;
+}
+.mysize-type .my-ico.ico-acs3 {
+  background-position: -240px -600px;
+}
+.mysize-type .my-ico.ico-acs4 {
+  background-position: -360px -600px;
+}
+.mysize-type .my-ico.ico-acs5 {
+  background-position: -480px -600px;
+}
+.mysize-type .my-ico.ico-acs6 {
+  background-position: -600px -600px;
+}
+.mysize-type .my-ico.ico-acs7 {
+  background-position: -720px -600px;
+}
+.mysize-type .my-ico.ico-clk1 {
+  background-position: 0 -720px;
+}
+.mysize-type .my-ico.ico-gls1 {
+  background-position: -240px -720px;
+}
+.mysize-type .my-ico.ico-dgt1 {
+  background-position: -480px -720px;
+}
+.mysize-type .my-ico.ico-life1 {
+  background-position: -720px -720px;
+}
+.mysize-type .my-ico.ico-cos1 {
+  background-position: 0 -840px;
+}
+.mysize-type .my-ico.ico-clt1 {
+  background-position: -240px -840px;
+}
+.mysize-type .arrow {
+  width: 40px;
+  height: 160px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+.mysize-type .arrow.prev {
+  left: 0;
+}
+.mysize-type .arrow.next {
+  right: 0;
+  text-align: right;
+}
+
+@media (min-width: 1700px) {
+  .mysize-type .sort {
+    width: 10%;
+  }
+}
+@media (min-width: 1840px) {
+  .mysize-type .sort {
+    width: 9.09%;
+  }
+}
+.mysize-input {
+  background-color: #f7f7f7;
+  padding: 25px 0;
+  text-align: center;
+  margin-top: 25px;
+}
+.mysize-input .img {
+  display: inline-block;
+  width: 550px;
+  vertical-align: middle;
+}
+.mysize-input .img img {
+  width: 100%;
+}
+.mysize-input .form {
+  display: inline-block;
+  margin-left: 6px;
+  text-align: left;
+  vertical-align: middle;
+}
+.mysize-input .form .input {
+  padding-left: 86px;
+  line-height: 32px;
+  position: relative;
+  margin: 15px 0;
+}
+.mysize-input .form label {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.mysize-input .form .n-input {
+  width: 100px;
+  text-align: right;
+  margin-right: 10px;
+}
+.mysize-input .form .link {
+  display: inline-block;
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  line-height: 1.5;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: underline;
+  margin: 25px 0 15px 0;
+}
+
+.mysize-check {
+  padding: 15px 0 18px 0;
+}
+.mysize-check .n-info-txt {
+  padding-top: 10px;
+}
+.mysize-check .n-info-txt > li {
+  color: #8d8d8d;
+}
+
+.my-raffle {
+  margin-right: -26px;
+}
+.my-raffle:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.my-raffle > li {
+  width: 33.33%;
+  height: 180px;
+  padding: 0 26px 0 160px;
+  box-sizing: border-box;
+  position: relative;
+  margin-top: 32px;
+  float: left;
+}
+.my-raffle > li .img-block {
+  width: 150px;
+  padding-top: 180px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.my-raffle > li .state {
+  font-size: 12px;
+  color: #ffffff;
+  background-color: #777777;
+  line-height: 24px;
+  padding: 0 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 10;
+}
+.my-raffle > li .state.ing {
+  background-color: #0078ff;
+}
+.my-raffle > li .name {
+  display: inline-block;
+  max-height: 44px;
+  font-family: "Musinsa", sans-serif !important;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: normal;
+  overflow: hidden;
+}
+.my-raffle > li .name:hover {
+  text-decoration: underline;
+}
+.my-raffle > li .brand {
+  display: block;
+  overflow: hidden;
+  margin-top: 12px;
+}
+.my-raffle > li .brand > li {
+  display: block;
+  float: left;
+}
+.my-raffle > li .brand > li::after {
+  content: "|";
+  padding: 0 5px;
+}
+.my-raffle > li .brand > li:last-child::after {
+  display: none;
+}
+.my-raffle > li .option {
+  display: block;
+  margin-top: 5px;
+  color: #777;
+}
+.my-raffle > li .btn {
+  position: absolute;
+  left: 160px;
+  right: 26px;
+  bottom: 0;
+}
+.my-raffle > li .btn .n-btn {
+  width: 100%;
+}
+
+.end-raffle .info {
+  padding-right: 10px;
+}
+.end-raffle .info .name a {
+  overflow: hidden;
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.mypage-cont .info .option .estimate-profile {
+  font-size: 14px;
+  color: #777;
+  vertical-align: top;
+}
+.mypage-cont .info .option .estimate-profile:before {
+  clear: both;
+  display: inline-block;
+  margin-right: 5px;
+  content: "|";
+  color: #e5e5e5;
+}
+
+.my-review-wrap {
+  position: relative;
+}
+.my-review-wrap .review-info {
+  position: relative;
+}
+.my-review-wrap .review-info .review {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  padding: 10px 0 0;
+  z-index: 1;
+}
+.my-review-wrap .review-info .review:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 0;
+  clear: both;
+}
+.my-review-wrap .review-info .review .bestreview-label {
+  display: inline-block;
+  padding: 4px 6px 2px;
+  margin-right: 10px;
+  border-radius: 2px;
+  background: #ff923a;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 14px;
+  color: #fff;
+}
+.my-review-wrap .review-info .review .review-size {
+  padding-top: 2px;
+  margin-right: 20px;
+}
+.my-review-wrap .review-info .review .approve {
+  display: flex;
+  color: #aaaaaa;
+  margin: 0 20px 0 0;
+}
+.my-review-wrap .review-info .review .util {
+  display: flex;
+  position: relative;
+  z-index: 2;
+}
+.my-review-wrap .review-info .review .util > button {
+  color: #aaaaaa;
+}
+.my-review-wrap .review-info .review .bar {
+  color: #aaaaaa;
+  margin: 0 8px;
+}
+.my-review-wrap .review-info .evel {
+  display: none;
+  width: 400px;
+  overflow: hidden;
+  padding: 1px 0 0 1px;
+  margin: 14px 0 4px;
+}
+.my-review-wrap .review-info .evel > li {
+  width: 33.33%;
+  padding: 9px 11px;
+  font-size: 12px;
+  color: #aaaaaa;
+  text-align: center;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  float: left;
+  margin: -1px 0 0 -1px;
+}
+.my-review-wrap .review-info .type {
+  display: block;
+  width: 13%;
+  text-align: center;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  vertical-align: middle;
+}
+.my-review-wrap .review-info .type:before {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 100%;
+  min-height: 120px;
+  vertical-align: middle;
+}
+.my-review-wrap .review-info.is-evel .evel {
+  display: block;
+}
+.my-review-wrap .review-cont {
+  display: block;
+  padding: 0 10px 0px 0;
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  line-height: 1.5;
+  font-size: 14px;
+  margin: 14px 13% 0 0;
+}
+.my-review-wrap .review-cont > strong {
+  height: 22px;
+  max-width: 100%;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.my-review-wrap .review-cont > span {
+  height: 22px;
+  max-width: 100%;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.my-review-wrap .review-cont > img {
+  display: inline-block;
+  width: 120px;
+  vertical-align: top;
+  margin: 10px 2px 0 0;
+}
+.my-review-wrap .review-tag {
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  line-height: 1.5;
+  font-size: 14px;
+  margin: -4px 0 22px 0;
+}
+.my-review-wrap .review-tag > span {
+  color: #aaaaaa;
+}
+.my-review-wrap .review-react {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+.my-review-wrap .review-react .n-like {
+  float: left;
+  margin-right: 20px;
+}
+.my-review-wrap .review-react .reply {
+  padding-left: 20px;
+}
+.my-review-wrap .review-react .n-badge {
+  margin-top: -4px;
+  margin-left: 2px;
+  font-style: normal;
+}
+.my-review-wrap .btn-detail {
+  overflow: hidden;
+  text-indent: -9999px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 46px;
+}
+
+.my-review-detail {
+  display: none;
+  padding: 0 10px 10px 0;
+}
+
+tr.is-active .review-cont > strong,
+tr.is-active .review-cont > span {
+  height: auto;
+  white-space: normal;
+}
+tr.is-active .review-cont > img {
+  display: block;
+  width: 460px;
+}
+tr.is-active .my-review-detail {
+  display: block;
+}
+
+/*구매 후기 작성 btn hover layer*/
+.btn-parents {
+  position: relative;
+}
+.btn-parents .btn-accent:hover + .layer-util,
+.btn-parents .layer-util:hover {
+  display: block;
+}
+
+.layer-util {
+  display: none;
+  position: absolute;
+  left: 50%;
+  z-index: 1;
+  width: 154px;
+  margin-top: -5px;
+  margin-left: -77px;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.flow-btn {
+  display: inline-block;
+  padding: 6px 0;
+  background: #ffffff;
+  border: 1px solid #dedede;
+  text-align: left;
+}
+.flow-btn a {
+  display: block;
+  padding: 6px 15px;
+  color: #000000;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+}
+.flow-btn a.disable {
+  color: #aaaaaa;
+}
+.flow-btn a.disable:hover {
+  cursor: default;
+  text-decoration: none;
+}
+
+.n-section-wrap.wrap-detail {
+  min-height: 640px;
+  overflow: hidden;
+  position: relative;
+}
+.n-section-wrap.wrap-detail .n-section-block {
+  float: none;
+}
+.n-section-wrap.wrap-detail .n-section-block tr.tr-last-line {
+  border-bottom: 1px solid #f1f1f1;
+}
+.n-section-wrap.wrap-detail .n-section-block.block-gift {
+  margin-top: -1px;
+}
+.n-section-wrap.wrap-detail .n-section-block.block-discount {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.n-section-wrap.wrap-detail .gift-item-list {
+  width: 100%;
+}
+.n-section-wrap.wrap-detail .gift-item {
+  display: table;
+  width: 100%;
+  padding: 12px 0;
+  border-bottom: 1px solid #f1f1f1;
+}
+.n-section-wrap.wrap-detail .gift-item-img {
+  display: table-cell;
+  width: 80px;
+  padding: 10px;
+}
+.n-section-wrap.wrap-detail .gift-item-img img {
+  width: 100%;
+}
+.n-section-wrap.wrap-detail .gift-item-txt {
+  display: table-cell;
+  font-size: 14px;
+  vertical-align: middle;
+}
+.n-section-wrap.wrap-detail .gift-item-name {
+  font-weight: 700;
+}
+.n-section-wrap.wrap-detail .gift-item-price {
+  color: #777;
+}
+
+span.exg-prd {
+  font-size: 11px;
+  color: #fff;
+  padding: 4px 10px 3px;
+  line-height: 11px;
+  background: #0078ff;
+  border: 1px solid #0078ff;
+  border-radius: 12px;
+  margin-bottom: 7px;
+  display: inline-block;
+}
+
+.exchange-info td:nth-child(1) {
+  padding-left: 48px;
+  background: url(/skin/m_musinsa/images/enter.png) 15px 50% no-repeat;
+  background-size: 18px auto;
+}
+
+.layer_exchange {
+  padding: 0;
+  border: none;
+}
+.layer_exchange .ex-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.layer_exchange .n-check + label:before,
+.layer_exchange .n-radio + label:before {
+  width: 18px;
+  height: 18px;
+}
+.layer_exchange .n-check + label,
+.layer_exchange .n-radio + label {
+  line-height: 1.8;
+  padding-left: 28px;
+}
+.layer_exchange .n-check.n-check:checked + label:after,
+.layer_exchange .n-radio.n-check:checked + label:after {
+  width: 7px;
+  height: 4px;
+  left: 9px;
+  top: 8px;
+}
+.layer_exchange .n-check.n-radio:checked + label:after,
+.layer_exchange .n-radio.n-radio:checked + label:after {
+  width: 10px;
+  height: 10px;
+  left: 8px;
+  top: 7px;
+}
+.layer_exchange .box-content {
+  padding: 20px;
+}
+.layer_exchange .box-content .box-exchange {
+  margin-top: 16px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #f5f5f5;
+}
+.layer_exchange .box-content .box-exchange p {
+  margin-top: 8px;
+  float: left;
+}
+.layer_exchange .box-content .box-exchange .check-box {
+  text-align: right;
+  margin-top: 8px;
+}
+.layer_exchange .box-content .box-confirm input:checked + label {
+  color: #000;
+}
+.layer_exchange .box-content .box-delv {
+  margin-top: 10px;
+}
+.layer_exchange .box-content .box-delv .opt {
+  margin-top: 10px;
+}
+.layer_exchange .box-content .box-delv .opt .n-input {
+  width: 100%;
+  margin: 5px 0;
+  color: #aaa;
+}
+.layer_exchange .box-content .box-delv .opt .select {
+  height: 32px;
+  color: #aaa;
+}
+.layer_exchange .box-content .box-delv .opt label.delvN {
+  color: #aaa;
+  margin-top: 5px;
+}
+.layer_exchange .box-content .box-delv.box-return {
+  padding-bottom: 11px;
+  border-bottom: 1px solid #f5f5f5;
+}
+.layer_exchange .box-content .box-delv.box-return dl {
+  overflow: hidden;
+  margin-top: 11px;
+  display: table;
+  width: 100%;
+}
+.layer_exchange .box-content .box-delv.box-return dl dt {
+  display: table-cell;
+  width: 100px;
+}
+.layer_exchange .box-content .box-delv.box-return dl dd {
+  display: table-cell;
+  text-align: right;
+}
+.layer_exchange.layer_cont .layer_btn {
+  margin: 0;
+  padding: 0;
+}
+.layer_exchange.layer_cont .layer_btn a {
+  font-family: "Musinsa", Sans-Serif;
+  font-weight: normal;
+  font-size: 16px;
+}
+.layer_exchange.layer_cont .layer_btn a.btn {
+  width: 50%;
+  margin: 0;
+  color: #ffffff;
+  background: #aaaaaa;
+}
+.layer_exchange.layer_cont .layer_btn a.btn-accent {
+  background: #000000;
+}
+
+.n-delv {
+  padding-top: 12px;
+}
+.n-delv .n-section-title .tit > span {
+  display: inline-block;
+  padding-top: 4px;
+  color: #777777;
+  font-size: 20px;
+  line-height: 30px;
+}
+.n-delv .my-order-return {
+  padding-left: 200px;
+}
+.n-delv .my-order-return.n-exchange .n-table {
+  margin-top: 30px;
+}
+.n-delv .my-order-return.n-exchange .n-table .opt select {
+  margin-bottom: -6px;
+}
+.n-delv .n-table {
+  margin-top: -6px;
+}
+.n-delv h3 {
+  position: absolute;
+  top: 26px;
+  left: 0;
+}
+.n-delv ul {
+  margin-top: 40px;
+  color: #777777;
+}
+.n-delv ul .n-info-txt.n-return {
+  border-top: none;
+  padding: 0 0 30px 0;
+}
+.n-delv ul li {
+  line-height: 22px;
+}
+.n-delv .n-return {
+  margin-top: 10px;
+  padding: 10px 0;
+}
+.n-delv .n-return dl {
+  margin-bottom: 10px;
+  line-height: 22px;
+  font-size: 14px;
+  font-weight: 300;
+}
+.n-delv .n-return dl:last-child {
+  margin-bottom: 0;
+}
+.n-delv .n-return dl dt {
+  font-weight: 700;
+  color: #ff0000;
+}
+.n-delv .n-return dl dd {
+  position: relative;
+  padding-left: 13px;
+  color: #aaa;
+}
+.n-delv .n-return dl dd:after {
+  content: "-";
+  display: block;
+  position: absolute;
+  left: 3px;
+  top: 0;
+  font-size: 12px;
+}
+.n-delv .n-return dl .black {
+  color: #000;
+}
+.n-delv .n-return dl .gray {
+  color: #777;
+}
+.n-delv .n-input {
+  color: #000;
+}
+.n-delv .n-select {
+  color: #000;
+}
+.n-delv input::placeholder {
+  color: #aaa;
+}
+.n-delv .box-confirm {
+  padding-top: 10px;
+  display: block;
+  color: #ccc;
+}
+.n-delv .box-confirm input:checked + label {
+  color: #000;
+}
+.n-delv .n-btn-group {
+  margin-top: 10px;
+}
+
+.my-order-return .opt select {
+  width: 300px;
+  height: 32px;
+  padding: 0 32px 0 10px;
+  margin-bottom: 6px;
+  font-size: 14px;
+  -webkit-appearance: none;
+  background: url(/skin/musinsa/images/btn-general-open.png) 270px 3px no-repeat;
+  background-size: 22px;
+  color: #aaa;
+}
+.my-order-return .opt select:focus {
+  border-color: #000;
+  background-image: url(/skin/musinsa/images/btn-general-close.png);
+}
+.my-order-return .opt select.on {
+  color: #000;
+}
+
+/*1:1문의 필터*/
+.mypage-counsel .n-table-filter .n-select {
+  width: 145px;
+}
+
+/* 거레 수단 */
+.payment-method-wrap {
+  float: left;
+}
+
+.n-btn-receipt-wrap {
+  float: right;
+}
+.n-btn-receipt-wrap .n-btn-receipt {
+  margin-bottom: 4px;
+}
+.n-btn-receipt-wrap .n-btn-receipt:nth-child(2) {
+  margin-bottom: 0;
+}
+.n-btn-receipt-wrap .n-btn-receipt:hover {
+  text-decoration: none !important;
+}
+.n-btn-receipt-wrap .n-btn-receipt button {
+  display: block;
+  box-sizing: border-box;
+  width: 100px;
+  height: 32px;
+  border: 1px solid #e5e5e5;
+}
+.n-btn-receipt-wrap .n-btn-receipt button:hover {
+  text-decoration: none !important;
+}
+
+/* 거래명세서 팝업 20200313 UI-HS */
+#trading-statement-layer-wrap {
+  width: auto;
+  height: auto;
+  margin-left: -247px;
+  border: none;
+}
+
+#trading-statement-layer {
+  box-sizing: border-box;
+  width: 495px;
+  padding: 20px;
+  border: none;
+}
+#trading-statement-layer .pop-cont {
+  width: 100%;
+}
+#trading-statement-layer .pop-tit {
+  padding-bottom: 5px;
+  font-size: 24px;
+  font-weight: 500;
+}
+#trading-statement-layer .pop-label-list > li {
+  overflow: hidden;
+  width: 100%;
+  padding: 15px 0;
+  border-bottom: 1px solid #f5f5f5;
+}
+#trading-statement-layer .pop-label-list > li span {
+  display: block;
+  font-size: 14px;
+}
+#trading-statement-layer .pop-label-list > li .label {
+  float: left;
+  padding-right: 34px;
+}
+#trading-statement-layer .pop-label-list > li .info {
+  float: right;
+}
+#trading-statement-layer .pop-label-list > li .option {
+  font-size: 12px;
+  color: #777;
+}
+#trading-statement-layer .pop-label-list > li.product-list .product-info-wrap {
+  overflow: hidden;
+  overflow-y: auto;
+  float: left;
+  width: calc(100% - 95px);
+}
+#trading-statement-layer .pop-label-list > li.product-list .product-info-wrap li {
+  box-sizing: border-box;
+  overflow: hidden;
+  max-height: 53px;
+  padding-bottom: 15px;
+}
+#trading-statement-layer .pop-label-list > li.product-list .product-info-wrap li:last-child {
+  padding-bottom: 0;
+}
+#trading-statement-layer .pop-label-list > li.product-list .product-info {
+  float: left;
+  width: 71.667%;
+  font-size: 12px;
+}
+#trading-statement-layer .pop-label-list > li.product-list .product-info p {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#trading-statement-layer .pop-label-list > li.product-list .price-info {
+  overflow: hidden;
+  float: right;
+}
+#trading-statement-layer .pop-label-list > li.product-list .price-info .option {
+  text-align: right;
+}
+#trading-statement-layer .pop-list-all-btn {
+  overflow: hidden;
+  margin-top: 10px;
+}
+#trading-statement-layer .pop-list-all-btn button {
+  float: right;
+  height: 18px;
+  line-height: 18px;
+  font-size: 14px;
+  text-decoration: underline;
+}
+#trading-statement-layer .pop-info-wrap {
+  overflow: hidden;
+  padding-top: 25px;
+}
+#trading-statement-layer .pop-info-wrap .pop-info-txt {
+  float: left;
+  width: 405px;
+  font-size: 14px;
+  color: #777;
+  word-break: keep-all;
+}
+#trading-statement-layer .pop-info-wrap .pop-info-txt p:last-child {
+  position: relative;
+  margin-top: 5px;
+  padding-left: 7px;
+  font-size: 12px;
+}
+#trading-statement-layer .pop-info-wrap .pop-info-txt p:last-child:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 5px;
+  height: 1px;
+  background: #777;
+  -webkit-print-color-adjust: exact;
+  -moz-print-color-adjust: exact;
+  -ms-print-color-adjust: exact;
+  -o-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+#trading-statement-layer .pop-info-wrap .pop-info-stamp {
+  float: left;
+  width: 50px;
+}
+#trading-statement-layer .pop-info-wrap .pop-info-stamp img {
+  width: 100%;
+  height: auto;
+}
+#trading-statement-layer .pop-btn-set {
+  overflow: hidden;
+  width: 212px;
+  margin: 55px auto 0;
+}
+#trading-statement-layer .pop-btn-set .pop-btn {
+  float: left;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 3px;
+  font-size: 14px;
+  text-align: center;
+}
+#trading-statement-layer .pop-btn-set .pop-btn.pop-cancel {
+  background-color: #f1f1f1;
+}
+#trading-statement-layer .pop-btn-set .pop-btn.pop-print {
+  background-color: #000;
+  color: #fff;
+}
+
+/* 거래명세서 팝업 세로 반응형 20200313 UI-HS */
+@media screen and (max-height: 1230px) {
+  #trading-statement-layer-wrap {
+    overflow-y: scroll;
+    top: 8.1705%;
+    height: 83.659%;
+    margin-top: 0 !important;
+  }
+}
+/* 거래명세서 팝업 '인쇄하기' 20200211 UI-HS */
+@media print {
+  @page {
+    size: A4;
+    margin: 0;
+  }
+  html,
+body {
+    width: 210mm;
+    height: 100%;
+  }
+  .extend_banner,
+.top-musinsa,
+.mypage-wrap,
+footer#bot {
+    -webkit-display: none;
+    -moz-display: none;
+    -ms-display: none;
+    -o-display: none;
+    display: none;
+  }
+  #trading-statement-layer {
+    margin-top: 0 !important;
+    -webkit-display: block !important;
+    -moz-display: block !important;
+    -ms-display: block !important;
+    -o-display: block !important;
+    display: block !important;
+    -webkit-print-color-adjust: exact;
+    -moz-print-color-adjust: exact;
+    -ms-print-color-adjust: exact;
+    -o-print-color-adjust: exact;
+    print-color-adjust: exact;
+    -webkit-position: absolute !important;
+    -moz-position: absolute !important;
+    -ms-position: absolute !important;
+    -o-position: absolute !important;
+    position: absolute !important;
+    top: 0;
+  }
+  #trading-statement-layer .pop-list-all-btn,
+#trading-statement-layer .pop-btn-set {
+    -webkit-display: none !important;
+    -moz-display: none !important;
+    -ms-display: none !important;
+    -o-display: none !important;
+    display: none !important;
+  }
+  #trading-statement-layer .pop-label-list > li.product-list .product-info-wrap {
+    -webkit-overflow: visible !important;
+    -moz-overflow: visible !important;
+    -ms-overflow: visible !important;
+    -o-overflow: visible !important;
+    overflow: visible !important;
+    -webkit-max-height: none !important;
+    -moz-max-height: none !important;
+    -ms-max-height: none !important;
+    -o-max-height: none !important;
+    max-height: none !important;
+  }
+}
+/* 후기 가이드 추가*/
+.n-review-guide {
+  position: relative;
+  height: 136px;
+  padding: 0 0 0 153px;
+  margin: 20px 0 4px;
+  background: #f5f5f5;
+}
+.n-review-guide .guide_img {
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  width: 84px;
+  height: 116px;
+  background: url(//image.msscdn.net/skin/m_musinsa/images/review_guide_img.png?200413) 0 0 no-repeat;
+  background-size: 84px auto;
+}
+.n-review-guide .guide_txt {
+  padding-top: 48px;
+}
+.n-review-guide .guide_txt .tit {
+  padding-bottom: 2px;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: bold;
+}
+.n-review-guide .guide_txt .txt {
+  font-size: 12px;
+  line-height: 18px;
+}
+.n-review-guide .guide_txt .txt span {
+  display: block;
+  padding-top: 2px;
+  color: #777;
+}
+.n-review-guide.n-style-guide .guide_img {
+  background: url(//image.msscdn.net/skin/m_musinsa/images/style_guide_img.png?200413) 0 0 no-repeat;
+  background-size: 84px auto;
+}
+.n-review-guide.n-style-guide .guide_txt {
+  padding-top: 38px;
+}
+.n-review-guide.n-review-guide--v2 {
+  display: flex;
+  align-items: center;
+  height: auto;
+  padding: 24px;
+}
+.n-review-guide.n-review-guide--v2 .guide_txt {
+  padding-top: 0;
+  padding-left: 24px;
+}
+.n-review-guide.n-review-guide--v2 .guide_img {
+  position: inherit;
+  left: inherit;
+  top: inherit;
+}
+.n-review-guide.n-review-guide--v2.beauty-type1 .guide_img {
+  background: url(/skin/musinsa/images/review/type1.png?20230202) 0 0 no-repeat;
+  background-size: 120px auto;
+  width: 120px;
+  height: 84px;
+  position: inherit;
+  left: inherit;
+  top: inherit;
+}
+.n-review-guide.n-review-guide--v2.beauty-type2 .guide_img {
+  background: url(/skin/musinsa/images/review/type2.png?20230202) 0 0 no-repeat;
+  background-size: 120px auto;
+  width: 120px;
+  height: 84px;
+  position: inherit;
+  left: inherit;
+  top: inherit;
+}
+.n-review-guide.n-review-guide--v2.beauty-type3 .guide_img {
+  background: url(/skin/musinsa/images/review/type3.png?20230202) 0 0 no-repeat;
+  background-size: 120px auto;
+  width: 120px;
+  height: 84px;
+  position: inherit;
+  left: inherit;
+  top: inherit;
+}
+.n-review-guide.n-review-guide--v2.beauty-type4 .guide_img {
+  background: url(/skin/musinsa/images/review/type4.png?20230202) 0 0 no-repeat;
+  background-size: 120px auto;
+  width: 120px;
+  height: 84px;
+  position: inherit;
+  left: inherit;
+  top: inherit;
+}
+.n-review-guide.n-review-guide--v2.beauty-type5 .guide_img {
+  background: url(/skin/musinsa/images/review/type5.png?20230202) 0 0 no-repeat;
+  background-size: 120px auto;
+  width: 120px;
+  height: 84px;
+  position: inherit;
+  left: inherit;
+  top: inherit;
+}
+.n-review-guide.n-review-guide--v2.beauty-type6 .guide_img {
+  background: url(/skin/musinsa/images/review/type6.png?20230202) 0 0 no-repeat;
+  background-size: 120px auto;
+  width: 120px;
+  height: 84px;
+  position: inherit;
+  left: inherit;
+  top: inherit;
+}
+.n-review-guide.n-review-guide--v2.beauty-type7 .guide_img {
+  background: url(/skin/musinsa/images/review/type7.png?20230202) 0 0 no-repeat;
+  background-size: 120px auto;
+  width: 120px;
+  height: 84px;
+  position: inherit;
+  left: inherit;
+  top: inherit;
+}
+.n-review-guide.n-review-guide--v2.beauty-type8 .guide_img {
+  background: url(/skin/musinsa/images/review/type8.png?20230202) 0 0 no-repeat;
+  background-size: 120px auto;
+  width: 120px;
+  height: 84px;
+  position: inherit;
+  left: inherit;
+  top: inherit;
+}
+.n-review-guide.n-review-guide--v2.beauty-type9 .guide_img {
+  background: url(/skin/musinsa/images/review/type9.png?20230202) 0 0 no-repeat;
+  background-size: 120px auto;
+  width: 120px;
+  height: 84px;
+  position: inherit;
+  left: inherit;
+  top: inherit;
+}
+.n-review-guide.n-review-guide--v2.beauty-type10 .guide_img {
+  background: url(/skin/musinsa/images/review/type10.png?20230202) 0 0 no-repeat;
+  background-size: 120px auto;
+  width: 120px;
+  height: 84px;
+  position: inherit;
+  left: inherit;
+  top: inherit;
+}
+
+/* 뉴스피드 */
+.n-table.table-col td.n-notice-area {
+  padding-left: 0;
+}
+.n-table.table-col td.n-notice-area p {
+  padding-bottom: 1px;
+  font-size: 12px;
+  color: #777;
+  letter-spacing: -0.5px;
+}
+.n-table.table-col td.n-notice-area p i {
+  margin-right: 2px;
+}
+.n-table.table-col td.n-notice-img-area .n-brand-img-area {
+  width: 50px;
+  height: 49px;
+  margin: 0 auto;
+  line-height: 49px;
+  border-radius: 25px;
+  background: #f5f5f5;
+}
+.n-table.table-col td.n-notice-img-area .n-brand-img-area.musinsa > img {
+  width: 35px;
+  height: 6px;
+}
+.n-table.table-col td.n-notice-img-area .n-brand-img-area img {
+  max-width: 70%;
+  max-height: 50%;
+  vertical-align: middle;
+}
+.n-table.table-col td.n-notice-img-area .img {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border-radius: 4px;
+  background-size: 100% auto;
+  overflow: hidden;
+}
+.n-table.table-col td.n-notice-none {
+  padding: 10px 0;
+  border-bottom: 0;
+  font-size: 14px;
+  line-height: 50px;
+  font-size: 14px;
+  color: #1a1a1a;
+}
+.n-table.table-col .confirm-list td.n-notice-area p {
+  color: #aaa !important;
+}
+.n-table.table-col .confirm-list td.n-notice-area p i {
+  color: #ccc !important;
+}
+.n-table.table-col .confirm-list .txt-lighter {
+  color: #aaa !important;
+}
+.n-table.table-col .confirm-list td {
+  color: #aaa !important;
+}
+
+.layer-change-info.ui-layer.layer-basic {
+  position: absolute;
+  width: 900px;
+  margin-left: -450px;
+  border: none;
+}
+.layer-change-info.ui-layer.layer-basic .layer-tit {
+  padding-bottom: 20px;
+}
+.layer-change-info.ui-layer.layer-basic .layer-cont {
+  max-height: 1024px;
+  padding-bottom: 20px;
+  margin-top: 0;
+}
+.layer-change-info.ui-layer.layer-basic > .ui-layer-close {
+  right: 16px;
+  top: 20px;
+  padding: 0;
+}
+.layer-change-info .ui-tab-btn {
+  margin: 0 20px;
+  border-bottom: 1px solid #eee;
+}
+.layer-change-info .ui-tab-btn .ui-btn {
+  display: inline-block;
+  margin-bottom: -1px;
+  margin-right: 37px;
+  padding: 10px 0 17px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 19px;
+  font-family: "Musinsa", sans-serif !important;
+}
+.layer-change-info .ui-tab-btn .ui-btn.is-active {
+  border-bottom: 2px solid #000000;
+}
+.layer-change-info img {
+  max-width: 100%;
+  margin-top: 15px;
+}
+.layer-change-info .step-cont {
+  padding-top: 60px;
+}
+.layer-change-info .txt-step {
+  padding-bottom: 5px;
+  color: #14aaff;
+  font-weight: bold;
+  font-size: 20px;
+}
+.layer-change-info .step-info {
+  color: #333;
+  font-size: 16px;
+}
+.layer-change-info .list-step > li {
+  margin-top: 50px;
+}
+.layer-change-info .list-step > li:first-child {
+  margin-top: 0;
+}
+.layer-change-info .n-info-txt {
+  padding-top: 5px;
+}
+.layer-change-info .n-btn-group {
+  padding: 80px 0;
+}
+.layer-change-info .n-btn-group .n-btn {
+  width: 256px;
+  height: 50px;
+  line-height: 46px;
+}
+.layer-change-info .n-btn-group span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.layer-change-info .info-dlv {
+  margin-top: 60px;
+}
+.layer-change-info .info-dlv .ui-layer-btn {
+  position: relative;
+  display: block;
+  text-align: center;
+  color: #000000;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: "Musinsa", sans-serif !important;
+}
+.layer-change-info .info-dlv .ui-layer-btn i {
+  margin-left: 2px;
+}
+.layer-change-info .info-dlv .ui-layer {
+  position: relative;
+  padding-top: 30px;
+}
+.layer-change-info .info-dlv .ui-layer > div {
+  margin-top: 50px;
+  color: #000000;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+}
+.layer-change-info .info-dlv .ui-layer > div:first-of-type {
+  margin-top: 0;
+}
+.layer-change-info .info-dlv .ui-layer .list-info {
+  margin-top: 10px;
+  padding-top: 0;
+}
+.layer-change-info .info-dlv .dlv-cs-list {
+  margin-top: 6px;
+}
+.layer-change-info .info-dlv .dlv-cs-list:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+.layer-change-info .info-dlv .dlv-cs-list li {
+  float: left;
+  width: 25%;
+  padding: 15px 0 14px;
+  border-right: 1px solid #eee;
+  border-top: 1px solid #eee;
+  box-sizing: border-box;
+  color: #777777;
+  text-align: center;
+  font-size: 14px;
+  line-height: 21px;
+}
+.layer-change-info .info-dlv .dlv-cs-list li:nth-child(4n) {
+  border-right: none;
+}
+.layer-change-info .info-dlv .dlv-cs-list li:first-child, .layer-change-info .info-dlv .dlv-cs-list li:nth-child(2), .layer-change-info .info-dlv .dlv-cs-list li:nth-child(3), .layer-change-info .info-dlv .dlv-cs-list li:nth-child(4) {
+  border-top: none;
+}
+.layer-change-info .info-cont {
+  padding: 20px 20px 30px;
+}
+.layer-change-info .info-cont.last {
+  padding-bottom: 100px;
+}
+.layer-change-info .info-cont .tit {
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: "Musinsa", sans-serif !important;
+}
+.layer-change-info .info-cont .info {
+  color: #777777;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.layer-change-info .info-cont .info p {
+  margin-top: 5px;
+  font-size: 14px;
+}
+.layer-change-info .info-cont img {
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.mypage-cont .n-section-title .n-event-btn {
+  display: inline-block;
+  position: absolute;
+  top: auto;
+  bottom: 20px;
+  right: 0;
+  color: #fff;
+  background: #000;
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 6px 18px 5px 19px;
+}
+
+.mypage-coupon-area .n-table-none {
+  height: 100px;
+}
+
+.n-label.label-coupon-expire {
+  height: 16px;
+  margin-right: 10px;
+  padding: 3px 6px 0 6px;
+  background: #ffffff;
+}
+.n-label.label-coupon-expire.label-today {
+  border: 1px solid #ff0000;
+  color: #ff0000;
+}
+.n-label.label-coupon-expire.label-soon {
+  border: 1px solid #0078ff;
+  color: #0078ff;
+}
+
+.n-coupon-expire {
+  display: block;
+  color: #777777;
+}
+
+/*온-오프라인 판매 : 주문내역*/
+.n-table .btn-set .n-btn.btn-pickup-voucher {
+  width: 70px;
+  min-width: 70px;
+}
+.n-table .btn-set .n-btn.btn-pickup-change {
+  width: 70px;
+  min-width: 70px;
+}
+.n-table.table-row td .txt-default-pay {
+  color: #777777;
+}
+.n-table.table-row td.position-relative .n-btn-receipt {
+  position: static;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.wrap-detail .n-section-block .n-table td {
+  word-break: break-all;
+}
+.wrap-detail .n-section-block .n-table td .txt-default {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.n-period-box {
+  width: 364px;
+  margin-top: -5px;
+  margin-bottom: -15px;
+}
+.n-period-box li {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.n-period-box li .date-box {
+  width: 81px;
+  height: 84px;
+  padding: 10px 5px 10px 10px;
+  background-color: #ffffff;
+  border: solid 1px #e5e5e5;
+  border-radius: 4px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  text-align: left;
+}
+.n-period-box li span {
+  display: block;
+  color: #000000;
+  font-size: 16px;
+  line-height: 17px;
+  letter-spacing: -1px;
+}
+.n-period-box li .day {
+  margin-top: 5px;
+  margin-bottom: 13px;
+  color: #aaaaaa;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0;
+}
+.n-period-box li .state {
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0;
+}
+.n-period-box li .txt-info {
+  color: #009bef;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0;
+}
+.n-period-box li:first-child .state {
+  color: #009bef;
+}
+
+/*온-오프라인 판매 : 수령 방법 변경 레이어*/
+.layer-pickup-method.ui-layer.layer-basic {
+  width: 710px;
+  min-height: 645px;
+  margin-left: -355px;
+}
+.layer-pickup-method.ui-layer.layer-basic .layer-tit {
+  padding-bottom: 20px;
+}
+.layer-pickup-method.ui-layer.layer-basic .layer-cont {
+  max-height: inherit;
+  margin-top: 20px;
+}
+.layer-pickup-method .wrap-choices {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000000;
+}
+.layer-pickup-method .wrap-choices > div {
+  display: inline-block;
+  margin-right: 20px;
+}
+.layer-pickup-method .wrap-choices label {
+  font-weight: bold;
+  color: #aaaaaa;
+  font-size: 16px;
+  line-height: 21px;
+}
+.layer-pickup-method .wrap-choices .n-radio:checked + label {
+  color: #000000;
+}
+.layer-pickup-method .pickup-add td .n-select {
+  width: 100%;
+}
+.layer-pickup-method .pickup-add td .n-select textarea {
+  width: 100%;
+  margin-top: 8px;
+  border-color: #e5e5e5;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.layer-pickup-method .addr-choices {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.layer-pickup-method .addr-choices > div {
+  display: inline-block;
+  margin-top: 5px;
+  margin-right: 20px;
+}
+.layer-pickup-method .addr-choices .n-select {
+  min-width: 153px;
+  margin-top: 0;
+}
+.layer-pickup-method .n-table {
+  border-bottom: 1px solid #f1f1f1;
+}
+.layer-pickup-method .n-table th {
+  width: 170px;
+}
+.layer-pickup-method .n-table td p {
+  color: #777777;
+  font-size: 12px;
+  line-height: 20px;
+}
+.layer-pickup-method .tel span {
+  display: inline-block;
+  margin-lef: 10px;
+}
+.layer-pickup-method .addr div input[type=text] {
+  width: 100%;
+}
+.layer-pickup-method .addr .zip {
+  position: relative;
+  width: 300px;
+}
+.layer-pickup-method .addr .zip input[type=text] {
+  width: 300px;
+  background: #f9f9f9;
+}
+.layer-pickup-method .addr .zip .btn-zipcode {
+  position: absolute;
+  right: 0;
+  top: -5px;
+  width: 60px;
+  height: 32px;
+  padding: 5px 0 4px;
+  background: #000000;
+  box-sizing: border-box;
+  text-align: center;
+  color: #ffffff;
+  line-height: 22px;
+}
+.layer-pickup-method .addr .zip + div {
+  margin: 18px 0;
+}
+.layer-pickup-method .n-btn-group {
+  padding-top: 30px;
+}
+.layer-pickup-method .info {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  color: #777777;
+  line-height: 22px;
+}
+
+/*온-오프라인 판매 : 교환권*/
+.layer-pickup-voucher.ui-layer.layer-basic {
+  width: 710px;
+  margin-left: -355px;
+}
+.layer-pickup-voucher.ui-layer.layer-basic .layer-cont {
+  max-height: inherit;
+  padding-bottom: 20px;
+}
+.layer-pickup-voucher .n-voucher-box {
+  padding-top: 134px;
+  background-image: url(/skin/musinsa/images/logo-terrace-black.png);
+  background-repeat: no-repeat;
+  background-position: left 50% top 60px;
+  background-size: 145px 14px;
+}
+.layer-pickup-voucher .pickup-order {
+  margin-bottom: 5px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+}
+.layer-pickup-voucher .pickup-num {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 46px;
+  line-height: 69px;
+}
+.layer-pickup-voucher .pickup-date {
+  margin-bottom: 30px;
+  text-align: center;
+  color: #777777;
+  font-size: 16px;
+  line-height: 21px;
+}
+.layer-pickup-voucher .n-table .price {
+  width: 110px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  font-weight: normal;
+}
+.layer-pickup-voucher .n-table .price span {
+  color: #777777;
+}
+.layer-pickup-voucher .n-table td p {
+  color: #777777;
+  font-size: 12px;
+  line-height: 20px;
+}
+.layer-pickup-voucher .prd-info {
+  border-bottom: 1px solid #f1f1f1;
+}
+.layer-pickup-voucher .prd-info td {
+  padding: 22px 0;
+}
+.layer-pickup-voucher .terrace-info th {
+  width: 119px;
+  padding: 30px 0;
+}
+.layer-pickup-voucher .terrace-info td {
+  padding: 30px 0;
+}
+
+/*온-오프라인 판매 : 교환요청 픽업 후*/
+.return-receive-info {
+  padding-top: 15px;
+}
+.return-receive-info .n-radio + label {
+  margin-right: 20px;
+}
+.return-receive-info .ui-layer-btn {
+  min-width: 90px;
+  height: 32px;
+  margin-top: -5px;
+  line-height: 28px;
+}
+.return-receive-info .n-table {
+  margin-top: 30px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.return-receive-info .n-table .dlv-msg-select {
+  width: 605px;
+  margin: -5px 0;
+}
+.return-receive-info .n-table .dlv-msg-select select {
+  display: inline-block;
+  width: 100%;
+  height: 32px;
+  padding: 5px 6px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border: 1px solid #e5e5e5;
+  vertical-align: middle;
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif !important;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: default;
+}
+.return-receive-info .tel {
+  margin: -5px 0;
+  color: #ccc;
+}
+.return-receive-info .tel .n-check + label {
+  margin-left: 8px;
+  color: #000;
+}
+.return-receive-info .tel select {
+  width: 88px;
+  height: 32px;
+  padding: 5px 6px;
+  border: 1px solid #e5e5e5;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  vertical-align: middle;
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif !important;
+  font-size: 14px;
+  line-height: 20px;
+}
+.return-receive-info .tel .n-input {
+  width: 88px;
+}
+.return-receive-info .zip {
+  position: relative;
+  width: 210px;
+  margin-bottom: 18px;
+}
+.return-receive-info .zip .n-input {
+  width: 210px;
+}
+.return-receive-info .zip input[readonly] {
+  background-color: #f9f9f9;
+}
+.return-receive-info .zip .btn-zipcode {
+  position: absolute;
+  top: -5px;
+  right: 0;
+  width: 60px;
+  line-height: 32px;
+  background: #000000;
+  text-align: center;
+  color: #ffffff;
+}
+.return-receive-info .zip + div .n-input {
+  margin-right: 2px;
+}
+.return-receive-info textarea {
+  width: 300px;
+  margin-top: 8px;
+  border-color: #e5e5e5;
+}
+
+.my-order-return.ex-option .n-info-txt {
+  margin-top: -11px;
+}
+
+.return-pickup .n-table {
+  margin-top: 0;
+  border-bottom: 1px solid #f1f1f1;
+}
+.return-pickup .n-table td p {
+  color: #777777;
+  font-weight: 300;
+  font-size: 12px;
+}
+.return-pickup .my-order-return .opt select {
+  margin-bottom: 0;
+}
+.return-pickup .line-info {
+  margin-top: 0;
+  color: #000000;
+}
+.return-pickup .line-info li {
+  display: inline-block;
+}
+.return-pickup .line-info li:before {
+  display: inline-block;
+  width: 1px;
+  height: 14px;
+  margin: 0 8px 0 5px;
+  background-color: #000;
+  vertical-align: middle;
+  content: "";
+}
+.return-pickup .line-info li:first-child:before {
+  display: none;
+  width: 0;
+  height: 0;
+}
+.return-pickup .n-period-box {
+  width: auto;
+  margin-top: 0;
+}
+.return-pickup .n-period-box:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+.return-pickup ul.n-info-txt.n-return {
+  margin-top: 15px;
+  padding-bottom: 15px;
+}
+.return-pickup .refund-period td {
+  vertical-align: top;
+}
+.return-pickup .refund-period .n-info-txt {
+  padding-top: 0;
+}
+
+/*온-오프라인 판매 : 픽업 배송지 레이어*/
+.layer-add-list.ui-layer.layer-basic {
+  width: 710px;
+  margin-left: -355px;
+}
+.layer-add-list.ui-layer.layer-basic .layer-cont {
+  max-height: inherit;
+}
+.layer-add-list .n-table.table-col {
+  border-top: 3px solid #000;
+}
+.layer-add-list .n-table.table-col td {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.layer-add-list .n-paging {
+  padding-top: 30px;
+}
+
+.mypage-order-list .n-table-filter .n-select {
+  width: 190px;
+}
+
+.n-info-sub-txt {
+  display: block;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.n-info-sub-txt + .n-btn {
+  margin-top: 10px;
+}
+
+.sendback_area_1 td span.txt-danger {
+  margin-right: 25px;
+  font-size: 12px;
+}
+
+.sendback_area_1 .n-info-txt > li.txt-black {
+  color: #000000;
+}
+
+.return-cont .guide-link i {
+  margin-right: 4px;
+}
+.return-cont .guide-link span {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+  line-height: 22px;
+  text-decoration: none;
+}
+.return-cont.mypage-cont .n-section-title .n-link {
+  color: #0078ff;
+}
+.return-cont .n-table-title .txt-lighter {
+  vertical-align: top;
+}
+.return-cont .refund-period .n-period-box {
+  width: auto;
+}
+.return-cont .refund-period .n-return {
+  margin-bottom: 0;
+  padding-top: 0;
+}
+.return-cont .n-select {
+  color: #aaaaaa;
+}
+.return-cont.n-delv {
+  padding-top: 0;
+}
+.return-cont.n-delv .n-table {
+  margin-top: 0;
+}
+.return-cont.n-delv h3 {
+  top: 16px;
+}
+.return-cont.n-delv ul {
+  margin-top: 0;
+}
+.return-cont.n-delv .sendback_area .my-order-return {
+  padding-top: 0;
+}
+.return-cont.n-delv .sendback_area .my-order-return .n-info-txt {
+  padding-top: 0;
+}
+.return-cont.n-delv .sendback_area .box-confirm {
+  padding-top: 10px;
+  border-top: none;
+}
+.return-cont .my-order-return {
+  padding-left: 170px;
+}
+.return-cont .my-order-return .ui-layer-btn + .ui-layer {
+  position: absolute;
+  top: 11px;
+  margin-left: 7px;
+}
+.return-cont .my-order-return .ui-layer-btn + .ui-layer.n-tooltip {
+  padding: 8px 8px 6px;
+  font-size: 11px;
+  line-height: 16px;
+}
+.return-cont .my-order-return .ui-layer-btn + .ui-layer.is-active {
+  display: inline-block;
+}
+.return-cont .n-btn-group {
+  position: relative;
+  margin-top: 0;
+  padding-top: 60px;
+}
+.return-cont .n-btn-group .n-btn {
+  padding-left: 26px;
+  padding-right: 26px;
+}
+.return-cont .n-btn-group a.n-btn.btn-sm.btn-default {
+  position: absolute;
+  left: 0;
+  top: 69px;
+  width: 100px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.return-cont .n-table .n-check-row:hover td,
+.return-cont .n-table .n-check-row ~ tr:hover td {
+  background-color: #ffffff;
+}
+.return-cont .n-table .n-check-row.is-active:hover td {
+  background-color: #f7f7f7;
+}
+.return-cont .n-table .n-check-row ~ tr.is-active:hover td {
+  background-color: #f7f7f7;
+}
+.return-cont .n-table .n-check-row td {
+  height: 44px;
+  padding-top: 20px;
+  padding-bottom: 0;
+  padding-left: 0;
+  border-bottom: none;
+  text-align: left;
+}
+.return-cont .n-table .n-check-row td label {
+  font-weight: bold;
+  font-size: 16px;
+}
+.return-cont .n-table .n-check-row td .n-check + label:before {
+  top: 4px;
+}
+.return-cont .n-table .n-check-row td .n-check.n-check:checked + label:after {
+  top: 9px;
+}
+.return-cont .n-table .n-check-row ~ tr .n-prd-row {
+  margin-left: 17px;
+}
+.return-cont .n-table.n-return-fee {
+  border-top: 1px solid #f1f1f1;
+}
+.return-cont .n-table.n-return-fee + .my-order-return {
+  margin-top: -10px;
+  padding-top: 0;
+}
+.return-cont .n-table input::placeholder,
+.return-cont .n-table textarea::placeholder {
+  color: #aaaaaa;
+}
+.return-cont .n-table td.inner-table {
+  padding-top: 80px;
+}
+.return-cont .n-prd-row .info .price {
+  margin-top: 3px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.return-cont .select-prd {
+  padding-bottom: 27px;
+}
+.return-cont .select-prd:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+.return-cont .select-prd .n-prd-row {
+  float: left;
+  width: 50%;
+  padding: 22px 10px;
+  box-sizing: border-box;
+}
+.return-cont .select-prd .n-prd-row .info {
+  padding-left: 15px;
+  padding-top: 5px;
+  vertical-align: top;
+  color: #000000;
+}
+.return-cont .select-prd .ml-8 {
+  margin-left: 8px;
+}
+.return-cont .amount-block .n-table-title {
+  margin-top: 33px;
+}
+.return-cont .amount-block .n-info-txt {
+  padding-top: 5px;
+}
+.return-cont .information-block .n-info-txt {
+  padding-top: 5px;
+}
+.return-cont .information-block .input-set .n-btn {
+  width: auto;
+  right: -80px;
+  border-color: #eee;
+}
+.return-cont .information-block .refund-account .n-btn {
+  border-color: #eee;
+}
+.return-cont .ui-tab-btn-radius {
+  display: inline-block;
+  background: #f5f5f5;
+  border-radius: 4px;
+}
+.return-cont .ui-tab-btn-radius button {
+  width: 125px;
+  height: 40px;
+  color: #777777;
+}
+.return-cont .ui-tab-btn-radius button:hover {
+  text-decoration: none;
+}
+.return-cont .ui-tab-btn-radius .is-active {
+  background: #ffffff;
+  border: 1px solid #0078ff;
+  border-radius: 4px;
+  color: #0078ff;
+}
+.return-cont .tooltip-block {
+  position: relative;
+  display: inline-block;
+  margin-left: 15px;
+}
+.return-cont .tooltip-block .ui-layer-btn {
+  color: #777777;
+}
+.return-cont .tooltip-block .ui-layer-btn:hover {
+  text-decoration: none;
+}
+.return-cont .tooltip-block .ui-layer-btn span {
+  display: inline-block;
+  margin-right: 2px;
+  vertical-align: middle;
+}
+.return-cont .tooltip-block .n-tooltip {
+  position: absolute;
+  right: 0;
+  width: auto;
+  margin-top: 7px;
+  margin-right: 11px;
+  padding: 6px 8px;
+  transform: translateX(76%);
+  font-size: 11px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+.return-cont .tooltip-block .n-tooltip:before {
+  left: 24%;
+}
+.return-cont .payment-block .n-info-txt {
+  padding-top: 10px;
+}
+.return-cont .payment-card td {
+  padding-bottom: 5px;
+}
+.return-cont .payment-card .n-select:last-of-type {
+  display: block;
+  margin-top: 15px;
+}
+.return-cont .payment-account .n-input {
+  width: 150px;
+}
+.return-cont .n-return-result {
+  padding: 100px 0 30px;
+  text-align: center;
+}
+.return-cont .n-return-result .n-return-step {
+  padding-bottom: 80px;
+}
+.return-cont .n-return-result .tit {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 36px;
+  font-family: "Musinsa", sans-serif !important;
+}
+.return-cont .n-return-result .n-link {
+  position: static;
+}
+.return-cont .n-return-result .order-info {
+  padding: 50px 0 15px;
+  color: #777777;
+}
+.return-cont .n-return-result .order-info .n-link {
+  color: #777777;
+}
+.return-cont .n-return-result .pay-info {
+  width: 490px;
+  margin: 15px auto 0;
+}
+.return-cont .n-return-result .pay-info .n-table {
+  margin-top: 36px;
+  background: #f9f9f9;
+}
+.return-cont .n-return-result .pay-info th {
+  width: 113px;
+  padding: 5px 0;
+  border-top: none;
+  text-align: center;
+}
+.return-cont .n-return-result .pay-info td {
+  position: relative;
+  padding: 5px 0;
+  border-top: none;
+  text-align: left;
+}
+.return-cont .n-return-result .pay-info tr:first-of-type th,
+.return-cont .n-return-result .pay-info tr:first-of-type td {
+  padding-top: 26px;
+}
+.return-cont .n-return-result .pay-info tr:last-of-type th,
+.return-cont .n-return-result .pay-info tr:last-of-type td {
+  padding-bottom: 24px;
+}
+.return-cont .n-return-result .pay-info .n-link {
+  color: #000000;
+  text-decoration: none;
+}
+.return-cont .n-return-result .pay-info .n-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  margin: 0;
+}
+.return-cont .n-return-result .pay-info .total-charge {
+  font-weight: bold;
+}
+.return-cont .n-return-result + .n-btn-group {
+  padding-top: 20px;
+}
+.return-cont .prd-recommend-block {
+  position: relative;
+  margin: 80px auto 0;
+}
+.return-cont .prd-recommend-block .n-section-title {
+  padding-bottom: 20px;
+  border-bottom: none;
+}
+.return-cont .prd-recommend-block .n-section-title .n-link {
+  color: #000000;
+}
+.return-cont .prd-recommend-block .list-slide {
+  width: 1207px;
+  max-height: 474px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.return-cont .prd-recommend-block .img-style {
+  width: 227px;
+  margin-left: 18px;
+  overflow: hidden;
+}
+.return-cont .prd-recommend-block .img-style img {
+  max-width: 100%;
+}
+.return-cont .prd-recommend-block .prd-block {
+  position: relative;
+  width: 227px;
+  margin-left: 18px;
+}
+.return-cont .prd-recommend-block .prd-block .n-label-group {
+  position: absolute;
+}
+.return-cont .prd-recommend-block .prd-block .n-label-group .n-label {
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  padding: 0;
+  text-align: center;
+  background: #000000;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 42px;
+  font-family: "Musinsa", sans-serif !important;
+}
+.return-cont .prd-recommend-block .prd-block .img-block {
+  padding: 0;
+  height: 272px;
+}
+.return-cont .prd-recommend-block .prd-block .info {
+  margin-top: 9px;
+}
+.return-cont .prd-recommend-block .prd-block .price {
+  position: relative;
+  display: block;
+  height: 20px;
+  margin: 12px 0 10px;
+}
+.return-cont .prd-recommend-block .prd-block del {
+  line-height: 20px;
+}
+.return-cont .prd-recommend-block .prd-block .n-coupon {
+  background: #4162c9;
+}
+.return-cont .prd-recommend-block .prd-block .n-coupon .sum {
+  color: #4162c9;
+}
+.return-cont .prd-recommend-block .slick-list {
+  margin-left: -18px;
+}
+.return-cont .prd-recommend-block .slick-arrow {
+  display: block;
+  position: absolute;
+  top: 117px;
+  z-index: 1000;
+  border: none;
+  overflow: hidden;
+  text-indent: -9999px;
+  cursor: pointer;
+}
+.return-cont .prd-recommend-block .slick-prev {
+  left: 0;
+  width: 34px;
+  height: 34px;
+  background-color: #fff;
+  background-image: url(/skin/musinsa/images/icon_arrow_left.png?20181112);
+  background-repeat: no-repeat;
+  background-position: 45% 50%;
+  background-size: 9px 16px;
+}
+.return-cont .prd-recommend-block .slick-next {
+  right: 0;
+  width: 34px;
+  height: 34px;
+  background-color: #fff;
+  background-image: url(/skin/musinsa/images/icon_arrow_right.png?20181112);
+  background-repeat: no-repeat;
+  background-position: 55% 50%;
+  background-size: 9px 16px;
+}
+.return-cont .addr-block .n-info-txt {
+  padding-top: 5px;
+}
+.return-cont .btn-lg {
+  min-width: 240px;
+}
+.return-cont .txt-dlv-info {
+  padding-top: 10px;
+}
+.return-cont .txt-dlv-info li {
+  color: #ff5300;
+  font-weight: normal;
+}
+.return-cont .txt-dlv-info li:before {
+  background: #ff5300;
+}
+
+.n-return-block .my-order-return > .n-radio + label {
+  margin-bottom: 14px;
+  vertical-align: top;
+}
+.n-return-block .my-order-return > .ui-layer-btn {
+  margin-top: -1px;
+  vertical-align: top;
+}
+.n-return-block .my-order-return .n-info-txt {
+  padding-top: 0;
+}
+.n-return-block .my-order-return-info {
+  display: inline-block;
+  padding-left: 6px;
+  font-size: 11px;
+  color: #777;
+  vertical-align: middle;
+}
+.n-return-block .n-table .n-btn {
+  height: 32px;
+  margin-left: 16px;
+  border: 1px solid #000000;
+  color: #000000;
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif !important;
+  line-height: 28px;
+}
+.n-return-block .n-table p {
+  color: #777777;
+  font-size: 12px;
+  line-height: 20px;
+}
+.n-return-block .n-table .table-col table {
+  border-top: 1px solid #f1f1f1;
+}
+.n-return-block .n-table-title {
+  position: relative;
+}
+.n-return-block .n-table-title .txt-primary {
+  position: absolute;
+  top: 4px;
+  left: 190px;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif !important;
+}
+
+.exchange-cont .select-prd {
+  margin-bottom: -10px;
+  padding-bottom: 0;
+}
+.exchange-cont .select-prd .n-prd-row {
+  padding: 22px 27px 22px 10px;
+}
+.exchange-cont .select-prd .n-prd-row > button {
+  position: absolute;
+  top: 27px;
+  right: 27px;
+}
+.exchange-cont .select-prd .n-prd-row .img-block {
+  width: 125px;
+  padding-top: 150px;
+}
+.exchange-cont .select-prd .n-prd-row .exchange-option {
+  display: block;
+  padding-top: 5px;
+}
+.exchange-cont .select-prd .n-prd-row .exchange-option select {
+  width: 100%;
+  height: 32px;
+  padding: 6px 32px 6px 10px;
+  background-color: #ffffff;
+  background-image: url(/skin/musinsa/images/btn-general-open.png);
+  background-position: right 5px top 4px;
+  background-size: 22px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  box-sizing: border-box;
+  border: 1px solid #e5e5e5;
+  cursor: default;
+  font-size: 14px;
+  position: relative;
+  -webkit-transition: border 0.2s ease-in-out;
+  -moz-transition: border 0.2s ease-in-out;
+  -o-transition: border 0.2s ease-in-out;
+  transition: border 0.2s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.exchange-cont .select-prd .n-prd-row .exchange-option select::-ms-expand {
+  display: none;
+}
+.exchange-cont .select-prd .n-prd-row .exchange-option select:focus {
+  border: 1px solid #aaa;
+}
+.exchange-cont .n-table-title.close {
+  border-bottom: none;
+}
+.exchange-cont .n-table-title h2 .n-btn {
+  margin-left: 20px;
+}
+.exchange-cont .n-table-title h2 .ui-layer-btn {
+  padding-left: 15px;
+  font-size: 16px;
+  color: #777;
+}
+.exchange-cont .n-table-title h2 .ui-layer-btn > i {
+  margin-top: -3px;
+}
+.exchange-cont .n-table-title h2 .ui-layer-btn + .ui-layer.is-active {
+  display: inline-block;
+}
+.exchange-cont .sendback_area .n-btn {
+  margin-left: 16px;
+}
+.exchange-cont .claim-goods {
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  padding: 22px 0;
+}
+.exchange-cont .claim-goods:last-child {
+  padding-bottom: 0;
+}
+.exchange-cont .claim-goods + .claim-goods {
+  border-top: 1px solid #f3f3f3;
+}
+.exchange-cont .claim-goods-thumbnail {
+  display: table;
+  float: left;
+}
+.exchange-cont .claim-goods-thumbnail__checkbox {
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 15px;
+}
+.exchange-cont .claim-goods-thumbnail__link {
+  position: relative;
+  overflow: hidden;
+  display: table-cell;
+  width: 80px;
+  padding-top: 96px;
+  vertical-align: middle;
+}
+.exchange-cont .claim-goods-thumbnail__image {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.exchange-cont .claim-goods-information {
+  margin-left: 15px;
+  font-size: 14px;
+  line-height: 1.5;
+  float: left;
+}
+.exchange-cont .claim-goods-information__brand {
+  display: block;
+  margin-bottom: 2px;
+}
+.exchange-cont .claim-goods-information__name {
+  display: block;
+  margin-bottom: 2px;
+  font-weight: bold;
+}
+.exchange-cont .claim-goods-information__option {
+  display: block;
+  color: #777;
+}
+.exchange-cont .claim-goods-information__option__select {
+  margin-top: 5px;
+}
+.exchange-cont .claim-goods-information__option__select select {
+  width: 329px;
+  height: 32px;
+  padding: 6px 32px 6px 10px;
+  background-color: #ffffff;
+  color: #aaa;
+  background-image: url(/skin/musinsa/images/btn-general-open.png);
+  background-position: right 5px top 4px;
+  background-size: 22px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  box-sizing: border-box;
+  border: 1px solid #e5e5e5;
+  cursor: default;
+  font-size: 14px;
+  position: relative;
+  -webkit-transition: border 0.2s ease-in-out;
+  -moz-transition: border 0.2s ease-in-out;
+  -o-transition: border 0.2s ease-in-out;
+  transition: border 0.2s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.exchange-cont .claim-goods-information__option__select select::-ms-expand {
+  display: none;
+}
+.exchange-cont .claim-goods-information__option__select select:focus {
+  border: 1px solid #aaa;
+  color: #000;
+}
+.exchange-cont .claim-goods-information__option__select select .txt-black {
+  color: #000;
+}
+.exchange-cont .claim-goods-information__trade {
+  display: flex;
+  align-items: center;
+}
+.exchange-cont .claim-goods-information__trade__button {
+  display: inline-flex;
+  align-items: end;
+  margin-left: 6px;
+  color: #0078ff;
+  white-space: nowrap;
+  vertical-align: top;
+}
+.exchange-cont .claim-goods-information__trade__button .svg-color {
+  fill: #0078ff;
+}
+.exchange-cont .claim-goods-information__trade-tooltip {
+  position: relative;
+}
+.exchange-cont .claim-goods-information__trade-tooltip .n-tooltip {
+  position: absolute;
+  top: -15px;
+  left: 80px;
+  width: 245px;
+  padding: 8px;
+  box-sizing: border-box;
+  font-size: 11px;
+}
+
+.n-return-step {
+  padding-bottom: 8px;
+}
+.n-return-step > div {
+  display: inline-block;
+  height: 33px;
+  padding-right: 11px;
+  color: #aaaaaa;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 33px;
+  font-family: "Musinsa", sans-serif !important;
+}
+.n-return-step > div.is-active {
+  color: #000000;
+}
+.n-return-step > div span {
+  display: inline-block;
+  margin-right: 6px;
+  font-size: 22px;
+  line-height: 1.5;
+}
+.n-return-step .txt-info {
+  display: block;
+  height: auto;
+  margin-bottom: -5px;
+  padding: 20px 0 0;
+  color: #000000;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif !important;
+}
+.n-return-step .txt-info > span {
+  margin-right: 0;
+  color: #14aaff;
+  font-size: 16px;
+  line-height: 19px;
+}
+.n-return-step .txt-info > span.txt-warning {
+  color: #ff5300;
+}
+.n-return-step .txt-info > span em {
+  font-family: "Musinsa", sans-serif !important;
+}
+
+.n-ic-dot {
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  border-radius: 100%;
+  overflow: hidden;
+  vertical-align: top;
+  font-size: 0;
+  line-height: 0;
+  text-indent: -999999px;
+}
+.n-ic-dot.ic-red1 {
+  background: #f00;
+}
+
+.layer-pay-account.ui-layer.layer-basic {
+  width: 495px;
+  min-height: 365px;
+  margin-left: -247.5px;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.layer-pay-account.ui-layer.layer-basic .btn-set {
+  padding: 30px 0 20px;
+  text-align: center;
+}
+.layer-pay-account.ui-layer.layer-basic .btn-set .n-btn {
+  float: none;
+  width: auto;
+  height: 40px;
+  line-height: 36px;
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif !important;
+}
+.layer-pay-account .n-label-info {
+  position: relative;
+  padding: 5px 20px 10px;
+}
+.layer-pay-account .n-label-info .info-tit {
+  position: absolute;
+  padding-top: 15px;
+}
+.layer-pay-account .n-label-info .info-detail {
+  position: relative;
+  padding: 15px 0 15px 87px;
+  border-bottom: 1px solid #f5f5f5;
+}
+.layer-pay-account .n-label-info .info-detail .n-btn {
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+.layer-pay-account p.n-info-txt {
+  position: relative;
+  margin: 5px 20px 0;
+  padding-top: 0;
+  padding-left: 8px;
+  color: #777777;
+}
+.layer-pay-account p.n-info-txt:before {
+  position: absolute;
+  left: 0;
+  top: 7px;
+  width: 3px;
+  height: 3px;
+  background: #777777;
+  content: "";
+}
+
+.payment_info_area {
+  padding: 20px;
+}
+.payment_info_area h2.tit {
+  font-family: "Musinsa", sans-serif;
+  font-size: 24px;
+}
+.payment_info_area .payment_info_list {
+  padding-top: 5px;
+}
+.payment_info_area .payment_info_list dl {
+  display: table;
+  position: relative;
+  font-size: 14px;
+  width: 100%;
+  border-bottom: 1px solid #f5f5f5;
+}
+.payment_info_area .payment_info_list dl dt {
+  display: table-cell;
+  width: 87px;
+  padding: 15px 0;
+}
+.payment_info_area .payment_info_list dl dd {
+  display: table-cell;
+  vertical-align: middle;
+}
+.payment_info_area .payment_info_list dl dd .n-btn-copy {
+  font-size: 14px;
+  line-height: 22px;
+  border: 1px solid #e5e5e5;
+  text-align: center;
+  display: inline-block;
+  padding: 4px 20px;
+  position: absolute;
+  top: 7px;
+  right: 0;
+}
+.payment_info_area .payment_info_list p {
+  font-size: 14px;
+  padding-top: 15px;
+  line-height: 22px;
+  color: #777;
+}
+.payment_info_area .n-btn-close {
+  background-color: #000;
+  color: #fff;
+  font-size: 14px;
+  display: block;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  margin: 30px auto 0;
+}
+
+.mypage-cont .n-label {
+  margin-right: 10px;
+}
+.mypage-cont .n-label.delv {
+  display: inline-block;
+  padding: 0 7px;
+  line-height: 19px;
+  font-size: 14px;
+}
+.mypage-cont .n-label.delv.reserv {
+  color: #0078ff;
+  border: 1px solid #0078ff;
+}
+.mypage-cont .n-addr-td {
+  display: table;
+  table-layout: fixed;
+}
+.mypage-cont .n-addr-td > div {
+  display: table-cell;
+  vertical-align: middle;
+}
+.mypage-cont .n-addr-td .n-label {
+  width: 70px;
+}
+.mypage-cont .btn-set.btn-edit-set {
+  display: inline-block;
+  width: 105px;
+  text-align: left;
+}
+.mypage-cont .btn-set.btn-edit-set .n-btn {
+  display: inline-block;
+  width: auto;
+  min-width: 50px;
+}
+
+.bestreview-guide.ui-layer {
+  position: absolute;
+  width: 900px;
+  margin-left: -450px;
+  border: none;
+}
+.bestreview-guide.ui-layer .layer-tit {
+  padding-bottom: 0px;
+}
+.bestreview-guide.ui-layer .layer-cont {
+  max-height: 1024px;
+  margin-top: 0;
+}
+.bestreview-guide.ui-layer > .ui-layer-close {
+  right: 20px;
+  top: 23px;
+  padding: 0;
+}
+.bestreview-guide img {
+  max-width: 100%;
+  margin-top: 15px;
+}
+.bestreview-guide .step-cont {
+  padding-top: 60px;
+}
+.bestreview-guide .step-cont:first-child {
+  padding-top: 50px;
+}
+.bestreview-guide .txt-step {
+  padding-bottom: 5px;
+  color: #14aaff;
+  font-weight: bold;
+  font-size: 20px;
+}
+.bestreview-guide .step-info {
+  color: #333;
+  font-size: 16px;
+}
+.bestreview-guide .step-info em {
+  font-weight: bold;
+}
+.bestreview-guide .list-step > li {
+  margin-top: 50px;
+}
+.bestreview-guide .list-step > li:first-child {
+  margin-top: 0;
+}
+.bestreview-guide .n-info-txt {
+  padding-top: 5px;
+}
+
+.card-box {
+  overflow: hidden;
+  padding: 40px 0;
+  border-bottom: 1px solid #f1f1f1;
+}
+.card__image {
+  float: left;
+  width: 300px;
+  height: 180px;
+  border-radius: 6px;
+  background-color: #eee;
+}
+.card__information {
+  float: left;
+  width: calc(100% - 300px);
+  padding-left: 40px;
+  box-sizing: border-box;
+}
+.card__information__items {
+  overflow: hidden;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.card__information__title {
+  display: block;
+  float: left;
+  width: 190px;
+  color: #777;
+}
+.card__information dd {
+  float: left;
+}
+.card__information__subject {
+  color: #000;
+}
+.card__information__subject.possible {
+  color: #14aaff;
+}
+.card__information__subject.impossible {
+  color: #ff5300;
+}
+.card__information__comment {
+  font-size: 12px;
+  color: #777;
+}
+.card__information__button {
+  display: block;
+  width: 300px;
+  height: 40px;
+  border: solid 1px #ccc;
+  border-radius: 25px;
+  box-sizing: border-box;
+  line-height: 40px;
+  font-size: 14px;
+  text-align: center;
+}
+.card__notice {
+  padding-top: 20px;
+}
+
+.return-cont .refund-account span {
+  padding-right: 10px;
+}
+.return-cont .refund-account span.account-none {
+  color: #ff5300;
+}
+.return-cont .n-table.table-col td.inner-table {
+  background-color: #fff;
+  padding: 80px 0 0;
+}
+.return-cont .n-table.table-col td {
+  border-bottom: 0;
+  border-top: 1px solid #f5f5f5;
+}
+.return-cont .n-table.table-col td:last-child {
+  border-top: 0;
+}
+.return-cont .n-table.table-col tr.is-active td, .return-cont .n-table.table-col tr:hover td, .return-cont .n-table.table-col tr:hover + tr.more td {
+  background: none;
+}
+.return-cont .n-table.table-col td.inner-table td {
+  border-top: 1px solid #f5f5f5;
+}
+
+.mypage-cont .info_views-area {
+  display: flex;
+  align-items: center;
+}
+.mypage-cont .info_views-area > button {
+  padding: 0 15.5px;
+  margin-left: 15px;
+}
+
+.return-cont .n-table-title h2 .ui-layer-btn,
+.exchange-cont .n-table-title h2 .ui-layer-btn {
+  padding-left: 15px;
+  font-size: 16px;
+  color: #777;
+}
+.return-cont .n-table-title h2 .ui-layer-btn > i,
+.exchange-cont .n-table-title h2 .ui-layer-btn > i {
+  margin: -3px 0 0 2px;
+}
+.return-cont .n-table-title h2 .ui-layer-btn + .ui-layer.is-active,
+.exchange-cont .n-table-title h2 .ui-layer-btn + .ui-layer.is-active {
+  display: inline-block;
+}
+.return-cont .n-shipping-charge > li,
+.exchange-cont .n-shipping-charge > li {
+  margin-bottom: 10px;
+  color: #000;
+}
+.return-cont .n-shipping-charge > li:last-child,
+.exchange-cont .n-shipping-charge > li:last-child {
+  margin-bottom: 0;
+}
+.return-cont .n-shipping-charge__prd,
+.exchange-cont .n-shipping-charge__prd {
+  padding-left: 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #777;
+}
+.return-cont .n-claim-section,
+.exchange-cont .n-claim-section {
+  border-top: 1px solid #f1f1f1;
+}
+.return-cont .n-claim-btn,
+.exchange-cont .n-claim-btn {
+  width: 220px;
+  padding-top: 6px;
+  height: 50px;
+  line-height: 1.57;
+}
+.return-cont .n-btn-group > span,
+.exchange-cont .n-btn-group > span {
+  display: block;
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  font-size: 11px;
+  color: #eee;
+}
+.return-cont .n-btn-group .claim-guide-text,
+.exchange-cont .n-btn-group .claim-guide-text {
+  margin-top: 8px;
+  font-size: 11px;
+  color: #6e6e6e;
+}
+.return-cont .txt-warning,
+.exchange-cont .txt-warning {
+  color: #ff5300;
+}
+.return-cont .txt-warning::before,
+.exchange-cont .txt-warning::before {
+  background-color: #ff5300;
+}
+.return-cont .claim-information,
+.exchange-cont .claim-information {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 36px auto 0;
+}
+.return-cont .claim-information__caution,
+.exchange-cont .claim-information__caution {
+  line-height: 22px;
+}
+.return-cont .claim-information__text,
+.exchange-cont .claim-information__text {
+  color: #FF5300;
+  text-align: left;
+  padding-left: 8px;
+  line-height: 22px;
+}
+
+.card-box {
+  overflow: hidden;
+  padding: 40px 0;
+  border-bottom: 1px solid #f1f1f1;
+}
+.card__image {
+  float: left;
+  width: 285px;
+  height: 180px;
+  border-radius: 6px;
+  background-color: #eee;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.card__image--DS {
+  background-image: url("https://image.msscdn.net/musinsaUI/store/card/hyundai/DS.png?202105251033");
+}
+.card__image--DU {
+  background-image: url("https://image.msscdn.net/musinsaUI/store/card/hyundai/DU.png?202105251033");
+}
+.card__image--DT {
+  background-image: url("https://image.msscdn.net/musinsaUI/store/card/hyundai/DT.png?202105251033");
+}
+.card__image--DV {
+  background-image: url("https://image.msscdn.net/musinsaUI/store/card/hyundai/DV.png?202105251033");
+}
+.card__image--DW {
+  background-image: url("https://image.msscdn.net/musinsaUI/store/card/hyundai/DW.png?202105251033");
+}
+.card__image--DX {
+  background-image: url("https://image.msscdn.net/musinsaUI/store/card/hyundai/DX.png?202105251033");
+}
+.card__image--DY {
+  background-image: url("https://image.msscdn.net/musinsaUI/store/card/hyundai/DY.png?202105251033");
+}
+.card__image--DZ {
+  background-image: url("https://image.msscdn.net/musinsaUI/store/card/hyundai/DZ.png?202105251033");
+}
+.card__image--D1 {
+  background-image: url("https://image.msscdn.net/musinsaUI/store/card/hyundai/D1.png?202105251033");
+}
+.card__information {
+  float: left;
+  width: calc(100% - 300px);
+  padding-left: 40px;
+  box-sizing: border-box;
+}
+.card__information__items {
+  overflow: hidden;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.card__information__title {
+  display: block;
+  float: left;
+  width: 190px;
+  color: #777;
+}
+.card__information dd {
+  float: left;
+}
+.card__information__subject {
+  color: #000;
+}
+.card__information__subject.possible {
+  color: #14aaff;
+}
+.card__information__subject.impossible {
+  color: #ff5300;
+}
+.card__information__comment {
+  font-size: 12px;
+  color: #777;
+}
+.card__information__button {
+  display: block;
+  width: 300px;
+  height: 40px;
+  border: solid 1px #ccc;
+  border-radius: 25px;
+  box-sizing: border-box;
+  line-height: 40px;
+  font-size: 14px;
+  text-align: center;
+}
+.card__notice {
+  padding-top: 20px;
+}
+
+.page_order_form .list_section_type {
+  padding-bottom: 10px;
+}
+
+.musinsapay-checking {
+  width: 260px;
+  height: 164px;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+.musinsapay-checking svg {
+  display: block;
+  margin: 0 auto;
+  padding-top: 43px;
+}
+.musinsapay-checking svg .svg-stroke {
+  stroke: #b3b3b3;
+}
+.musinsapay-checking svg .svg-fill {
+  fill: #b3b3b3;
+}
+.musinsapay-checking__text {
+  padding-top: 15px;
+  font-size: 12px;
+  line-height: 18px;
+  color: #919191;
+}
+.musinsapay-checking__button {
+  height: 26px;
+  margin-top: 10px;
+  padding: 0 8px;
+  border-radius: 4px;
+  background-color: #6e6e6e;
+  font-size: 14px;
+  line-height: 26px;
+  color: #ffffff;
+}
+.musinsapay-checking__button:hover {
+  text-decoration: none !important;
+}
+.musinsapay-checking__wrap--button svg {
+  padding-top: 22px;
+}
+.musinsapay-checking__wrap--button svg .svg-stroke {
+  stroke: #6e6e6e;
+}
+.musinsapay-checking__wrap--button svg .svg-fill {
+  fill: #6e6e6e;
+}
+.musinsapay-checking__wrap--button .musinsapay-checking__text {
+  color: #6e6e6e;
+}
+
+.swiper-musinsapay {
+  width: 550px;
+  margin: 0;
+}
+.swiper-musinsapay__button {
+  top: 0;
+  right: 0;
+  width: 125px;
+  height: 150px;
+  margin-top: 0;
+  background: none;
+}
+.swiper-musinsapay__button i {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -15px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+}
+.swiper-musinsapay__button.swiper-button-disabled {
+  opacity: 1;
+}
+.swiper-musinsapay__button.swiper-button-disabled i {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+.swiper-musinsapay__button.swiper-button-prev {
+  left: 0;
+}
+.swiper-musinsapay__button.swiper-button-prev i {
+  left: 0;
+}
+.swiper-musinsapay__item {
+  position: relative;
+  width: 260px;
+  opacity: 0.4;
+}
+.swiper-musinsapay__item.swiper-slide-active {
+  opacity: 1;
+}
+.swiper-musinsapay__card {
+  position: relative;
+  width: 260px;
+  height: 164px;
+  border-radius: 6px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.swiper-musinsapay__card__card-text {
+  position: absolute;
+  top: 111px;
+  left: 15px;
+  font-size: 12px;
+  line-height: 18px;
+  color: #fff;
+}
+.swiper-musinsapay__card__card-number {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2px;
+  width: 230px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.swiper-musinsapay__card__card-method {
+  position: relative;
+  display: inline-block;
+  padding-left: 12px;
+  margin-top: 0;
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  font-size: 12px;
+  opacity: 0.5;
+}
+.swiper-musinsapay__card__card-method::before {
+  position: absolute;
+  display: inline-block;
+  top: 3px;
+  left: 6px;
+  width: 1px;
+  height: 10px;
+  background-color: #fff;
+  opacity: 0.5;
+  content: "";
+}
+.swiper-musinsapay__card__card-nickname {
+  display: inline;
+  margin-left: 7px;
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  font-size: 11px;
+  word-break: break-all;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.swiper-musinsapay__card__logo {
+  display: block;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.swiper-musinsapay__card__event-text {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background-color: #222;
+  background-color: rgba(34, 34, 34, 0.6);
+  font-size: 11px;
+  line-height: 16px;
+  color: #fff;
+}
+.swiper-musinsapay__card__select {
+  display: none;
+  width: 260px !important;
+  margin: 10px auto 0 !important;
+  cursor: pointer;
+}
+.swiper-musinsapay__card__select .ui-selectmenu-button {
+  height: 40px;
+  border-color: #ccc;
+  cursor: pointer;
+}
+.swiper-musinsapay__card__select .ui-selectmenu-button.ui-corner-top {
+  border-color: #ccc;
+}
+.swiper-musinsapay__card__select .ui-selectmenu-button .ui-icon {
+  top: 9px;
+  right: 6px;
+  background: url("/skin/musinsa/images/ic-22-line-arrow-bottom.png") no-repeat;
+  background-size: 22px 22px;
+}
+.swiper-musinsapay__card__select .ui-selectmenu-button .ui-selectmenu-text {
+  line-height: 40px;
+}
+.swiper-musinsapay__item.swiper-slide-active .swiper-musinsapay__card__select {
+  display: block;
+}
+
+.swiper-musinsapay__card--hyundai-DS {
+  background-image: url("https://image.msscdn.net/musinsaUI/store/card/hyundai/DS.png?v=timestamp()");
+}
+.swiper-musinsapay__card--hyundai-DU {
+  background-image: url("https://image.msscdn.net/musinsaUI/store/card/hyundai/DU.png?v=timestamp()");
+}
+.swiper-musinsapay__card--hyundai-DT {
+  background-image: url("https://image.msscdn.net/musinsaUI/store/card/hyundai/DT.png?v=timestamp()");
+}
+.swiper-musinsapay__card--hyundai-DV {
+  background-image: url("https://image.msscdn.net/musinsaUI/store/card/hyundai/DV.png?v=timestamp()");
+}
+.swiper-musinsapay__card--hyundai-DW {
+  background-image: url("https://image.msscdn.net/musinsaUI/store/card/hyundai/DW.png?v=timestamp()");
+}
+.swiper-musinsapay__card--hyundai-DX {
+  background-image: url("https://image.msscdn.net/musinsaUI/store/card/hyundai/DX.png?v=timestamp()");
+}
+.swiper-musinsapay__card--hyundai-DY {
+  background-image: url("https://image.msscdn.net/musinsaUI/store/card/hyundai/DY.png?v=timestamp()");
+}
+.swiper-musinsapay__card--hyundai-DZ {
+  background-image: url("https://image.msscdn.net/musinsaUI/store/card/hyundai/DZ.png?v=timestamp()");
+}
+.swiper-musinsapay__card--hyundai-D1 {
+  background-image: url("https://image.msscdn.net/musinsaUI/store/card/hyundai/D1.png?v=timestamp()");
+}
+.swiper-musinsapay__card--card-kookmin {
+  background-color: #60584c;
+}
+.swiper-musinsapay__card--card-kookmin .swiper-musinsapay__card__logo {
+  width: 34px;
+  height: 24px;
+  background-image: url("/skin/musinsa/images/order_card_logo/logo_kb.png?v=timestamp()");
+}
+.swiper-musinsapay__card--card-bc {
+  background-color: #e83e45;
+}
+.swiper-musinsapay__card--card-bc .swiper-musinsapay__card__logo {
+  width: 24px;
+  height: 24px;
+  background-image: url("/skin/musinsa/images/order_card_logo/logo_bc.png?v=timestamp()");
+}
+.swiper-musinsapay__card--card-hana {
+  background-color: #009490;
+}
+.swiper-musinsapay__card--card-hana .swiper-musinsapay__card__logo {
+  width: 26px;
+  height: 24px;
+  background-image: url("/skin/musinsa/images/order_card_logo/logo_hn.png?v=timestamp()");
+}
+.swiper-musinsapay__card--card-shinhan {
+  background-color: #00337f;
+}
+.swiper-musinsapay__card--card-shinhan .swiper-musinsapay__card__logo {
+  width: 24px;
+  height: 24px;
+  background-image: url("/skin/musinsa/images/order_card_logo/logo_sh.png?v=timestamp()");
+}
+.swiper-musinsapay__card--card-samsung {
+  background-color: #196cd0;
+}
+.swiper-musinsapay__card--card-samsung .swiper-musinsapay__card__logo {
+  width: 99px;
+  height: 18px;
+  background-image: url("/skin/musinsa/images/order_card_logo/logo_ss.png?v=timestamp()");
+}
+.swiper-musinsapay__card--card-hyundai {
+  background-color: #000;
+}
+.swiper-musinsapay__card--card-hyundai .swiper-musinsapay__card__logo {
+  width: 85px;
+  height: 17px;
+  background-image: url("/skin/musinsa/images/order_card_logo/logo_hd.png?v=timestamp()");
+}
+.swiper-musinsapay__card--card-lotte {
+  background-color: #e21c24;
+}
+.swiper-musinsapay__card--card-lotte .swiper-musinsapay__card__logo {
+  width: 106px;
+  height: 16px;
+  background-image: url("/skin/musinsa/images/order_card_logo/logo_lt.png?v=timestamp()");
+}
+.swiper-musinsapay__card--card-nonghyup {
+  background-color: #04a64b;
+}
+.swiper-musinsapay__card--card-nonghyup .swiper-musinsapay__card__logo {
+  width: 19px;
+  height: 24px;
+  background-image: url("/skin/musinsa/images/order_card_logo/logo_nh.png?v=timestamp()");
+}
+.swiper-musinsapay__card--card-woori {
+  background-color: #0067ac;
+}
+.swiper-musinsapay__card--card-woori .swiper-musinsapay__card__logo {
+  width: 24px;
+  height: 24px;
+  background-image: url("/skin/musinsa/images/order_card_logo/logo_wr.png?v=timestamp()");
+}
+.swiper-musinsapay__card--card-suhyup {
+  background-color: #076caf;
+}
+.swiper-musinsapay__card--card-suhyup .swiper-musinsapay__card__logo {
+  width: 34px;
+  height: 24px;
+  background-image: url("/skin/musinsa/images/order_card_logo/logo_suhyup.png?v=timestamp()");
+}
+.swiper-musinsapay__card--card-jeonbuk {
+  background-color: #002d6a;
+}
+.swiper-musinsapay__card--card-jeonbuk .swiper-musinsapay__card__logo {
+  width: 24px;
+  height: 24px;
+  background-image: url("/skin/musinsa/images/order_card_logo/logo_jb.png?v=timestamp()");
+}
+.swiper-musinsapay__card--card-kwangju {
+  background-color: #002d6a;
+}
+.swiper-musinsapay__card--card-kwangju .swiper-musinsapay__card__logo {
+  width: 24px;
+  height: 24px;
+  background-image: url("/skin/musinsa/images/order_card_logo/logo_jb.png?v=timestamp()");
+}
+.swiper-musinsapay__card--card-jeju {
+  background-color: #00337f;
+}
+.swiper-musinsapay__card--card-jeju .swiper-musinsapay__card__logo {
+  width: 24px;
+  height: 24px;
+  background-image: url("/skin/musinsa/images/order_card_logo/logo_sh.png?v=timestamp()");
+}
+.swiper-musinsapay__card--card-citi {
+  background-color: #004287;
+}
+.swiper-musinsapay__card--card-citi .swiper-musinsapay__card__logo {
+  width: 42px;
+  height: 24px;
+  background-image: url("/skin/musinsa/images/order_card_logo/logo_ct.png?v=timestamp()");
+}
+.swiper-musinsapay__card--card-musinsaxhyundaicard {
+  background-color: #000;
+}
+.swiper-musinsapay__card--card-musinsaxhyundaicard .swiper-musinsapay__card__logo {
+  width: 197px;
+  height: 16px;
+  background-image: url("/skin/musinsa/images/order_card_logo/logo_musinsaxhyundaicard--serial.png?v=timestamp()");
+}
+.swiper-musinsapay__card--card-default {
+  background-color: #5d606c;
+}
+.swiper-musinsapay__card--card-musinsaxhyundaicard .swiper-musinsapay__card__card-text {
+  top: 54px;
+  color: #ccc;
+}
+.swiper-musinsapay__card--card-musinsaxhyundaicard .swiper-musinsapay__card__link {
+  display: inline-block;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  width: calc(100% - 30px);
+  height: 40px;
+  background-color: #333;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+}
+.swiper-musinsapay__card--card-musinsaxhyundaicard .swiper-musinsapay__card__link:hover {
+  text-decoration: none !important;
+}
+.swiper-musinsapay__card__payadd-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+}
+.swiper-musinsapay__card__payadd-link:hover {
+  text-decoration: none !important;
+}
+.swiper-musinsapay__card__payadd-link svg {
+  display: block;
+  margin: 0 auto;
+  padding-top: 52px;
+}
+.swiper-musinsapay__card__payadd-text {
+  padding-top: 15px;
+  font-size: 12px;
+  color: #919191;
+  text-align: center;
+}
+.swiper-musinsapay__card--bank-nonghyup {
+  background-color: #04a64b;
+}
+.swiper-musinsapay__card--bank-nonghyup .swiper-musinsapay__card__logo {
+  width: 20px;
+  height: 24px;
+  background-image: url("/skin/musinsa/images/order_bank_logo/logo_bank0_nh.png?v=timestamp()");
+}
+.swiper-musinsapay__card--bank-woori {
+  background-color: #0067ac;
+}
+.swiper-musinsapay__card--bank-woori .swiper-musinsapay__card__logo {
+  width: 24px;
+  height: 24px;
+  background-image: url("/skin/musinsa/images/order_bank_logo/logo_bank1_wr.png?v=timestamp()");
+}
+.swiper-musinsapay__card--bank-shinhan {
+  background-color: #00337f;
+}
+.swiper-musinsapay__card--bank-shinhan .swiper-musinsapay__card__logo {
+  width: 24px;
+  height: 24px;
+  background-image: url("/skin/musinsa/images/order_bank_logo/logo_bank2_sh.png?v=timestamp()");
+}
+.swiper-musinsapay__card--bank-jeju {
+  background-color: #00337f;
+}
+.swiper-musinsapay__card--bank-jeju .swiper-musinsapay__card__logo {
+  width: 24px;
+  height: 24px;
+  background-image: url("/skin/musinsa/images/order_bank_logo/logo_bank2_sh.png?v=timestamp()");
+}
+.swiper-musinsapay__card--bank-hana {
+  background-color: #009490;
+}
+.swiper-musinsapay__card--bank-hana .swiper-musinsapay__card__logo {
+  width: 26px;
+  height: 24px;
+  background-image: url("/skin/musinsa/images/order_bank_logo/logo_bank4_hn.png?v=timestamp()");
+}
+.swiper-musinsapay__card--bank-kookmin {
+  background-color: #60584c;
+}
+.swiper-musinsapay__card--bank-kookmin .swiper-musinsapay__card__logo {
+  width: 34px;
+  height: 24px;
+  background-image: url("/skin/musinsa/images/order_bank_logo/logo_bank3_kb.png?v=timestamp()");
+}
+.swiper-musinsapay__card--bank-citi {
+  background-color: #004287;
+}
+.swiper-musinsapay__card--bank-citi .swiper-musinsapay__card__logo {
+  width: 43px;
+  height: 24px;
+  background-image: url("/skin/musinsa/images/order_bank_logo/logo_bank5_ct.png?v=timestamp()");
+}
+.swiper-musinsapay__card--bank-ibk {
+  background-color: #055198;
+}
+.swiper-musinsapay__card--bank-ibk .swiper-musinsapay__card__logo {
+  width: 25px;
+  height: 24px;
+  background-image: url("/skin/musinsa/images/order_bank_logo/logo_bank6_ibk.png?v=timestamp()");
+}
+.swiper-musinsapay__card--bank-kdb {
+  background-color: #5fbceb;
+}
+.swiper-musinsapay__card--bank-kdb .swiper-musinsapay__card__logo {
+  width: 27px;
+  height: 24px;
+  background-image: url("/skin/musinsa/images/order_bank_logo/logo_bank7_kdb.png?v=timestamp()");
+}
+.swiper-musinsapay__card--bank-sc {
+  background-color: #0473ea;
+}
+.swiper-musinsapay__card--bank-sc .swiper-musinsapay__card__logo {
+  width: 16px;
+  height: 24px;
+  background-image: url("/skin/musinsa/images/order_bank_logo/logo_bank8_sc.png?v=timestamp()");
+}
+.swiper-musinsapay__card--bank-daegu {
+  background-color: #0075c2;
+}
+.swiper-musinsapay__card--bank-daegu .swiper-musinsapay__card__logo {
+  width: 34px;
+  height: 24px;
+  background-image: url("/skin/musinsa/images/order_bank_logo/logo_bank9_dgb.png?v=timestamp()");
+}
+.swiper-musinsapay__card--bank-busan {
+  background-color: #d03238;
+}
+.swiper-musinsapay__card--bank-busan .swiper-musinsapay__card__logo {
+  width: 52px;
+  height: 15px;
+  background-image: url("/skin/musinsa/images/order_bank_logo/logo_bank10_bnk.png?v=timestamp()");
+}
+.swiper-musinsapay__card--bank-kyongnam {
+  background-color: #d03238;
+}
+.swiper-musinsapay__card--bank-kyongnam .swiper-musinsapay__card__logo {
+  width: 52px;
+  height: 15px;
+  background-image: url("/skin/musinsa/images/order_bank_logo/logo_bank10_bnk.png?v=timestamp()");
+}
+.swiper-musinsapay__card--bank-jeonbuk {
+  background-color: #002d6a;
+}
+.swiper-musinsapay__card--bank-jeonbuk .swiper-musinsapay__card__logo {
+  width: 24px;
+  height: 24px;
+  background-image: url("/skin/musinsa/images/order_bank_logo/logo_bank11_jb.png?v=timestamp()");
+}
+.swiper-musinsapay__card--bank-kwangju {
+  background-color: #002d6a;
+}
+.swiper-musinsapay__card--bank-kwangju .swiper-musinsapay__card__logo {
+  width: 24px;
+  height: 24px;
+  background-image: url("/skin/musinsa/images/order_bank_logo/logo_bank11_jb.png?v=timestamp()");
+}
+.swiper-musinsapay__card--bank-mg {
+  background-color: #44c7f4;
+}
+.swiper-musinsapay__card--bank-mg .swiper-musinsapay__card__logo {
+  width: 28px;
+  height: 24px;
+  background-image: url("/skin/musinsa/images/order_bank_logo/logo_bank15_mg.png?v=timestamp()");
+}
+.swiper-musinsapay__card--bank-suhyup {
+  background-color: #076caf;
+}
+.swiper-musinsapay__card--bank-suhyup .swiper-musinsapay__card__logo {
+  width: 35px;
+  height: 25px;
+  background-image: url("/skin/musinsa/images/order_bank_logo/logo_bank16_sh.png?v=timestamp()");
+}
+.swiper-musinsapay__card--bank-shinhyup {
+  background-color: #0058a5;
+}
+.swiper-musinsapay__card--bank-shinhyup .swiper-musinsapay__card__logo {
+  width: 27px;
+  height: 24px;
+  background-image: url("/skin/musinsa/images/order_bank_logo/logo_bank17_sh.png?v=timestamp()");
+}
+.swiper-musinsapay__card--bank-epost {
+  background-color: #e62511;
+}
+.swiper-musinsapay__card--bank-epost .swiper-musinsapay__card__logo {
+  width: 36px;
+  height: 24px;
+  background-image: url("/skin/musinsa/images/order_bank_logo/logo_bank18_epb.png?v=timestamp()");
+}
+.swiper-musinsapay__card--bank-kbank {
+  background-color: #fd5373;
+}
+.swiper-musinsapay__card--bank-kbank .swiper-musinsapay__card__logo {
+  width: 21px;
+  height: 24px;
+  background-image: url("/skin/musinsa/images/order_bank_logo/logo_bank19_kb.png?v=timestamp()");
+}
+.swiper-musinsapay__card--bank-kakao {
+  background-color: #fae100;
+}
+.swiper-musinsapay__card--bank-kakao .swiper-musinsapay__card__card-text {
+  color: #000;
+}
+.swiper-musinsapay__card--bank-kakao .swiper-musinsapay__card__card-method::before {
+  background-color: #000;
+  opacity: 0.5;
+}
+.swiper-musinsapay__card--bank-kakao .swiper-musinsapay__card__logo {
+  width: 18px;
+  height: 24px;
+  background-image: url("/skin/musinsa/images/order_bank_logo/logo_bank20_kkob.png?v=timestamp()");
+}
+.swiper-musinsapay__card--bank-savingbank {
+  background-color: #85c51b;
+}
+.swiper-musinsapay__card--bank-savingbank .swiper-musinsapay__card__logo {
+  width: 24px;
+  height: 24px;
+  background-image: url("/skin/musinsa/images/order_bank_logo/logo_bank21_fsb.png?v=timestamp()");
+}
+.swiper-musinsapay__card--bank-sanlim {
+  background-color: #00b1aa;
+}
+.swiper-musinsapay__card--bank-sanlim .swiper-musinsapay__card__logo {
+  width: 39px;
+  height: 24px;
+  background-image: url("/skin/musinsa/images/order_bank_logo/logo_bank22_sj.png?v=timestamp()");
+}
+.swiper-musinsapay__card--bank-sbi {
+  background-color: #005ea1;
+}
+.swiper-musinsapay__card--bank-sbi .swiper-musinsapay__card__logo {
+  width: 41px;
+  height: 24px;
+  background-image: url("/skin/musinsa/images/order_bank_logo/logo_bank23_sbi.png?v=timestamp()");
+}
+.swiper-musinsapay__card--bank-toss {
+  background-color: #0064ff;
+}
+.swiper-musinsapay__card--bank-toss .swiper-musinsapay__card__logo {
+  width: 28px;
+  height: 24px;
+  background-image: url("/skin/musinsa/images/order_bank_logo/logo_bank24_toss.png?v=timestamp()");
+}
+.swiper-musinsapay__card--bank-default {
+  background-color: #5d606c;
+}
+
+.claim-payment-method__choice {
+  height: 21px;
+  margin-top: 15px;
+}
+.claim-payment-method__choice:first-child {
+  margin-top: 0;
+}
+.claim-payment-method__choice label {
+  font-size: 12px;
+  line-height: 21px;
+}
+.claim-payment-method__choice .n-tooltip {
+  top: -7px;
+  font-size: 11px;
+  line-height: 24px;
+}
+.claim-payment-method__choice .n-tooltip.tooltip-close {
+  padding-right: 30px;
+}
+.claim-payment-method__choice .n-tooltip.tooltip-close .btn-tooltip-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  border: none;
+  background: none;
+  color: #fff;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.claim-cash-receipt__receipt-choice input:first-child + label {
+  margin-left: 0;
+}
+.claim-cash-receipt__receipt-choice label {
+  margin-left: 29px;
+  font-size: 12px;
+  line-height: 21px;
+}
+.claim-cash-receipt__receipt-result {
+  margin-top: 16px;
+}
+.claim-cash-receipt__receipt-result .n-select.n-select--style {
+  width: 145px;
+  height: 40px;
+  margin: 0;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  color: #aaa;
+}
+.claim-cash-receipt__receipt-result .n-select.n-select--style .ui-selectmenu-button {
+  height: 40px;
+  border: 0;
+  cursor: pointer;
+}
+.claim-cash-receipt__receipt-result .n-select.n-select--style .ui-selectmenu-button .ui-icon {
+  top: 9px;
+  right: 6px;
+  background: url("/skin/musinsa/images/ic-22-line-arrow-bottom.png") no-repeat;
+  background-size: 22px 22px;
+}
+.claim-cash-receipt__receipt-result .n-select.n-select--style .ui-selectmenu-button .ui-selectmenu-text {
+  line-height: 40px;
+}
+.claim-cash-receipt__receipt-result .n-input--style {
+  width: 260px;
+  margin-left: 5px;
+}
+.claim-cash-receipt__receipt-result__reuse {
+  margin-top: 10px;
+}
+.claim-cash-receipt__receipt-result__reuse .n-check + label {
+  font-size: 12px;
+  line-height: 21px;
+}

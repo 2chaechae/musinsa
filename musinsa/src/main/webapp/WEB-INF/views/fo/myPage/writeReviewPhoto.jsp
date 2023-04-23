@@ -18,14 +18,16 @@
     
 
   <!--  common-layout -->
-  <link type="text/css" rel="stylesheet" href="//image.msscdn.net/static/common/1.2.0/pc.css"/>
-  <link rel="stylesheet" type="text/css" href="https://static.msscdn.net/ui/build/pc/css/common.css">
+  <!-- <link type="text/css" rel="stylesheet" href="//image.msscdn.net/static/common/1.2.0/pc.css"/>
+  <link rel="stylesheet" type="text/css" href="https://static.msscdn.net/ui/build/pc/css/common.css"> -->
+  <link rel="stylesheet" href="css/static/common.css">
+<link rel="stylesheet" href="css/ui/common.css">
 
   <!--
     magazine_common.css 먼저 선언 후에 layout.min.css 선언 필요
     - .footer .snb_store 와 .footer .snb 선택자가 layout.min.css 의 스타일이 적용되야 문제없이 footer 출력.
   -->
-  <link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/magazine_common.css?202304111445"/>
+  <!-- <link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/magazine_common.css?202304111445"/>
   <link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/guide.min.css?202304111445"/>
   <link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/layout.min.css?202304111445"/>
   <link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/media_query.css?202304111445"/>
@@ -34,15 +36,25 @@
   <link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/store_common.css?202304111445"/>
   <link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/sub.css?202304111445"/>
 
-  <link rel="stylesheet" href="//image.msscdn.net/ui/musinsa/resources/common/css/icon.min.css?202101051200"/>
-
+  <link rel="stylesheet" href="//image.msscdn.net/ui/musinsa/resources/common/css/icon.min.css?202101051200"/> -->
+  
+<link rel="stylesheet" href="css/skin/magazineCommon.css">
+<link rel="stylesheet" href="css/skin/guide.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/skin/mediaQuery.css">
+<link rel="stylesheet" href="css/skin/new.css">
+<link rel="stylesheet" href="css/skin/style.css">
+<link rel="stylesheet" href="css/skin/storeCommon.css">
+<link rel="stylesheet" href="css/skin/sub.css">
+<link rel="stylesheet" href="css/common/icon.css">
   <!-- lib -->
 
   <!-- Swiper -->
-  <link type="text/css" rel="stylesheet" href="//static.msscdn.net/swiper/swiper.min.css?20200316"/>
-
+  <!-- <link type="text/css" rel="stylesheet" href="//static.msscdn.net/swiper/swiper.min.css?20200316"/> -->
+<link rel="stylesheet" href="css/swiper/swiper.css">
   <!--jqModal-->
-  <link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/jqModal.css"/>
+  <!-- <link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/jqModal.css"/> -->
+  <link rel="stylesheet" href="css/skin/jqModal.css">
   <!--//jqModal-->
 
   <!-- 스토어, 매거진 공통 스크립트 -->
@@ -50,7 +62,8 @@
   <!--// 스토어, 매거진 공통 스크립트 -->
 
   <!-- 유사 이미지 상품 검색 -->
-  <link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/image_search.css?202304111445"/>
+<!--   <link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/image_search.css?202304111445"/> -->
+<link rel="stylesheet" href="css/skin/imageSearch.css">
   <!-- //유사 이미지 상품 검색 -->
 
   
@@ -64,9 +77,13 @@
     
     
     
-<link type="text/css" rel="stylesheet" href="//image.msscdn.net/ui/build/pc/css/mypage.css?202304111445"/>
+<!-- <link type="text/css" rel="stylesheet" href="//image.msscdn.net/ui/build/pc/css/mypage.css?202304111445"/>
 <link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/mypage.min.css?202304111445"/>
-</head>
+ -->
+ <link rel="stylesheet" href="css/ui/build/mypage.css">
+ <link rel="stylesheet" href="css/skin/mypage.css">
+
+ </head>
 
 <body>
 <div class="container mypage musinsa">

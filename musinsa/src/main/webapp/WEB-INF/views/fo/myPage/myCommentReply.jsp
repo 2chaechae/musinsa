@@ -34,7 +34,7 @@
         <link rel="shortcut icon" href="https://static.msscdn.net/favicon.ico?202211021806" type="image/x-icon"/>
     
 
-    <link rel="stylesheet" href="https://static.msscdn.net/ui/build/pc/css/common.css">
+   <!--  <link rel="stylesheet" href="https://static.msscdn.net/ui/build/pc/css/common.css">
     <link rel="stylesheet" type="text/css" href="https://static.msscdn.net/skin/musinsa/css/magazine_common.css?202211021806" />
     <link rel="stylesheet" type="text/css" href="https://static.msscdn.net/skin/musinsa/css/store_common.css?202211021806" />
     <link rel="stylesheet" type="text/css" href="https://static.msscdn.net/skin/musinsa/css/layout.min.css?202211021806" />
@@ -44,32 +44,43 @@
     <link rel="stylesheet" type="text/css"
           href="https://static.msscdn.net/skin/musinsa/css/style.min.css?202211021806"/>
     <link rel="stylesheet" type="text/css" href="https://static.msscdn.net/skin/musinsa/css/media_query.css?202211021806" />
-    <link rel="stylesheet" type="text/css" href="https://static.msscdn.net/skin/musinsa/css/new.css?202211021806" />
-
+    <link rel="stylesheet" type="text/css" href="https://static.msscdn.net/skin/musinsa/css/new.css?202211021806" /> -->
+	<link rel="stylesheet" href="css/ui/common.css">
+	<link rel="stylesheet" href="css/skin/magazineCommon.css">
+	<link rel="stylesheet" href="css/skin/guide.css">
+	<link rel="stylesheet" href="css/layout.css">
+	<link rel="stylesheet" href="css/skin/mediaQuery.css">
+	<link rel="stylesheet" href="css/skin/new.css">
+	<link rel="stylesheet" href="css/skin/style.css">
+	<link rel="stylesheet" href="css/skin/storeCommon.css">
+	<link rel="stylesheet" href="css/skin/sub.css">
+	<link rel="stylesheet" href="css/common/icon.css">
     <!-- 스토어, 매거진 공통 스크립트 -->
     <!--// 스토어, 매거진 공통 스크립트 -->
 
 
     <!--jqModal-->
-    <link rel="stylesheet" type="text/css" href="https://static.msscdn.net/skin/musinsa/css/jqModal.css?202211021806" />
+    <!-- <link rel="stylesheet" type="text/css" href="https://static.msscdn.net/skin/musinsa/css/jqModal.css?202211021806" /> -->
+    <link rel="stylesheet" href="css/skin/jqModal.css">
     <!--//jqModal-->
 
     <!-- 매거진 관심브랜드 관련 스크립트 -->
     <!--// 매거진 관심브랜드 관련 스크립트 -->
 
     <!-- 공통 레이아웃 (pc) 관련 script, css -->
-    <link rel="stylesheet" type="text/css" href="https://static.msscdn.net/static/common/1.2.0/pc.css" />
-
+    <!-- <link rel="stylesheet" type="text/css" href="https://static.msscdn.net/static/common/1.2.0/pc.css" /> -->
+	<link rel="stylesheet" href="css/static/common.css">
     <!-- 유사 이미지 상품 검색 -->
-    <link type="text/css" rel="stylesheet" href="https://static.msscdn.net/skin/musinsa/css/image_search.css?202211021806" />
+    <!-- <link type="text/css" rel="stylesheet" href="https://static.msscdn.net/skin/musinsa/css/image_search.css?202211021806" /> -->
+    <link rel="stylesheet" href="css/skin/imageSearch.css">
     <!-- //유사 이미지 상품 검색 -->
 
 
     
         
     <link rel="shortcut icon" href="https://static.msscdn.net/favicon.ico?202211021806" type="image/x-icon"/>
-    <link type="text/css" rel="stylesheet" href="https://static.msscdn.net/skin/musinsa/css/mypage.min.css?202211021806"/>
-
+    <!-- <link type="text/css" rel="stylesheet" href="https://static.msscdn.net/skin/musinsa/css/mypage.min.css?202211021806"/> -->
+	<link rel="stylesheet" href="css/skin/mypage.css">
         
 
         <style type="text/css">
