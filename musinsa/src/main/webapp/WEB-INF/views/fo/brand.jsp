@@ -38,9 +38,9 @@
   <meta name="description">
   <link rel="shortcut icon" href="//image.msscdn.net/favicon.ico?20200213" type="image/x-icon"/>
 
-  <link rel="stylesheet" href="//image.msscdn.net/ui/musinsa/resources/common/css/icon.min.css?1680141600000">
-
-  <link rel="stylesheet" href="//static.msscdn.net/ui/build/pc/css/common.css">
+  <!-- <link rel="stylesheet" href="//image.msscdn.net/ui/musinsa/resources/common/css/icon.min.css?1680141600000"> -->
+<link rel="stylesheet" href="css/common/icon.css">
+  <!-- <link rel="stylesheet" href="//static.msscdn.net/ui/build/pc/css/common.css">
   <link rel="stylesheet" href="//static.msscdn.net/ui/build/pc/css/review.css">
   <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/magazine_common.css?1680141600000" />
   <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/store_common.css?1680141600000" />
@@ -49,21 +49,36 @@
   <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/style.min.css?1680141600000"/>
   <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/sub.css?1680141600000" />
   <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/media_query.css?1680141600000" />
-  <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/new.css?1680141600000" />
-  <link rel="stylesheet" type="text/css" href="//static.msscdn.net/static/display/front/css/pc/brandshop.css?1680141600000" />
+  <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/new.css?1680141600000" /> -->
+  
+  <link rel="stylesheet" href="css/ui/common.css">
+  <link rel="stylesheet" href="css/build/review.css">
+  <link rel="stylesheet" href="css/skin/magazineCommon.css">
+<link rel="stylesheet" href="css/skin/guide.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/skin/mediaQuery.css">
+<link rel="stylesheet" href="css/skin/new.css">
+<link rel="stylesheet" href="css/skin/style.css">
+<link rel="stylesheet" href="css/skin/storeCommon.css">
+<link rel="stylesheet" href="css/skin/sub.css">
+  <!-- <link rel="stylesheet" type="text/css" href="//static.msscdn.net/static/display/front/css/pc/brandshop.css?1680141600000" /> -->
+  <link rel="stylesheet" href="css/static/brandshop.css">
   
 
 
 
   <!-- 공통 레이아웃 (pc) -->
-  <link rel="stylesheet" type="text/css" href="//static.msscdn.net/static/common/1.2.0/pc.css" />
-
+  <!-- <link rel="stylesheet" type="text/css" href="//static.msscdn.net/static/common/1.2.0/pc.css" /> -->
+	<link rel="stylesheet" href="css/static/common.css">
   <!-- Swiper -->
-  <link rel="stylesheet" type="text/css" href="//static.msscdn.net/swiper/swiper.min.css" />
+  <!-- <link rel="stylesheet" type="text/css" href="//static.msscdn.net/swiper/swiper.min.css" /> -->
+  <link rel="stylesheet" href="css/swiper/swiper.css">
   <!--jqModal-->
-  <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/jqModal.css?1680141600000" />
+  <!-- <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/jqModal.css?1680141600000" /> -->
+  <link rel="stylesheet" href="css/skin/jqModal.css">
   <!-- 유사 이미지 상품 검색 -->
-  <link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/image_search.css?1680141600000" />
+  <!-- <link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/image_search.css?1680141600000" /> -->
+  <link rel="stylesheet" href="css/skin/imageSearch.css">
   <!-- pc ui config -->
 
   <!-- //pc ui config -->
