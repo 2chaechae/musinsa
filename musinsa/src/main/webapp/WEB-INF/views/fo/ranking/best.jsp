@@ -30,7 +30,7 @@
 
         
 
-    <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/magazine_common.css?202304071330" />
+    <!-- <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/magazine_common.css?202304071330" />
     <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/store_common.css?202304071330" />
     <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/layout.min.css?202304071330" />
     <link rel="stylesheet" type="text/css" href="//static.msscdn.net/ui/musinsa/resources/common/css/icon.min.css?202304071330" />
@@ -41,30 +41,45 @@
     <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/sub.css?202304071330" />
     <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/media_query.css?202304071330" />
     <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/new.css?202304071330" />
-
+ -->
+ 
+    <link rel="stylesheet" href="css/skin/magazineCommon.css">
+	<link rel="stylesheet" href="css/skin/guide.css">
+	<link rel="stylesheet" href="css/layout.css">
+	<link rel="stylesheet" href="css/skin/mediaQuery.css">
+	<link rel="stylesheet" href="css/skin/new.css">
+	<link rel="stylesheet" href="css/skin/style.css">
+	<link rel="stylesheet" href="css/skin/storeCommon.css">
+	<link rel="stylesheet" href="css/skin/sub.css">
+	<link rel="stylesheet" href="css/common/icon.css">
     <!-- 검색페이지에서 사용 -->
     
     
 
 
     <!-- Swiper -->
-    <link rel="stylesheet" type="text/css" href="//static.msscdn.net/swiper/swiper.min.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="//static.msscdn.net/swiper/swiper.min.css" /> -->
+    <link rel="stylesheet" href="css/swiper/swiper.css">
     <!--jqModal-->
-    <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/jqModal.css?202304071330" />
+    <!-- <link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/jqModal.css?202304071330" /> -->
+    <link rel="stylesheet" href="css/skin/jqModal.css">
     <!--//jqModal-->
     <!-- 유사 이미지 상품 검색 -->
-    <link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/image_search.css?202304071330" />
+    <!-- <link type="text/css" rel="stylesheet" href="//static.msscdn.net/skin/musinsa/css/image_search.css?202304071330" /> -->
+    <link rel="stylesheet" href="css/skin/imageSearch.css">
     <!-- //유사 이미지 상품 검색 -->
 
-    <link type="text/css" rel="stylesheet"
-          href="//static.msscdn.net/static/common/1.2.0/pc.css?202304071330"/>
+    <!-- <link type="text/css" rel="stylesheet"
+          href="//static.msscdn.net/static/common/1.2.0/pc.css?202304071330"/> -->
+     <link rel="stylesheet" href="css/static/common.css">     
 
-    <link type="text/css" rel="stylesheet" href="//static.msscdn.net/mfile_scr/layouts/community/css/musinsa_timeline.css?version=6.249" />
+    <!-- <link type="text/css" rel="stylesheet" href="//static.msscdn.net/mfile_scr/layouts/community/css/musinsa_timeline.css?version=6.249" /> -->
+    <link rel="stylesheet" href="css/layouts/community/timeline.css">  
 
     <!-- 공통 레이아웃에서 사용함 -->
-    <link rel="stylesheet" type="text/css" href="//static.msscdn.net/ui/build/pc/css/common.css" />
+   <!--  <link rel="stylesheet" type="text/css" href="//static.msscdn.net/ui/build/pc/css/common.css" /> -->
 
-    
+    <link rel="stylesheet" href="css/ui/common.css">
 
 
         

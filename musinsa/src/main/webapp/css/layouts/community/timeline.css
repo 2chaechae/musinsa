@@ -1,0 +1,377 @@
+div.news_feed {
+	background: #fff;
+	border-top: 1px solid #ddd
+}
+
+div.news_feed p.tit_back {
+	width: 259px;
+	height: 34px;
+	line-height: 34px;
+	border-bottom: 1px solid #ddd;
+	overflow: hidden;
+	padding-left: 10px;
+	color: #000
+}
+
+div.news_feed p.tit_back span {
+	display: block
+}
+
+div.news_feed p.tit_back span.tit {
+	font-size: 16px;
+	font-family: 'Doppio One';
+	font-weight: bold;
+	width: width:87px;
+	height: 34px;
+	line-height: 34px;
+	float: left;
+	cursor: pointer
+}
+
+div.news_feed p.tit_back a.config {
+	width: 11px;
+	height: 11px;
+	background:
+		url(//image.musinsa.com/mfile_scr/layouts/community/image/btn_oc.gif)
+		no-repeat 0 -70px;
+	margin: 12px 5px 0 2px;
+	float: left;
+	text-indent: -9999px;
+	display: block
+}
+
+div.news_feed p.tit_back span.cnt {
+	font-size: 11px;
+	color: #999;
+	font-family: gulim, sans-serif;
+	float: left
+}
+
+div.news_feed p.tit_back span.new {
+	font-size: 11px;
+	font-family: 'Doppio One';
+	color: #f00;
+	font-weight: bold;
+	float: left;
+	margin-left: 5px
+}
+
+div.news_feed p.tit_back span.btn {
+	float: right;
+	width: 35px;
+	height: 34px;
+	cursor: pointer
+}
+
+div.news_feed p.open {
+	background:
+		url(//image.musinsa.com/mfile_scr/layouts/community/image/btn_oc.gif)
+		no-repeat 249px 0
+}
+
+div.news_feed p.close {
+	background:
+		url(//image.musinsa.com/mfile_scr/layouts/community/image/btn_oc.gif)
+		no-repeat 249px -35px
+}
+
+div.news_feed li {
+	width: 250px;
+	padding: 10px;
+	display: block;
+	border-top: 1px solid #ddd;
+	float: left;
+	clear: both
+}
+
+div.news_feed li.fir {
+	border-top: 0
+}
+
+div.news_feed li a.img {
+	width: 50px;
+	height: 50px;
+	border: 1px solid #ddd;
+	display: block;
+	overflow: hidden;
+	float: left
+}
+
+div.news_feed li a.img img {
+	width: 50px;
+	height: 50px
+}
+
+div.news_feed li p {
+	padding: 2px 0 0 10px;
+	width: 180px;
+	height: 47px;
+	display: block;
+	overflow: hidden;
+	line-height: 16px;
+	color: #000
+}
+
+div.news_feed li p a {
+	display: block;
+	height: 33px;
+	overflow: hidden
+}
+
+div.news_feed li p span {
+	color: #999;
+	font-size: 11px
+}
+
+div.news_feed div.tl_scroll {
+	width: 269px;
+	overflow-x: hidden;
+	overflow-y: auto
+}
+
+div.news_feed div.clear1 {
+	clear: both;
+	height: 1px;
+	font-size: 1px
+}
+
+div.news_feed div.clear10 {
+	clear: both;
+	height: 10px
+}
+
+div.news_feed div.loading {
+	width: 269px;
+	height: 30px;
+	background:
+		url(//image.musinsa.com/mfile_scr/layouts/community/image/loading_.gif)
+		no-repeat 122px 9px;
+	background-color: #ddd
+}
+
+div.news_feed span.more_view {
+	width: 248px;
+	height: 28px;
+	display: block;
+	background:
+		url(//image.musinsa.com/mfile_scr/layouts/community/image/more_view_back.gif)
+		repeat-x;
+	cursor: pointer;
+	border: 1px solid #ddd;
+	text-align: center;
+	overflow: hidden;
+	margin-left: 10px;
+	line-height: 28px
+}
+
+div.h_news_feed {
+	position: relative;
+	z-index: 1000
+}
+
+div.h_news_feed .h_news_feed_triger {
+	display: block;
+	padding: 0 10px
+}
+
+div.h_news_feed span.cnt {
+	font-size: 12px;
+	color: #000;
+	font-family: gulim, sans-serif;
+}
+
+div.h_news_feed span.new {
+	font-size: 12px;
+	font-family: 'Doppio One';
+	color: #f00
+}
+
+div.h_news_feed li {
+	width: 298px;
+	padding: 10px !important;
+	display: block;
+	border-top: 1px solid #ddd;
+	float: left;
+	clear: both;
+	background: #fff;
+	background: transparent !important
+}
+
+div.h_news_feed li.fir {
+	border-top: 0
+}
+
+div.h_news_feed li.opened p a {
+	color: #aaa;
+}
+
+div.h_news_feed li a.img {
+	width: 50px;
+	height: 50px;
+	border: 1px solid #ddd;
+	display: block;
+	overflow: hidden;
+	float: left
+}
+
+div.h_news_feed li a.img img {
+	width: 50px;
+	height: 50px
+}
+
+div.h_news_feed li a.brandImg {
+	text-align: center;
+}
+
+div.h_news_feed li a.brandImg img {
+	max-width: 70%;
+	max-height: 50%;
+	width: auto !important;
+	height: auto !important;
+	vertical-align: middle;
+}
+
+div.h_news_feed li p {
+	padding: 2px 0 0 10px;
+	width: 225px;
+	height: 47px;
+	display: block;
+	overflow: hidden;
+	line-height: 16px;
+	color: #000
+}
+
+div.h_news_feed li p a {
+	display: block;
+	height: 33px;
+	overflow: hidden
+}
+
+div.h_news_feed li p span {
+	color: #999;
+	font-size: 12px
+}
+
+div.h_news_feed div.tl_box {
+	width: 320px;
+	position: absolute;
+	left: 50%;
+	margin-left: -159px;
+	top: 20px;
+	z-index: 100;
+	background: #fff;
+	display: none
+}
+
+div.h_news_feed div.tl_config {
+	width: 320px;
+	height: 38px;
+	padding-top: 10px;
+	background:
+		url(https://www.musinsa.com/layouts/community/image/tritop.png)
+		no-repeat center top;
+	background-color: #fff;
+	position: relative
+}
+
+div.h_news_feed div.tl_config dl {
+	width: 318px;
+	height: 37px;
+	border: 1px solid #ddd;
+	border-top: 0
+}
+
+div.h_news_feed div.tl_config dd.tit_config {
+	height: 37px;
+	line-height: 37px;
+	padding: 0 0 0 10px;
+	float: left;
+	width: 139px;
+	font-weight: bold;
+	border-top: 1px solid #ddd
+}
+
+div.h_news_feed div.tl_config dd.tit_config a {
+	display: block;
+	height: 37px;
+	line-height: 37px !important
+}
+
+div.h_news_feed div.tl_config dd.btn_config {
+	float: right;
+	width: 139px;
+	height: 37px;
+	border-top: 1px solid #ddd;
+	padding: 0 10px 0 0
+}
+
+div.h_news_feed div.tl_config dd.btn_config a {
+	display: block;
+	height: 37px;
+	line-height: 37px !important;
+	color: #999 !important;
+	text-align: right;
+	float: right
+}
+
+div.h_news_feed div.tl_scroll {
+	position: relative;
+	width: 318px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background: #fff;
+	border: 1px solid #ddd;
+	border-top: 0;
+	z-index: 100
+}
+
+div.h_news_feed a.all_view {
+	display: block !important;
+	width: 318px;
+	height: 31px;
+	line-height: 31px !important;
+	border: 1px solid #ddd;
+	border-top: 0;
+	text-align: center;
+	font-weight: bold;
+	background: #fff
+}
+
+div.h_news_feed a.all_view:hover {
+	color: #ccc !important
+}
+
+div.h_news_feed div.clear1 {
+	clear: both;
+	height: 1px;
+	font-size: 1px
+}
+
+div.h_news_feed div.clear10 {
+	clear: both;
+	height: 10px
+}
+
+div.h_news_feed div.loading {
+	width: 280px;
+	height: 30px;
+	background:
+		url(//image.musinsa.com/mfile_scr/layouts/community/image/loading_.gif)
+		no-repeat 122px 9px;
+	background-color: #ddd
+}
+
+div.h_news_feed span.more_view {
+	width: 296px;
+	height: 28px;
+	display: block;
+	background:
+		url(//image.musinsa.com/mfile_scr/layouts/community/image/more_view_back.gif)
+		repeat-x;
+	cursor: pointer;
+	border: 1px solid #ddd;
+	text-align: center;
+	overflow: hidden;
+	margin-left: 10px;
+	line-height: 28px
+}

@@ -3,7 +3,9 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-	<link href="//fonts.googleapis.com/earlyaccess/notosanskr.css" rel="stylesheet" type="text/css"><!-- 레이아웃의 해더 정보 -->
+	<!-- <link href="//fonts.googleapis.com/earlyaccess/notosanskr.css" rel="stylesheet" type="text/css"> -->
+	<link rel="stylesheet" href="css/earlyaccess/notosanskr.css">
+	<!-- 레이아웃의 해더 정보 -->
 	
 
 
@@ -17,10 +19,14 @@
 <meta id="fbOgUrl" property="og:url" content="https://www.musinsa.com/app/campaign/index/2023springinnershop/1?utm_source=musinsa_sharebutton&utm_medium=cr">
 <meta id="fbOgDescription" property="og:description" content="" />
 
-<link rel="stylesheet" href="//static.msscdn.net/ui/build/pc/css/common.css">
+<!-- <link rel="stylesheet" href="//static.msscdn.net/ui/build/pc/css/common.css">
 <link rel="stylesheet" href="//static.msscdn.net/ui/build/pc/css/campaign.css">
 <link rel="stylesheet" href="//static.msscdn.net/common/css/mss-player.css">
-<link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/guide.min.css"/>
+<link rel="stylesheet" type="text/css" href="//static.msscdn.net/skin/musinsa/css/guide.min.css"/> -->
+<link rel="stylesheet" href="css/common/mssPlayer.css">
+<link rel="stylesheet" href="css/ui/common.css">
+<link rel="stylesheet" href="css/ui/build/campaign.css">
+<link rel="stylesheet" href="css/skin/guide.css">
 
 	<title>캠페인 | 무신사 스토어</title>
 </head>
