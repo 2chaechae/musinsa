@@ -1,64 +1,54 @@
 @charset "UTF-8"; 
 
-@
--webkit-keyframes fadeIn { 0%{
+@-webkit-keyframes fadeIn { 0%{
 	opacity: 0
 }
 
-100
-%
+100%
 {
 opacity
 :
 1
 }
 }
-@
-keyframes fadeIn { 0%{
+@keyframes fadeIn { 0%{
 	opacity: 0
 }
 
-100
-%
+100%
 {
 opacity
 :
 1
 }
 }
-@
--webkit-keyframes fadeOut { 0%{
+@-webkit-keyframes fadeOut { 0%{
 	opacity: 1
 }
 
-100
-%
+100%
 {
 opacity
 :
 0
 }
 }
-@
-keyframes fadeOut { 0%{
+@keyframes fadeOut { 0%{
 	opacity: 1
 }
 
-100
-%
+100%
 {
 opacity
 :
 0
 }
 }
-@
--webkit-keyframes roundAll { 0%{
+@-webkit-keyframes roundAll { 0%{
 	transform: rotate(0)
 }
 
-100
-%
+100%
 {
 transform
 :
@@ -67,13 +57,11 @@ rotate(
 )
 }
 }
-@
-keyframes roundAll { 0%{
+@keyframes roundAll { 0%{
 	transform: rotate(0)
 }
 
-100
-%
+100%
 {
 transform
 :
@@ -384,6 +372,7 @@ body.fixed {
 	color: #fff
 }
 
+
 .header-member__link {
 	display: inline-flex;
 	padding: 4px;
@@ -499,6 +488,90 @@ body.fixed {
 	color: #fff;
 	text-align: center
 }
+
+/** 실시간 랭킹 css 추가 23.04.23 이채린 */
+
+.top_rank {
+	display: flex;
+	height: 100px;
+	padding-left: 8px;
+	font-size: 14px;
+	font-size: 12px;
+	font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+	line-height: 1.5;
+	align-items: center
+}
+
+
+ /* 커스텀 버튼 */
+.custom-btn {
+  padding:3px;
+  height: 27px;
+  border: 1px solid #000;
+  font-family: 'Lato', sans-serif;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  margin-bottom : 19px;
+  margin-left : 10px;
+  border-radius: 5px;
+}
+
+.rank_item_btn {
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+.rank_item_btn:after {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease;
+  -webkit-transform: scale(.1);
+  transform: scale(.1);
+}
+.rank_item_btn:hover {
+  color: #fff;
+}
+.rank_item_btn:hover:after {
+  background: #000;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+
+/* 아이템 슬라이드 */
+.slider{
+    width: 1090px;
+    height: 70px;
+    position: absolute;
+    margin: 0 140px;
+    overflow: hidden;
+}
+
+.slidelist{
+	display:-webkit-inline-box;
+}
+
+ul.slidelist{
+    padding: 10px;
+    margin: 10px;
+}
+ul.slidelist li{
+    position: relative;
+    left:0px;
+    transition-delay: 1s;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* 실시간 랭킹 btn css 끝 */
 
 .PCommonPageHeader {
 	display: flex;
