@@ -140,6 +140,13 @@
   color: #000;
 }
 
+.top_rank {
+	height: 50px;
+    position: relative;
+    padding: 10px;
+    display: flex;
+}
+
 #ranking_goods {
   overflow: hidden;
 }

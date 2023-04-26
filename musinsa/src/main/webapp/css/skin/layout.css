@@ -2804,8 +2804,8 @@ footer .row.row3 .title span {
 /*right*/
 .right_area {
   position: absolute;
-  left: 270px;
-  top: 0;
+  left: 0px;
+  top: 100px;
   right: 0;
   min-width: 1229px;
   border-left: 1px solid #ddd;
