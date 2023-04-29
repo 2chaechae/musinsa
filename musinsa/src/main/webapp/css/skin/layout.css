@@ -1936,7 +1936,7 @@ rPtks .login_open dt {
 #brand_list_print {
   padding-top: 11px;
   margin-left: 15px;
-  height: expression(this.scrollHeight > 1499 ? "1500px": "auto");
+/*   height: expression(this.scrollHeight > 1499 ? "1500px": "auto");
   max-height: 1500px;
   overflow-y: auto;
   overflow-x: hidden;
@@ -1948,7 +1948,7 @@ rPtks .login_open dt {
   scrollbar-darkshadow-color: #fff;
   scrollbar-highlight-color: #f3f3f3;
   scrollbar-shadow-color: #f3f3f3;
-  scrollbar-darkshadow-color: #f3f3f3;
+  scrollbar-darkshadow-color: #f3f3f3; */
 }
 
 #brand_list_print::-webkit-scrollbar {
@@ -2803,12 +2803,12 @@ footer .row.row3 .title span {
 
 /*right*/
 .right_area {
-  position: absolute;
-  left: 0px;
-  top: 100px;
-  right: 0;
-  min-width: 1229px;
-  border-left: 1px solid #ddd;
+    position: inherit;
+    left: 7px;
+    top: 0px;
+    right: 0;
+    min-width: 1193px;
+    border-left: 1px solid #ddd;
 }
 
 .right_area.lnb-close {
