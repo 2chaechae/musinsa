@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.toyproject.musinsa.fo.mapper.ItemMapper">
+	 
+	 <!-- 공지사항 목록 -->
+	 <select id="getList" resultType="com.toyproject.musinsa.fo.vo.FaqVO">
+   		/* com.toyproject.musinsa.mapper.FaqMapper.getList */
+   		
+		SELECT 
+   			  FAQ_NO
+   			, FAQ_SJ
+   			, FAQ_CN 
+   			, UPDATE_DATE
+   			, DELETE_YN
+   		FROM
+   			musinsa.FAQ_INFO
+   	    WHERE DELETE_YN = 'N'
+
+   </select>
+</mapper>
