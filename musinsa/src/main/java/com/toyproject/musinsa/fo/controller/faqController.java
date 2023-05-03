@@ -21,11 +21,11 @@ public class faqController {
 		 List<FaqVO> value = new ArrayList<FaqVO>();
 		try {
 			value = faqService.getList();
-			model.addAttribute("list", value);
+			model.addAttribute("faqList", value);
 			/* System.out.println(value.get(0).getId()); */
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		return "fo/index";
+		return "fo/index2";
 	}
 }

@@ -220,10 +220,11 @@ pageEncoding="UTF-8"%>
 						<div class="CFaqTableItem__list">
 							<!-- <em class="CFaqTableItem__category">로그인/정보</em> -->
 							<p class="CFaqTableItem__question"><!-- 회원 정보 수정은 어디서 하나요? -->
-							<%-- <c:forEach var="result" items="${faqList}" varStatus="status">
 							
-							
-							</c:forEach> --%>
+							<c:forEach var="result" items="${faqList}" varStatus="status">
+												<td><c:out value="${result.faq_sj}"/></td>
+												<td><c:out value="${result.faq_sn}"/></td>
+							</c:forEach>
 							
 							</p>
 						</div>

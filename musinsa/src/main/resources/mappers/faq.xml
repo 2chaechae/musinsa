@@ -7,11 +7,11 @@
    		/* com.toyproject.musinsa.mapper.FaqMapper.getList */
    		
 		SELECT 
-   			  FAQ_NO
-   			, FAQ_SJ
-   			, FAQ_CN 
-   			, UPDATE_DATE
-   			, DELETE_YN
+   			  FAQ_NO                   -- 번호
+   			, FAQ_SJ				   -- 제목
+   			, FAQ_CN 				   -- 내용
+   			, UPDATE_DATE			   -- 수정시간
+   			, DELETE_YN				   -- 삭제여부
    		FROM
    			musinsa.FAQ_INFO
    	    WHERE DELETE_YN = 'N'
