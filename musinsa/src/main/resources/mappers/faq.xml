@@ -3,8 +3,8 @@
 <mapper namespace="com.toyproject.musinsa.fo.mapper.ItemMapper">
 	 
 	 <!-- 공지사항 목록 -->
-	 <select id="getList" resultType="com.toyproject.musinsa.fo.vo.FaqVO">
-   		/* com.toyproject.musinsa.mapper.FaqMapper.getList */
+	 <select id="getfaqList" resultType="com.toyproject.musinsa.fo.vo.FaqVO">
+   		/* com.toyproject.musinsa.mapper.FaqMapper.getfaqList */
    		
 		SELECT 
    			  FAQ_NO                   -- 번호
@@ -17,4 +17,11 @@
    	    WHERE DELETE_YN = 'N'
 
    </select>
+   
+   <!-- 조회수 증가 -->
+   <update id="updateViewCnt">
+        update musinsa.FAQ_INFO
+        set FAQ_VIEWS = FAQ_VIEWS + 1
+        where FAQ_NO = #{faqNo};
+   </update>
 </mapper>

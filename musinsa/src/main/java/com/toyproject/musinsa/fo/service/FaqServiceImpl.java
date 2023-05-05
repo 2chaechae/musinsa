@@ -20,7 +20,7 @@ private FaqMapper faqMapper;
 		
 	}
 	@Override
-	public List<FaqVO> getList() throws Exception {
-		return faqMapper.getList();
+	public List<FaqVO> getfaqList() throws Exception {
+		return faqMapper.getfaqList();
 	}
 }

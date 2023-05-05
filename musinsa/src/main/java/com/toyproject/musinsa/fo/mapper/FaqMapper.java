@@ -7,5 +7,7 @@ import com.toyproject.musinsa.fo.vo.FaqVO;
 
 @Mapper
 public interface FaqMapper {
-	public List<FaqVO> getList() throws Exception;
+	
+	/* faq 목록 */
+	public List<FaqVO> getfaqList() throws Exception;
 }

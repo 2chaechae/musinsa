@@ -16,11 +16,12 @@ public class faqController {
 	@Autowired
 	FaqService faqService;
 	
+	/* faq 목록 */
 	@RequestMapping("/test2")
 	public String getList(Model model){
 		 List<FaqVO> value = new ArrayList<FaqVO>();
 		try {
-			value = faqService.getList();
+			value = faqService.getfaqList();
 			model.addAttribute("faqList", value);
 			/* System.out.println(value.get(0).getId()); */
 		} catch (Exception e) {

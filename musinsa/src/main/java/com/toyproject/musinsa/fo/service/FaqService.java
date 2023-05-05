@@ -5,5 +5,7 @@ import java.util.List;
 import com.toyproject.musinsa.fo.vo.FaqVO;
 
 public interface FaqService {
-	public List<FaqVO> getList() throws Exception;
+	
+	/* faq 목록 */
+	public List<FaqVO> getfaqList() throws Exception;
 }
