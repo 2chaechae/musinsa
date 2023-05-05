@@ -10,23 +10,17 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import com.toyproject.musinsa.fo.service.FaqService;
 import com.toyproject.musinsa.fo.vo.FaqVO;
 
-
 public class faqController {
-	
+
 	@Autowired
 	FaqService faqService;
-	
+
 	/* faq 목록 */
-	@RequestMapping("/test2")
-	public String getList(Model model){
-		 List<FaqVO> value = new ArrayList<FaqVO>();
-		try {
-			value = faqService.getfaqList();
-			model.addAttribute("faqList", value);
-			/* System.out.println(value.get(0).getId()); */
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		return "fo/index2";
-	}
+	/*
+	 * @RequestMapping("/cs/faq") public String getfaqList(Model model){ List<FaqVO>
+	 * value = new ArrayList<FaqVO>(); try { value = faqService.getfaqList();
+	 * model.addAttribute("faqList", value);
+	 * System.out.println(value.get(0).getId()); } catch (Exception e) {
+	 * e.printStackTrace(); } return "/cs/faq"; }
+	 */
 }

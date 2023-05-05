@@ -157,7 +157,8 @@
 				<div class="header-member__block"><a href="#" aria-label="좋아요 페이지로 이동" class="header-member__link header-member__link--like"> 좋아요 </a></div>
 				<div class="header-member__block"><a href="#" aria-label="장바구니 페이지로 이동" class="header-member__link"> 장바구니 </a></div>
 				<div class="header-member__block"><a href="#" aria-label="주문배송조회 페이지로 이동" class="header-member__link"> 주문배송조회 </a></div>
-				<div class="header-member__block"><a href="#" aria-label="고객센터 페이지로 이동" class="header-member__link"> 고객센터 </a></div>
+				<div class="header-member__block"><a href="/fo/cs/faq" aria-label="고객센터 페이지로 이동" class="header-member__link"> 고객센터 </a></div>
+				
 				<div class="header-member__block"><a href="#" aria-label="이벤트 페이지로 이동" class="header-member__link header-member__link--event"> 회원 가입 EVENT. 신규 가입 후 바로 사용 가능한 20% 할인 쿠폰 / 무신사 스탠다드 990원 구매 기회 </a></div>
 			</div>
 		</div>
@@ -5723,6 +5724,12 @@
 
 	  }
 	});
+	
+	/* 고객센터로 이동 */
+	 function fn_btn_cscenter() {
+	 		document.listForm.action =  "<c:url value='/cs/faq'/>";
+			document.listForm.submit(); 
+	 	 }
 </script>
 </body>
 </html>

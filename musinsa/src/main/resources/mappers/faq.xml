@@ -7,11 +7,13 @@
    		/* com.toyproject.musinsa.mapper.FaqMapper.getfaqList */
    		
 		SELECT 
-   			  FAQ_NO                   -- 번호
-   			, FAQ_SJ				   -- 제목
-   			, FAQ_CN 				   -- 내용
-   			, UPDATE_DATE			   -- 수정시간
-   			, DELETE_YN				   -- 삭제여부
+   			  FAQ_NO    as faqNo               -- 번호
+   			, FAQ_SJ	as faqSj			   -- 제목
+   			, FAQ_CN 	as faqCn			   -- 내용
+   			, REG_DATE	as regDate	   		   -- 등록시간
+   			, UPDATE_ID	as updateId	   		   -- 수정인
+   			, UPDATE_DATE	as updateDate	   -- 수정시간
+   			, DELETE_YN		as deleteYn		   -- 삭제여부
    		FROM
    			musinsa.FAQ_INFO
    	    WHERE DELETE_YN = 'N'
@@ -19,7 +21,7 @@
    </select>
    
    <!-- 조회수 증가 -->
-   <update id="updateViewCnt">
+   <update id="updateViewCnt" >
         update musinsa.FAQ_INFO
         set FAQ_VIEWS = FAQ_VIEWS + 1
         where FAQ_NO = #{faqNo};
