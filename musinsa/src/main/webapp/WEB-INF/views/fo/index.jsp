@@ -2665,17 +2665,7 @@
 			<!--//스페셜 이슈 탭-->
 
 		</div>
-		<!-- //스페셜 -->
-
-		
-			<style>
-				.swiper-wrapper {
-					transform: perspective(1px) translateZ(0);
-					backface-visibility: hidden;
-					will-change: transform;
-				}
-			</style>
-		
+		<!-- //스페셜 -->		
 		<!--쇼핑 이슈-->
 		<div class="right_container main_issue_area" id="shop_issue">
 				<!-- 쇼핑 이슈 카테고리-->
@@ -2684,211 +2674,532 @@
 					<span class="txt_detail_link"><a href="/app/plan/lists">전체</a></span>
 				</div>
 				<!-- //쇼핑 이슈 카테고리-->
-				<div id="outerSlideArea">
-					<div class="main_issue_contents issue_box main_contents_maxwidth" id="shop_release_div">
-						<div class="swiper-container" id="issueSwiper" name="issueSwiper">
-							<div class="swiper-wrapper">
-																	<li class="swiper-slide main_contents_size hover_box" onclick="gtmClickList('쇼핑 이슈', '무신사 스탠다드 강남');">
-										<a href="/app/plan/views/21234">
-											<img src="//image.msscdn.net/images/plan_w_mobile_img/2022061420331300000002832.jpg" alt="무신사 스탠다드 강남">
-										</a>
-										<div class="n-banner-info">
-											<a href="/app/plan/views/21234" class="n-banner-title font-mss">무신사 스탠다드 강남</a>
-											<span class="n-banner-label font-mss">06.16 ~ 12.31</span>
-										</div>
-									</li>
-																	<li class="swiper-slide main_contents_size hover_box" onclick="gtmClickList('쇼핑 이슈', '우알롱 23 SUMMER 2차 컬렉션');">
-										<a href="/app/plan/views/35050">
-											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023042111383100000079157.jpg" alt="우알롱 23 SUMMER 2차 컬렉션">
-										</a>
-										<div class="n-banner-info">
-											<a href="/app/plan/views/35050" class="n-banner-title font-mss">우알롱 23 SUMMER 2차 컬렉션</a>
-											<span class="n-banner-label font-mss">04.21 ~ 05.05</span>
-										</div>
-									</li>
-																	<li class="swiper-slide main_contents_size hover_box" onclick="gtmClickList('쇼핑 이슈', '비전스트릿웨어 23 SPRING 시즌오프');">
-										<a href="/app/plan/views/33969">
-											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023041011252600000030134.jpg" alt="비전스트릿웨어 23 SPRING 시즌오프">
-										</a>
-										<div class="n-banner-info">
-											<a href="/app/plan/views/33969" class="n-banner-title font-mss">비전스트릿웨어 23 SPRING 시즌오프</a>
-											<span class="n-banner-label font-mss">04.18 ~ 05.01</span>
-										</div>
-									</li>
-																	<li class="swiper-slide main_contents_size hover_box" onclick="gtmClickList('쇼핑 이슈', '요넥스 테니스웨어 컬렉션 Yesterday! Tomorrow! 2nd Drop');">
-										<a href="/app/plan/views/34578">
-											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023041315274200000084305.jpg" alt="요넥스 테니스웨어 컬렉션 Yesterday! Tomorrow! 2nd Drop">
-										</a>
-										<div class="n-banner-info">
-											<a href="/app/plan/views/34578" class="n-banner-title font-mss">요넥스 테니스웨어 컬렉션 Yesterday! Tomorrow! 2nd Drop</a>
-											<span class="n-banner-label font-mss">04.20 ~ 05.03</span>
-										</div>
-									</li>
-																	<li class="swiper-slide main_contents_size hover_box" onclick="gtmClickList('쇼핑 이슈', '캘빈클라인 진&amp;언더웨어 with BTS 정국');">
-										<a href="/app/plan/views/33592">
-											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023032915345800000025941.jpg" alt="캘빈클라인 진&amp;언더웨어 with BTS 정국">
-										</a>
-										<div class="n-banner-info">
-											<a href="/app/plan/views/33592" class="n-banner-title font-mss">캘빈클라인 진&amp;언더웨어 with BTS 정국</a>
-											<span class="n-banner-label font-mss">03.29 ~ 04.30</span>
-										</div>
-									</li>
-																	<li class="swiper-slide main_contents_size hover_box" onclick="gtmClickList('쇼핑 이슈', 'BOUTIQUE - RESTOCK');">
-										<a href="/app/plan/views/23376">
-											<img src="//image.msscdn.net/images/plan_w_mobile_img/2022121415560000000020282.jpg" alt="BOUTIQUE - RESTOCK">
-										</a>
-										<div class="n-banner-info">
-											<a href="/app/plan/views/23376" class="n-banner-title font-mss">BOUTIQUE - RESTOCK</a>
-											<span class="n-banner-label font-mss">11.09 ~ 12.31</span>
-										</div>
-									</li>
-																	<li class="swiper-slide main_contents_size hover_box" onclick="gtmClickList('쇼핑 이슈', '르마드 아울렛 브랜드위크');">
-										<a href="/app/plan/views/34837">
-											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023041715233000000022502.jpg" alt="르마드 아울렛 브랜드위크">
-										</a>
-										<div class="n-banner-info">
-											<a href="/app/plan/views/34837" class="n-banner-title font-mss">르마드 아울렛 브랜드위크</a>
-											<span class="n-banner-label font-mss">04.20 ~ 04.26</span>
-										</div>
-									</li>
-																	<li class="swiper-slide main_contents_size hover_box" onclick="gtmClickList('쇼핑 이슈', '60시간 SALE START : 최대 80% 할인');">
-										<a href="/app/plan/views/34968">
-											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023042109012100000083892.jpg" alt="60시간 SALE START : 최대 80% 할인">
-										</a>
-										<div class="n-banner-info">
-											<a href="/app/plan/views/34968" class="n-banner-title font-mss">60시간 SALE START : 최대 80% 할인</a>
-											<span class="n-banner-label font-mss">04.21 ~ 04.23</span>
-										</div>
-									</li>
-																	<li class="swiper-slide main_contents_size hover_box" onclick="gtmClickList('쇼핑 이슈', '케즈 시즌오프 기획전');">
-										<a href="/app/plan/views/34400">
-											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023041016574800000044487.jpg" alt="케즈 시즌오프 기획전">
-										</a>
-										<div class="n-banner-info">
-											<a href="/app/plan/views/34400" class="n-banner-title font-mss">케즈 시즌오프 기획전</a>
-											<span class="n-banner-label font-mss">04.11 ~ 04.30</span>
-										</div>
-									</li>
-																	<li class="swiper-slide main_contents_size hover_box" onclick="gtmClickList('쇼핑 이슈', '니티나  프리 세일 페스타');">
-										<a href="/app/plan/views/34320">
-											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023040714523700000064415.jpg" alt="니티나  프리 세일 페스타">
-										</a>
-										<div class="n-banner-info">
-											<a href="/app/plan/views/34320" class="n-banner-title font-mss">니티나  프리 세일 페스타</a>
-											<span class="n-banner-label font-mss">04.10 ~ 05.01</span>
-										</div>
-									</li>
-																	<li class="swiper-slide main_contents_size hover_box" onclick="gtmClickList('쇼핑 이슈', '어반스터프 23 SUMMER 1차 컬렉션 발매 기획전');">
-										<a href="/app/plan/views/35000">
-											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023042009055400000097717.jpg" alt="어반스터프 23 SUMMER 1차 컬렉션 발매 기획전">
-										</a>
-										<div class="n-banner-info">
-											<a href="/app/plan/views/35000" class="n-banner-title font-mss">어반스터프 23 SUMMER 1차 컬렉션 발매 기획전</a>
-											<span class="n-banner-label font-mss">04.21 ~ 05.04</span>
-										</div>
-									</li>
-																	<li class="swiper-slide main_contents_size hover_box" onclick="gtmClickList('쇼핑 이슈', '디스커버리 익스페디션 인기 팬츠 모음전');">
-										<a href="/app/plan/views/34952">
-											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023041909150300000063278.jpg" alt="디스커버리 익스페디션 인기 팬츠 모음전">
-										</a>
-										<div class="n-banner-info">
-											<a href="/app/plan/views/34952" class="n-banner-title font-mss">디스커버리 익스페디션 인기 팬츠 모음전</a>
-											<span class="n-banner-label font-mss">04.19 ~ 05.07</span>
-										</div>
-									</li>
-																	<li class="swiper-slide main_contents_size hover_box" onclick="gtmClickList('쇼핑 이슈', '앨리스펑크×유아 후아유 23SS 스타일링 영상 기획전');">
-										<a href="/app/plan/views/34858">
-											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023041909154500000074068.jpg" alt="앨리스펑크×유아 후아유 23SS 스타일링 영상 기획전">
-										</a>
-										<div class="n-banner-info">
-											<a href="/app/plan/views/34858" class="n-banner-title font-mss">앨리스펑크×유아 후아유 23SS 스타일링 영상 기획전</a>
-											<span class="n-banner-label font-mss">04.19 ~ 05.02</span>
-										</div>
-									</li>
-																	<li class="swiper-slide main_contents_size hover_box" onclick="gtmClickList('쇼핑 이슈', '오호스 시즌오프');">
-										<a href="/app/plan/views/34072">
-											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023041811350700000068894.jpg" alt="오호스 시즌오프">
-										</a>
-										<div class="n-banner-info">
-											<a href="/app/plan/views/34072" class="n-banner-title font-mss">오호스 시즌오프</a>
-											<span class="n-banner-label font-mss">04.18 ~ 05.01</span>
-										</div>
-									</li>
-																	<li class="swiper-slide main_contents_size hover_box" onclick="gtmClickList('쇼핑 이슈', '말본 골프 우먼즈 프리미엄 컬렉션');">
-										<a href="/app/plan/views/34220">
-											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023040614263300000060189.jpg" alt="말본 골프 우먼즈 프리미엄 컬렉션">
-										</a>
-										<div class="n-banner-info">
-											<a href="/app/plan/views/34220" class="n-banner-title font-mss">말본 골프 우먼즈 프리미엄 컬렉션</a>
-											<span class="n-banner-label font-mss">04.07 ~ 04.21</span>
-										</div>
-									</li>
-																	<li class="swiper-slide main_contents_size hover_box" onclick="gtmClickList('쇼핑 이슈', '아모레퍼시픽 HAIR &amp; BODY');">
-										<a href="/app/plan/views/34154">
-											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023041313592600000016236.jpg" alt="아모레퍼시픽 HAIR &amp; BODY">
-										</a>
-										<div class="n-banner-info">
-											<a href="/app/plan/views/34154" class="n-banner-title font-mss">아모레퍼시픽 HAIR &amp; BODY</a>
-											<span class="n-banner-label font-mss">04.17 ~ 04.30</span>
-										</div>
-									</li>
-																	<li class="swiper-slide main_contents_size hover_box" onclick="gtmClickList('쇼핑 이슈', '폴로 랄프 로렌 23S/S 컬렉션');">
-										<a href="/app/plan/views/30674">
-											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023020311251200000091709.jpg" alt="폴로 랄프 로렌 23S/S 컬렉션">
-										</a>
-										<div class="n-banner-info">
-											<a href="/app/plan/views/30674" class="n-banner-title font-mss">폴로 랄프 로렌 23S/S 컬렉션</a>
-											<span class="n-banner-label font-mss">02.03 ~ 04.30</span>
-										</div>
-									</li>
-																	<li class="swiper-slide main_contents_size hover_box" onclick="gtmClickList('쇼핑 이슈', '건지 울른스 23 SUMMER 니트 컬렉션 발매 기획전');">
-										<a href="/app/plan/views/34992">
-											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023042009114400000094127.jpg" alt="건지 울른스 23 SUMMER 니트 컬렉션 발매 기획전">
-										</a>
-										<div class="n-banner-info">
-											<a href="/app/plan/views/34992" class="n-banner-title font-mss">건지 울른스 23 SUMMER 니트 컬렉션 발매 기획전</a>
-											<span class="n-banner-label font-mss">04.20 ~ 05.02</span>
-										</div>
-									</li>
-																	<li class="swiper-slide main_contents_size hover_box" onclick="gtmClickList('쇼핑 이슈', '4월3주차 캐주얼 주말특가 최대 71%할인 +10%쿠폰');">
-										<a href="/app/plan/views/34993">
-											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023042014555300000085615.jpg" alt="4월3주차 캐주얼 주말특가 최대 71%할인 +10%쿠폰">
-										</a>
-										<div class="n-banner-info">
-											<a href="/app/plan/views/34993" class="n-banner-title font-mss">4월3주차 캐주얼 주말특가 최대 71%할인 +10%쿠폰</a>
-											<span class="n-banner-label font-mss">04.21 ~ 04.23</span>
-										</div>
-									</li>
-																	<li class="swiper-slide main_contents_size hover_box" onclick="gtmClickList('쇼핑 이슈', '오실롯 주니어 첫 썸머 오픈!');">
-										<a href="/app/plan/views/34639">
-											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023041412041600000018036.jpg" alt="오실롯 주니어 첫 썸머 오픈!">
-										</a>
-										<div class="n-banner-info">
-											<a href="/app/plan/views/34639" class="n-banner-title font-mss">오실롯 주니어 첫 썸머 오픈!</a>
-											<span class="n-banner-label font-mss">04.14 ~ 05.01</span>
-										</div>
-									</li>
-															</div>
-							<div class="swiper-button-next"></div>
-							<div class="swiper-button-prev"></div>
-						</div>
-					</div>
-
 				
+				<div id="outerSlideArea">
+					<div class="main_issue_contents issue_box main_contents_maxwidth" id="shop_release_div" style="width: 800px;">
+						<div class="swiper-container swiper-container-horizontal" id="issueSwiper" name="issueSwiper">
+							<div class="swiper-wrapper" style="transition-duration: 700ms; transform: translate3d(-14000px, 0px, 0px);">
+								<li class="swiper-slide main_contents_size hover_box swiper-slide-duplicate" onclick="gtmClickList('쇼핑 이슈', '토니호크 23 SUMMER 컬렉션');" data-swiper-slide-index="0">
+									<a href="/app/plan/views/30386">
+										<img src="//image.msscdn.net/images/plan_w_mobile_img/2023032711143600000025186.jpg" alt="토니호크 23 SUMMER 컬렉션">
+									</a>
+									<div class="n-banner-info">
+										<a href="/app/plan/views/30386" class="n-banner-title font-mss">토니호크 23 SUMMER 컬렉션</a>
+										<span class="n-banner-label font-mss">03.24 ~ 04.30</span>
+									</div>
+								</li>
+								<li class="swiper-slide main_contents_size hover_box swiper-slide-duplicate" onclick="gtmClickList('쇼핑 이슈', '4월, 따스한 봄날의 스윔웨어');" data-swiper-slide-index="1">
+									<a href="/app/plan/views/33220">
+										<img src="//image.msscdn.net/images/plan_w_mobile_img/2023032714274700000088687.jpg" alt="4월, 따스한 봄날의 스윔웨어">
+									</a>
+									<div class="n-banner-info">
+										<a href="/app/plan/views/33220" class="n-banner-title font-mss">4월, 따스한 봄날의 스윔웨어</a>
+										<span class="n-banner-label font-mss">04.01 ~ 04.30</span>
+									</div>
+								</li>
+								<li class="swiper-slide main_contents_size hover_box swiper-slide-duplicate" onclick="gtmClickList('쇼핑 이슈', '인더스트 15% 쿠폰 특가전');" data-swiper-slide-index="2">
+										<a href="/app/plan/views/33164">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023032016074900000076386.jpg" alt="인더스트 15% 쿠폰 특가전">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/33164" class="n-banner-title font-mss">인더스트 15% 쿠폰 특가전</a>
+											<span class="n-banner-label font-mss">04.21 ~ 04.30</span>
+										</div>
+									</li><li class="swiper-slide main_contents_size hover_box swiper-slide-duplicate" onclick="gtmClickList('쇼핑 이슈', 'PLAYER : BLACK &amp; WHITE');" data-swiper-slide-index="3">
+										<a href="/app/plan/views/34145">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023041316380800000005158.jpg" alt="PLAYER : BLACK &amp; WHITE">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/34145" class="n-banner-title font-mss">PLAYER : BLACK &amp; WHITE</a>
+											<span class="n-banner-label font-mss">04.18 ~ 05.01</span>
+										</div>
+									</li><li class="swiper-slide main_contents_size hover_box swiper-slide-duplicate" onclick="gtmClickList('쇼핑 이슈', '캘빈클라인 with BTS 정국 &amp; 르세라핌 카즈하');" data-swiper-slide-index="4">
+										<a href="/app/plan/views/31004">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023040411031500000067700.jpg" alt="캘빈클라인 with BTS 정국 &amp; 르세라핌 카즈하">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/31004" class="n-banner-title font-mss">캘빈클라인 with BTS 정국 &amp; 르세라핌 카즈하</a>
+											<span class="n-banner-label font-mss">04.01 ~ 06.30</span>
+										</div>
+									</li><li class="swiper-slide main_contents_size hover_box swiper-slide-duplicate" onclick="gtmClickList('쇼핑 이슈', '몽버디 골프 Pink Collection');" data-swiper-slide-index="5">
+										<a href="/app/plan/views/33809">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023033014552000000037157.jpg" alt="몽버디 골프 Pink Collection">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/33809" class="n-banner-title font-mss">몽버디 골프 Pink Collection</a>
+											<span class="n-banner-label font-mss">04.03 ~ 05.01</span>
+										</div>
+									</li><li class="swiper-slide main_contents_size hover_box swiper-slide-duplicate" onclick="gtmClickList('쇼핑 이슈', '블랙야크 키즈 미리 어린이날 프로모션 특별전');" data-swiper-slide-index="6">
+										<a href="/app/plan/views/34512">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023041410531900000007843.jpg" alt="블랙야크 키즈 미리 어린이날 프로모션 특별전">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/34512" class="n-banner-title font-mss">블랙야크 키즈 미리 어린이날 프로모션 특별전</a>
+											<span class="n-banner-label font-mss">04.14 ~ 05.07</span>
+										</div>
+									</li><li class="swiper-slide main_contents_size hover_box swiper-slide-duplicate" onclick="gtmClickList('쇼핑 이슈', '내셔널지오그래픽 인플루언서 PICK');" data-swiper-slide-index="7">
+										<a href="/app/plan/views/34909">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023041811495600000018081.jpg" alt="내셔널지오그래픽 인플루언서 PICK">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/34909" class="n-banner-title font-mss">내셔널지오그래픽 인플루언서 PICK</a>
+											<span class="n-banner-label font-mss">04.18 ~ 05.02</span>
+										</div>
+									</li><li class="swiper-slide main_contents_size hover_box swiper-slide-duplicate" onclick="gtmClickList('쇼핑 이슈', '이니스프리 해피 얼스데이');" data-swiper-slide-index="8">
+										<a href="/app/plan/views/34494">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023041415443400000029615.jpg" alt="이니스프리 해피 얼스데이">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/34494" class="n-banner-title font-mss">이니스프리 해피 얼스데이</a>
+											<span class="n-banner-label font-mss">04.17 ~ 05.02</span>
+										</div>
+									</li><li class="swiper-slide main_contents_size hover_box swiper-slide-duplicate" onclick="gtmClickList('쇼핑 이슈', '제이미웨스트 프리 시즌 오프');" data-swiper-slide-index="9">
+										<a href="/app/plan/views/34836">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023041709535700000064603.jpg" alt="제이미웨스트 프리 시즌 오프">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/34836" class="n-banner-title font-mss">제이미웨스트 프리 시즌 오프</a>
+											<span class="n-banner-label font-mss">04.17 ~ 05.01</span>
+										</div>
+									</li><li class="swiper-slide main_contents_size hover_box swiper-slide-duplicate" onclick="gtmClickList('쇼핑 이슈', '친다운 23 S/S 단독 선발매 최대할인 40% +15% 쿠폰');" data-swiper-slide-index="10">
+										<a href="/app/plan/views/34802">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023041416102500000056992.jpg" alt="친다운 23 S/S 단독 선발매 최대할인 40% +15% 쿠폰">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/34802" class="n-banner-title font-mss">친다운 23 S/S 단독 선발매 최대할인 40% +15% 쿠폰</a>
+											<span class="n-banner-label font-mss">04.17 ~ 05.01</span>
+										</div>
+									</li><li class="swiper-slide main_contents_size hover_box swiper-slide-duplicate" onclick="gtmClickList('쇼핑 이슈', '테니스 라켓 사용자별 추천서');" data-swiper-slide-index="11">
+										<a href="/app/plan/views/27439">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2022110810081900000024091.jpg" alt="테니스 라켓 사용자별 추천서">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/27439" class="n-banner-title font-mss">테니스 라켓 사용자별 추천서</a>
+											<span class="n-banner-label font-mss">11.08 ~ 12.31</span>
+										</div>
+									</li><li class="swiper-slide main_contents_size hover_box swiper-slide-duplicate" onclick="gtmClickList('쇼핑 이슈', '이달의 스니커즈 - 4월');" data-swiper-slide-index="12">
+										<a href="/app/plan/views/33844">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023040315282100000067060.jpg" alt="이달의 스니커즈 - 4월">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/33844" class="n-banner-title font-mss">이달의 스니커즈 - 4월</a>
+											<span class="n-banner-label font-mss">04.01 ~ 04.30</span>
+										</div>
+									</li><li class="swiper-slide main_contents_size hover_box swiper-slide-duplicate" onclick="gtmClickList('쇼핑 이슈', '그루브라임 23SUMMER 3차 컬렉션 발매 기획전');" data-swiper-slide-index="13">
+										<a href="/app/plan/views/35420">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023042810433100000054950.jpg" alt="그루브라임 23SUMMER 3차 컬렉션 발매 기획전">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/35420" class="n-banner-title font-mss">그루브라임 23SUMMER 3차 컬렉션 발매 기획전</a>
+											<span class="n-banner-label font-mss">04.28 ~ 05.11</span>
+										</div>
+									</li><li class="swiper-slide main_contents_size hover_box swiper-slide-duplicate swiper-slide-duplicate-prev" onclick="gtmClickList('쇼핑 이슈', '메디올 입점 기획전');" data-swiper-slide-index="14">
+										<a href="/app/plan/views/35042">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023042410054500000019421.jpg" alt="메디올 입점 기획전">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/35042" class="n-banner-title font-mss">메디올 입점 기획전</a>
+											<span class="n-banner-label font-mss">04.24 ~ 05.08</span>
+										</div>
+									</li><li class="swiper-slide main_contents_size hover_box swiper-slide-duplicate swiper-slide-duplicate-active" onclick="gtmClickList('쇼핑 이슈', '피크닉을 위한 모든 것');" data-swiper-slide-index="15">
+										<a href="/app/plan/views/26780">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2022102714213700000008791.jpg" alt="피크닉을 위한 모든 것">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/26780" class="n-banner-title font-mss">피크닉을 위한 모든 것</a>
+											<span class="n-banner-label font-mss">11.07 ~ 12.31</span>
+										</div>
+									</li><li class="swiper-slide main_contents_size hover_box swiper-slide-duplicate swiper-slide-duplicate-next" onclick="gtmClickList('쇼핑 이슈', '라이크더모스트 SPRING 시즌오프');" data-swiper-slide-index="16">
+										<a href="/app/plan/views/35526">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023042809442400000013355.jpg" alt="라이크더모스트 SPRING 시즌오프">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/35526" class="n-banner-title font-mss">라이크더모스트 SPRING 시즌오프</a>
+											<span class="n-banner-label font-mss">04.30 ~ 05.09</span>
+										</div>
+									</li><li class="swiper-slide main_contents_size hover_box swiper-slide-duplicate" onclick="gtmClickList('쇼핑 이슈', '무신사 스탠다드 봄 시즌 오프 고할인 추천 기획전');" data-swiper-slide-index="17">
+										<a href="/app/plan/views/34716">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023041716464600000037055.jpg" alt="무신사 스탠다드 봄 시즌 오프 고할인 추천 기획전">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/34716" class="n-banner-title font-mss">무신사 스탠다드 봄 시즌 오프 고할인 추천 기획전</a>
+											<span class="n-banner-label font-mss">04.18 ~ 05.01</span>
+										</div>
+									</li><li class="swiper-slide main_contents_size hover_box swiper-slide-duplicate" onclick="gtmClickList('쇼핑 이슈', '틸 아이 다이 23SS 2차 발매');" data-swiper-slide-index="18">
+										<a href="/app/plan/views/32800">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023031712114700000030123.jpg" alt="틸 아이 다이 23SS 2차 발매">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/32800" class="n-banner-title font-mss">틸 아이 다이 23SS 2차 발매</a>
+											<span class="n-banner-label font-mss">03.17 ~ 04.30</span>
+										</div>
+									</li><li class="swiper-slide main_contents_size hover_box swiper-slide-duplicate" onclick="gtmClickList('쇼핑 이슈', '락앤락 인기상품 단독할인전');" data-swiper-slide-index="19">
+										<a href="/app/plan/views/34735">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023041318165100000026662.jpg" alt="락앤락 인기상품 단독할인전">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/34735" class="n-banner-title font-mss">락앤락 인기상품 단독할인전</a>
+											<span class="n-banner-label font-mss">04.17 ~ 05.01</span>
+										</div>
+									</li>
+																	<li class="swiper-slide main_contents_size hover_box" onclick="gtmClickList('쇼핑 이슈', '토니호크 23 SUMMER 컬렉션');" data-swiper-slide-index="0">
+										<a href="/app/plan/views/30386">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023032711143600000025186.jpg" alt="토니호크 23 SUMMER 컬렉션">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/30386" class="n-banner-title font-mss">토니호크 23 SUMMER 컬렉션</a>
+											<span class="n-banner-label font-mss">03.24 ~ 04.30</span>
+										</div>
+									</li>
+																	<li class="swiper-slide main_contents_size hover_box" onclick="gtmClickList('쇼핑 이슈', '4월, 따스한 봄날의 스윔웨어');" data-swiper-slide-index="1">
+										<a href="/app/plan/views/33220">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023032714274700000088687.jpg" alt="4월, 따스한 봄날의 스윔웨어">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/33220" class="n-banner-title font-mss">4월, 따스한 봄날의 스윔웨어</a>
+											<span class="n-banner-label font-mss">04.01 ~ 04.30</span>
+										</div>
+									</li>
+																	<li class="swiper-slide main_contents_size hover_box" onclick="gtmClickList('쇼핑 이슈', '인더스트 15% 쿠폰 특가전');" data-swiper-slide-index="2">
+										<a href="/app/plan/views/33164">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023032016074900000076386.jpg" alt="인더스트 15% 쿠폰 특가전">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/33164" class="n-banner-title font-mss">인더스트 15% 쿠폰 특가전</a>
+											<span class="n-banner-label font-mss">04.21 ~ 04.30</span>
+										</div>
+									</li>
+																	<li class="swiper-slide main_contents_size hover_box" onclick="gtmClickList('쇼핑 이슈', 'PLAYER : BLACK &amp; WHITE');" data-swiper-slide-index="3">
+										<a href="/app/plan/views/34145">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023041316380800000005158.jpg" alt="PLAYER : BLACK &amp; WHITE">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/34145" class="n-banner-title font-mss">PLAYER : BLACK &amp; WHITE</a>
+											<span class="n-banner-label font-mss">04.18 ~ 05.01</span>
+										</div>
+									</li>
+																	<li class="swiper-slide main_contents_size hover_box" onclick="gtmClickList('쇼핑 이슈', '캘빈클라인 with BTS 정국 &amp; 르세라핌 카즈하');" data-swiper-slide-index="4">
+										<a href="/app/plan/views/31004">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023040411031500000067700.jpg" alt="캘빈클라인 with BTS 정국 &amp; 르세라핌 카즈하">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/31004" class="n-banner-title font-mss">캘빈클라인 with BTS 정국 &amp; 르세라핌 카즈하</a>
+											<span class="n-banner-label font-mss">04.01 ~ 06.30</span>
+										</div>
+									</li>
+																	<li class="swiper-slide main_contents_size hover_box" onclick="gtmClickList('쇼핑 이슈', '몽버디 골프 Pink Collection');" data-swiper-slide-index="5">
+										<a href="/app/plan/views/33809">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023033014552000000037157.jpg" alt="몽버디 골프 Pink Collection">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/33809" class="n-banner-title font-mss">몽버디 골프 Pink Collection</a>
+											<span class="n-banner-label font-mss">04.03 ~ 05.01</span>
+										</div>
+									</li>
+																	<li class="swiper-slide main_contents_size hover_box" onclick="gtmClickList('쇼핑 이슈', '블랙야크 키즈 미리 어린이날 프로모션 특별전');" data-swiper-slide-index="6">
+										<a href="/app/plan/views/34512">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023041410531900000007843.jpg" alt="블랙야크 키즈 미리 어린이날 프로모션 특별전">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/34512" class="n-banner-title font-mss">블랙야크 키즈 미리 어린이날 프로모션 특별전</a>
+											<span class="n-banner-label font-mss">04.14 ~ 05.07</span>
+										</div>
+									</li>
+																	<li class="swiper-slide main_contents_size hover_box" onclick="gtmClickList('쇼핑 이슈', '내셔널지오그래픽 인플루언서 PICK');" data-swiper-slide-index="7">
+										<a href="/app/plan/views/34909">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023041811495600000018081.jpg" alt="내셔널지오그래픽 인플루언서 PICK">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/34909" class="n-banner-title font-mss">내셔널지오그래픽 인플루언서 PICK</a>
+											<span class="n-banner-label font-mss">04.18 ~ 05.02</span>
+										</div>
+									</li>
+																	<li class="swiper-slide main_contents_size hover_box" onclick="gtmClickList('쇼핑 이슈', '이니스프리 해피 얼스데이');" data-swiper-slide-index="8">
+										<a href="/app/plan/views/34494">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023041415443400000029615.jpg" alt="이니스프리 해피 얼스데이">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/34494" class="n-banner-title font-mss">이니스프리 해피 얼스데이</a>
+											<span class="n-banner-label font-mss">04.17 ~ 05.02</span>
+										</div>
+									</li>
+																	<li class="swiper-slide main_contents_size hover_box" onclick="gtmClickList('쇼핑 이슈', '제이미웨스트 프리 시즌 오프');" data-swiper-slide-index="9">
+										<a href="/app/plan/views/34836">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023041709535700000064603.jpg" alt="제이미웨스트 프리 시즌 오프">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/34836" class="n-banner-title font-mss">제이미웨스트 프리 시즌 오프</a>
+											<span class="n-banner-label font-mss">04.17 ~ 05.01</span>
+										</div>
+									</li>
+																	<li class="swiper-slide main_contents_size hover_box" onclick="gtmClickList('쇼핑 이슈', '친다운 23 S/S 단독 선발매 최대할인 40% +15% 쿠폰');" data-swiper-slide-index="10">
+										<a href="/app/plan/views/34802">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023041416102500000056992.jpg" alt="친다운 23 S/S 단독 선발매 최대할인 40% +15% 쿠폰">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/34802" class="n-banner-title font-mss">친다운 23 S/S 단독 선발매 최대할인 40% +15% 쿠폰</a>
+											<span class="n-banner-label font-mss">04.17 ~ 05.01</span>
+										</div>
+									</li>
+																	<li class="swiper-slide main_contents_size hover_box" onclick="gtmClickList('쇼핑 이슈', '테니스 라켓 사용자별 추천서');" data-swiper-slide-index="11">
+										<a href="/app/plan/views/27439">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2022110810081900000024091.jpg" alt="테니스 라켓 사용자별 추천서">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/27439" class="n-banner-title font-mss">테니스 라켓 사용자별 추천서</a>
+											<span class="n-banner-label font-mss">11.08 ~ 12.31</span>
+										</div>
+									</li>
+																	<li class="swiper-slide main_contents_size hover_box" onclick="gtmClickList('쇼핑 이슈', '이달의 스니커즈 - 4월');" data-swiper-slide-index="12">
+										<a href="/app/plan/views/33844">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023040315282100000067060.jpg" alt="이달의 스니커즈 - 4월">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/33844" class="n-banner-title font-mss">이달의 스니커즈 - 4월</a>
+											<span class="n-banner-label font-mss">04.01 ~ 04.30</span>
+										</div>
+									</li>
+																	<li class="swiper-slide main_contents_size hover_box" onclick="gtmClickList('쇼핑 이슈', '그루브라임 23SUMMER 3차 컬렉션 발매 기획전');" data-swiper-slide-index="13">
+										<a href="/app/plan/views/35420">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023042810433100000054950.jpg" alt="그루브라임 23SUMMER 3차 컬렉션 발매 기획전">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/35420" class="n-banner-title font-mss">그루브라임 23SUMMER 3차 컬렉션 발매 기획전</a>
+											<span class="n-banner-label font-mss">04.28 ~ 05.11</span>
+										</div>
+									</li>
+																	<li class="swiper-slide main_contents_size hover_box swiper-slide-prev" onclick="gtmClickList('쇼핑 이슈', '메디올 입점 기획전');" data-swiper-slide-index="14">
+										<a href="/app/plan/views/35042">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023042410054500000019421.jpg" alt="메디올 입점 기획전">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/35042" class="n-banner-title font-mss">메디올 입점 기획전</a>
+											<span class="n-banner-label font-mss">04.24 ~ 05.08</span>
+										</div>
+									</li>
+																	<li class="swiper-slide main_contents_size hover_box swiper-slide-active" onclick="gtmClickList('쇼핑 이슈', '피크닉을 위한 모든 것');" data-swiper-slide-index="15">
+										<a href="/app/plan/views/26780">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2022102714213700000008791.jpg" alt="피크닉을 위한 모든 것">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/26780" class="n-banner-title font-mss">피크닉을 위한 모든 것</a>
+											<span class="n-banner-label font-mss">11.07 ~ 12.31</span>
+										</div>
+									</li>
+																	<li class="swiper-slide main_contents_size hover_box swiper-slide-next" onclick="gtmClickList('쇼핑 이슈', '라이크더모스트 SPRING 시즌오프');" data-swiper-slide-index="16">
+										<a href="/app/plan/views/35526">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023042809442400000013355.jpg" alt="라이크더모스트 SPRING 시즌오프">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/35526" class="n-banner-title font-mss">라이크더모스트 SPRING 시즌오프</a>
+											<span class="n-banner-label font-mss">04.30 ~ 05.09</span>
+										</div>
+									</li>
+																	<li class="swiper-slide main_contents_size hover_box" onclick="gtmClickList('쇼핑 이슈', '무신사 스탠다드 봄 시즌 오프 고할인 추천 기획전');" data-swiper-slide-index="17">
+										<a href="/app/plan/views/34716">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023041716464600000037055.jpg" alt="무신사 스탠다드 봄 시즌 오프 고할인 추천 기획전">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/34716" class="n-banner-title font-mss">무신사 스탠다드 봄 시즌 오프 고할인 추천 기획전</a>
+											<span class="n-banner-label font-mss">04.18 ~ 05.01</span>
+										</div>
+									</li>
+																	<li class="swiper-slide main_contents_size hover_box" onclick="gtmClickList('쇼핑 이슈', '틸 아이 다이 23SS 2차 발매');" data-swiper-slide-index="18">
+										<a href="/app/plan/views/32800">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023031712114700000030123.jpg" alt="틸 아이 다이 23SS 2차 발매">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/32800" class="n-banner-title font-mss">틸 아이 다이 23SS 2차 발매</a>
+											<span class="n-banner-label font-mss">03.17 ~ 04.30</span>
+										</div>
+									</li>
+																	<li class="swiper-slide main_contents_size hover_box" onclick="gtmClickList('쇼핑 이슈', '락앤락 인기상품 단독할인전');" data-swiper-slide-index="19">
+										<a href="/app/plan/views/34735">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023041318165100000026662.jpg" alt="락앤락 인기상품 단독할인전">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/34735" class="n-banner-title font-mss">락앤락 인기상품 단독할인전</a>
+											<span class="n-banner-label font-mss">04.17 ~ 05.01</span>
+										</div>
+									</li>
+															<li class="swiper-slide main_contents_size hover_box swiper-slide-duplicate" onclick="gtmClickList('쇼핑 이슈', '토니호크 23 SUMMER 컬렉션');" data-swiper-slide-index="0">
+										<a href="/app/plan/views/30386">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023032711143600000025186.jpg" alt="토니호크 23 SUMMER 컬렉션">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/30386" class="n-banner-title font-mss">토니호크 23 SUMMER 컬렉션</a>
+											<span class="n-banner-label font-mss">03.24 ~ 04.30</span>
+										</div>
+									</li><li class="swiper-slide main_contents_size hover_box swiper-slide-duplicate" onclick="gtmClickList('쇼핑 이슈', '4월, 따스한 봄날의 스윔웨어');" data-swiper-slide-index="1">
+										<a href="/app/plan/views/33220">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023032714274700000088687.jpg" alt="4월, 따스한 봄날의 스윔웨어">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/33220" class="n-banner-title font-mss">4월, 따스한 봄날의 스윔웨어</a>
+											<span class="n-banner-label font-mss">04.01 ~ 04.30</span>
+										</div>
+									</li><li class="swiper-slide main_contents_size hover_box swiper-slide-duplicate" onclick="gtmClickList('쇼핑 이슈', '인더스트 15% 쿠폰 특가전');" data-swiper-slide-index="2">
+										<a href="/app/plan/views/33164">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023032016074900000076386.jpg" alt="인더스트 15% 쿠폰 특가전">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/33164" class="n-banner-title font-mss">인더스트 15% 쿠폰 특가전</a>
+											<span class="n-banner-label font-mss">04.21 ~ 04.30</span>
+										</div>
+									</li><li class="swiper-slide main_contents_size hover_box swiper-slide-duplicate" onclick="gtmClickList('쇼핑 이슈', 'PLAYER : BLACK &amp; WHITE');" data-swiper-slide-index="3">
+										<a href="/app/plan/views/34145">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023041316380800000005158.jpg" alt="PLAYER : BLACK &amp; WHITE">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/34145" class="n-banner-title font-mss">PLAYER : BLACK &amp; WHITE</a>
+											<span class="n-banner-label font-mss">04.18 ~ 05.01</span>
+										</div>
+									</li><li class="swiper-slide main_contents_size hover_box swiper-slide-duplicate" onclick="gtmClickList('쇼핑 이슈', '캘빈클라인 with BTS 정국 &amp; 르세라핌 카즈하');" data-swiper-slide-index="4">
+										<a href="/app/plan/views/31004">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023040411031500000067700.jpg" alt="캘빈클라인 with BTS 정국 &amp; 르세라핌 카즈하">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/31004" class="n-banner-title font-mss">캘빈클라인 with BTS 정국 &amp; 르세라핌 카즈하</a>
+											<span class="n-banner-label font-mss">04.01 ~ 06.30</span>
+										</div>
+									</li><li class="swiper-slide main_contents_size hover_box swiper-slide-duplicate" onclick="gtmClickList('쇼핑 이슈', '몽버디 골프 Pink Collection');" data-swiper-slide-index="5">
+										<a href="/app/plan/views/33809">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023033014552000000037157.jpg" alt="몽버디 골프 Pink Collection">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/33809" class="n-banner-title font-mss">몽버디 골프 Pink Collection</a>
+											<span class="n-banner-label font-mss">04.03 ~ 05.01</span>
+										</div>
+									</li><li class="swiper-slide main_contents_size hover_box swiper-slide-duplicate" onclick="gtmClickList('쇼핑 이슈', '블랙야크 키즈 미리 어린이날 프로모션 특별전');" data-swiper-slide-index="6">
+										<a href="/app/plan/views/34512">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023041410531900000007843.jpg" alt="블랙야크 키즈 미리 어린이날 프로모션 특별전">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/34512" class="n-banner-title font-mss">블랙야크 키즈 미리 어린이날 프로모션 특별전</a>
+											<span class="n-banner-label font-mss">04.14 ~ 05.07</span>
+										</div>
+									</li><li class="swiper-slide main_contents_size hover_box swiper-slide-duplicate" onclick="gtmClickList('쇼핑 이슈', '내셔널지오그래픽 인플루언서 PICK');" data-swiper-slide-index="7">
+										<a href="/app/plan/views/34909">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023041811495600000018081.jpg" alt="내셔널지오그래픽 인플루언서 PICK">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/34909" class="n-banner-title font-mss">내셔널지오그래픽 인플루언서 PICK</a>
+											<span class="n-banner-label font-mss">04.18 ~ 05.02</span>
+										</div>
+									</li><li class="swiper-slide main_contents_size hover_box swiper-slide-duplicate" onclick="gtmClickList('쇼핑 이슈', '이니스프리 해피 얼스데이');" data-swiper-slide-index="8">
+										<a href="/app/plan/views/34494">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023041415443400000029615.jpg" alt="이니스프리 해피 얼스데이">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/34494" class="n-banner-title font-mss">이니스프리 해피 얼스데이</a>
+											<span class="n-banner-label font-mss">04.17 ~ 05.02</span>
+										</div>
+									</li><li class="swiper-slide main_contents_size hover_box swiper-slide-duplicate" onclick="gtmClickList('쇼핑 이슈', '제이미웨스트 프리 시즌 오프');" data-swiper-slide-index="9">
+										<a href="/app/plan/views/34836">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023041709535700000064603.jpg" alt="제이미웨스트 프리 시즌 오프">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/34836" class="n-banner-title font-mss">제이미웨스트 프리 시즌 오프</a>
+											<span class="n-banner-label font-mss">04.17 ~ 05.01</span>
+										</div>
+									</li><li class="swiper-slide main_contents_size hover_box swiper-slide-duplicate" onclick="gtmClickList('쇼핑 이슈', '친다운 23 S/S 단독 선발매 최대할인 40% +15% 쿠폰');" data-swiper-slide-index="10">
+										<a href="/app/plan/views/34802">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023041416102500000056992.jpg" alt="친다운 23 S/S 단독 선발매 최대할인 40% +15% 쿠폰">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/34802" class="n-banner-title font-mss">친다운 23 S/S 단독 선발매 최대할인 40% +15% 쿠폰</a>
+											<span class="n-banner-label font-mss">04.17 ~ 05.01</span>
+										</div>
+									</li><li class="swiper-slide main_contents_size hover_box swiper-slide-duplicate" onclick="gtmClickList('쇼핑 이슈', '테니스 라켓 사용자별 추천서');" data-swiper-slide-index="11">
+										<a href="/app/plan/views/27439">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2022110810081900000024091.jpg" alt="테니스 라켓 사용자별 추천서">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/27439" class="n-banner-title font-mss">테니스 라켓 사용자별 추천서</a>
+											<span class="n-banner-label font-mss">11.08 ~ 12.31</span>
+										</div>
+									</li><li class="swiper-slide main_contents_size hover_box swiper-slide-duplicate" onclick="gtmClickList('쇼핑 이슈', '이달의 스니커즈 - 4월');" data-swiper-slide-index="12">
+										<a href="/app/plan/views/33844">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023040315282100000067060.jpg" alt="이달의 스니커즈 - 4월">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/33844" class="n-banner-title font-mss">이달의 스니커즈 - 4월</a>
+											<span class="n-banner-label font-mss">04.01 ~ 04.30</span>
+										</div>
+									</li><li class="swiper-slide main_contents_size hover_box swiper-slide-duplicate" onclick="gtmClickList('쇼핑 이슈', '그루브라임 23SUMMER 3차 컬렉션 발매 기획전');" data-swiper-slide-index="13">
+										<a href="/app/plan/views/35420">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023042810433100000054950.jpg" alt="그루브라임 23SUMMER 3차 컬렉션 발매 기획전">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/35420" class="n-banner-title font-mss">그루브라임 23SUMMER 3차 컬렉션 발매 기획전</a>
+											<span class="n-banner-label font-mss">04.28 ~ 05.11</span>
+										</div>
+									</li><li class="swiper-slide main_contents_size hover_box swiper-slide-duplicate swiper-slide-duplicate-prev" onclick="gtmClickList('쇼핑 이슈', '메디올 입점 기획전');" data-swiper-slide-index="14">
+										<a href="/app/plan/views/35042">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023042410054500000019421.jpg" alt="메디올 입점 기획전">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/35042" class="n-banner-title font-mss">메디올 입점 기획전</a>
+											<span class="n-banner-label font-mss">04.24 ~ 05.08</span>
+										</div>
+									</li><li class="swiper-slide main_contents_size hover_box swiper-slide-duplicate swiper-slide-duplicate-active" onclick="gtmClickList('쇼핑 이슈', '피크닉을 위한 모든 것');" data-swiper-slide-index="15">
+										<a href="/app/plan/views/26780">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2022102714213700000008791.jpg" alt="피크닉을 위한 모든 것">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/26780" class="n-banner-title font-mss">피크닉을 위한 모든 것</a>
+											<span class="n-banner-label font-mss">11.07 ~ 12.31</span>
+										</div>
+									</li><li class="swiper-slide main_contents_size hover_box swiper-slide-duplicate swiper-slide-duplicate-next" onclick="gtmClickList('쇼핑 이슈', '라이크더모스트 SPRING 시즌오프');" data-swiper-slide-index="16">
+										<a href="/app/plan/views/35526">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023042809442400000013355.jpg" alt="라이크더모스트 SPRING 시즌오프">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/35526" class="n-banner-title font-mss">라이크더모스트 SPRING 시즌오프</a>
+											<span class="n-banner-label font-mss">04.30 ~ 05.09</span>
+										</div>
+									</li><li class="swiper-slide main_contents_size hover_box swiper-slide-duplicate" onclick="gtmClickList('쇼핑 이슈', '무신사 스탠다드 봄 시즌 오프 고할인 추천 기획전');" data-swiper-slide-index="17">
+										<a href="/app/plan/views/34716">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023041716464600000037055.jpg" alt="무신사 스탠다드 봄 시즌 오프 고할인 추천 기획전">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/34716" class="n-banner-title font-mss">무신사 스탠다드 봄 시즌 오프 고할인 추천 기획전</a>
+											<span class="n-banner-label font-mss">04.18 ~ 05.01</span>
+										</div>
+									</li><li class="swiper-slide main_contents_size hover_box swiper-slide-duplicate" onclick="gtmClickList('쇼핑 이슈', '틸 아이 다이 23SS 2차 발매');" data-swiper-slide-index="18">
+										<a href="/app/plan/views/32800">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023031712114700000030123.jpg" alt="틸 아이 다이 23SS 2차 발매">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/32800" class="n-banner-title font-mss">틸 아이 다이 23SS 2차 발매</a>
+											<span class="n-banner-label font-mss">03.17 ~ 04.30</span>
+										</div>
+									</li>
+									<li class="swiper-slide main_contents_size hover_box swiper-slide-duplicate" onclick="gtmClickList('쇼핑 이슈', '락앤락 인기상품 단독할인전');" data-swiper-slide-index="19">
+										<a href="/app/plan/views/34735">
+											<img src="//image.msscdn.net/images/plan_w_mobile_img/2023041318165100000026662.jpg" alt="락앤락 인기상품 단독할인전">
+										</a>
+										<div class="n-banner-info">
+											<a href="/app/plan/views/34735" class="n-banner-title font-mss">락앤락 인기상품 단독할인전</a>
+											<span class="n-banner-label font-mss">04.17 ~ 05.01</span>
+										</div>
+									</li></div>
+							<div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide"></div>
+							<div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide"></div>
+						<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+					</div>
 				</div>
-			</div>
-		<!--//쇼핑이슈-->
 		<!-- 매거진 -->
 		<div class="right_container main_issue_area" id="magazine_list">
 				<div class="main_category_box">
 					<h2 class="txt_tit_main">매거진</h2>
 					<div class="tool-tabBtn renew-menu-list" >
-																					<a href="javascript:void(0)" id="btn_magazine_1" onclick="showMagazineBanner('1'); gtmClickTab(this, '매거진'); return false;">스타일</a>
-																												<a href="javascript:void(0)" id="btn_magazine_2" onclick="showMagazineBanner('2'); gtmClickTab(this, '매거진'); return false;">코디</a>
-																												<a href="javascript:void(0)" id="btn_magazine_4" onclick="showMagazineBanner('4'); gtmClickTab(this, '매거진'); return false;">아이템</a>
-																												<a href="javascript:void(0)" id="btn_magazine_8" onclick="showMagazineBanner('8'); gtmClickTab(this, '매거진'); return false;">리포트</a>
-																												<a href="javascript:void(0)" id="btn_magazine_16" onclick="showMagazineBanner('16'); gtmClickTab(this, '매거진'); return false;">피플</a>
-																		</div>
+						<a href="javascript:void(0)" id="btn_magazine_1" onclick="showMagazineBanner('1'); gtmClickTab(this, '매거진'); return false;">스타일</a>
+						<a href="javascript:void(0)" id="btn_magazine_2" onclick="showMagazineBanner('2'); gtmClickTab(this, '매거진'); return false;">코디</a>
+						<a href="javascript:void(0)" id="btn_magazine_4" onclick="showMagazineBanner('4'); gtmClickTab(this, '매거진'); return false;">아이템</a>
+						<a href="javascript:void(0)" id="btn_magazine_8" onclick="showMagazineBanner('8'); gtmClickTab(this, '매거진'); return false;">리포트</a>
+						<a href="javascript:void(0)" id="btn_magazine_16" onclick="showMagazineBanner('16'); gtmClickTab(this, '매거진'); return false;">피플</a>
+					</div>
 				</div>
 
 				<div>
@@ -5332,22 +5643,86 @@
 			</div>
 			<div class="new-notice">
 				<ul id="noticeSlide">
-																		<li><a href="/app/cs/notice_view/9781" onclick="gtmClickList('공지사항', '');"><span class="main_notice_txt ellipsis">회원 등급 혜택 용어 개선 안내</span><span class="notice-date">23.04.10</span></a></li>
-																								<li><a href="/app/cs/notice_view/9694" onclick="gtmClickList('공지사항', '');"><span class="main_notice_txt ellipsis">개인정보처리방침 개정 내용 사전 안내 (03/28~)</span><span class="notice-date">23.03.21</span></a></li>
-																								<li><a href="/app/cs/notice_view/9659" onclick="gtmClickList('공지사항', '');"><span class="main_notice_txt ellipsis">금융상품 판매대리∙중개업무 위탁 확인증서 안내</span><span class="notice-date">23.03.15</span></a></li>
-																								<li><a href="/app/cs/notice_view/9489" onclick="gtmClickList('공지사항', '');"><span class="main_notice_txt ellipsis">개인정보처리방침 개정 내용 사전 안내 (02/20~)</span><span class="notice-date">23.02.13</span></a></li>
-																								<li><a href="/app/cs/notice_view/9434" onclick="gtmClickList('공지사항', '');"><span class="main_notice_txt ellipsis">안전한 무신사 서비스 이용을 위한 비밀번호 변경 방법 안내</span><span class="notice-date">23.01.31</span></a></li>
-																																																																						</ul>
+				<li><a href="/app/cs/notice_view/9781" onclick="gtmClickList('공지사항', '');"><span class="main_notice_txt ellipsis">회원 등급 혜택 용어 개선 안내</span><span class="notice-date">23.04.10</span></a></li>
+				<li><a href="/app/cs/notice_view/9694" onclick="gtmClickList('공지사항', '');"><span class="main_notice_txt ellipsis">개인정보처리방침 개정 내용 사전 안내 (03/28~)</span><span class="notice-date">23.03.21</span></a></li>
+				<li><a href="/app/cs/notice_view/9659" onclick="gtmClickList('공지사항', '');"><span class="main_notice_txt ellipsis">금융상품 판매대리∙중개업무 위탁 확인증서 안내</span><span class="notice-date">23.03.15</span></a></li>
+				<li><a href="/app/cs/notice_view/9489" onclick="gtmClickList('공지사항', '');"><span class="main_notice_txt ellipsis">개인정보처리방침 개정 내용 사전 안내 (02/20~)</span><span class="notice-date">23.02.13</span></a></li>
+				<li><a href="/app/cs/notice_view/9434" onclick="gtmClickList('공지사항', '');"><span class="main_notice_txt ellipsis">안전한 무신사 서비스 이용을 위한 비밀번호 변경 방법 안내</span><span class="notice-date">23.01.31</span></a></li>
 			</div>
 		</div>
 		<!-- //공지사항 -->
 		<!-- 하단 콘텐츠 영역 -->
-				<div id="footerCommonPc"></div>
+		<div id="footerCommonPc"></div>
 	<meta name="google-site-verification" content="NqB0BDAEWJTvAPCCxzrckJYnS7-xJILFU40FvSmh5S8" />
 	</div>
 	<!--// 오른쪽 콘텐츠 영역 -->
 </div>
 </div>
 <!--// wrap -->
+<script type="text/javascript">
+	$(document).ready(function(){
+	 	const kindWrap =  $('#issueSwiper');
+	    const slider = kindWrap.find('.swiper-wrapper');
+	    const slideLis = slider.find('li');
+	    const moveButton = kindWrap.find('button');
+
+	    /* 클론 */
+	    const clone1 = slideLis[0].cloneNode(true);
+	    const cloneLast = slideLis[slideLis.length - 1].cloneNode(true);
+	    slider.insertBefore(cloneLast, slideLis[0]);
+	    slider.append(clone1);
+
+	    /* 주요 변수 초기화 */  
+	    let currentIdx = 0;
+	    let translate = 0;
+	    const speedTime = 500;
+
+	    /* CSSOM 셋업 */
+	    const sliderCloneLis = slider.find('li');
+	    const liWidth = 400;
+	    const sliderWidth = liWidth * sliderCloneLis.length;
+	    $('.swiper-wrapper').width(sliderWidth + 'px');
+	    currentIdx = 1;
+	    translate = -liWidth;
+	    slider.style.transform = '400px';
+
+	    /* 리스너 설치하기 */
+	    moveButton.addEventListener('click', moveSlide);
+
+	    /* 슬라이드 실행 */
+	    function move(D) {
+	      currentIdx += (-1 * D);
+	      translate += liWidth * D;
+	      slider.style.transform = `translateX(${translate}px)`;
+	      slider.style.transition = `all ${speedTime}ms ease`
+	    }
+
+	    /* 클릭 버튼 */
+	    function moveSlide(event) {
+	      event.preventDefault();
+	      if (event.target.className === 'swiper-button-next') {
+	        move(-1);
+	        if (currentIdx === sliderCloneLis.length -1)
+	          setTimeout(() => {
+	            slider.style.transition = 'none';
+	            currentIdx = 1;
+	            translate = -liWidth;
+	            slider.style.transform = `translateX(${translate}px)`;
+	          }, speedTime);
+	      } else {
+	          move(1);
+	          if (currentIdx === 0) {
+	            setTimeout(() => {
+	              slider.style.transition = 'none';
+	              currentIdx = sliderCloneLis.length -2;
+	              translate = -(liWidth * currentIdx);
+	              slider.style.transform = `translateX(${translate}px)`;
+	            }, speedTime);
+	          }
+	        }	
+
+	  }
+	});
+</script>
 </body>
 </html>
